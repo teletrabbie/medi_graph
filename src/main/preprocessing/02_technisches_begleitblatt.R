@@ -45,8 +45,6 @@ technisches_begleitblatt$hinweis <- gsub("\n", "", technisches_begleitblatt$hinw
 
 # Export as csv (to import folder of Neo4j)
 import_folder <- "./src/main/import"
-#import_folder <- "C:/Users/chris/.Neo4jDesktop/relate-data/dbmss/dbms-1b22f9fd-60d2-456a-9552-ae44cb5352d7/import"
-#import_folder <- "C:/Users/chris/Desktop/Aura DB csv load/medi_graph"
 write.csv(technisches_begleitblatt
     , file = paste0(import_folder,"/technisches_begleitblatt.csv")
     , row.names = FALSE)

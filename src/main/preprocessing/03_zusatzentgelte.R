@@ -42,8 +42,6 @@ ze_all$ze_id <- gsub("-[0-9]{4}-","-", ze_all$ze_code)
 
 # Export as csv
 import_folder <- "./src/main/import"
-#import_folder <- "C:/Users/chris/.Neo4jDesktop/relate-data/dbmss/dbms-1b22f9fd-60d2-456a-9552-ae44cb5352d7/import"
-#import_folder <- "C:/Users/chris/Desktop/Aura DB csv load/medi_graph"
 write.table(ze_all
   , file = paste0(import_folder,"/ze_definitions.csv")
   , row.names = FALSE, sep ="|", fileEncoding = "UTF-8")
