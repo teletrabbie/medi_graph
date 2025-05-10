@@ -1,0 +1,2719 @@
+ATC code|Name|DDD|U|Adm.R|Note
+A01AA01|sodium fluoride|1.1|mg|O|0.5 mg fluoride
+A01AA03|olaflur|1.1|mg|O|
+A01AB02|hydrogen peroxide|60|mg|O|
+A01AB03|chlorhexidine|30|mg|O|
+A01AB04|amphotericin B|40|mg|O|
+A01AB05|polynoxylin|0.18|g|O|
+A01AB06|domiphen|3|mg|O|
+A01AB07|oxyquinoline|80|mg|O|
+A01AB09|miconazole|0.2|g|O|
+A01AB10|natamycin|20|mg|O|
+A01AB23|minocycline|1|mg|O|
+A02AA04|magnesium hydroxide|3|g|O|
+A02AB02|algeldrate|5|g|O|
+A02AB04|dihydroxialumini sodium carbonate|4|g|O|
+A02AC02|calcium silicate|6|g|O|
+A02BA01|cimetidine|0.8|g|O|
+A02BA01|cimetidine|0.8|g|P|
+A02BA02|ranitidine|0.3|g|O|
+A02BA02|ranitidine|0.3|g|P|
+A02BA03|famotidine|40|mg|O|
+A02BA03|famotidine|40|mg|P|
+A02BA04|nizatidine|0.3|g|O|
+A02BA04|nizatidine|0.3|g|P|
+A02BA06|roxatidine|0.15|g|O|
+A02BA07|ranitidine bismuth citrate|0.8|g|O|
+A02BA08|lafutidine|20|mg|O|
+A02BB01|misoprostol|0.8|mg|O|
+A02BB02|enprostil|70|mcg|O|
+A02BC01|omeprazole|20|mg|O|
+A02BC01|omeprazole|20|mg|P|
+A02BC02|pantoprazole|40|mg|O|
+A02BC02|pantoprazole|40|mg|P|
+A02BC03|lansoprazole|30|mg|O|
+A02BC04|rabeprazole|20|mg|O|
+A02BC05|esomeprazole|30|mg|O|
+A02BC05|esomeprazole|30|mg|P|
+A02BC06|dexlansoprazole|30|mg|O|
+A02BX01|carbenoxolone|0.15|g|O|
+A02BX02|sucralfate|4|g|O|
+A02BX03|pirenzepine|0.1|g|O|
+A02BX03|pirenzepine|20|mg|P|
+A02BX05|bismuth subcitrate|0.48|g|O|
+A02BX06|proglumide|1.2|g|O|
+A02BX14|rebamipide|0.3|g|O|
+A03AA01|oxyphencyclimine|20|mg|O|
+A03AA03|camylofin|0.2|g|O|
+A03AA03|camylofin|0.2|g|R|
+A03AA04|mebeverine|0.3|g|O|
+A03AA05|trimebutine|0.6|g|O|
+A03AA07|dicycloverine|80|mg|O|
+A03AA07|dicycloverine|80|mg|P|
+A03AB01|benzilone|70|mg|O|
+A03AB02|glycopyrronium bromide|3|mg|O|
+A03AB02|glycopyrronium bromide|0.3|mg|P|
+A03AB02|glycopyrronium bromide|3|mg|R|
+A03AB03|oxyphenonium|25|mg|O|
+A03AB04|penthienate|15|mg|O|
+A03AB05|propantheline|60|mg|O|
+A03AB05|propantheline|60|mg|P|
+A03AB07|methantheline|0.15|g|O|
+A03AB08|tridihexethyl|0.125|g|O|
+A03AB09|isopropamide|10|mg|O|
+A03AB10|hexocyclium|0.15|g|O|
+A03AB11|poldine|12|mg|O|
+A03AB12|mepenzolate|0.1|g|O|
+A03AB13|bevonium|0.2|g|O|
+A03AB14|pipenzolate|20|mg|O|
+A03AB16|(2-benzhydryloxyethyl)diethyl-methylammonium iodide|0.3|g|O|
+A03AD01|papaverine|0.1|g|O|
+A03AD01|papaverine|0.1|g|P|
+A03AD02|drotaverine|0.1|g|O|
+A03AD02|drotaverine|0.1|g|P|
+A03AD30|moxaverine|50|mg|O|
+A03AE01|alosetron|1|mg|O|
+A03AX03|chlorbenzoxamine|0.15|g|O|
+A03AX04|pinaverium|0.15|g|O|
+A03AX13|silicones|0.5|g|O|
+A03AX30|trimethyldiphenylpropylamine|50|mg|O|
+A03AX30|trimethyldiphenylpropylamine|50|mg|P|
+A03BA01|atropine|1.5|mg|O|
+A03BA01|atropine|1.5|mg|P|
+A03BA03|hyoscyamine|1.2|mg|O|
+A03BA04|belladonna total alkaloids|1|mg|O|
+A03BB01|butylscopolamine|60|mg|O|
+A03BB01|butylscopolamine|60|mg|P|
+A03BB01|butylscopolamine|60|mg|R|
+A03BB02|methylatropine|3|mg|O|
+A03BB03|methylscopolamine|12|mg|O|
+A03BB03|methylscopolamine|12|mg|P|
+A03BB04|fentonium|60|mg|O|
+A03FA01|metoclopramide|30|mg|O|
+A03FA01|metoclopramide|30|mg|P|
+A03FA01|metoclopramide|30|mg|R|
+A03FA02|cisapride|30|mg|O|
+A03FA02|cisapride|30|mg|R|
+A03FA03|domperidone|30|mg|O|
+A03FA03|domperidone|30|mg|P|
+A03FA03|domperidone|0.12|g|R|
+A03FA04|bromopride|20|mg|O|
+A03FA04|bromopride|20|mg|P|
+A03FA05|alizapride|0.15|g|O|
+A03FA05|alizapride|0.15|g|P|
+A03FA07|itopride|0.15|g|O|
+A04AA01|ondansetron|16|mg|O|
+A04AA01|ondansetron|16|mg|P|
+A04AA01|ondansetron|16|mg|R|
+A04AA02|granisetron|2|mg|O|
+A04AA02|granisetron|3|mg|P|
+A04AA02|granisetron|3.1|mg|TD|
+A04AA03|tropisetron|5|mg|O|
+A04AA03|tropisetron|5|mg|P|
+A04AA04|dolasetron|0.2|g|O|
+A04AA04|dolasetron|0.1|g|P|
+A04AA05|palonosetron|0.5|mg|O|
+A04AA05|palonosetron|0.25|mg|P|
+A04AD05|metopimazine|15|mg|O|
+A04AD05|metopimazine|15|mg|P|
+A04AD11|nabilone|3|mg|O|
+A04AD12|aprepitant|165|mg|O|
+A04AD12|aprepitant|150|mg|P|Refers to fosaprepitant
+A04AD14|rolapitant|0.18|g|O|
+A05AA01|chenodeoxycholic acid|1|g|O|
+A05AA02|ursodeoxycholic acid|0.75|g|O|
+A05AA04|obeticholic acid|10|mg|O|
+A06AA01|liquid paraffin|15|g|O|
+A06AA02|docusate sodium|0.15|g|O|
+A06AB01|oxyphenisatine|10|mg|O|
+A06AB02|bisacodyl|10|mg|O|
+A06AB02|bisacodyl|10|mg|R|
+A06AB03|dantron|50|mg|O|
+A06AB04|phenolphthalein|0.2|g|O|
+A06AB05|castor oil|20|g|O|
+A06AB08|sodium picosulfate|5|mg|O|
+A06AB09|bisoxatin|0.12|g|O|
+A06AC01|ispaghula (psylla seeds)|7|g|O|
+A06AC02|ethulose|3|g|O|
+A06AC03|sterculia|8|g|O|
+A06AC06|methylcellulose|2|g|O|
+A06AC07|triticum (wheat fibre)|10|g|O|
+A06AC08|polycarbophil calcium|2.5|g|O|
+A06AD01|magnesium carbonate|7|g|O|
+A06AD02|magnesium oxide|7|g|O|
+A06AD04|magnesium sulfate|7|g|O|
+A06AD11|lactulose|6.7|g|O|
+A06AD12|lactitol|10|g|O|
+A06AD15|macrogol|10|g|O|
+A06AD17|sodium phosphate|50|g|O|
+A06AD18|sorbitol|10|g|O|
+A06AH01|methylnaltrexone bromide|6|mg|P|
+A06AH03|naloxegol|25|mg|O|
+A06AH05|naldemedine|0.2|mg|O|
+A06AX04|linaclotide|0.29|mg|O|
+A06AX05|prucalopride|2|mg|O|
+A06AX06|tegaserod|12|mg|O|
+A06AX07|plecanatide|3|mg|O|
+A07AA01|neomycin|5|g|O|
+A07AA02|nystatin|1.5|MU|O|
+A07AA03|natamycin|0.3|g|O|
+A07AA05|polymyxin B|3|MU|O|
+A07AA06|paromomycin|3|g|O|
+A07AA07|amphotericin B|0.4|g|O|
+A07AA08|kanamycin|3|g|O|
+A07AA09|vancomycin|2|g|O|
+A07AA10|colistin|9|MU|O|
+A07AA11|rifaximin|0.6|g|O|
+A07AA12|fidaxomicin|0.4|g|O|
+A07AA13|rifamycin|0.8|g|O|as sodium salt
+A07AB02|phthalylsulfathiazole|9|g|O|
+A07AB03|sulfaguanidine|4|g|O|
+A07AC01|miconazole|1|g|O|
+A07AX03|nifuroxazide|0.6|g|O|
+A07BA01|medicinal charcoal|5|g|O|
+A07BC05|diosmectite|9|g|O|
+A07DA01|diphenoxylate|15|mg|O|
+A07DA02|opium|0.1|g|O|
+A07DA03|loperamide|10|mg|O|
+A07DA05|loperamide oxide|5|mg|O|
+A07DA06|eluxadoline|0.2|g|O|
+A07EA06|budesonide|9|mg|O|
+A07EA06|budesonide|1.5|mg|SL|
+A07EB01|cromoglicic acid|0.8|g|O|
+A07EC01|sulfasalazine|2|g|O|
+A07EC01|sulfasalazine|2|g|R|
+A07EC02|mesalazine|1.5|g|O|
+A07EC02|mesalazine|1.5|g|R|
+A07EC03|olsalazine|1|g|O|
+A07EC04|balsalazide|6.75|g|O|
+A07FA02|saccharomyces boulardii|1|g|O|
+A07XA01|albumin tannate|3|g|O|
+A08AA01|phentermine|15|mg|O|
+A08AA02|fenfluramine|0.12|g|O|
+A08AA03|amfepramone|75|mg|O|
+A08AA04|dexfenfluramine|30|mg|O|
+A08AA05|mazindol|1|mg|O|
+A08AA10|sibutramine|10|mg|O|
+A08AB01|orlistat|0.36|g|O|
+A08AX01|rimonabant|20|mg|O|
+A09AB01|glutamic acid hydrochloride|1.5|g|O|
+A09AB02|betaine hydrochloride|1|g|O|
+A09AB04|citric acid|2|g|O|
+A10AB01|insulin (human)|40|U|P|
+A10AB02|insulin (beef)|40|U|P|
+A10AB03|insulin (pork)|40|U|P|
+A10AB04|insulin lispro|40|U|P|
+A10AB05|insulin aspart|40|U|P|
+A10AB06|insulin glulisine|40|U|P|
+A10AB30|combinations|40|U|P|
+A10AC01|insulin (human)|40|U|P|
+A10AC02|insulin (beef)|40|U|P|
+A10AC03|insulin (pork)|40|U|P|
+A10AC04|insulin lispro|40|U|P|
+A10AC30|combinations|40|U|P|
+A10AD01|insulin (human)|40|U|P|
+A10AD02|insulin (beef)|40|U|P|
+A10AD03|insulin (pork)|40|U|P|
+A10AD04|insulin lispro|40|U|P|
+A10AD05|insulin aspart|40|U|P|
+A10AD06|insulin degludec and insulin aspart|40|U|P|
+A10AD30|combinations|40|U|P|
+A10AE01|insulin (human)|40|U|P|
+A10AE02|insulin (beef)|40|U|P|
+A10AE03|insulin (pork)|40|U|P|
+A10AE04|insulin glargine|40|U|P|
+A10AE05|insulin detemir|40|U|P|
+A10AE06|insulin degludec|40|U|P|
+A10AE30|combinations|40|U|P|
+A10AE54|insulin glargine and lixisenatide|40|U|P|Refers to insulin glargine
+A10AE56|insulin degludec and liraglutide|40|U|P|Refers to insulin degludec
+A10AF01|insulin (human)|40|U|P|
+A10BA01|phenformin|0.1|g|O|
+A10BA02|metformin|2|g|O|
+A10BA03|buformin|0.2|g|O|
+A10BB01|glibenclamide|7|mg|O|microcryst.substance
+A10BB01|glibenclamide|10|mg|O|
+A10BB02|chlorpropamide|0.375|g|O|
+A10BB03|tolbutamide|1.5|g|O|
+A10BB04|glibornuride|38|mg|O|
+A10BB05|tolazamide|0.5|g|O|
+A10BB06|carbutamide|0.75|g|O|
+A10BB07|glipizide|10|mg|O|
+A10BB08|gliquidone|60|mg|O|
+A10BB09|gliclazide|60|mg|O|
+A10BB12|glimepiride|2|mg|O|
+A10BB31|acetohexamide|0.5|g|O|
+A10BC01|glymidine|1|g|O|
+A10BF01|acarbose|0.3|g|O|
+A10BF02|miglitol|0.3|g|O|
+A10BF03|voglibose|0.6|mg|O|
+A10BG01|troglitazone|0.4|g|O|
+A10BG02|rosiglitazone|6|mg|O|
+A10BG03|pioglitazone|30|mg|O|
+A10BG04|lobeglitazone|0.5|mg|O|
+A10BH01|sitagliptin|0.1|g|O|
+A10BH02|vildagliptin|0.1|g|O|
+A10BH03|saxagliptin|5|mg|O|
+A10BH04|alogliptin|25|mg|O|
+A10BH05|linagliptin|5|mg|O|
+A10BH06|gemigliptin|50|mg|O|
+A10BH07|evogliptin|5|mg|O|
+A10BH08|teneligliptin|20|mg|O|
+A10BJ01|exenatide|0.286|mg|P|depot inj
+A10BJ01|exenatide|15|mcg|P|
+A10BJ02|liraglutide|1.5|mg|P|
+A10BJ03|lixisenatide|20|mcg|P|
+A10BJ04|albiglutide|5.7|mg|P|
+A10BJ05|dulaglutide|0.16|mg|P|
+A10BJ06|semaglutide|10.5|mg|O|
+A10BJ06|semaglutide|0.11|mg|P|
+A10BK01|dapagliflozin|10|mg|O|
+A10BK02|canagliflozin|0.2|g|O|
+A10BK03|empagliflozin|17.5|mg|O|
+A10BK04|ertugliflozin|10|mg|O|
+A10BX02|repaglinide|4|mg|O|
+A10BX03|nateglinide|0.36|g|O|
+A10BX06|benfluorex|0.45|g|O|
+A10BX08|mitiglinide|30|mg|O|
+A10BX16|tirzepatide|1.4|mg|P|
+A11CA01|retinol (vit A)|50|TU|O|
+A11CA01|retinol (vit A)|50|TU|P|
+A11CC02|dihydrotachysterol|1|mg|O|
+A11CC03|alfacalcidol|1|mcg|O|
+A11CC03|alfacalcidol|1|mcg|P|
+A11CC04|calcitriol|1|mcg|O|
+A11CC04|calcitriol|1|mcg|P|
+A11CC05|colecalciferol|20|mcg|O|
+A11DA01|thiamine (vit B1)|50|mg|O|
+A11DA01|thiamine (vit B1)|50|mg|P|
+A11GA01|ascorbic acid (vit C)|0.2|g|O|
+A11GA01|ascorbic acid (vit C)|0.2|g|P|
+A11HA01|nicotinamide|0.15|g|O|
+A11HA02|pyridoxine (vit B6)|0.16|g|O|
+A11HA02|pyridoxine (vit B6)|0.16|g|P|
+A11HA03|tocopherol (vit E)|0.2|g|O|
+A11HA03|tocopherol (vit E)|0.2|g|P|
+A11HA08|tocofersolan|0.2|g|O|Expressed as tocopherol
+A12AA01|calcium phosphate|2|g|O|
+A12AA03|calcium gluconate|3|g|O|
+A12AA04|calcium carbonate|3|g|O|
+A12AA05|calcium lactate|2|g|O|
+A12AA06|calcium lactate gluconate|3|g|O|equivalent to 0.5 g Ca2+
+A12AA09|calcium citrate lysine complex|0.5|g|O|
+A12AA10|calcium glucoheptonate|3|g|O|
+A12AA20|calcium (different salts in combination)|0.5|g|O|Ca2+
+A12BA01|potassium chloride|3|g|O|
+A12BA02|potassium citrate|4|g|O|
+A12BA03|potassium hydrogentartrate|7.5|g|O|
+A12BA04|potassium hydrogencarbonate|4|g|O|
+A12CA01|sodium chloride|1|g|O|
+A12CB01|zinc sulfate|0.6|g|O|
+A12CC01|magnesium chloride|2.5|g|O|
+A12CC02|magnesium sulfate|3|g|O|
+A12CC03|magnesium gluconate|5|g|O|
+A12CC04|magnesium citrate|2|g|O|
+A12CD01|sodium fluoride|88|mg|O|40 mg fluoride
+A12CD02|sodium monofluorophosphate|0.152|g|O|20 mg fluoride
+A12CE01|sodium selenate|0.2|mg|O|Se
+A12CE02|sodium selenite|0.2|mg|O|Se
+A14AA02|stanozolol|5|mg|O|
+A14AA02|stanozolol|3.5|mg|P|
+A14AA03|metandienone|5|mg|O|
+A14AA04|metenolone|10|mg|O|
+A14AA04|metenolone|7|mg|P|
+A14AA05|oxymetholone|0.25|g|O|
+A14AB01|nandrolone|2|mg|P|
+A14AB02|ethylestrenol|2|mg|O|
+A16AA01|levocarnitine|2|g|O|
+A16AA01|levocarnitine|2|g|P|
+A16AA04|mercaptamine|2|g|O|
+A16AA05|carglumic acid|0.2|g|O|
+A16AA06|betaine|6|g|O|
+A16AB02|imiglucerase|300|U|P|
+A16AB03|agalsidase alfa|1|mg|P|
+A16AB04|agalsidase beta|5|mg|P|
+A16AB05|laronidase|1|TU|P|
+A16AB06|sacrosidase|68|TU|O|
+A16AB07|alglucosidase alfa|0.1|g|P|
+A16AB10|velaglucerase alfa|300|U|P|
+A16AB12|elosulfase alfa|20|mg|P|
+A16AB14|sebelipase alfa|5|mg|P|
+A16AB15|velmanase alfa|10|mg|P|
+A16AB17|cerliponase alfa|21|mg|P|
+A16AB25|olipudase alfa|15|mg|P|
+A16AX01|thioctic acid|0.6|g|O|
+A16AX01|thioctic acid|0.6|g|P|
+A16AX03|sodium phenylbutyrate|20|g|O|
+A16AX04|nitisinone|20|mg|O|
+A16AX05|zinc acetate|0.15|g|O|
+A16AX06|miglustat|0.3|g|O|
+A16AX08|teduglutide|5|mg|P|
+A16AX09|glycerol phenylbutyrate|15|g|O|
+A16AX10|eliglustat|0.168|g|O|
+A16AX12|trientine|0.45|g|O|Expressed as trientine
+A16AX14|migalastat|61.5|mg|O|
+A16AX15|telotristat|0.75|g|O|
+B01AA01|dicoumarol|0.1|g|O|
+B01AA02|phenindione|0.1|g|O|
+B01AA03|warfarin|7.5|mg|O|
+B01AA03|warfarin|7.5|mg|P|
+B01AA04|phenprocoumon|3|mg|O|
+B01AA07|acenocoumarol|5|mg|O|
+B01AA08|ethyl biscoumacetate|0.6|g|O|
+B01AB01|heparin|10|TU|P|
+B01AB02|antithrombin III|2.1|TU|P|
+B01AB04|dalteparin|2.5|TU|P|anti Xa
+B01AB05|enoxaparin|2|TU|P|anti Xa
+B01AB06|nadroparin|2.85|TU|P|anti Xa
+B01AB07|parnaparin|3.2|TU|P|anti Xa
+B01AB08|reviparin|1.43|TU|P|anti Xa
+B01AB09|danaparoid|1.5|TU|P|anti Xa
+B01AB10|tinzaparin|3.5|TU|P|anti Xa
+B01AB11|sulodexide|500|LSU|O|LSU = lipoprotein lipase releasing units
+B01AB11|sulodexide|500|LSU|P|LSU = lipoprotein lipase releasing units
+B01AB12|bemiparin|2.5|TU|P|
+B01AC04|clopidogrel|75|mg|O|
+B01AC05|ticlopidine|0.5|g|O|
+B01AC06|acetylsalicylic acid|1|tablet|O|Independent of strength
+B01AC07|dipyridamole|0.4|g|O|
+B01AC07|dipyridamole|0.2|g|P|
+B01AC08|carbasalate calcium|1|tablet|O|
+B01AC11|iloprost|0.15|mg|Inhal.solution|
+B01AC11|iloprost|50|mcg|P|
+B01AC13|abciximab|25|mg|P|
+B01AC16|eptifibatide|0.2|g|P|
+B01AC17|tirofiban|10|mg|P|
+B01AC18|triflusal|0.6|g|O|
+B01AC21|treprostinil|4.3|mg|P|
+B01AC22|prasugrel|10|mg|O|
+B01AC23|cilostazol|0.2|g|O|
+B01AC24|ticagrelor|0.18|g|O|
+B01AC25|cangrelor|50|mg|P|
+B01AC26|vorapaxar|2.08|mg|O|
+B01AC27|selexipag|1.8|mg|O|
+B01AD01|streptokinase|1.5|MU|P|
+B01AD02|alteplase|0.1|g|P|
+B01AD03|anistreplase|30|U|P|
+B01AD04|urokinase|3|MU|P|
+B01AD07|reteplase|20|U|P|
+B01AD10|drotrecogin alfa (activated)|40|mg|P|
+B01AD11|tenecteplase|40|mg|P|
+B01AE01|desirudin|30|mg|P|
+B01AE02|lepirudin|0.25|g|P|
+B01AE03|argatroban|0.2|g|P|
+B01AE04|melagatran|6|mg|P|
+B01AE05|ximelagatran|48|mg|O|
+B01AE06|bivalirudin|0.25|g|P|
+B01AE07|dabigatran etexilate|0.3|g|O|
+B01AF01|rivaroxaban|20|mg|O|
+B01AF02|apixaban|10|mg|O|
+B01AX01|defibrotide|1.75|g|P|
+B01AX05|fondaparinux|2.5|mg|P|
+B01AX07|caplacizumab|10|mg|P|
+B02AA01|aminocaproic acid|16|g|O|
+B02AA01|aminocaproic acid|16|g|P|
+B02AA02|tranexamic acid|2|g|O|
+B02AA02|tranexamic acid|2|g|P|
+B02AA03|aminomethylbenzoic acid|0.25|g|O|
+B02AB01|aprotinin|500|TU|P|
+B02AB02|alfa1 antitrypsin|0.6|g|P|
+B02BA01|phytomenadione|20|mg|O|
+B02BA01|phytomenadione|20|mg|P|
+B02BA02|menadione|10|mg|O|
+B02BA02|menadione|2|mg|P|
+B02BB01|fibrinogen, human|5|g|P|
+B02BX04|romiplostim|30|mcg|P|
+B02BX05|eltrombopag|50|mg|O|
+B02BX06|emicizumab|15|mg|P|
+B02BX08|avatrombopag|20|mg|O|
+B02BX09|fostamatinib|0.2|g|O|
+B03AA01|ferrous glycine sulfate|0.2|g|O|Fe2+
+B03AA02|ferrous fumarate|0.2|g|O|Fe2+
+B03AA03|ferrous gluconate|0.2|g|O|Fe2+
+B03AA04|ferrous carbonate|0.2|g|O|Fe2+
+B03AA05|ferrous chloride|0.2|g|O|Fe2+
+B03AA06|ferrous succinate|0.2|g|O|Fe2+
+B03AA07|ferrous sulfate|0.2|g|O|Fe2+
+B03AA08|ferrous tartrate|0.2|g|O|Fe2+
+B03AA09|ferrous aspartate|0.2|g|O|Fe2+
+B03AA10|ferrous ascorbate|0.2|g|O|Fe2+
+B03AA11|ferrous iodine|0.2|g|O|Fe2+
+B03AB01|ferric sodium citrate|0.75|g|O|Fe3+
+B03AB02|saccharated iron oxide|0.11|g|O|Fe3+
+B03AB03|sodium feredetate|0.17|g|O|Fe3+
+B03AB05|ferric oxide polymaltose complexes|90|mg|O|Fe3+
+B03AB09|ferric proteinsuccinylate|80|mg|O|Fe3+
+B03AB10|ferric maltol|60|mg|O|Fe3+
+B03AC|Iron, parenteral preparations|0.1|g|P|Fe
+B03BA01|cyanocobalamin|70|mcg|N|
+B03BA01|cyanocobalamin|1|mg|O|
+B03BA01|cyanocobalamin|20|mcg|P|
+B03BA02|cyanocobalamin tannin complex|20|mcg|P|
+B03BA03|hydroxocobalamin|20|mcg|P|
+B03BA05|mecobalamin|1.5|mg|O|
+B03BA05|mecobalamin|0.2|mg|P|
+B03BB01|folic acid|0.4|mg|O|prophylactic dose
+B03BB01|folic acid|10|mg|P|therapeutic dose
+B03XA01|erythropoietin|1|TU|P|
+B03XA02|darbepoetin alfa|4.5|mcg|P|
+B03XA03|methoxy polyethylene glycol-epoetin beta|4|mcg|P|
+B03XA05|roxadustat|43|mg|O|
+B03XA06|luspatercept|3.33|mg|P|
+B03XA08|vadadustat|0.3|g|O|
+B06AC01|c1-inhibitor, plasma derived|1.4|TU|P|
+B06AC02|icatibant|30|mg|P|
+B06AC04|conestat alfa|3.5|TU|P|
+B06AC05|lanadelumab|21.4|mg|P|
+B06AC06|berotralstat|0.15|g|O|
+B06AX01|crizanlizumab|12.5|mg|P|
+B06AX04|mitapivat|0.1|g|O|
+C01AA01|acetyldigitoxin|0.2|mg|O|
+C01AA02|acetyldigoxin|0.5|mg|O|
+C01AA03|digitalis leaves|0.1|g|O|
+C01AA04|digitoxin|0.1|mg|O|
+C01AA04|digitoxin|0.1|mg|P|
+C01AA05|digoxin|0.25|mg|O|
+C01AA05|digoxin|0.25|mg|P|
+C01AA06|lanatoside C|1|mg|O|
+C01AA06|lanatoside C|1|mg|R|
+C01AA07|deslanoside|1|mg|P|Acute treatment
+C01AA08|metildigoxin|0.2|mg|O|
+C01AA08|metildigoxin|0.2|mg|P|
+C01AB01|proscillaridin|0.75|mg|O|
+C01AC01|g-strophanthin|0.25|mg|P|
+C01AC03|cymarin|2.5|mg|O|
+C01BA01|quinidine|1.2|g|O|
+C01BA02|procainamide|3|g|O|
+C01BA02|procainamide|3|g|P|
+C01BA03|disopyramide|0.4|g|O|
+C01BA03|disopyramide|0.4|g|P|
+C01BA04|sparteine|0.2|g|P|
+C01BA05|ajmaline|0.3|g|O|
+C01BA08|prajmaline|30|mg|O|
+C01BA12|lorajmine|0.3|g|O|
+C01BB01|lidocaine|3|g|P|
+C01BB02|mexiletine|0.8|g|O|
+C01BB02|mexiletine|0.8|g|P|
+C01BB03|tocainide|1.2|g|O|
+C01BB03|tocainide|1.2|g|P|
+C01BB04|aprindine|0.1|g|O|
+C01BB04|aprindine|0.1|g|P|
+C01BC03|propafenone|0.3|g|O|
+C01BC03|propafenone|0.3|g|P|
+C01BC04|flecainide|0.2|g|O|
+C01BC04|flecainide|0.2|g|P|
+C01BC07|lorcainide|0.2|g|P|
+C01BC08|encainide|0.1|g|O|
+C01BD01|amiodarone|0.2|g|O|
+C01BD01|amiodarone|0.2|g|P|
+C01BD05|ibutilide|1|mg|P|
+C01BD07|dronedarone|0.8|g|O|
+C01BG01|moracizine|0.75|g|O|
+C01BG11|vernakalant|0.2|g|P|
+C01CA01|etilefrine|50|mg|O|
+C01CA01|etilefrine|50|mg|P|
+C01CA02|isoprenaline|90|mg|O|
+C01CA02|isoprenaline|90|mg|P|
+C01CA03|norepinephrine|6|mg|P|
+C01CA04|dopamine|0.5|g|P|
+C01CA05|norfenefrine|25|mg|O|
+C01CA06|phenylephrine|4|mg|P|
+C01CA07|dobutamine|0.5|g|P|
+C01CA08|oxedrine|0.2|g|O|
+C01CA08|oxedrine|0.2|g|P|
+C01CA09|metaraminol|50|mg|P|
+C01CA10|methoxamine|30|mg|P|
+C01CA11|mephentermine|30|mg|P|
+C01CA13|prenalterol|10|mg|P|
+C01CA14|dopexamine|0.5|g|P|
+C01CA15|gepefrine|30|mg|O|
+C01CA16|ibopamine|0.3|g|O|
+C01CA17|midodrine|30|mg|O|
+C01CA24|epinephrine|0.5|mg|P|
+C01CA25|amezinium metilsulfate|30|mg|O|
+C01CA26|ephedrine|50|mg|P|
+C01CA27|droxidopa|1|g|O|
+C01CE01|amrinone|0.5|g|P|
+C01CE02|milrinone|50|mg|P|
+C01CE03|enoximone|1|g|P|
+C01CX06|angiotensinamide|5|mg|P|
+C01CX07|xamoterol|0.4|g|O|
+C01CX08|levosimendan|11|mg|P|
+C01DA02|glyceryl trinitrate|5|mg|O|
+C01DA02|glyceryl trinitrate|2.5|mg|oral aerosol|
+C01DA02|glyceryl trinitrate|2.5|mg|SL|
+C01DA02|glyceryl trinitrate|5|mg|TD|
+C01DA05|pentaerithrityl tetranitrate|0.12|g|O|
+C01DA07|propatylnitrate|30|mg|O|
+C01DA08|isosorbide dinitrate|60|mg|O|
+C01DA08|isosorbide dinitrate|20|mg|oral aerosol|
+C01DA08|isosorbide dinitrate|20|mg|SL|
+C01DA08|isosorbide dinitrate|0.1|g|TD|
+C01DA09|trolnitrate|20|mg|O|
+C01DA13|eritrityl tetranitrate|90|mg|O|
+C01DA14|isosorbide mononitrate|40|mg|O|
+C01DX02|prenylamine|0.12|g|O|
+C01DX03|oxyfedrine|40|mg|O|
+C01DX03|oxyfedrine|40|mg|P|
+C01DX04|benziodarone|0.25|g|O|
+C01DX07|etafenone|0.225|g|O|
+C01DX08|heptaminol|0.45|g|O|
+C01DX08|heptaminol|0.45|g|P|
+C01DX09|imolamine|90|mg|O|
+C01DX10|dilazep|0.1|g|O|
+C01DX13|efloxate|0.2|g|O|
+C01DX14|cinepazet|0.9|g|O|
+C01DX16|nicorandil|40|mg|O|
+C01DX19|nesiritide|1.5|mg|P|
+C01DX22|vericiguat|10|mg|O|
+C01EA01|alprostadil|0.5|mg|P|
+C01EB02|camphora|0.15|g|O|
+C01EB10|adenosine|15|mg|P|
+C01EB15|trimetazidine|40|mg|O|
+C01EB16|ibuprofen|30|mg|P|
+C01EB17|ivabradine|10|mg|O|
+C01EB18|ranolazine|1.5|g|O|
+C01EB21|regadenoson|0.4|mg|P|
+C01EB24|mavacamten|5|mg|O|
+C02AA02|reserpine|0.5|mg|O|
+C02AA02|reserpine|0.5|mg|P|
+C02AA07|bietaserpine|15|mg|O|
+C02AB01|methyldopa (levorotatory)|1|g|O|
+C02AB01|methyldopa (levorotatory)|1|g|P|
+C02AB02|methyldopa (racemic)|2|g|O|
+C02AC01|clonidine|0.45|mg|O|
+C02AC01|clonidine|0.45|mg|P|
+C02AC02|guanfacine|3|mg|O|
+C02AC04|tolonidine|0.75|mg|O|
+C02AC05|moxonidine|0.3|mg|O|
+C02BA01|trimetaphan|0.25|g|P|
+C02CA01|prazosin|5|mg|O|
+C02CA03|trimazosin|0.3|g|O|
+C02CA04|doxazosin|4|mg|O|
+C02CA06|urapidil|0.12|g|O|
+C02CA06|urapidil|50|mg|P|
+C02CC01|betanidine|0.1|g|O|
+C02CC02|guanethidine|30|mg|O|
+C02CC03|guanoxan|20|mg|O|
+C02CC04|debrisoquine|20|mg|O|
+C02CC07|guanoxabenz|25|mg|O|
+C02DA01|diazoxide|0.3|g|P|
+C02DB01|dihydralazine|75|mg|O|
+C02DB01|dihydralazine|25|mg|P|
+C02DB02|hydralazine|0.1|g|O|
+C02DB03|endralazine|10|mg|O|
+C02DB04|cadralazine|15|mg|O|
+C02DC01|minoxidil|20|mg|O|
+C02DD01|nitroprusside|50|mg|P|
+C02DG01|pinacidil|50|mg|O|
+C02KD01|ketanserin|40|mg|O|
+C02KD01|ketanserin|40|mg|P|
+C02KX01|bosentan|0.25|g|O|
+C02KX02|ambrisentan|7.5|mg|O|
+C02KX03|sitaxentan|0.1|g|O|
+C02KX04|macitentan|10|mg|O|
+C02KX05|riociguat|4.5|mg|O|
+C03AA01|bendroflumethiazide|2.5|mg|O|
+C03AA02|hydroflumethiazide|25|mg|O|
+C03AA03|hydrochlorothiazide|25|mg|O|
+C03AA04|chlorothiazide|0.5|g|O|
+C03AA05|polythiazide|1|mg|O|
+C03AA06|trichlormethiazide|4|mg|O|
+C03AA07|cyclopenthiazide|0.5|mg|O|
+C03AA08|methyclothiazide|5|mg|O|
+C03AA09|cyclothiazide|5|mg|O|
+C03AB01|bendroflumethiazide and potassium|2.5|mg|O|Refers to bendroflumethiazide
+C03AB02|hydroflumethiazide and potassium|25|mg|O|Refers to hydroflumethiazide
+C03AB03|hydrochlorothiazide and potassium|25|mg|O|Refers to hydrochlorothiazide
+C03AB04|chlorothiazide and potassium|0.5|g|O|Refers to chlorothiazide
+C03AB05|polythiazide and potassium|1|mg|O|Refers to polythiazide
+C03AB06|trichlormethiazide and potassium|4|mg|O|Refers to trichlormethiazide
+C03AB07|cyclopenthiazide and potassium|0.5|mg|O|Refers to cyclopenthiazide
+C03AB08|methyclothiazide and potassium|5|mg|O|Refers to methyclothiazide
+C03AB09|cyclothiazide and potassium|5|mg|O|Refers to cyclothiazide
+C03BA02|quinethazone|50|mg|O|
+C03BA03|clopamide|10|mg|O|
+C03BA04|chlortalidone|25|mg|O|
+C03BA05|mefruside|25|mg|O|
+C03BA08|metolazone|5|mg|O|
+C03BA10|xipamide|20|mg|O|
+C03BA11|indapamide|2.5|mg|O|
+C03BB02|quinethazone and potassium|50|mg|O|Refers to quinethazone
+C03BB03|clopamide and potassium|10|mg|O|Refers to clopamide
+C03BB04|chlortalidone and potassium|25|mg|O|Refers to chlortalidone
+C03BB05|mefruside and potassium|25|mg|O|Refers to mefruside
+C03BD01|theobromine|4|g|O|
+C03CA01|furosemide|40|mg|O|
+C03CA01|furosemide|40|mg|P|
+C03CA02|bumetanide|1|mg|O|
+C03CA02|bumetanide|1|mg|P|
+C03CA04|torasemide|15|mg|O|
+C03CA04|torasemide|15|mg|P|
+C03CB01|furosemide and potassium|40|mg|O|Refers to furosemide
+C03CB02|bumetanide and potassium|1|mg|O|Refers to bumetanide
+C03CC01|etacrynic acid|50|mg|O|
+C03CC01|etacrynic acid|50|mg|P|
+C03CD01|muzolimine|20|mg|O|
+C03DA01|spironolactone|37.5|mg|O|
+C03DA02|potassium canrenoate|0.4|g|P|
+C03DA04|eplerenone|50|mg|O|
+C03DA05|finerenone|20|mg|O|
+C03DB01|amiloride|10|mg|O|
+C03DB02|triamterene|0.1|g|O|
+C03XA01|tolvaptan|30|mg|O|
+C04AA01|isoxsuprine|60|mg|O|
+C04AA01|isoxsuprine|60|mg|P|
+C04AA02|buphenine|30|mg|O|
+C04AA31|bamethan|75|mg|O|
+C04AB01|phentolamine|10|mg|O|
+C04AB01|phentolamine|10|mg|P|
+C04AB02|tolazoline|75|mg|O|
+C04AC01|nicotinic acid|0.2|g|O|
+C04AC01|nicotinic acid|0.2|g|P|
+C04AC02|nicotinyl alcohol (pyridylcarbinol)|0.3|g|O|
+C04AC02|nicotinyl alcohol (pyridylcarbinol)|0.3|g|P|
+C04AC03|inositol nicotinate|1.2|g|O|
+C04AD02|xantinol nicotinate|0.9|g|O|
+C04AD02|xantinol nicotinate|0.9|g|P|
+C04AD03|pentoxifylline|1|g|O|
+C04AD03|pentoxifylline|0.3|g|P|
+C04AD04|etofylline nicotinate|0.3|g|O|
+C04AE01|ergoloid mesylates|3|mg|O|
+C04AE01|ergoloid mesylates|3|mg|P|
+C04AF01|kallidinogenase|30|U|O|
+C04AF01|kallidinogenase|30|U|P|
+C04AX01|cyclandelate|0.6|g|O|
+C04AX02|phenoxybenzamine|30|mg|O|
+C04AX20|buflomedil|0.6|g|O|
+C04AX21|naftidrofuryl|0.6|g|O|
+C04AX24|visnadine|0.6|g|O|
+C04AX30|azapetine|0.15|g|O|
+C07AA01|alprenolol|0.4|g|O|
+C07AA01|alprenolol|0.4|g|P|
+C07AA02|oxprenolol|0.16|g|O|
+C07AA02|oxprenolol|0.16|g|P|
+C07AA03|pindolol|15|mg|O|
+C07AA03|pindolol|15|mg|P|
+C07AA05|propranolol|0.16|g|O|
+C07AA05|propranolol|0.16|g|P|
+C07AA06|timolol|20|mg|O|
+C07AA06|timolol|20|mg|P|
+C07AA07|sotalol|0.16|g|O|
+C07AA07|sotalol|0.16|g|P|
+C07AA12|nadolol|0.16|g|O|
+C07AA14|mepindolol|5|mg|O|
+C07AA15|carteolol|10|mg|O|
+C07AA16|tertatolol|5|mg|O|
+C07AA23|penbutolol|40|mg|O|
+C07AB01|practolol|0.3|g|O|
+C07AB01|practolol|20|mg|P|
+C07AB02|metoprolol|0.15|g|O|
+C07AB02|metoprolol|0.15|g|P|
+C07AB03|atenolol|75|mg|O|
+C07AB03|atenolol|75|mg|P|
+C07AB04|acebutolol|0.4|g|O|
+C07AB04|acebutolol|0.4|g|P|
+C07AB05|betaxolol|20|mg|O|
+C07AB06|bevantolol|0.3|g|O|
+C07AB07|bisoprolol|10|mg|O|
+C07AB08|celiprolol|0.2|g|O|
+C07AB09|esmolol|2.5|g|P|
+C07AB10|epanolol|0.2|g|O|
+C07AB11|s-atenolol|50|mg|O|
+C07AB12|nebivolol|5|mg|O|
+C07AB13|talinolol|0.1|g|O|
+C07AG01|labetalol|0.6|g|O|
+C07AG01|labetalol|0.6|g|P|
+C07AG02|carvedilol|37.5|mg|O|
+C08CA01|amlodipine|5|mg|O|
+C08CA02|felodipine|5|mg|O|
+C08CA03|isradipine|5|mg|O|
+C08CA03|isradipine|5|mg|P|
+C08CA04|nicardipine|90|mg|O|
+C08CA04|nicardipine|90|mg|P|
+C08CA05|nifedipine|30|mg|O|
+C08CA05|nifedipine|30|mg|P|
+C08CA06|nimodipine|0.3|g|O|
+C08CA06|nimodipine|50|mg|P|
+C08CA07|nisoldipine|20|mg|O|
+C08CA08|nitrendipine|20|mg|O|
+C08CA09|lacidipine|4|mg|O|
+C08CA10|nilvadipine|8|mg|O|
+C08CA11|manidipine|10|mg|O|
+C08CA12|barnidipine|10|mg|O|
+C08CA13|lercanidipine|10|mg|O|
+C08CA14|cilnidipine|10|mg|O|
+C08CX01|mibefradil|75|mg|O|
+C08DA01|verapamil|0.24|g|O|
+C08DA01|verapamil|0.24|g|P|
+C08DB01|diltiazem|0.24|g|O|
+C08EA02|bepridil|0.3|g|O|
+C08EX01|lidoflazine|0.18|g|O|
+C08EX02|perhexiline|0.2|g|O|
+C09AA01|captopril|50|mg|O|
+C09AA02|enalapril|10|mg|O|
+C09AA02|enalapril|10|mg|P|
+C09AA03|lisinopril|10|mg|O|
+C09AA04|perindopril|4|mg|O|
+C09AA05|ramipril|2.5|mg|O|
+C09AA06|quinapril|15|mg|O|
+C09AA06|quinapril|15|mg|P|
+C09AA07|benazepril|7.5|mg|O|
+C09AA08|cilazapril|2.5|mg|O|
+C09AA09|fosinopril|15|mg|O|
+C09AA10|trandolapril|2|mg|O|
+C09AA11|spirapril|6|mg|O|
+C09AA12|delapril|30|mg|O|
+C09AA13|moexipril|15|mg|O|
+C09AA14|temocapril|10|mg|O|
+C09AA15|zofenopril|30|mg|O|
+C09AA16|imidapril|10|mg|O|
+C09CA01|losartan|50|mg|O|
+C09CA02|eprosartan|0.6|g|O|
+C09CA03|valsartan|80|mg|O|
+C09CA04|irbesartan|0.15|g|O|
+C09CA06|candesartan|8|mg|O|
+C09CA07|telmisartan|40|mg|O|
+C09CA08|olmesartan medoxomil|20|mg|O|
+C09CA09|azilsartan medoxomil|40|mg|O|
+C09CA10|fimasartan|60|mg|O|
+C09XA02|aliskiren|0.15|g|O|
+C10AA01|simvastatin|30|mg|O|
+C10AA02|lovastatin|45|mg|O|
+C10AA03|pravastatin|30|mg|O|
+C10AA04|fluvastatin|60|mg|O|
+C10AA05|atorvastatin|20|mg|O|
+C10AA06|cerivastatin|0.2|mg|O|
+C10AA07|rosuvastatin|10|mg|O|
+C10AA08|pitavastatin|2|mg|O|
+C10AB01|clofibrate|2|g|O|
+C10AB02|bezafibrate|0.6|g|O|
+C10AB04|gemfibrozil|1.2|g|O|
+C10AB05|fenofibrate|0.2|g|O|micronised
+C10AB08|ciprofibrate|0.1|g|O|
+C10AB11|choline fenofibrate|0.135|g|O|Refers to fenofibric acid
+C10AC01|colestyramine|14|g|O|
+C10AC02|colestipol|20|g|O|
+C10AC04|colesevelam|3.75|g|O|
+C10AD01|niceritrol|1.5|g|O|
+C10AD02|nicotinic acid|2|g|O|
+C10AD05|nicotinyl alcohol (pyridylcarbinol)|0.9|g|O|
+C10AD06|acipimox|0.5|g|O|
+C10AX01|dextrothyroxine|4|mg|O|
+C10AX06|omega-3-triglycerides incl. other esters and acids|4|g|O|
+C10AX09|ezetimibe|10|mg|O|
+C10AX12|lomitapide|40|mg|O|
+C10AX13|evolocumab|10|mg|P|
+C10AX14|alirocumab|5.4|mg|P|
+C10AX15|bempedoic acid|0.18|g|O|
+C10AX16|inclisiran|1.6|mg|P|
+C10AX18|volanesorsen|20|mg|P|
+C10BX01|simvastatin and acetylsalicylic acid|30|mg|O|Refers to simvastatin
+D01BA01|griseofulvin|0.5|g|O|
+D01BA02|terbinafine|0.25|g|O|
+D01BA03|fosravuconazole|0.1|g|O|Expressed as ravuconazole
+D02BB01|betacarotene|0.1|g|O|
+D05BA01|trioxysalen|10|mg|O|
+D05BA02|methoxsalen|10|mg|O|
+D05BB01|etretinate|35|mg|O|
+D05BB02|acitretin|35|mg|O|
+D10BA01|isotretinoin|30|mg|O|
+D11AH04|alitretinoin|20|mg|O|
+D11AH05|dupilumab|21.4|mg|P|
+D11AH07|tralokinumab|16.1|mg|P|
+D11AH08|abrocitinib|0.15|g|O|
+D11AX02|gamolenic acid|0.4|g|O|
+D11AX10|finasteride|1|mg|O|
+G01AA01|nystatin|0.1|MU|V|
+G01AA02|natamycin|25|mg|V|
+G01AA03|amphotericin B|0.2|g|V|
+G01AA04|candicidin|6|mg|V|
+G01AA10|clindamycin|0.1|g|V|
+G01AB01|acetarsol|0.5|g|V|
+G01AC01|diiodohydroxyquinoline|0.2|g|V|
+G01AC03|chlorquinaldol|0.2|g|V|
+G01AC05|dequalinium|20|mg|V|
+G01AC06|broxyquinoline|0.1|g|V|
+G01AD03|ascorbic acid|0.25|g|V|
+G01AF01|metronidazole|0.5|g|V|
+G01AF02|clotrimazole|0.1|g|V|
+G01AF04|miconazole|0.1|g|V|
+G01AF05|econazole|0.1|g|V|
+G01AF07|isoconazole|0.6|g|V|
+G01AF08|tioconazole|0.3|g|V|Single dose treatment
+G01AF11|ketoconazole|0.4|g|V|
+G01AF12|fenticonazole|0.1|g|V|
+G01AF15|butoconazole|0.1|g|V|
+G01AF21|tinidazole|0.2|g|V|
+G01AG02|terconazole|80|mg|V|
+G01AX01|clodantoin|0.1|g|V|
+G01AX03|policresulen|90|mg|V|
+G01AX05|nifuratel|0.6|g|O|
+G01AX05|nifuratel|0.6|g|V|
+G01AX11|povidone-iodine|0.2|g|V|
+G02AB01|methylergometrine|0.2|mg|O|
+G02AB01|methylergometrine|0.2|mg|P|
+G02AB03|ergometrine|0.2|mg|O|
+G02AB03|ergometrine|0.2|mg|P|
+G02AD01|dinoprost|25|mg|P|
+G02AD02|dinoprostone|0.5|mg|O|
+G02AD02|dinoprostone|0.5|mg|V|
+G02AD03|gemeprost|1|mg|V|Single dose treatment
+G02AD04|carboprost|2.5|mg|P|Single dose treatment
+G02AD05|sulprostone|0.5|mg|P|
+G02AD06|misoprostol|0.2|mg|O|
+G02AD06|misoprostol|0.2|mg|V|vaginal insert, refers to the content of one vaginal insert
+G02CA01|ritodrine|40|mg|O|
+G02CA01|ritodrine|40|mg|P|
+G02CA02|buphenine|30|mg|P|
+G02CB01|bromocriptine|5|mg|O|
+G02CB01|bromocriptine|5|mg|P|
+G02CB02|lisuride|0.6|mg|O|
+G02CB03|cabergoline|0.5|mg|O|
+G02CB04|quinagolide|75|mcg|O|
+G02CX01|atosiban|165|mg|P|
+G02CX06|fezolinetant|45|mg|O|
+G03AC01|norethisterone|2.5|mg|P|
+G03AC06|medroxyprogesterone|1.67|mg|P|
+G03AC08|etonogestrel|68|mcg|s.c. implant|
+G03AD01|levonorgestrel|1.5|mg|O|
+G03AD02|ulipristal|30|mg|O|
+G03BA01|fluoxymesterone|5|mg|O|
+G03BA02|methyltestosterone|25|mg|O|
+G03BA03|testosterone|0.12|g|O|
+G03BA03|testosterone|18|mg|P|
+G03BA03|testosterone|0.12|g|R|
+G03BA03|testosterone|60|mg|SL|
+G03BA03|testosterone|50|mg|TD|gel
+G03BA03|testosterone|3|mg|TD|
+G03BB01|mesterolone|50|mg|O|
+G03CA01|ethinylestradiol|25|mcg|O|
+G03CA03|estradiol|0.3|mg|N|
+G03CA03|estradiol|2|mg|O|
+G03CA03|estradiol|1|mg|P|depot short duration
+G03CA03|estradiol|0.3|mg|P|depot long duration
+G03CA03|estradiol|5|mg|R|
+G03CA03|estradiol|50|mcg|TD|patch, refer to amount delivered per 24 hours
+G03CA03|estradiol|1|mg|TD|gel
+G03CA03|estradiol|1.53|mg|TD|spray
+G03CA03|estradiol|25|mcg|V|
+G03CA03|estradiol|7.5|mcg|V|vaginal ring,  refers to amount delivered per 24 hours
+G03CA04|estriol|2|mg|O|
+G03CA04|estriol|2|mg|P|
+G03CA04|estriol|0.2|mg|V|
+G03CA06|chlorotrianisene|24|mg|O|
+G03CA07|estrone|1|mg|O|
+G03CA57|conjugated estrogens|0.625|mg|O|
+G03CA57|conjugated estrogens|0.625|mg|V|
+G03CB01|dienestrol|2.5|mg|O|
+G03CB01|dienestrol|0.2|mg|V|
+G03CB02|diethylstilbestrol|0.2|mg|O|
+G03CB02|diethylstilbestrol|1|mg|V|
+G03CB03|methallenestril|9|mg|O|
+G03CX01|tibolone|2.5|mg|O|
+G03DA01|gestonorone|30|mg|P|
+G03DA02|medroxyprogesterone|5|mg|O|
+G03DA02|medroxyprogesterone|7|mg|P|
+G03DA03|hydroxyprogesterone|10|mg|P|
+G03DA04|progesterone|0.3|g|O|
+G03DA04|progesterone|5|mg|P|
+G03DA04|progesterone|0.2|g|R|
+G03DA04|progesterone|90|mg|V|
+G03DB01|dydrogesterone|10|mg|O|
+G03DB02|megestrol|5|mg|O|
+G03DB08|dienogest|2|mg|O|
+G03DC01|allylestrenol|10|mg|O|
+G03DC02|norethisterone|5|mg|O|
+G03DC03|lynestrenol|5|mg|O|
+G03DC04|ethisterone|5|mg|O|
+G03DC31|methylestrenolone|5|mg|O|
+G03GA01|chorionic gonadotrophin|250|U|P|
+G03GA02|human menopausal gonadotrophin|75|U|P|
+G03GA03|serum gonadotrophin|750|U|P|
+G03GA04|urofollitropin|75|U|P|
+G03GA05|follitropin alfa|75|U|P|
+G03GA06|follitropin beta|75|U|P|
+G03GA07|lutropin alfa|75|U|P|
+G03GA08|choriogonadotropin alfa|0.25|mg|P|
+G03GA09|corifollitropin alfa|0.15|mg|P|
+G03GA10|follitropin delta|12|mcg|P|
+G03GB01|cyclofenil|0.14|g|O|
+G03GB02|clomifene|9|mg|O|
+G03GB03|epimestrol|10|mg|O|
+G03HA01|cyproterone|0.1|g|O|
+G03HA01|cyproterone|0.1|g|P|
+G03XA01|danazol|0.6|g|O|
+G03XA02|gestrinone|0.7|mg|O|
+G03XB01|mifepristone|0.2|g|O|
+G03XB02|ulipristal|5|mg|O|
+G03XB51|mifepristone, combinations|0.2|g|O|Refers to mifepristone
+G03XC01|raloxifene|60|mg|O|
+G03XC02|bazedoxifene|20|mg|O|
+G03XC03|lasofoxifene|0.5|mg|O|
+G03XX01|prasterone|6.5|mg|V|
+G04BA01|ammonium chloride|8.5|g|O|
+G04BD01|emepronium|0.5|g|O|
+G04BD01|emepronium|75|mg|P|
+G04BD02|flavoxate|0.8|g|O|
+G04BD03|meladrazine|0.45|g|O|
+G04BD04|oxybutynin|15|mg|O|
+G04BD04|oxybutynin|3.9|mg|TD|
+G04BD05|terodiline|50|mg|O|
+G04BD06|propiverine|30|mg|O|
+G04BD07|tolterodine|4|mg|O|
+G04BD08|solifenacin|5|mg|O|
+G04BD09|trospium|40|mg|O|
+G04BD10|darifenacin|7.5|mg|O|
+G04BD11|fesoterodine|4|mg|O|
+G04BD12|mirabegron|50|mg|O|
+G04BD13|desfesoterodine|3.5|mg|O|
+G04BD15|vibegron|75|mg|O|
+G04BE01|alprostadil|20|mcg|P|
+G04BE01|alprostadil|0.25|mg|urethral|
+G04BE03|sildenafil|50|mg|O|
+G04BE04|yohimbine|15|mg|O|
+G04BE07|apomorphine|2|mg|SL|
+G04BE08|tadalafil|10|mg|O|
+G04BE09|vardenafil|10|mg|O|
+G04BE10|avanafil|0.1|g|O|
+G04BX01|magnesium hydroxide|0.5|g|O|
+G04BX03|acetohydroxamic acid|0.75|g|O|
+G04BX06|phenazopyridine|0.6|g|O|
+G04BX12|phenyl salicylate|2|g|O|
+G04BX14|dapoxetine|30|mg|O|
+G04BX15|pentosan polysulfate sodium|0.3|g|O|
+G04BX16|tiopronin|0.8|g|O|
+G04CA01|alfuzosin|7.5|mg|O|
+G04CA02|tamsulosin|0.4|mg|O|
+G04CA03|terazosin|5|mg|O|
+G04CA04|silodosin|8|mg|O|
+G04CB01|finasteride|5|mg|O|
+G04CB02|dutasteride|0.5|mg|O|
+H01AA01|corticotropin|25|U|P|
+H01AA02|tetracosactide|0.25|mg|P|
+H01AB01|thyrotropin alfa|0.9|mg|P|
+H01AC01|somatropin|2|U|P|
+H01AC03|mecasermin|2|mg|P|
+H01AX01|pegvisomant|10|mg|P|
+H01BA01|vasopressin (argipressin)|40|U|P|
+H01BA02|desmopressin|25|mcg|N|
+H01BA02|desmopressin|0.4|mg|O|
+H01BA02|desmopressin|4|mcg|P|
+H01BA02|desmopressin|0.24|mg|SL|base
+H01BA03|lypressin|20|U|N|
+H01BA03|lypressin|20|U|P|
+H01BA04|terlipressin|12|mg|P|
+H01BA05|ornipressin|5|U|P|
+H01BB01|demoxytocin|100|U|O|
+H01BB02|oxytocin|15|U|N|
+H01BB02|oxytocin|200|U|O|
+H01BB02|oxytocin|15|U|P|
+H01BB03|carbetocin|0.1|mg|P|
+H01CA02|nafarelin|0.4|mg|N|
+H01CB01|somatostatin|6|mg|P|
+H01CB02|octreotide|0.7|mg|P|
+H01CB03|lanreotide|3|mg|P|
+H01CB05|pasireotide|1.2|mg|P|
+H01CC01|ganirelix|0.25|mg|P|
+H01CC02|cetrorelix|0.25|mg|P|
+H02AA02|fludrocortisone|0.1|mg|O|
+H02AA03|desoxycortone|5|mg|O|
+H02AA03|desoxycortone|5|mg|P|
+H02AB01|betamethasone|1.5|mg|O|
+H02AB01|betamethasone|1.5|mg|P|
+H02AB01|betamethasone|0.4|mg|P|depot
+H02AB02|dexamethasone|1.5|mg|O|
+H02AB02|dexamethasone|1.5|mg|P|
+H02AB03|fluocortolone|10|mg|O|
+H02AB04|methylprednisolone|7.5|mg|O|
+H02AB04|methylprednisolone|20|mg|P|
+H02AB05|paramethasone|4|mg|O|
+H02AB05|paramethasone|4|mg|P|
+H02AB06|prednisolone|10|mg|O|
+H02AB06|prednisolone|10|mg|P|
+H02AB07|prednisone|10|mg|O|
+H02AB08|triamcinolone|7.5|mg|O|
+H02AB08|triamcinolone|7.5|mg|P|
+H02AB09|hydrocortisone|30|mg|O|
+H02AB09|hydrocortisone|30|mg|P|
+H02AB10|cortisone|37.5|mg|O|
+H02AB10|cortisone|37.5|mg|P|
+H02AB11|prednylidene|12|mg|O|
+H02AB12|rimexolone|20|mg|P|intraarticular
+H02AB13|deflazacort|15|mg|O|
+H02CA01|trilostane|0.36|g|O|
+H02CA02|osilodrostat|10|mg|O|
+H02CA03|ketoconazole|0.6|g|O|
+H03AA01|levothyroxine sodium|0.15|mg|O|
+H03AA01|levothyroxine sodium|0.15|mg|P|
+H03AA02|liothyronine sodium|60|mcg|O|
+H03AA02|liothyronine sodium|60|mcg|P|
+H03AA05|thyroid gland preparations|0.1|g|O|
+H03BA01|methylthiouracil|0.1|g|O|
+H03BA02|propylthiouracil|0.1|g|O|
+H03BB01|carbimazole|15|mg|O|
+H03BB02|thiamazole|10|mg|O|
+H03CA|Iodine therapy|0.33|g|O|
+H03CA|Iodine therapy|0.33|g|P|
+H04AA01|glucagon|3|mg|N|
+H04AA01|glucagon|1|mg|P|
+H05AA02|teriparatide|20|mcg|P|
+H05AA03|parathyroid hormone|0.1|mg|P|
+H05BA01|calcitonin (salmon synthetic)|200|U|N|
+H05BA01|calcitonin (salmon synthetic)|100|U|P|
+H05BA02|calcitonin (pork natural)|100|U|P|
+H05BA03|calcitonin (human synthetic)|100|U|P|
+H05BX01|cinacalcet|60|mg|O|
+H05BX02|paricalcitol|2|mcg|O|
+H05BX02|paricalcitol|2|mcg|P|
+H05BX04|etelcalcetide|2.1|mg|P|
+H05BX05|calcifediol|30|mcg|O|
+H05BX06|evocalcet|2.5|mg|O|
+J01AA01|demeclocycline|0.6|g|O|
+J01AA02|doxycycline|0.1|g|O|
+J01AA02|doxycycline|0.1|g|P|
+J01AA03|chlortetracycline|1|g|O|
+J01AA04|lymecycline|0.6|g|O|
+J01AA04|lymecycline|0.6|g|P|
+J01AA05|metacycline|0.6|g|O|
+J01AA06|oxytetracycline|1|g|O|
+J01AA06|oxytetracycline|1|g|P|
+J01AA07|tetracycline|1|g|O|
+J01AA07|tetracycline|1|g|P|
+J01AA08|minocycline|0.2|g|O|
+J01AA08|minocycline|0.2|g|P|
+J01AA09|rolitetracycline|0.35|g|P|
+J01AA11|clomocycline|1|g|O|
+J01AA12|tigecycline|0.1|g|P|
+J01AA13|eravacycline|0.14|g|P|
+J01AA14|sarecycline|0.1|g|O|
+J01AA15|omadacycline|0.3|g|O|
+J01AA15|omadacycline|0.1|g|P|
+J01BA01|chloramphenicol|3|g|O|
+J01BA01|chloramphenicol|3|g|P|
+J01BA02|thiamphenicol|1.5|g|O|
+J01BA02|thiamphenicol|1.5|g|P|
+J01CA01|ampicillin|2|g|O|
+J01CA01|ampicillin|6|g|P|
+J01CA01|ampicillin|2|g|R|
+J01CA02|pivampicillin|1.05|g|O|
+J01CA03|carbenicillin|12|g|P|
+J01CA04|amoxicillin|1.5|g|O|
+J01CA04|amoxicillin|3|g|P|
+J01CA05|carindacillin|4|g|O|
+J01CA06|bacampicillin|1.2|g|O|
+J01CA07|epicillin|2|g|O|
+J01CA07|epicillin|2|g|P|
+J01CA08|pivmecillinam|0.6|g|O|
+J01CA09|azlocillin|12|g|P|
+J01CA10|mezlocillin|6|g|P|
+J01CA11|mecillinam|1.2|g|P|
+J01CA12|piperacillin|14|g|P|
+J01CA13|ticarcillin|15|g|P|
+J01CA14|metampicillin|1.5|g|O|
+J01CA14|metampicillin|1.5|g|P|
+J01CA15|talampicillin|2|g|O|
+J01CA16|sulbenicillin|15|g|P|
+J01CA17|temocillin|4|g|P|
+J01CA18|hetacillin|2|g|O|
+J01CA19|aspoxicillin|4|g|P|
+J01CE01|benzylpenicillin|3.6|g|P|
+J01CE02|phenoxymethylpenicillin|2|g|O|
+J01CE03|propicillin|0.9|g|O|
+J01CE04|azidocillin|1.5|g|O|
+J01CE05|pheneticillin|1|g|O|
+J01CE06|penamecillin|1.05|g|O|
+J01CE07|clometocillin|1|g|O|
+J01CE08|benzathine benzylpenicillin|3.6|g|P|Expressed as benzylpenicillin
+J01CE09|procaine benzylpenicillin|0.6|g|P|
+J01CE10|benzathine phenoxymethylpenicillin|2|g|O|Expressed as phenoxymethylpenicillin
+J01CF01|dicloxacillin|2|g|O|
+J01CF01|dicloxacillin|2|g|P|
+J01CF02|cloxacillin|2|g|O|
+J01CF02|cloxacillin|2|g|P|
+J01CF03|meticillin|4|g|P|
+J01CF04|oxacillin|2|g|O|
+J01CF04|oxacillin|2|g|P|
+J01CF05|flucloxacillin|2|g|O|
+J01CF05|flucloxacillin|2|g|P|
+J01CF06|nafcillin|3|g|P|
+J01CG01|sulbactam|1|g|P|
+J01CR01|ampicillin and beta-lactamase inhibitor|6|g|P|Refers to ampicillin
+J01CR02|amoxicillin and beta-lactamase inhibitor|1.5|g|O|Refers to amoxicillin
+J01CR02|amoxicillin and beta-lactamase inhibitor|3|g|P|Refers to amoxicillin
+J01CR03|ticarcillin and beta-lactamase inhibitor|15|g|P|Refers to ticarcillin
+J01CR04|sultamicillin|1.5|g|O|
+J01CR05|piperacillin and beta-lactamase inhibitor|14|g|P|Refers to piperacillin
+J01DB01|cefalexin|2|g|O|
+J01DB02|cefaloridine|3|g|P|
+J01DB03|cefalotin|4|g|P|
+J01DB04|cefazolin|3|g|P|
+J01DB05|cefadroxil|2|g|O|
+J01DB06|cefazedone|3|g|P|
+J01DB07|cefatrizine|1|g|O|
+J01DB08|cefapirin|4|g|P|
+J01DB09|cefradine|2|g|O|
+J01DB09|cefradine|2|g|P|
+J01DB11|cefroxadine|2.1|g|O|
+J01DB12|ceftezole|3|g|P|
+J01DC01|cefoxitin|6|g|P|
+J01DC02|cefuroxime|0.5|g|O|
+J01DC02|cefuroxime|3|g|P|
+J01DC03|cefamandole|6|g|P|
+J01DC04|cefaclor|1|g|O|
+J01DC05|cefotetan|4|g|P|
+J01DC06|cefonicid|1|g|P|
+J01DC07|cefotiam|1.2|g|O|
+J01DC07|cefotiam|4|g|P|
+J01DC08|loracarbef|0.6|g|O|
+J01DC09|cefmetazole|4|g|P|
+J01DC10|cefprozil|1|g|O|
+J01DC11|ceforanide|4|g|P|
+J01DC12|cefminox|4|g|P|
+J01DC13|cefbuperazone|2|g|P|
+J01DC14|flomoxef|2|g|P|
+J01DC52|cefuroxime and beta-lactamase inhibitor|0.5|g|O|Refers to cefuroxime
+J01DD01|cefotaxime|4|g|P|
+J01DD02|ceftazidime|4|g|P|
+J01DD03|cefsulodin|4|g|P|
+J01DD04|ceftriaxone|2|g|P|
+J01DD05|cefmenoxime|2|g|P|
+J01DD06|latamoxef|4|g|P|
+J01DD07|ceftizoxime|4|g|P|
+J01DD08|cefixime|0.4|g|O|
+J01DD09|cefodizime|2|g|P|
+J01DD10|cefetamet|1|g|O|
+J01DD11|cefpiramide|2|g|P|
+J01DD12|cefoperazone|4|g|P|
+J01DD13|cefpodoxime|0.4|g|O|
+J01DD14|ceftibuten|0.4|g|O|
+J01DD15|cefdinir|0.6|g|O|
+J01DD16|cefditoren|0.4|g|O|
+J01DD17|cefcapene|0.45|g|O|
+J01DD18|cefteram|0.4|g|O|
+J01DD52|ceftazidime and beta-lactamase inhibitor|6|g|P|Refers to ceftazidime
+J01DD62|cefoperazone and beta-lactamase inhibitor|4|g|P|Refers to cefoperazone
+J01DD63|ceftriaxone and beta-lactamase inhibitor|2|g|P|Refers to ceftriaxone
+J01DD64|cefpodoxime and beta-lactamase inhibitor|0.4|g|O|Refers to cefpodoxime
+J01DE01|cefepime|4|g|P|
+J01DE02|cefpirome|4|g|P|
+J01DE03|cefozopran|4|g|P|
+J01DF01|aztreonam|0.225|g|Inhal.solution|
+J01DF01|aztreonam|4|g|P|
+J01DF02|carumonam|2|g|P|
+J01DH02|meropenem|3|g|P|
+J01DH03|ertapenem|1|g|P|
+J01DH04|doripenem|1.5|g|P|
+J01DH05|biapenem|1.2|g|P|
+J01DH06|tebipenem pivoxil|0.56|g|O|
+J01DH51|imipenem and cilastatin|2|g|P|Refers to imipenem
+J01DH52|meropenem and vaborbactam|3|g|P|Refers to meropenem
+J01DH55|panipenem and betamipron|2|g|P|Refers to panipenem
+J01DH56|imipenem, cilastatin and relebactam|2|g|P|Refers to imipenem
+J01DI01|ceftobiprole medocaril|1.5|g|P|
+J01DI02|ceftaroline fosamil|1.2|g|P|
+J01DI03|faropenem|0.75|g|O|
+J01DI04|cefiderocol|6|g|P|
+J01DI54|ceftolozane and beta-lactamase inhibitor|3|g|P|Refers to ceftolozane
+J01EA01|trimethoprim|0.4|g|O|
+J01EA01|trimethoprim|0.4|g|P|
+J01EA02|brodimoprim|0.2|g|O|
+J01EB01|sulfaisodimidine|4|g|O|
+J01EB01|sulfaisodimidine|4|g|P|
+J01EB02|sulfamethizole|4|g|O|
+J01EB03|sulfadimidine|4|g|O|
+J01EB04|sulfapyridine|1|g|O|
+J01EB05|sulfafurazole|4|g|O|
+J01EB05|sulfafurazole|4|g|P|
+J01EB08|sulfathiourea|6|g|O|
+J01EC01|sulfamethoxazole|2|g|O|
+J01EC02|sulfadiazine|0.6|g|O|
+J01EC03|sulfamoxole|1|g|O|
+J01EC03|sulfamoxole|1|g|P|
+J01ED01|sulfadimethoxine|0.5|g|O|
+J01ED02|sulfalene|0.1|g|O|
+J01ED04|sulfametoxydiazine|0.5|g|O|
+J01ED05|sulfamethoxypyridazine|0.5|g|O|
+J01ED06|sulfaperin|0.5|g|O|
+J01ED07|sulfamerazine|3|g|O|
+J01ED08|sulfaphenazole|1|g|O|
+J01ED09|sulfamazone|1.5|g|O|
+J01ED09|sulfamazone|1.5|g|R|
+J01FA01|erythromycin|1|g|O|
+J01FA01|erythromycin|2|g|O|erythromycin ethylsuccinate tablets
+J01FA01|erythromycin|1|g|P|
+J01FA02|spiramycin|3|g|O|
+J01FA03|midecamycin|1.2|g|O|
+J01FA03|midecamycin|1|g|P|
+J01FA05|oleandomycin|1|g|O|
+J01FA06|roxithromycin|0.3|g|O|
+J01FA07|josamycin|2|g|O|
+J01FA08|troleandomycin|1|g|O|
+J01FA09|clarithromycin|0.5|g|O|
+J01FA09|clarithromycin|1|g|P|
+J01FA10|azithromycin|0.3|g|O|
+J01FA10|azithromycin|0.5|g|P|
+J01FA11|miocamycin|1.2|g|O|
+J01FA12|rokitamycin|0.8|g|O|
+J01FA13|dirithromycin|0.5|g|O|
+J01FA14|flurithromycin|0.75|g|O|
+J01FA15|telithromycin|0.8|g|O|
+J01FF01|clindamycin|1.2|g|O|
+J01FF01|clindamycin|1.8|g|P|
+J01FF02|lincomycin|1.8|g|O|
+J01FF02|lincomycin|1.8|g|P|
+J01FG01|pristinamycin|2|g|O|
+J01FG02|quinupristin/dalfopristin|1.5|g|P|
+J01GA01|streptomycin|1|g|P|
+J01GA02|streptoduocin|1|g|P|
+J01GB01|tobramycin|0.112|g|Inhal.powder|
+J01GB01|tobramycin|0.3|g|Inhal.solution|
+J01GB01|tobramycin|0.24|g|P|
+J01GB03|gentamicin|0.24|g|P|
+J01GB04|kanamycin|1|g|P|
+J01GB05|neomycin|1|g|P|
+J01GB06|amikacin|0.59|g|Inhal.solution|
+J01GB06|amikacin|1|g|P|
+J01GB07|netilmicin|0.35|g|O|
+J01GB07|netilmicin|0.35|g|P|
+J01GB08|sisomicin|0.24|g|P|
+J01GB09|dibekacin|0.14|g|P|
+J01GB10|ribostamycin|1|g|P|
+J01GB11|isepamicin|0.4|g|P|
+J01GB12|arbekacin|0.2|g|P|
+J01GB13|bekanamycin|0.6|g|P|
+J01MA01|ofloxacin|0.4|g|O|
+J01MA01|ofloxacin|0.4|g|P|
+J01MA02|ciprofloxacin|1|g|O|
+J01MA02|ciprofloxacin|0.8|g|P|
+J01MA03|pefloxacin|0.8|g|O|
+J01MA03|pefloxacin|0.8|g|P|
+J01MA04|enoxacin|0.8|g|O|
+J01MA05|temafloxacin|0.8|g|O|
+J01MA06|norfloxacin|0.8|g|O|
+J01MA07|lomefloxacin|0.4|g|O|
+J01MA08|fleroxacin|0.4|g|O|
+J01MA08|fleroxacin|0.4|g|P|
+J01MA09|sparfloxacin|0.2|g|O|
+J01MA10|rufloxacin|0.2|g|O|
+J01MA11|grepafloxacin|0.4|g|O|
+J01MA12|levofloxacin|0.24|g|Inhal.solution|
+J01MA12|levofloxacin|0.5|g|O|
+J01MA12|levofloxacin|0.5|g|P|
+J01MA13|trovafloxacin|0.2|g|O|
+J01MA13|trovafloxacin|0.2|g|P|
+J01MA14|moxifloxacin|0.4|g|O|
+J01MA14|moxifloxacin|0.4|g|P|
+J01MA15|gemifloxacin|0.32|g|O|
+J01MA15|gemifloxacin|0.2|g|P|
+J01MA16|gatifloxacin|0.4|g|O|
+J01MA16|gatifloxacin|0.4|g|P|
+J01MA17|prulifloxacin|0.6|g|O|
+J01MA18|pazufloxacin|1|g|P|
+J01MA19|garenoxacin|0.4|g|O|
+J01MA21|sitafloxacin|0.1|g|O|
+J01MA22|tosufloxacin|0.45|g|O|
+J01MA23|delafloxacin|0.9|g|O|
+J01MA23|delafloxacin|0.6|g|P|
+J01MA25|lascufloxacin|75|mg|O|
+J01MB01|rosoxacin|0.3|g|O|
+J01MB02|nalidixic acid|4|g|O|
+J01MB03|piromidic acid|2|g|O|
+J01MB04|pipemidic acid|0.8|g|O|
+J01MB05|oxolinic acid|1|g|O|
+J01MB06|cinoxacin|1|g|O|
+J01MB07|flumequine|1.2|g|O|
+J01XA01|vancomycin|2|g|P|
+J01XA02|teicoplanin|0.4|g|P|
+J01XA04|dalbavancin|1.5|g|P|course dose
+J01XB01|colistin|3|MU|Inhal.powder|
+J01XB01|colistin|3|MU|Inhal.solution|
+J01XB01|colistin|9|MU|P|
+J01XB02|polymyxin B|0.15|g|P|
+J01XC01|fusidic acid|1.5|g|O|
+J01XC01|fusidic acid|1.5|g|P|
+J01XD01|metronidazole|1.5|g|P|
+J01XD02|tinidazole|1.5|g|P|
+J01XD03|ornidazole|1|g|P|
+J01XE01|nitrofurantoin|0.2|g|O|
+J01XE02|nifurtoinol|0.16|g|O|
+J01XE03|furazidin|0.3|g|O|
+J01XX01|fosfomycin|3|g|O|
+J01XX01|fosfomycin|8|g|P|
+J01XX03|clofoctol|1.5|g|R|
+J01XX04|spectinomycin|3|g|P|
+J01XX05|methenamine|2|g|O|hippurate
+J01XX05|methenamine|3|g|O|mandelate
+J01XX06|mandelic acid|12|g|O|
+J01XX07|nitroxoline|1|g|O|
+J01XX08|linezolid|1.2|g|O|
+J01XX08|linezolid|1.2|g|P|
+J01XX09|daptomycin|0.28|g|P|
+J01XX11|tedizolid|0.2|g|O|
+J01XX11|tedizolid|0.2|g|P|
+J02AA01|amphotericin B|35|mg|P|
+J02AA01|amphotericin B|210|mg|P|lipid formulations
+J02AB01|miconazole|1|g|P|
+J02AB02|ketoconazole|0.2|g|O|
+J02AC01|fluconazole|0.2|g|O|
+J02AC01|fluconazole|0.2|g|P|
+J02AC02|itraconazole|0.2|g|O|
+J02AC02|itraconazole|0.2|g|P|
+J02AC03|voriconazole|0.4|g|O|
+J02AC03|voriconazole|0.4|g|P|
+J02AC04|posaconazole|0.3|g|O|
+J02AC04|posaconazole|0.3|g|P|
+J02AC05|isavuconazole|0.2|g|O|
+J02AC05|isavuconazole|0.2|g|P|
+J02AC06|oteseconazole|21|mg|O|
+J02AX01|flucytosine|10|g|O|
+J02AX01|flucytosine|10|g|P|
+J02AX04|caspofungin|50|mg|P|
+J02AX05|micafungin|0.1|g|P|
+J02AX06|anidulafungin|0.1|g|P|
+J04AA01|4-aminosalicylic acid|12|g|O|
+J04AA02|sodium aminosalicylate|14|g|O|
+J04AA02|sodium aminosalicylate|14|g|P|
+J04AA03|calcium aminosalicylate|15|g|O|
+J04AB01|cycloserine|0.75|g|O|
+J04AB02|rifampicin|0.6|g|O|
+J04AB02|rifampicin|0.6|g|P|
+J04AB03|rifamycin|0.6|g|P|
+J04AB04|rifabutin|0.15|g|O|
+J04AB05|rifapentine|0.11|g|O|
+J04AB06|enviomycin|1|g|P|
+J04AB30|capreomycin|1|g|P|
+J04AC01|isoniazid|0.3|g|O|
+J04AC01|isoniazid|0.3|g|P|
+J04AD01|protionamide|0.75|g|O|
+J04AD02|tiocarlide|7|g|O|
+J04AD03|ethionamide|0.75|g|O|
+J04AK01|pyrazinamide|1.5|g|O|
+J04AK02|ethambutol|1.2|g|O|
+J04AK02|ethambutol|1.2|g|P|
+J04AK05|bedaquiline|86|mg|O|
+J04AK06|delamanid|0.2|g|O|
+J04AK08|pretomanid|0.2|g|O|
+J04BA01|clofazimine|0.1|g|O|
+J04BA02|dapsone|50|mg|O|
+J04BA03|aldesulfone sodium|0.33|g|O|
+J05AB01|aciclovir|4|g|O|
+J05AB01|aciclovir|4|g|P|
+J05AB03|vidarabine|0.7|g|P|
+J05AB06|ganciclovir|3|g|O|
+J05AB06|ganciclovir|0.5|g|P|
+J05AB09|famciclovir|0.75|g|O|
+J05AB11|valaciclovir|3|g|O|
+J05AB12|cidofovir|25|mg|P|
+J05AB14|valganciclovir|0.9|g|O|
+J05AB15|brivudine|0.125|g|O|
+J05AB16|remdesivir|0.12|g|P|
+J05AB18|molnupiravir|1.6|g|O|
+J05AC02|rimantadine|0.2|g|O|
+J05AD01|foscarnet|6.5|g|P|
+J05AE01|saquinavir|1.8|g|O|
+J05AE02|indinavir|2.4|g|O|
+J05AE03|ritonavir|1.2|g|O|
+J05AE04|nelfinavir|2.25|g|O|
+J05AE05|amprenavir|1.2|g|O|
+J05AE07|fosamprenavir|1.4|g|O|
+J05AE08|atazanavir|0.3|g|O|
+J05AE09|tipranavir|1|g|O|
+J05AE10|darunavir|1.2|g|O|
+J05AE16|ensitrelvir|0.175|g|O|
+J05AE30|nirmatrelvir and ritonavir|0.6|g|O|refers to nirmatrelvir
+J05AF01|zidovudine|0.6|g|O|
+J05AF01|zidovudine|0.6|g|P|
+J05AF02|didanosine|0.4|g|O|
+J05AF03|zalcitabine|2.25|mg|O|
+J05AF04|stavudine|80|mg|O|
+J05AF05|lamivudine|0.3|g|O|
+J05AF06|abacavir|0.6|g|O|
+J05AF07|tenofovir disoproxil|0.245|g|O|
+J05AF08|adefovir dipivoxil|10|mg|O|
+J05AF09|emtricitabine|0.2|g|O|
+J05AF10|entecavir|0.5|mg|O|
+J05AF11|telbivudine|0.6|g|O|
+J05AF12|clevudine|30|mg|O|
+J05AF13|tenofovir alafenamide|25|mg|O|
+J05AG01|nevirapine|0.4|g|O|
+J05AG02|delavirdine|1.2|g|O|
+J05AG03|efavirenz|0.6|g|O|
+J05AG04|etravirine|0.4|g|O|
+J05AG05|rilpivirine|25|mg|O|
+J05AG05|rilpivirine|15|mg|P|
+J05AG06|doravirine|0.1|g|O|
+J05AH01|zanamivir|20|mg|Inhal.powder|
+J05AH01|zanamivir|1.2|g|P|
+J05AH02|oseltamivir|0.15|g|O|
+J05AH03|peramivir|0.6|g|P|
+J05AH04|laninamivir|40|mg|Inhal.powder|
+J05AH04|laninamivir|0.16|g|Inhal.solution|
+J05AJ01|raltegravir|0.8|g|O|
+J05AJ03|dolutegravir|50|mg|O|
+J05AJ04|cabotegravir|30|mg|O|
+J05AJ04|cabotegravir|10|mg|P|
+J05AP01|ribavirin|6|g|Inhal.solution|
+J05AP01|ribavirin|1|g|O|
+J05AP02|telaprevir|2.25|g|O|
+J05AP03|boceprevir|2.4|g|O|
+J05AP05|simeprevir|0.15|g|O|
+J05AP06|asunaprevir|0.2|g|O|
+J05AP07|daclatasvir|60|mg|O|
+J05AP08|sofosbuvir|0.4|g|O|
+J05AP09|dasabuvir|0.5|g|O|
+J05AP10|elbasvir|50|mg|O|
+J05AP11|grazoprevir|0.1|g|O|
+J05AP13|ravidasvir|0.2|g|O|
+J05AR10|lopinavir and ritonavir|0.8|g|O|Refers to lopinavir
+J05AR23|atazanavir and ritonavir|0.3|g|O|Refers to atazanavir
+J05AX01|moroxydine|0.3|g|O|
+J05AX05|inosine pranobex|3|g|O|
+J05AX07|enfuvirtide|0.18|g|P|
+J05AX09|maraviroc|0.6|g|O|
+J05AX10|maribavir|0.8|g|O|
+J05AX13|umifenovir|0.8|g|O|
+J05AX17|enisamium iodide|1.5|g|O|
+J05AX18|letermovir|0.48|g|O|
+J05AX18|letermovir|0.48|g|P|
+J05AX19|tilorone|0.125|g|O|
+J05AX21|pentanedioic acid imidazolyl ethanamide|90|mg|O|
+J05AX24|tecovirimat|1.2|g|O|
+J05AX24|tecovirimat|0.4|g|P|
+J05AX25|baloxavir marboxil|40|mg|O|
+J05AX26|amenamevir|0.4|g|O|
+J05AX27|favipiravir|1.6|g|O|
+J05AX28|bulevirtide|2|mg|P|
+J05AX29|fostemsavir|1.2|g|O|
+J05AX31|lenacapavir|0.19|g|O|
+J05AX31|lenacapavir|5.1|mg|P|
+J05AX33|labuvirtide|45.7|mg|P|
+J06BC01|nebacumab|0.1|g|P|
+J06BD05|sotrovimab|0.5|g|P|
+L01EA01|imatinib|0.4|g|O|
+L01EA02|dasatinib|0.1|g|O|
+L01EA03|nilotinib|0.6|g|O|
+L01EA04|bosutinib|0.4|g|O|
+L01EA05|ponatinib|45|mg|O|
+L01EA06|asciminib|80|mg|O|
+L01EB01|gefitinib|0.25|g|O|
+L01EB02|erlotinib|0.15|g|O|
+L01EB03|afatinib|40|mg|O|
+L01EB04|osimertinib|80|mg|O|
+L01EB07|dacomitinib|45|mg|O|
+L01EC01|vemurafenib|1.92|g|O|
+L01EC02|dabrafenib|0.3|g|O|
+L01EC03|encorafenib|0.45|g|O|
+L01ED01|crizotinib|0.5|g|O|
+L01ED02|ceritinib|0.45|g|O|
+L01ED03|alectinib|1.2|g|O|
+L01ED04|brigatinib|0.18|g|O|
+L01ED05|lorlatinib|0.1|g|O|
+L01EE01|trametinib|2|mg|O|
+L01EE02|cobimetinib|45|mg|O|
+L01EE03|binimetinib|90|mg|O|
+L01EF01|palbociclib|94|mg|O|
+L01EF02|ribociclib|0.45|g|O|
+L01EF03|abemaciclib|0.3|g|O|
+L01EG01|temsirolimus|3.57|mg|P|
+L01EG02|everolimus|10|mg|O|
+L01EH01|lapatinib|1.25|g|O|
+L01EH02|neratinib|0.24|g|O|
+L01EH03|tucatinib|0.6|g|O|
+L01EJ01|ruxolitinib|30|mg|O|
+L01EJ02|fedratinib|0.4|g|O|
+L01EK01|axitinib|10|mg|O|
+L01EK03|tivozanib|1|mg|O|
+L01EL01|ibrutinib|0.42|g|O|
+L01EL02|acalabrutinib|0.2|g|O|
+L01EL03|zanubrutinib|0.32|g|O|
+L01EL04|orelabrutinib|0.15|g|O|
+L01EM01|idelalisib|0.3|g|O|
+L01EM02|copanlisib|6.43|mg|P|
+L01EM03|alpelisib|0.3|g|O|
+L01EM04|duvelisib|50|mg|O|
+L01EN01|erdafitinib|9|mg|O|
+L01EN02|pemigatinib|9|mg|O|
+L01EX01|sunitinib|33|mg|O|
+L01EX02|sorafenib|0.8|g|O|
+L01EX03|pazopanib|0.8|g|O|
+L01EX04|vandetanib|0.3|g|O|
+L01EX05|regorafenib|0.12|g|O|
+L01EX07|cabozantinib|60|mg|O|
+L01EX08|lenvatinib|20|mg|O|
+L01EX09|nintedanib|0.38|g|O|
+L01EX10|midostaurin|0.1|g|O|
+L01EX12|larotrectinib|0.2|g|O|
+L01EX13|gilteritinib|0.12|g|O|
+L01EX14|entrectinib|0.6|g|O|
+L01EX15|pexidartinib|0.5|g|O|
+L01EX17|capmatinib|0.8|g|O|
+L01EX18|avapritinib|0.3|g|O|
+L01EX19|ripretinib|0.15|g|O|
+L01EX21|tepotinib|0.45|g|O|
+L01EX22|selpercatinib|0.32|g|O|
+L01EX23|pralsetinib|0.4|g|O|
+L02AA01|diethylstilbestrol|3|mg|O|
+L02AA02|polyestradiol phosphate|6|mg|P|
+L02AA03|ethinylestradiol|1.5|mg|O|
+L02AA04|fosfestrol|0.25|g|O|
+L02AA04|fosfestrol|0.25|g|P|
+L02AB01|megestrol|0.16|g|O|
+L02AB02|medroxyprogesterone|1|g|O|
+L02AB02|medroxyprogesterone|1|g|P|
+L02AB03|gestonorone|40|mg|P|
+L02AE01|buserelin|0.11|mg|implant|
+L02AE01|buserelin|1.2|mg|N|
+L02AE01|buserelin|1.5|mg|P|
+L02AE02|leuprorelin|60|mcg|implant|
+L02AE02|leuprorelin|1|mg|P|
+L02AE02|leuprorelin|0.134|mg|P|depot inj
+L02AE03|goserelin|0.129|mg|implant|
+L02AE04|triptorelin|0.134|mg|P|depot inj
+L02AE04|triptorelin|0.1|mg|P|
+L02AE05|histrelin|0.137|mg|implant|
+L02BA01|tamoxifen|20|mg|O|
+L02BA02|toremifene|60|mg|O|
+L02BA03|fulvestrant|16.7|mg|P|
+L02BB01|flutamide|0.75|g|O|
+L02BB02|nilutamide|0.3|g|O|
+L02BB03|bicalutamide|50|mg|O|
+L02BB04|enzalutamide|0.16|g|O|
+L02BB05|apalutamide|0.24|g|O|
+L02BB06|darolutamide|1.2|g|O|
+L02BG01|aminoglutethimide|1|g|O|
+L02BG02|formestane|18|mg|P|
+L02BG03|anastrozole|1|mg|O|
+L02BG04|letrozole|2.5|mg|O|
+L02BG06|exemestane|25|mg|O|
+L02BX01|abarelix|3.6|mg|P|
+L02BX02|degarelix|2.7|mg|P|
+L02BX03|abiraterone|1|g|O|
+L03AA02|filgrastim|0.35|mg|P|
+L03AA03|molgramostim|0.35|mg|P|
+L03AA09|sargramostim|0.45|mg|P|
+L03AA10|lenograstim|0.35|mg|P|
+L03AA12|ancestim|1.4|mg|P|
+L03AA13|pegfilgrastim|0.3|mg|P|
+L03AA14|lipegfilgrastim|0.3|mg|P|
+L03AA17|pegteograstim|0.3|mg|P|
+L03AB01|interferon alfa natural|2|MU|P|
+L03AB02|interferon beta natural|33.33|TU|P|
+L03AB03|interferon gamma|40|mcg|P|
+L03AB04|interferon alfa-2a|2|MU|P|
+L03AB05|interferon alfa-2b|2|MU|P|
+L03AB06|interferon alfa-n1|5|MU|P|
+L03AB07|interferon beta-1a|4.3|mcg|P|
+L03AB08|interferon beta-1b|4|MU|P|
+L03AB09|interferon alfacon-1|4|mcg|P|
+L03AB10|peginterferon alfa-2b|7.5|mcg|P|
+L03AB11|peginterferon alfa-2a|26|mcg|P|
+L03AB13|peginterferon beta-1a|8.9|mcg|P|
+L03AB14|cepeginterferon alfa-2b|17|mcg|P|
+L03AC01|aldesleukin|0.2|mg|P|
+L03AC02|oprelvekin|3.5|mg|P|
+L03AX01|lentinan|0.3|mg|O|
+L03AX01|lentinan|0.3|mg|P|
+L03AX03|BCG vaccine|1.8|mg|intravesical|
+L03AX05|pidotimod|1.6|g|O|
+L03AX10|immunocyanin|3|mg|intravesical|
+L03AX11|tasonermin|3.5|mg|P|
+L03AX13|glatiramer acetate|20|mg|P|
+L03AX14|histamine dihydrochloride|0.5|mg|P|
+L03AX15|mifamurtide|0.7|mg|P|
+L03AX16|plerixafor|16.8|mg|P|
+L04AA03|antilymphocyte immunoglobulin (horse)|1.05|g|P|
+L04AA04|antithymocyte immunoglobulin (rabbit)|0.1|g|P|
+L04AA06|mycophenolic acid|2|g|O|as mycophenolate mofetil
+L04AA06|mycophenolic acid|2|g|P|as mycophenolate mofetil
+L04AA24|abatacept|27|mg|P|
+L04AA28|belatacept|12.5|mg|P|
+L04AA32|apremilast|60|mg|O|
+L04AA40|cladribine|0.34|mg|O|
+L04AA41|imlifidase|17.5|mg|P|course dose
+L04AB01|etanercept|7|mg|P|
+L04AB02|infliximab|3.75|mg|P|
+L04AB04|adalimumab|2.9|mg|P|
+L04AB05|certolizumab pegol|14|mg|P|
+L04AB06|golimumab|1.66|mg|P|
+L04AB07|opinercept|7|mg|P|
+L04AC01|daclizumab|5|mg|P|
+L04AC02|basiliximab|40|mg|P|course dose
+L04AC03|anakinra|0.1|g|P|
+L04AC04|rilonacept|23|mg|P|
+L04AC05|ustekinumab|0.54|mg|P|
+L04AC07|tocilizumab|20|mg|P|
+L04AC08|canakinumab|2.7|mg|P|
+L04AC10|secukinumab|10|mg|P|
+L04AC11|siltuximab|37|mg|P|
+L04AC12|brodalumab|15|mg|P|
+L04AC13|ixekizumab|2.9|mg|P|
+L04AC14|sarilumab|14.3|mg|P|
+L04AC16|guselkumab|1.79|mg|P|
+L04AC17|tildrakizumab|1.11|mg|P|
+L04AC18|risankizumab|1.67|mg|P|
+L04AC19|satralizumab|4.3|mg|P|
+L04AC21|bimekizumab|5.7|mg|P|
+L04AC22|spesolimab|0.9|g|P|course dose
+L04AC24|mirikizumab|7.1|mg|P|
+L04AD01|ciclosporin|0.25|g|O|
+L04AD01|ciclosporin|0.25|g|P|
+L04AD02|tacrolimus|5|mg|O|
+L04AD02|tacrolimus|5|mg|P|
+L04AD03|voclosporin|47.4|mg|O|
+L04AE01|fingolimod|0.5|mg|O|
+L04AE02|ozanimod|0.92|mg|O|
+L04AE04|ponesimod|20|mg|O|
+L04AF01|tofacitinib|10|mg|O|
+L04AF02|baricitinib|3|mg|O|
+L04AF03|upadacitinib|15|mg|O|
+L04AF04|filgotinib|0.2|g|O|
+L04AF07|deucravacitinib|6|mg|O|
+L04AF08|ritlecitinib|50|mg|O|
+L04AG01|muromonab-CD3|5|mg|P|
+L04AG02|efalizumab|10|mg|P|
+L04AG03|natalizumab|10|mg|P|
+L04AG04|belimumab|25|mg|P|
+L04AG05|vedolizumab|5.4|mg|P|
+L04AG06|alemtuzumab|0.13|mg|P|
+L04AG08|ocrelizumab|3.29|mg|P|
+L04AG11|anifrolumab|10.7|mg|P|
+L04AG12|ofatumumab|0.67|mg|P|
+L04AH01|sirolimus|3|mg|O|
+L04AH02|everolimus|1.5|mg|O|
+L04AJ01|eculizumab|64|mg|P|
+L04AJ02|ravulizumab|70|mg|P|
+L04AJ03|pegcetacoplan|0.3|g|P|
+L04AJ04|sutimlimab|0.46|g|P|
+L04AJ05|avacopan|60|mg|O|
+L04AK01|leflunomide|20|mg|O|
+L04AK02|teriflunomide|14|mg|O|
+L04AX01|azathioprine|0.15|g|O|
+L04AX01|azathioprine|0.15|g|P|
+L04AX02|thalidomide|0.1|g|O|
+L04AX03|methotrexate|2.5|mg|O|
+L04AX03|methotrexate|2.5|mg|P|
+L04AX04|lenalidomide|10|mg|O|
+L04AX05|pirfenidone|2.4|g|O|
+L04AX06|pomalidomide|3|mg|O|
+L04AX07|dimethyl fumarate|0.48|g|O|
+L04AX09|diroximel fumarate|0.924|g|O|
+M01AA01|phenylbutazone|0.3|g|O|
+M01AA01|phenylbutazone|0.3|g|P|
+M01AA01|phenylbutazone|0.3|g|R|
+M01AA02|mofebutazone|0.75|g|O|
+M01AA02|mofebutazone|0.75|g|P|
+M01AA03|oxyphenbutazone|0.3|g|O|
+M01AA03|oxyphenbutazone|0.3|g|R|
+M01AA05|clofezone|0.6|g|O|
+M01AA05|clofezone|0.6|g|R|
+M01AB01|indometacin|0.1|g|O|
+M01AB01|indometacin|0.1|g|P|
+M01AB01|indometacin|0.1|g|R|
+M01AB02|sulindac|0.4|g|O|
+M01AB02|sulindac|0.4|g|P|
+M01AB02|sulindac|0.4|g|R|
+M01AB03|tolmetin|0.7|g|O|
+M01AB03|tolmetin|0.7|g|R|
+M01AB04|zomepirac|0.3|g|O|
+M01AB05|diclofenac|0.1|g|O|
+M01AB05|diclofenac|0.1|g|P|
+M01AB05|diclofenac|0.1|g|R|
+M01AB06|alclofenac|1.25|g|O|
+M01AB06|alclofenac|1.25|g|R|
+M01AB07|bumadizone|0.4|g|O|
+M01AB08|etodolac|0.4|g|O|
+M01AB09|lonazolac|0.6|g|O|
+M01AB11|acemetacin|0.12|g|O|
+M01AB15|ketorolac|30|mg|O|
+M01AB15|ketorolac|30|mg|P|
+M01AB16|aceclofenac|0.2|g|O|
+M01AB51|indometacin, combinations|0.1|g|O|Refers to indometacin
+M01AB51|indometacin, combinations|0.1|g|R|Refers to indometacin
+M01AB55|diclofenac, combinations|0.1|g|O|Refers to diclofenac
+M01AC01|piroxicam|20|mg|O|
+M01AC01|piroxicam|20|mg|P|
+M01AC01|piroxicam|20|mg|R|
+M01AC02|tenoxicam|20|mg|O|
+M01AC02|tenoxicam|20|mg|P|
+M01AC02|tenoxicam|20|mg|R|
+M01AC05|lornoxicam|12|mg|O|
+M01AC05|lornoxicam|12|mg|P|
+M01AC05|lornoxicam|12|mg|R|
+M01AC06|meloxicam|15|mg|O|
+M01AC06|meloxicam|15|mg|P|
+M01AC06|meloxicam|15|mg|R|
+M01AE01|ibuprofen|1.2|g|O|
+M01AE01|ibuprofen|1.2|g|P|
+M01AE01|ibuprofen|1.2|g|R|
+M01AE02|naproxen|0.5|g|O|
+M01AE02|naproxen|0.5|g|R|
+M01AE03|ketoprofen|0.15|g|O|
+M01AE03|ketoprofen|0.15|g|P|
+M01AE03|ketoprofen|0.15|g|R|
+M01AE04|fenoprofen|1.2|g|O|
+M01AE05|fenbufen|0.6|g|O|
+M01AE07|suprofen|0.4|g|O|
+M01AE08|pirprofen|0.8|g|O|
+M01AE09|flurbiprofen|0.2|g|O|
+M01AE09|flurbiprofen|0.2|g|R|
+M01AE11|tiaprofenic acid|0.6|g|O|
+M01AE11|tiaprofenic acid|0.6|g|R|
+M01AE12|oxaprozin|0.9|g|O|
+M01AE14|dexibuprofen|0.8|g|O|
+M01AE17|dexketoprofen|75|mg|O|
+M01AE17|dexketoprofen|75|mg|P|
+M01AE20|pelubiprofen|90|mg|O|
+M01AE52|naproxen and esomeprazole|0.5|g|O|Refers to naproxen
+M01AG01|mefenamic acid|1|g|O|
+M01AG02|tolfenamic acid|0.3|g|O|
+M01AG02|tolfenamic acid|0.3|g|R|
+M01AG03|flufenamic acid|0.5|g|O|
+M01AH01|celecoxib|0.2|g|O|
+M01AH02|rofecoxib|25|mg|O|
+M01AH03|valdecoxib|10|mg|O|
+M01AH04|parecoxib|40|mg|P|
+M01AH05|etoricoxib|60|mg|O|
+M01AH06|lumiracoxib|0.1|g|O|
+M01AX01|nabumetone|1|g|O|
+M01AX02|niflumic acid|0.75|g|O|
+M01AX04|azapropazone|0.75|g|O|
+M01AX05|glucosamine|1.5|g|O|Refers to glucosamine sulfate
+M01AX07|benzydamine|0.15|g|O|
+M01AX07|benzydamine|0.15|g|R|
+M01AX12|glucosaminoglycan polysulfate|50|mg|P|
+M01AX13|proquazone|0.9|g|O|
+M01AX13|proquazone|0.9|g|R|
+M01AX17|nimesulide|0.2|g|O|
+M01CA03|oxycinchophen|1.5|g|O|
+M01CB01|sodium aurothiomalate|2.4|mg|P|
+M01CB02|sodium aurotiosulfate|14|mg|P|
+M01CB03|auranofin|6|mg|O|
+M01CB04|aurothioglucose|2.4|mg|P|
+M01CC01|penicillamine|0.5|g|O|
+M03BA01|phenprobamate|1.6|g|O|
+M03BA02|carisoprodol|1.4|g|O|
+M03BA03|methocarbamol|3|g|O|
+M03BA03|methocarbamol|3|g|P|
+M03BA04|styramate|0.5|g|O|
+M03BA05|febarbamate|0.3|g|O|
+M03BB02|chlormezanone|0.6|g|O|
+M03BB03|chlorzoxazone|1.5|g|O|
+M03BC01|orphenadrine (citrate)|0.12|g|O|
+M03BC01|orphenadrine (citrate)|0.12|g|P|
+M03BX01|baclofen|50|mg|O|
+M03BX01|baclofen|0.55|mg|P|
+M03BX02|tizanidine|12|mg|O|
+M03BX03|pridinol|6|mg|O|
+M03BX04|tolperisone|0.2|g|O|
+M03BX09|eperisone|0.15|g|O|
+M03BX30|fenyramidol|2|g|O|
+M03CA01|dantrolene|0.1|g|O|
+M04AA01|allopurinol|0.4|g|O|
+M04AA01|allopurinol|0.4|g|P|
+M04AA03|febuxostat|80|mg|O|
+M04AB01|probenecid|1|g|O|
+M04AB02|sulfinpyrazone|0.3|g|O|
+M04AB03|benzbromarone|0.1|g|O|
+M04AB05|lesinurad|0.2|g|O|
+M04AC01|colchicine|1|mg|O|
+M04AC01|colchicine|1|mg|P|
+M04AC02|cinchophen|1|g|O|
+M04AX02|pegloticase|0.57|mg|P|
+M05BA01|etidronic acid|0.4|g|O|
+M05BA01|etidronic acid|1.5|g|P|course dose
+M05BA02|clodronic acid|1.6|g|O|
+M05BA02|clodronic acid|1.5|g|P|course dose
+M05BA03|pamidronic acid|60|mg|P|course dose
+M05BA04|alendronic acid|10|mg|O|
+M05BA05|tiludronic acid|0.4|g|O|
+M05BA06|ibandronic acid|5|mg|O|
+M05BA06|ibandronic acid|6|mg|P|course dose
+M05BA07|risedronic acid|5|mg|O|
+M05BA08|zoledronic acid|4|mg|P|course dose
+M05BB01|etidronic acid and calcium, sequential|0.4|g|O|Refers to etidronic acid
+M05BB03|alendronic acid and colecalciferol|10|mg|O|Refers to alendronic acid
+M05BB04|risedronic acid, calcium and colecalciferol, sequential|5|mg|O|Refers to risedronic acid
+M05BB05|alendronic acid, calcium and colecalciferol, sequential|10|mg|O|Refers to alendronic acid
+M05BB06|alendronic acid and alfacalcidol, sequential|10|mg|O|Refers to alendronic acid
+M05BX03|strontium ranelate|2|g|O|
+M05BX04|denosumab|0.33|mg|P|
+M05BX05|burosumab|2.5|mg|P|
+M05BX06|romosozumab|7|mg|P|
+M09AA01|hydroquinine|0.2|g|O|
+M09AB02|collagenase clostridium histolyticum|0.9|mg|P|
+M09AX01|hyaluronic acid|3.6|mg|P|intraarticular
+M09AX03|ataluren|2.8|g|O|
+M09AX07|nusinersen|0.1|mg|P|
+M09AX10|risdiplam|5|mg|O|
+N02AA01|morphine|0.1|g|O|
+N02AA01|morphine|30|mg|P|
+N02AA01|morphine|30|mg|R|
+N02AA03|hydromorphone|20|mg|O|
+N02AA03|hydromorphone|4|mg|P|
+N02AA03|hydromorphone|4|mg|R|
+N02AA04|nicomorphine|30|mg|O|
+N02AA04|nicomorphine|30|mg|P|
+N02AA04|nicomorphine|30|mg|R|
+N02AA05|oxycodone|75|mg|O|
+N02AA05|oxycodone|30|mg|P|
+N02AA08|dihydrocodeine|0.15|g|O|
+N02AA55|oxycodone and naloxone|75|mg|O|Refers to oxycodone
+N02AB01|ketobemidone|50|mg|O|
+N02AB01|ketobemidone|50|mg|P|
+N02AB02|pethidine|0.4|g|O|
+N02AB02|pethidine|0.4|g|P|
+N02AB02|pethidine|0.4|g|R|
+N02AB03|fentanyl|0.6|mg|N|
+N02AB03|fentanyl|0.6|mg|SL|
+N02AB03|fentanyl|1.2|mg|TD|
+N02AC01|dextromoramide|20|mg|O|
+N02AC01|dextromoramide|20|mg|P|
+N02AC01|dextromoramide|40|mg|R|
+N02AC03|piritramide|45|mg|P|
+N02AC04|dextropropoxyphene|0.2|g|O|chloride
+N02AC04|dextropropoxyphene|0.3|g|O|napsylate
+N02AC05|bezitramide|15|mg|O|
+N02AD01|pentazocine|0.2|g|O|
+N02AD01|pentazocine|0.2|g|P|
+N02AD02|phenazocine|3|mg|P|
+N02AE01|buprenorphine|1.2|mg|P|
+N02AE01|buprenorphine|1.2|mg|SL|
+N02AE01|buprenorphine|1.2|mg|TD|
+N02AF01|butorphanol|12|mg|P|
+N02AF02|nalbuphine|80|mg|P|
+N02AX01|tilidine|0.2|g|O|
+N02AX01|tilidine|0.2|g|P|
+N02AX02|tramadol|0.3|g|O|
+N02AX02|tramadol|0.3|g|P|
+N02AX02|tramadol|0.3|g|R|
+N02AX05|meptazinol|1.2|g|O|
+N02AX05|meptazinol|1.2|g|P|
+N02AX06|tapentadol|0.4|g|O|
+N02BA01|acetylsalicylic acid|3|g|O|
+N02BA01|acetylsalicylic acid|1|g|P|Expressed as lysine acetylsalisylate
+N02BA01|acetylsalicylic acid|3|g|R|
+N02BA02|aloxiprin|3|g|O|
+N02BA03|choline salicylate|3|g|O|
+N02BA04|sodium salicylate|3|g|O|
+N02BA05|salicylamide|3|g|O|
+N02BA06|salsalate|3|g|O|
+N02BA07|ethenzamide|3|g|O|
+N02BA09|dipyrocetyl|3|g|O|
+N02BA10|benorilate|3|g|O|
+N02BA11|diflunisal|0.75|g|O|
+N02BA12|potassium salicylate|7|g|O|
+N02BA15|carbasalate calcium|3.6|g|O|
+N02BB01|phenazone|3|g|O|
+N02BB02|metamizole sodium|3|g|O|
+N02BB02|metamizole sodium|3|g|P|
+N02BB02|metamizole sodium|3|g|R|
+N02BB03|aminophenazone|0.5|g|R|
+N02BB04|propyphenazone|3|g|R|
+N02BB51|phenazone, combinations excl. psycholeptics|3|g|O|Refers to phenazone
+N02BB54|propyphenazone, combinations excl. psycholeptics|3|g|O|Refers to propyphenazone
+N02BE01|paracetamol|3|g|O|
+N02BE01|paracetamol|3|g|P|
+N02BE01|paracetamol|3|g|R|
+N02BE03|phenacetin|1.8|g|O|
+N02BE05|propacetamol|6|g|P|
+N02BF01|gabapentin|1.8|g|O|
+N02BF02|pregabalin|0.3|g|O|
+N02BF03|mirogabalin|25|mg|O|
+N02BG02|rimazolium|0.9|g|O|
+N02BG03|glafenine|0.8|g|O|
+N02BG04|floctafenine|1|g|O|
+N02BG07|flupirtine|0.4|g|O|
+N02BG08|ziconotide|12|mcg|P|
+N02CA01|dihydroergotamine|1|mg|N|
+N02CA01|dihydroergotamine|4|mg|O|
+N02CA01|dihydroergotamine|4|mg|P|
+N02CA02|ergotamine|4|mg|Inhal.aerosol|
+N02CA02|ergotamine|4|mg|O|
+N02CA02|ergotamine|4|mg|P|
+N02CA02|ergotamine|4|mg|R|
+N02CA02|ergotamine|4|mg|SL|
+N02CA04|methysergide|4|mg|O|
+N02CA52|ergotamine, combinations excl. psycholeptics|4|mg|O|Refers to ergotamine
+N02CA72|ergotamine, combinations with psycholeptics|4|mg|O|Refers to ergotamine
+N02CB01|flumedroxone|20|mg|O|
+N02CC01|sumatriptan|20|mg|N|
+N02CC01|sumatriptan|50|mg|O|
+N02CC01|sumatriptan|6|mg|P|
+N02CC01|sumatriptan|25|mg|R|
+N02CC02|naratriptan|2.5|mg|O|
+N02CC03|zolmitriptan|2.5|mg|N|
+N02CC03|zolmitriptan|2.5|mg|O|
+N02CC04|rizatriptan|10|mg|O|
+N02CC05|almotriptan|12.5|mg|O|
+N02CC06|eletriptan|40|mg|O|
+N02CC07|frovatriptan|2.5|mg|O|
+N02CC08|lasmiditan|0.1|g|O|
+N02CD01|erenumab|2.5|mg|P|
+N02CD02|galcanezumab|4|mg|P|
+N02CD03|fremanezumab|7.5|mg|P|
+N02CD05|eptinezumab|1.1|mg|P|
+N02CD06|rimegepant|37.5|mg|O|
+N02CD07|atogepant|60|mg|O|
+N02CX01|pizotifen|1.5|mg|O|
+N02CX02|clonidine|0.1|mg|O|
+N02CX03|iprazochrome|24|mg|O|
+N03AA01|methylphenobarbital|0.5|g|O|
+N03AA02|phenobarbital|0.1|g|O|
+N03AA02|phenobarbital|0.1|g|P|
+N03AA03|primidone|1.25|g|O|
+N03AA30|metharbital|0.2|g|O|
+N03AB01|ethotoin|2.5|g|O|
+N03AB02|phenytoin|0.3|g|O|
+N03AB02|phenytoin|0.3|g|P|
+N03AB03|amino(diphenylhydantoin) valeric acid|0.3|g|O|
+N03AB04|mephenytoin|0.4|g|O|
+N03AB05|fosphenytoin|0.45|g|P|
+N03AC01|paramethadione|0.9|g|O|
+N03AC02|trimethadione|1.5|g|O|
+N03AD01|ethosuximide|1.25|g|O|
+N03AD02|phensuximide|2|g|O|
+N03AD03|mesuximide|0.9|g|O|
+N03AE01|clonazepam|8|mg|O|
+N03AE01|clonazepam|8|mg|P|
+N03AF01|carbamazepine|1|g|O|
+N03AF01|carbamazepine|1|g|R|
+N03AF02|oxcarbazepine|1|g|O|
+N03AF03|rufinamide|1.4|g|O|
+N03AF04|eslicarbazepine|0.8|g|O|
+N03AG01|valproic acid|1.5|g|O|
+N03AG01|valproic acid|1.5|g|P|
+N03AG01|valproic acid|1.5|g|R|
+N03AG02|valpromide|1.5|g|O|
+N03AG03|aminobutyric acid|1|g|O|
+N03AG03|aminobutyric acid|1|g|P|
+N03AG04|vigabatrin|2|g|O|
+N03AG06|tiagabine|30|mg|O|
+N03AX03|sultiame|0.4|g|O|
+N03AX07|phenacemide|1.5|g|O|
+N03AX09|lamotrigine|0.3|g|O|
+N03AX10|felbamate|2.4|g|O|
+N03AX11|topiramate|0.3|g|O|
+N03AX14|levetiracetam|1.5|g|O|
+N03AX14|levetiracetam|1.5|g|P|
+N03AX15|zonisamide|0.2|g|O|
+N03AX17|stiripentol|1|g|O|
+N03AX18|lacosamide|0.3|g|O|
+N03AX18|lacosamide|0.3|g|P|
+N03AX21|retigabine|0.9|g|O|
+N03AX22|perampanel|8|mg|O|
+N03AX23|brivaracetam|0.1|g|O|
+N03AX23|brivaracetam|0.1|g|P|
+N03AX24|cannabidiol|0.7|g|O|
+N03AX25|cenobamate|0.2|g|O|
+N03AX26|fenfluramine|8|mg|O|
+N04AA01|trihexyphenidyl|10|mg|O|
+N04AA02|biperiden|10|mg|O|
+N04AA02|biperiden|10|mg|P|
+N04AA03|metixene|40|mg|O|
+N04AA04|procyclidine|25|mg|O|
+N04AA04|procyclidine|25|mg|P|
+N04AA08|dexetimide|0.5|mg|O|
+N04AA08|dexetimide|0.125|mg|P|
+N04AB02|orphenadrine (chloride)|0.2|g|O|
+N04AB02|orphenadrine (chloride)|0.2|g|P|
+N04AC01|benzatropine|2|mg|O|
+N04AC01|benzatropine|2|mg|P|
+N04AC30|etybenzatropine|9|mg|O|
+N04BA01|levodopa|3.5|g|O|
+N04BA02|levodopa and decarboxylase inhibitor|0.6|g|O|Refers to levodopa
+N04BA03|levodopa, decarboxylase inhibitor and COMT inhibitor|0.45|g|O|Refers to levodopa
+N04BB01|amantadine|0.2|g|O|
+N04BC01|bromocriptine|40|mg|O|
+N04BC02|pergolide|3|mg|O|
+N04BC04|ropinirole|6|mg|O|
+N04BC05|pramipexole|2.5|mg|O|hydrochloride
+N04BC06|cabergoline|3|mg|O|
+N04BC07|apomorphine|20|mg|P|
+N04BC08|piribedil|0.2|g|O|
+N04BC09|rotigotine|6|mg|TD|patch
+N04BD01|selegiline|5|mg|O|
+N04BD02|rasagiline|1|mg|O|
+N04BD03|safinamide|75|mg|O|
+N04BX01|tolcapone|0.45|g|O|
+N04BX02|entacapone|1|g|O|
+N04BX04|opicapone|50|mg|O|
+N05AA01|chlorpromazine|0.3|g|O|
+N05AA01|chlorpromazine|0.1|g|P|
+N05AA01|chlorpromazine|0.3|g|R|
+N05AA02|levomepromazine|0.3|g|O|
+N05AA02|levomepromazine|0.1|g|P|
+N05AA03|promazine|0.3|g|O|
+N05AA03|promazine|0.1|g|P|
+N05AA04|acepromazine|0.1|g|O|
+N05AA04|acepromazine|50|mg|P|
+N05AA05|triflupromazine|0.1|g|O|
+N05AA05|triflupromazine|0.1|g|P|
+N05AB01|dixyrazine|50|mg|O|
+N05AB01|dixyrazine|30|mg|P|
+N05AB02|fluphenazine|10|mg|O|
+N05AB02|fluphenazine|1|mg|P|depot
+N05AB03|perphenazine|30|mg|O|
+N05AB03|perphenazine|7|mg|P|depot
+N05AB03|perphenazine|10|mg|P|
+N05AB03|perphenazine|16|mg|R|
+N05AB04|prochlorperazine|0.1|g|O|
+N05AB04|prochlorperazine|50|mg|P|
+N05AB04|prochlorperazine|0.1|g|R|
+N05AB05|thiopropazate|60|mg|O|
+N05AB06|trifluoperazine|20|mg|O|
+N05AB06|trifluoperazine|8|mg|P|
+N05AB06|trifluoperazine|20|mg|R|
+N05AB07|acetophenazine|50|mg|O|
+N05AB08|thioproperazine|75|mg|O|
+N05AB08|thioproperazine|20|mg|P|
+N05AB09|butaperazine|10|mg|O|
+N05AB10|perazine|0.1|g|O|
+N05AB10|perazine|0.1|g|P|
+N05AC01|periciazine|50|mg|O|
+N05AC01|periciazine|20|mg|P|
+N05AC02|thioridazine|0.3|g|O|
+N05AC03|mesoridazine|0.2|g|O|
+N05AC03|mesoridazine|0.2|g|P|
+N05AC04|pipotiazine|10|mg|O|
+N05AC04|pipotiazine|5|mg|P|depot
+N05AD01|haloperidol|8|mg|O|
+N05AD01|haloperidol|8|mg|P|
+N05AD01|haloperidol|3.3|mg|P|depot
+N05AD02|trifluperidol|2|mg|O|
+N05AD03|melperone|0.3|g|O|
+N05AD03|melperone|0.3|g|P|
+N05AD04|moperone|20|mg|O|
+N05AD04|moperone|20|mg|P|
+N05AD05|pipamperone|0.2|g|O|
+N05AD06|bromperidol|10|mg|O|
+N05AD06|bromperidol|10|mg|P|
+N05AD06|bromperidol|3.3|mg|P|depot
+N05AD07|benperidol|1.5|mg|O|
+N05AD08|droperidol|2.5|mg|P|
+N05AE01|oxypertine|0.12|g|O|
+N05AE02|molindone|50|mg|O|
+N05AE03|sertindole|16|mg|O|
+N05AE04|ziprasidone|80|mg|O|
+N05AE04|ziprasidone|40|mg|P|
+N05AE05|lurasidone|60|mg|O|as hydrochloride
+N05AF01|flupentixol|6|mg|O|
+N05AF01|flupentixol|4|mg|P|depot
+N05AF02|clopenthixol|0.1|g|O|
+N05AF02|clopenthixol|0.1|g|P|
+N05AF03|chlorprothixene|0.3|g|O|
+N05AF03|chlorprothixene|50|mg|P|
+N05AF04|tiotixene|30|mg|O|
+N05AF05|zuclopenthixol|30|mg|O|
+N05AF05|zuclopenthixol|15|mg|P|depot
+N05AF05|zuclopenthixol|30|mg|P|
+N05AG01|fluspirilene|0.7|mg|P|depot
+N05AG02|pimozide|4|mg|O|
+N05AG03|penfluridol|6|mg|O|
+N05AH01|loxapine|9.1|mg|Inhal.powder|delivered dose
+N05AH01|loxapine|0.1|g|O|
+N05AH02|clozapine|0.3|g|O|
+N05AH02|clozapine|0.3|g|P|
+N05AH03|olanzapine|10|mg|O|
+N05AH03|olanzapine|10|mg|P|
+N05AH03|olanzapine|10|mg|P|depot
+N05AH04|quetiapine|0.4|g|O|
+N05AH05|asenapine|20|mg|SL|
+N05AH06|clotiapine|80|mg|O|
+N05AH06|clotiapine|80|mg|P|
+N05AL01|sulpiride|0.8|g|O|
+N05AL01|sulpiride|0.8|g|P|
+N05AL02|sultopride|1.2|g|O|
+N05AL03|tiapride|0.4|g|O|
+N05AL03|tiapride|0.4|g|P|
+N05AL04|remoxipride|0.3|g|O|
+N05AL04|remoxipride|0.3|g|P|
+N05AL05|amisulpride|0.4|g|O|
+N05AL05|amisulpride|7.5|mg|P|
+N05AL07|levosulpiride|0.4|g|O|
+N05AN01|lithium|24|mmol|O|
+N05AX07|prothipendyl|0.24|g|O|
+N05AX07|prothipendyl|0.24|g|P|
+N05AX08|risperidone|5|mg|O|
+N05AX08|risperidone|2.7|mg|P|depot
+N05AX11|zotepine|0.2|g|O|
+N05AX12|aripiprazole|15|mg|O|
+N05AX12|aripiprazole|15|mg|P|
+N05AX12|aripiprazole|13.3|mg|P|depot
+N05AX13|paliperidone|6|mg|O|
+N05AX13|paliperidone|2.5|mg|P|depot    Expressed as paliperidone
+N05AX14|iloperidone|18|mg|O|
+N05AX15|cariprazine|3|mg|O|
+N05AX16|brexpiprazole|3|mg|O|
+N05BA01|diazepam|10|mg|O|
+N05BA01|diazepam|10|mg|P|
+N05BA01|diazepam|10|mg|R|
+N05BA02|chlordiazepoxide|30|mg|O|
+N05BA02|chlordiazepoxide|50|mg|P|
+N05BA03|medazepam|20|mg|O|
+N05BA04|oxazepam|50|mg|O|
+N05BA05|potassium clorazepate|20|mg|O|
+N05BA06|lorazepam|2.5|mg|O|
+N05BA06|lorazepam|2.5|mg|P|
+N05BA06|lorazepam|2.5|mg|SL|
+N05BA08|bromazepam|10|mg|O|
+N05BA09|clobazam|20|mg|O|
+N05BA11|prazepam|30|mg|O|
+N05BA12|alprazolam|1|mg|O|
+N05BA13|halazepam|0.1|g|O|
+N05BA15|camazepam|30|mg|O|
+N05BA16|nordazepam|15|mg|O|
+N05BA17|fludiazepam|0.75|mg|O|
+N05BA18|ethyl loflazepate|2|mg|O|
+N05BA24|bentazepam|75|mg|O|
+N05BB01|hydroxyzine|75|mg|O|
+N05BB01|hydroxyzine|75|mg|P|
+N05BB02|captodiame|0.2|g|O|
+N05BC01|meprobamate|1.2|g|O|
+N05BC03|emylcamate|0.9|g|O|
+N05BD01|benzoctamine|30|mg|O|
+N05BD01|benzoctamine|30|mg|P|
+N05BE01|buspirone|30|mg|O|
+N05BX01|mephenoxalone|1.2|g|O|
+N05BX04|fabomotizole|30|mg|O|
+N05CA01|pentobarbital|0.1|g|O|
+N05CA01|pentobarbital|0.1|g|P|
+N05CA01|pentobarbital|0.1|g|R|
+N05CA02|amobarbital|0.1|g|O|
+N05CA02|amobarbital|0.1|g|P|
+N05CA03|butobarbital|0.15|g|O|
+N05CA04|barbital|0.5|g|O|
+N05CA05|aprobarbital|0.1|g|O|
+N05CA05|aprobarbital|0.1|g|P|
+N05CA06|secobarbital|0.1|g|O|
+N05CA07|talbutal|0.1|g|O|
+N05CA08|vinylbital|0.15|g|O|
+N05CA09|vinbarbital|0.1|g|O|
+N05CA10|cyclobarbital|0.2|g|O|
+N05CA11|heptabarbital|0.2|g|O|
+N05CA12|reposal|0.2|g|O|
+N05CA16|hexobarbital|0.25|g|O|
+N05CC01|chloral hydrate|1|g|O|
+N05CC01|chloral hydrate|1|g|R|
+N05CC02|chloralodol|1.6|g|O|
+N05CC03|acetylglycinamide chloral hydrate|1.7|g|O|
+N05CC04|dichloralphenazone|1.3|g|O|
+N05CC05|paraldehyde|5|g|O|
+N05CC05|paraldehyde|5|g|P|
+N05CC05|paraldehyde|5|g|R|
+N05CD01|flurazepam|30|mg|O|
+N05CD02|nitrazepam|5|mg|O|
+N05CD03|flunitrazepam|1|mg|O|
+N05CD03|flunitrazepam|1|mg|P|
+N05CD04|estazolam|3|mg|O|
+N05CD05|triazolam|0.25|mg|O|
+N05CD05|triazolam|0.2|mg|SL|
+N05CD06|lormetazepam|1|mg|O|
+N05CD07|temazepam|20|mg|O|
+N05CD08|midazolam|5|mg|N|
+N05CD08|midazolam|15|mg|O|
+N05CD08|midazolam|15|mg|P|
+N05CD08|midazolam|10|mg|SL|
+N05CD09|brotizolam|0.25|mg|O|
+N05CD10|quazepam|15|mg|O|
+N05CD11|loprazolam|1|mg|O|
+N05CE01|glutethimide|0.25|g|O|
+N05CE02|methyprylon|0.2|g|O|
+N05CE03|pyrithyldione|0.2|g|O|
+N05CF01|zopiclone|7.5|mg|O|
+N05CF02|zolpidem|10|mg|O|
+N05CF03|zaleplon|10|mg|O|
+N05CF04|eszopiclone|2|mg|O|
+N05CH01|melatonin|2|mg|O|
+N05CM01|methaqualone|0.2|g|O|
+N05CM02|clomethiazole|1.5|g|O|
+N05CM02|clomethiazole|1.5|g|P|
+N05CM03|bromisoval|0.6|g|O|
+N05CM04|carbromal|1|g|O|
+N05CM05|scopolamine|0.9|mg|O|
+N05CM05|scopolamine|0.9|mg|P|
+N05CM06|propiomazine|25|mg|O|
+N05CM07|triclofos|1|g|O|
+N05CM08|ethchlorvynol|0.5|g|O|
+N05CM10|hexapropymate|0.4|g|O|
+N05CM12|apronal|0.25|g|O|
+N05CM13|valnoctamide|0.6|g|O|
+N05CM18|dexmedetomidine|1|mg|P|
+N06AA01|desipramine|0.1|g|O|
+N06AA02|imipramine|0.1|g|O|
+N06AA02|imipramine|0.1|g|P|
+N06AA03|imipramine oxide|0.1|g|O|
+N06AA04|clomipramine|0.1|g|O|
+N06AA04|clomipramine|0.1|g|P|
+N06AA05|opipramol|0.15|g|O|
+N06AA06|trimipramine|0.15|g|O|
+N06AA06|trimipramine|0.15|g|P|
+N06AA07|lofepramine|0.105|g|O|
+N06AA08|dibenzepin|0.3|g|O|
+N06AA09|amitriptyline|75|mg|O|
+N06AA09|amitriptyline|75|mg|P|
+N06AA10|nortriptyline|75|mg|O|
+N06AA10|nortriptyline|30|mg|P|
+N06AA11|protriptyline|30|mg|O|
+N06AA12|doxepin|0.1|g|O|
+N06AA12|doxepin|0.1|g|P|
+N06AA13|iprindole|90|mg|O|
+N06AA14|melitracen|75|mg|O|
+N06AA14|melitracen|75|mg|P|
+N06AA15|butriptyline|75|mg|O|
+N06AA16|dosulepin|0.15|g|O|
+N06AA17|amoxapine|0.15|g|O|
+N06AA18|dimetacrine|0.15|g|O|
+N06AA21|maprotiline|0.1|g|O|
+N06AA21|maprotiline|0.1|g|P|
+N06AB02|zimeldine|0.2|g|O|
+N06AB03|fluoxetine|20|mg|O|
+N06AB04|citalopram|20|mg|O|
+N06AB04|citalopram|20|mg|P|
+N06AB05|paroxetine|20|mg|O|
+N06AB06|sertraline|50|mg|O|
+N06AB08|fluvoxamine|0.1|g|O|
+N06AB10|escitalopram|10|mg|O|
+N06AF01|isocarboxazid|15|mg|O|
+N06AF02|nialamide|0.1|g|O|
+N06AF03|phenelzine|60|mg|O|
+N06AF04|tranylcypromine|10|mg|O|
+N06AG02|moclobemide|0.3|g|O|
+N06AX03|mianserin|60|mg|O|
+N06AX04|nomifensine|0.15|g|O|
+N06AX05|trazodone|0.3|g|O|
+N06AX06|nefazodone|0.4|g|O|
+N06AX07|minaprine|0.1|g|O|
+N06AX09|viloxazine|0.2|g|O|
+N06AX11|mirtazapine|30|mg|O|
+N06AX12|bupropion|0.3|g|O|
+N06AX14|tianeptine|37.5|mg|O|
+N06AX16|venlafaxine|0.1|g|O|
+N06AX17|milnacipran|0.1|g|O|
+N06AX18|reboxetine|8|mg|O|
+N06AX21|duloxetine|60|mg|O|
+N06AX22|agomelatine|25|mg|O|
+N06AX23|desvenlafaxine|50|mg|O|
+N06AX26|vortioxetine|10|mg|O|
+N06AX27|esketamine|8|mg|N|
+N06AX28|levomilnacipran|40|mg|O|
+N06BA01|amfetamine|15|mg|O|
+N06BA01|amfetamine|15|mg|P|
+N06BA02|dexamfetamine|15|mg|O|
+N06BA03|metamfetamine|15|mg|O|
+N06BA04|methylphenidate|30|mg|O|
+N06BA05|pemoline|40|mg|O|
+N06BA07|modafinil|0.3|g|O|
+N06BA09|atomoxetine|80|mg|O|
+N06BA11|dexmethylphenidate|15|mg|O|
+N06BA12|lisdexamfetamine|30|mg|O|
+N06BA13|armodafinil|0.15|g|O|
+N06BC01|caffeine|0.4|g|O|
+N06BC01|caffeine|0.4|g|P|
+N06BX02|pyritinol|0.6|g|O|
+N06BX03|piracetam|2.4|g|O|
+N06BX03|piracetam|6|g|P|
+N06BX13|idebenone|0.9|g|O|
+N06BX15|pipradrol|30|mg|O|
+N06BX18|vinpocetine|15|mg|O|
+N06DA01|tacrine|0.12|g|O|
+N06DA02|donepezil|7.5|mg|O|
+N06DA03|rivastigmine|9|mg|O|
+N06DA03|rivastigmine|9.5|mg|TD|delivered dose
+N06DA04|galantamine|16|mg|O|
+N06DX01|memantine|20|mg|O|
+N06DX02|Ginkgo folium|0.12|g|O|
+N07AA01|neostigmine|60|mg|O|
+N07AA01|neostigmine|2|mg|P|
+N07AA02|pyridostigmine|0.18|g|O|
+N07AA02|pyridostigmine|10|mg|P|
+N07AA03|distigmine|5|mg|O|
+N07AA03|distigmine|0.25|mg|P|
+N07AA30|ambenonium|60|mg|O|
+N07AB01|carbachol|6|mg|O|
+N07AB01|carbachol|0.5|mg|P|
+N07AB02|bethanechol|45|mg|O|
+N07AX01|pilocarpine|15|mg|O|
+N07AX01|pilocarpine|10|mg|P|
+N07AX03|cevimeline|90|mg|O|
+N07BA01|nicotine|30|mg|Chewing gum|
+N07BA01|nicotine|60|mg|Inhal|
+N07BA01|nicotine|30|mg|N|
+N07BA01|nicotine|30|mg|SL|
+N07BA01|nicotine|14|mg|TD|
+N07BA03|varenicline|2|mg|O|
+N07BB01|disulfiram|0.2|g|O|
+N07BB03|acamprosate|2|g|O|
+N07BB04|naltrexone|50|mg|O|
+N07BB05|nalmefene|18|mg|O|
+N07BC01|buprenorphine|1.6|mg|implant|
+N07BC01|buprenorphine|2.1|mg|P|
+N07BC01|buprenorphine|8|mg|SL|
+N07BC02|methadone|25|mg|O|
+N07BC02|methadone|25|mg|P|
+N07BC04|lofexidine|1.4|mg|O|
+N07BC05|levomethadone|15|mg|O|
+N07BC51|buprenorphine, combinations|8|mg|SL|Refers to buprenorphine
+N07CA01|betahistine|24|mg|O|
+N07CA02|cinnarizine|90|mg|O|
+N07CA03|flunarizine|10|mg|O|
+N07CA52|cinnarizine, combinations|90|mg|O|Refers to cinnarizine
+N07XX01|tirilazad|0.42|g|P|
+N07XX02|riluzole|0.1|g|O|
+N07XX04|sodium oxybate|7.5|g|O|
+N07XX05|amifampridine|40|mg|O|
+N07XX06|tetrabenazine|0.1|g|O|
+N07XX07|fampridine|20|mg|O|
+N07XX08|tafamidis|20|mg|O|
+N07XX11|pitolisant|18|mg|O|
+N07XX15|inotersen|41|mg|P|
+N07XX59|dextromethorphan, combinations|40|mg|O|Refers to dextromethorphan
+P01AB01|metronidazole|2|g|O|
+P01AB01|metronidazole|2|g|R|
+P01AB02|tinidazole|2|g|O|
+P01AB02|tinidazole|2|g|R|
+P01AB03|ornidazole|1.5|g|O|
+P01AB06|nimorazole|2|g|O|
+P01AB07|secnidazole|2|g|O|
+P01AC01|diloxanide|1.5|g|O|
+P01AX02|emetine|60|mg|P|
+P01AX05|mepacrine|0.3|g|O|
+P01AX06|atovaquone|2.25|g|O|
+P01AX07|trimetrexate|85|mg|P|
+P01AX09|dehydroemetine|60|mg|P|
+P01AX11|nitazoxanide|1|g|O|
+P01BA01|chloroquine|0.5|g|O|base
+P01BA01|chloroquine|0.5|g|P|base
+P01BA02|hydroxychloroquine|0.516|g|O|base
+P01BA03|primaquine|15|mg|O|base
+P01BA06|amodiaquine|0.5|g|O|
+P01BB01|proguanil|0.2|g|O|hydrochloride, (prophylactic daily dose)
+P01BC01|quinine|1.5|g|O|base
+P01BC01|quinine|1.5|g|P|base
+P01BC02|mefloquine|1|g|O|base
+P01BD01|pyrimethamine|75|mg|O|
+P01BD51|pyrimethamine, combinations|75|mg|O|Refers to pyrimethamine
+P01BD51|pyrimethamine, combinations|75|mg|P|Refers to pyrimethamine
+P01BE01|artemisinin|1|g|O|
+P01BE02|artemether|0.28|g|O|
+P01BE02|artemether|0.12|g|P|
+P01BE02|artemether|0.28|g|R|
+P01BE03|artesunate|0.28|g|O|
+P01BE03|artesunate|0.28|g|P|
+P01BE03|artesunate|0.28|g|R|
+P01BE05|artenimol|0.28|g|O|
+P01BF01|artemether and lumefantrine|0.28|g|O|Refers to artemether
+P01BX01|halofantrine|1.5|g|O|
+P01CA02|benznidazole|0.4|g|O|
+P01CA03|fexinidazole|1.44|g|O|
+P01CB01|meglumine antimonate|0.85|g|P|Sb5+
+P01CB02|sodium stibogluconate|0.85|g|P|Sb5+
+P01CC01|nifurtimox|0.7|g|O|
+P01CD01|melarsoprol|60|mg|P|
+P01CX01|pentamidine isethionate|0.28|g|P|per injection
+P01CX02|suramin sodium|0.27|g|P|
+P01CX04|miltefosine|0.15|g|O|
+P02BA01|praziquantel|3|g|O|
+P02BA02|oxamniquine|1|g|O|
+P02BB01|metrifonate|40|mg|O|
+P02CA01|mebendazole|0.2|g|O|
+P02CA02|tiabendazole|3|g|O|
+P02CA03|albendazole|0.4|g|O|
+P02CA05|flubendazole|0.2|g|O|
+P02CB01|piperazine|3.5|g|O|as hydrate
+P02CB02|diethylcarbamazine|0.4|g|O|
+P02CC01|pyrantel|0.75|g|O|
+P02CE01|levamisole|0.15|g|O|
+P02CF01|ivermectin|12|mg|O|
+P02CX01|pyrvinium|0.35|g|O|
+P02DA01|niclosamide|2|g|O|
+R01AA03|ephedrine|8|mg|N|
+R01AA04|phenylephrine|4|mg|N|
+R01AA05|oxymetazoline|0.4|mg|N|
+R01AA06|tetryzoline|0.8|mg|N|
+R01AA07|xylometazoline|0.8|mg|N|
+R01AA08|naphazoline|0.4|mg|N|
+R01AC01|cromoglicic acid|40|mg|N|
+R01AC02|levocabastine|0.6|mg|N|
+R01AC03|azelastine|0.56|mg|N|
+R01AC07|nedocromil|10.4|mg|N|
+R01AD01|beclometasone|0.4|mg|N|
+R01AD04|flunisolide|0.15|mg|N|
+R01AD05|budesonide|0.2|mg|N|
+R01AD06|betamethasone|0.4|mg|N|
+R01AD07|tixocortol|8|mg|N|
+R01AD08|fluticasone|0.2|mg|N|
+R01AD09|mometasone|0.2|mg|N|
+R01AD11|triamcinolone|0.22|mg|N|
+R01AD12|fluticasone furoate|0.11|mg|N|
+R01AD13|ciclesonide|0.2|mg|N|
+R01AX02|retinol|800|U|N|
+R01AX03|ipratropium bromide|0.24|mg|N|
+R01BA01|phenylpropanolamine|0.1|g|O|
+R01BA02|pseudoephedrine|0.24|g|O|
+R01BA03|phenylephrine|40|mg|O|
+R01BA51|phenylpropanolamine, combinations|0.1|g|O|Refers to phenylpropanolamine
+R01BA52|pseudoephedrine, combinations|0.24|g|O|Refers to pseudoephedrine
+R02AA01|ambazone|40|mg|O|
+R02AA02|dequalinium|1.5|mg|O|
+R02AA05|chlorhexidine|30|mg|O|
+R02AX01|flurbiprofen|44|mg|O|
+R02AX03|benzydamine|9|mg|O|
+R03AA01|epinephrine|2.24|mg|Inhal.aerosol|
+R03AA01|epinephrine|20|mg|Inhal.solution|
+R03AB02|isoprenaline|0.64|mg|Inhal.aerosol|
+R03AB02|isoprenaline|10|mg|Inhal.solution|
+R03AB03|orciprenaline|6|mg|Inhal.aerosol|
+R03AC02|salbutamol|0.8|mg|Inhal.aerosol|
+R03AC02|salbutamol|0.8|mg|Inhal.powder|
+R03AC02|salbutamol|10|mg|Inhal.solution|
+R03AC03|terbutaline|2|mg|Inhal.aerosol|
+R03AC03|terbutaline|2|mg|Inhal.powder|
+R03AC03|terbutaline|20|mg|Inhal.solution|
+R03AC04|fenoterol|0.6|mg|Inhal.aerosol|
+R03AC04|fenoterol|0.6|mg|Inhal.powder|
+R03AC04|fenoterol|4|mg|Inhal.solution|
+R03AC05|rimiterol|1.6|mg|Inhal.aerosol|
+R03AC06|hexoprenaline|1.5|mg|Inhal.aerosol|
+R03AC08|pirbuterol|1.2|mg|Inhal.aerosol|
+R03AC11|tulobuterol|1.6|mg|Inhal.aerosol|
+R03AC12|salmeterol|0.1|mg|Inhal.aerosol|
+R03AC12|salmeterol|0.1|mg|Inhal.powder|
+R03AC13|formoterol|24|mcg|Inhal.aerosol|
+R03AC13|formoterol|24|mcg|Inhal.powder|
+R03AC16|procaterol|60|mcg|Inhal.aerosol|
+R03AC18|indacaterol|0.15|mg|Inhal.powder|
+R03AC19|olodaterol|5|mcg|Inhal.solution|
+R03BA01|beclometasone|0.8|mg|Inhal.aerosol|
+R03BA01|beclometasone|0.8|mg|Inhal.powder|
+R03BA01|beclometasone|1.5|mg|Inhal.solution|
+R03BA02|budesonide|0.8|mg|Inhal.aerosol|
+R03BA02|budesonide|0.8|mg|Inhal.powder|
+R03BA02|budesonide|1.5|mg|Inhal.solution|
+R03BA03|flunisolide|1|mg|Inhal.aerosol|
+R03BA05|fluticasone|0.6|mg|Inhal.aerosol|
+R03BA05|fluticasone|0.6|mg|Inhal.powder|
+R03BA05|fluticasone|1.5|mg|Inhal.solution|
+R03BA07|mometasone|0.4|mg|Inhal.powder|
+R03BA08|ciclesonide|0.16|mg|Inhal.aerosol|
+R03BB01|ipratropium bromide|0.12|mg|Inhal.aerosol|
+R03BB01|ipratropium bromide|0.12|mg|Inhal.powder|
+R03BB01|ipratropium bromide|0.3|mg|Inhal.solution|
+R03BB02|oxitropium bromide|0.6|mg|Inhal.aerosol|
+R03BB02|oxitropium bromide|4|mg|Inhal.solution|
+R03BB04|tiotropium bromide|10|mcg|Inhal.powder|Expressed as tiotropium, delivered dose
+R03BB04|tiotropium bromide|5|mcg|Inhal.solution|
+R03BB05|aclidinium bromide|0.644|mg|Inhal.powder|Expressed as aclidinium, delivered dose
+R03BB06|glycopyrronium bromide|44|mcg|Inhal.powder|Expressed as glycopyrronium, delivered dose
+R03BB07|umeclidinium bromide|55|mcg|Inhal.powder|Expressed as umeclidinium, delivered dose
+R03BC01|cromoglicic acid|40|mg|Inhal.aerosol|
+R03BC01|cromoglicic acid|80|mg|Inhal.powder|
+R03BC01|cromoglicic acid|80|mg|Inhal.solution|
+R03BC03|nedocromil|8|mg|Inhal.aerosol|
+R03CA02|ephedrine|50|mg|O|
+R03CB01|isoprenaline|40|mg|O|
+R03CB02|methoxyphenamine|0.4|g|O|
+R03CB03|orciprenaline|60|mg|O|
+R03CB03|orciprenaline|60|mg|P|
+R03CC02|salbutamol|12|mg|O|
+R03CC02|salbutamol|12|mg|P|
+R03CC03|terbutaline|15|mg|O|
+R03CC03|terbutaline|15|mg|P|
+R03CC04|fenoterol|10|mg|O|
+R03CC04|fenoterol|10|mg|R|
+R03CC05|hexoprenaline|1.5|mg|O|
+R03CC05|hexoprenaline|1.5|mg|P|
+R03CC06|isoetarine|40|mg|O|
+R03CC07|pirbuterol|30|mg|O|
+R03CC08|procaterol|0.1|mg|O|
+R03CC09|tretoquinol|9|mg|O|
+R03CC09|tretoquinol|0.2|mg|P|
+R03CC10|carbuterol|6|mg|O|
+R03CC11|tulobuterol|4|mg|O|
+R03CC12|bambuterol|20|mg|O|
+R03CC13|clenbuterol|40|mcg|O|
+R03CC15|formoterol|0.16|mg|O|
+R03DA01|diprophylline|1|g|O|
+R03DA01|diprophylline|1|g|P|
+R03DA01|diprophylline|1|g|R|
+R03DA02|choline theophyllinate|0.6|g|O|
+R03DA02|choline theophyllinate|0.6|g|R|
+R03DA03|proxyphylline|1.2|g|O|
+R03DA03|proxyphylline|1.2|g|P|
+R03DA03|proxyphylline|1.2|g|R|
+R03DA04|theophylline|0.4|g|O|
+R03DA04|theophylline|0.4|g|P|
+R03DA04|theophylline|0.4|g|R|
+R03DA05|aminophylline|0.6|g|O|
+R03DA05|aminophylline|0.6|g|P|
+R03DA05|aminophylline|0.6|g|R|
+R03DA11|doxofylline|0.8|g|O|
+R03DA11|doxofylline|0.8|g|P|
+R03DA12|mepyramine theophyllinacetate|0.6|g|O|
+R03DC01|zafirlukast|40|mg|O|
+R03DC03|montelukast|10|mg|O|
+R03DX05|omalizumab|16|mg|P|
+R03DX07|roflumilast|0.5|mg|O|
+R03DX08|reslizumab|7.1|mg|P|
+R03DX09|mepolizumab|3.6|mg|P|
+R03DX10|benralizumab|0.54|mg|P|
+R03DX11|tezepelumab|7.5|mg|P|
+R05CA01|tyloxapol|5|mg|Inhal.solution|
+R05CA02|potassium iodide|1.2|g|O|
+R05CA03|guaifenesin|0.9|g|O|
+R05CA03|guaifenesin|0.9|g|P|
+R05CA04|ipecacuanha|4|mg|O|emetine
+R05CA05|altheae radix|1.6|g|O|root
+R05CA06|senega|3|g|O|root
+R05CA07|antimony pentasulfide|0.2|g|O|
+R05CB01|acetylcysteine|1.6|g|Inhal.solution|
+R05CB01|acetylcysteine|0.5|g|O|
+R05CB02|bromhexine|24|mg|O|
+R05CB02|bromhexine|24|mg|P|
+R05CB03|carbocisteine|1.5|g|O|
+R05CB04|eprazinone|0.2|g|O|
+R05CB05|mesna|1.2|g|Inhal.solution|
+R05CB06|ambroxol|0.12|g|O|
+R05CB13|dornase alfa (desoxyribonuclease)|2.5|mg|Inhal.solution|
+R05CB15|erdosteine|0.6|g|O|
+R05CB16|mannitol|0.8|g|Inhal.powder|
+R05DA01|ethylmorphine|50|mg|O|
+R05DA03|hydrocodone|15|mg|O|
+R05DA04|codeine|0.1|g|O|
+R05DA07|noscapine|0.125|g|O|
+R05DA08|pholcodine|50|mg|O|
+R05DA09|dextromethorphan|90|mg|O|
+R05DA10|thebacon|15|mg|O|
+R05DA12|acetyldihydrocodeine|30|mg|O|
+R05DB01|benzonatate|0.6|g|O|
+R05DB02|benproperine|75|mg|O|
+R05DB03|clobutinol|0.12|g|O|
+R05DB03|clobutinol|0.12|g|P|
+R05DB04|isoaminile|0.11|g|O|
+R05DB05|pentoxyverine|0.1|g|O|
+R05DB05|pentoxyverine|0.1|g|R|
+R05DB07|oxolamine|0.6|g|O|
+R05DB09|oxeladin|80|mg|O|
+R05DB10|clofedanol|60|mg|O|
+R05DB11|pipazetate|80|mg|O|
+R05DB12|bibenzonium bromide|90|mg|O|
+R05DB13|butamirate|25|mg|O|
+R05DB14|fedrilate|0.2|g|O|
+R05DB21|cloperastine|60|mg|O|Expressed as cloperastine hydrochloride
+R05DB27|levodropropizine|0.12|g|O|
+R05DB29|gefapixant|90|mg|O|
+R06AA02|diphenhydramine|0.2|g|O|
+R06AA02|diphenhydramine|0.2|g|P|
+R06AA02|diphenhydramine|0.2|g|R|
+R06AA04|clemastine|2|mg|O|
+R06AA04|clemastine|2|mg|P|
+R06AA06|chlorphenoxamine|80|mg|O|
+R06AA06|chlorphenoxamine|80|mg|P|
+R06AA07|diphenylpyraline|10|mg|O|
+R06AA08|carbinoxamine|16|mg|O|
+R06AA09|doxylamine|25|mg|O|
+R06AA11|dimenhydrinate|0.3|g|O|
+R06AA11|dimenhydrinate|0.3|g|R|
+R06AB01|brompheniramine|24|mg|O|
+R06AB02|dexchlorpheniramine|6|mg|O|
+R06AB02|dexchlorpheniramine|6|mg|P|
+R06AB03|dimetindene|4|mg|O|
+R06AB04|chlorphenamine|12|mg|O|
+R06AB04|chlorphenamine|12|mg|P|
+R06AB05|pheniramine|75|mg|O|
+R06AC01|mepyramine|0.2|g|O|
+R06AC01|mepyramine|0.2|g|P|
+R06AC02|histapyrrodine|80|mg|O|
+R06AC03|chloropyramine|0.15|g|O|
+R06AC03|chloropyramine|20|mg|P|
+R06AC04|tripelennamine|0.15|g|O|
+R06AD01|alimemazine|30|mg|O|
+R06AD01|alimemazine|30|mg|P|
+R06AD02|promethazine|25|mg|O|
+R06AD02|promethazine|25|mg|P|
+R06AD02|promethazine|25|mg|R|
+R06AD03|thiethylperazine|13|mg|O|
+R06AD03|thiethylperazine|13|mg|P|
+R06AD03|thiethylperazine|13|mg|R|
+R06AD04|methdilazine|16|mg|O|
+R06AD05|hydroxyethylpromethazine|75|mg|O|
+R06AD06|thiazinam|0.9|g|O|
+R06AD06|thiazinam|0.3|g|R|
+R06AD07|mequitazine|10|mg|O|
+R06AD08|oxomemazine|30|mg|O|
+R06AE01|buclizine|50|mg|O|
+R06AE03|cyclizine|0.1|g|O|
+R06AE03|cyclizine|0.1|g|P|
+R06AE03|cyclizine|0.3|g|R|
+R06AE04|chlorcyclizine|0.1|g|O|
+R06AE05|meclozine|50|mg|O|
+R06AE05|meclozine|50|mg|R|
+R06AE06|oxatomide|60|mg|O|
+R06AE07|cetirizine|10|mg|O|
+R06AE09|levocetirizine|5|mg|O|
+R06AX01|bamipine|0.1|g|O|
+R06AX02|cyproheptadine|12|mg|O|
+R06AX05|antazoline|0.3|g|O|
+R06AX05|antazoline|0.3|g|P|
+R06AX07|triprolidine|7.5|mg|O|
+R06AX09|azatadine|2|mg|O|
+R06AX11|astemizole|10|mg|O|
+R06AX12|terfenadine|0.12|g|O|
+R06AX13|loratadine|10|mg|O|
+R06AX15|mebhydrolin|0.2|g|O|
+R06AX16|deptropine|2|mg|O|
+R06AX17|ketotifen|2|mg|O|
+R06AX18|acrivastine|24|mg|O|
+R06AX19|azelastine|4|mg|O|
+R06AX22|ebastine|10|mg|O|
+R06AX25|mizolastine|10|mg|O|
+R06AX26|fexofenadine|0.12|g|O|
+R06AX27|desloratadine|5|mg|O|
+R06AX28|rupatadine|10|mg|O|
+R06AX29|bilastine|20|mg|O|
+R07AA01|colfosceril palmitate|0.108|g|Inhal.powder|
+R07AA02|natural phospholipids|0.16|g|Instill.solution|
+R07AB01|doxapram|0.4|g|P|
+R07AB02|nikethamide|0.5|g|O|
+R07AB02|nikethamide|0.5|g|P|
+R07AB03|pentetrazol|0.1|g|O|
+R07AB06|prethcamide|0.4|g|O|
+R07AB06|prethcamide|0.4|g|P|
+R07AB07|almitrine|0.1|g|O|
+R07AX02|ivacaftor|0.3|g|O|
+S01EB01|pilocarpine|0.4|ml||
+S01EB01|pilocarpine|0.285||lamella|
+S01EB01|pilocarpine|40|mg|ointment|
+S01EB02|carbachol|0.4|ml||
+S01EB03|ecothiopate|0.2|ml||
+S01EB04|demecarium|0.1|ml||
+S01EB05|physostigmine|0.4|ml||
+S01EB06|neostigmine|0.4|ml||
+S01EB06|neostigmine|40|mg|ointment|
+S01EC01|acetazolamide|0.75|g|O|
+S01EC01|acetazolamide|0.75|g|P|
+S01EC02|diclofenamide|0.1|g|O|
+S01EC03|dorzolamide|0.3|ml||
+S01EC04|brinzolamide|0.2|ml||
+S01EC05|methazolamide|0.2|g|O|
+V03AE01|polystyrene sulfonate|45|g|O|
+V03AE02|sevelamer|6.4|g|O|
+V03AE03|lanthanum carbonate|2.25|g|O|Expressed as lanthanum
+V03AE05|sucroferric oxyhydroxide|1.5|g|O|
+V03AE07|calcium acetate|6|g|O|
+V03AE08|ferric citrate|6|g|O|
+V03AE09|patiromer calcium|8.4|g|O|
+V03AE10|sodium zirconium cyclosilicate|7.5|g|O|
+V03AF02|dexrazoxane|1.5|g|P|
+V03AF03|calcium folinate|60|mg|O|Expressed as folinic acid
+V03AF03|calcium folinate|60|mg|P|Expressed as folinic acid
+V03AF04|calcium levofolinate|30|mg|O|Expressed as levofolinic acid
+V03AF04|calcium levofolinate|30|mg|P|Expressed as levofolinic acid
+V03AF05|amifostine|1.7|g|P|
+V03AF06|sodium folinate|60|mg|P|Expressed as folinic acid
+V03AF07|rasburicase|14|mg|P|
+V03AF08|palifermin|4.2|mg|P|
+V03AF10|sodium levofolinate|30|mg|P|Expressed as levofolinic acid
+V03AG05|sodium phosphate|8|g|O|
+V03AX03|cobicistat|0.15|g|O|
+V03AX04|difelikefalin|15|mcg|P|
