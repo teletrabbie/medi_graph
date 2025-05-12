@@ -132,7 +132,11 @@ MERGE (z:Zusatzentgelt {Name: row.ze_id})
     z.`ZE-Code` = row.ze_code,
     z.Zusatzangabe = row.za,
     z.Einheit = row.dose_unit,
-    z.Verabreichungsart = row.va
+    z.Verabreichungsart = row.va,
+    z.url = CASE 
+        WHEN substring(row.version,0,1)='V' 
+        THEN 'https://manual.swissdrg.org/de/'+replace(row.version,'V','')+'/supplements/'+row.ze_code
+        END
 ;
 
 
