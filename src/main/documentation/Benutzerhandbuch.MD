@@ -1,6 +1,6 @@
 # Datenintegration und Analyse hochteurer Medikamente mit Neo4j
 
-Es wurde ein Datenmodell mit der Graphdatenbank Neo4j entwickelt. Dabei wurde die Informationen der "Liste der hochteuren Medikamente/Substanzen" und weiterer Quellen in einem Graphen zusammengefasst. Graphen bestehen aus Knoten und Kanten. Knoten sind die Informationsobjekte (z.B. ein ATC-Code oder ein Medikament) und Kanten stellen die Beziehung zwischen den Knoten dar (z.B. ein Medikament `HAT_ATC` Code).
+Es wurde ein Datenmodell mit der Graphdatenbank Neo4j entwickelt. Dabei wurden die Informationen der "Liste der hochteuren Medikamente/Substanzen" und weiterer Quellen in einem Graphen zusammengefasst. Graphen bestehen aus Knoten (engl. nodes) und Kanten (engl. relations). Knoten sind die Informationsobjekte (z.B. ein ATC-Code oder ein Medikament) und Kanten stellen die Beziehung zwischen den Knoten dar (z.B. ein Medikament `HAT_ATC` Code).
 
 ## Datenquellen
 
@@ -10,9 +10,9 @@ Folgende Datenquellen wurden verwendet:
 - [Zusatzentgelte von SwissDRG](https://www.swissdrg.org/de/akutsomatik/swissdrg-system-1402025/fallpauschalenkatalog), TARPSY und ST Reha
 - [SwissDRG Antragsverfahren](https://antragsverfahren.swissdrg.org/de/swissdrg/proposals/public_index)
 - [Spezialitätenliste](https://www.spezialitätenliste.ch/Default.aspx) des Bundesamtes für Gesundheit (BAG)
-- [Strukturierte Arzneimittelinformationen](https://sai.refdata.ch) der Stiftung Refdata (im Auftrag von SwissMedic)
-- [European Medicines Agency EMA](https://www.ema.europa.eu/en/medicines/download-medicine-data)
-- [ATC-Klassifikation](https://atcddd.fhi.no/atc_ddd_index/)
+- [Strukturierte Arzneimittelinformationen (SAI)](https://sai.refdata.ch) der Stiftung Refdata (im Auftrag von SwissMedic)
+- Daten der [European Medicines Agency (EMA)](https://www.ema.europa.eu/en/medicines/download-medicine-data)
+- [ATC-Klassifikation](https://atcddd.fhi.no/atc_ddd_index/) der WHO
 
 ## Datenmodell
 
@@ -20,35 +20,131 @@ Das Datenmodell besteht aus 13 Labels (Knoten-Typen) und 14 unterschiedlichen Re
 
 Die Knoten handelt es sich um:
 
-- Substanz: basiert auf den siebenstelligen ATC-Code der SwissDRG Liste der hochteuren Medikamente/Substanzen sowie dem ATC-Index der WHO
-- Tarif, Einheit, Verarbeitungsart und Zusatzangabe: gemäss der SwissDRG Liste der hochteuren Medikamente/Substanzen und dem technischen Begleitblatt
+- Substanz: basiert auf den siebenstelligen ATC-Codes der SwissDRG Liste der hochteuren Medikamente/Substanzen sowie dem ATC-Index der WHO
+- Tarif, Einheit, Verarbeitungsart und Zusatzangabe: gemäss der SwissDRG Liste der hochteuren Medikamente/Substanzen und dem dazugehörigen technischen Begleitblatt
 - Zusatzentgelte: stationäre Zusatzentgelte für die Tarife SwissDRG, TARPSY und ST Reha
-- Anträge: angelehnte oder nicht rechenbare Anträge gemäss SwissDRG Antragsverfahren für Medikamente oder Zusatzentgelte
-- Hierarchie: Hierarchie des ATC-Index mit Detailierungslevel 1, 3, 4 und 5 sowie den DDD-Angabe auf Level 7, d.h. Substanz
+- Anträge: abgelehnte oder nicht rechenbare Anträge gemäss SwissDRG Antragsverfahren für Medikamente oder Zusatzentgelte
+- Hierarchie: basiert auf den ATC-Index mit den Detailierungslevels 1, 3, 4 und 5 sowie den Angabe der Definded Daily Dose (DDD) auf Level 7, d.h. für den Knoten Substanz
 - Produkt: basiert auf den Produktnamen der EMA oder Refdata ohne Unterteilung nach Packungen
-- Spezialitätenliste: alle Packungen inkl. Preisangaben der Spezialitätenliste (SL) des Bundesamt für Gesundheit
-- Indikation, MeSH, Anwendungsgebiet: für welche Erkrankungen sind die Produkte indiziert gemäss EMA oder Refdata/SAI, d.h. der strukturierten Arzneimittelinformationen; basiert auf den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden); Indikation ist die Vereinigungsmenge von MeSH und Anwendungsgebiet
+- Spezialitätenliste: alle Packungen inkl. Preisangaben der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG)
+- Indikation, MeSH, Anwendungsgebiet: für welche Erkrankungen sind die Produkte indiziert gemäss EMA oder Refdata/SAI? Knoten basieren auf den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden); Indikation ist die Vereinigungsmenge von MeSH und Anwendungsgebiet
 
-Zwischen den Knoten wurden diverse Relationen erstellt, die teilweise Mehrfach-Relationen sind
+Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relationen)
 
-- GILT_FUER_TARIF: Relation (zweifach) einer Substanz der Liste der hochteuren Medikamente zum Tarif
-- HAT_EINHEIT: Relation (zweifach) einer Substanz der Liste der hochteuren Medikamente zur Einheit
-- HAT_VA: Relation (zweifach) einer Substanz der Liste der hochteuren Medikamente zur Verabreichungsart (VA)
-- HAT_ZA: Relation (zweifach) einer Substanz der Liste der hochteuren Medikamente zur Zusatzangabe (ZA)
-- HAT_ZE: Relation einer Substanz der Liste der hochteuren Medikamente zum Zusatzentgelt (ZE)
+- GILT_FUER_TARIF: Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zum Tarif (zweifache Relation)
+- HAT_EINHEIT: Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Einheit (zweifache Relation)
+- HAT_VA: zweifache Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Verabreichungsart (VA)
+- HAT_ZA: zweifache Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Zusatzangabe (ZA)
+- HAT_ZE: Relation einer Substanz der Liste der hochteuren Medikamente zu ein Zusatzentgelt (ZE)
 - HATTE_ANTRAG: Relation einer Substanz der Liste der hochteuren Medikamente zun Anträgen des Antragsverfahrens
 - WAR_ATC_BIS: Relation einer Substanz zu sich selbst, falls der ATC-Code in der Vergangenheit geändert hat inkl. Relationenproperties
 - NICHT_AUF_MEDI_LISTE: Relation einer Substanz zu sich selbst, falls es sich um einen ATC-Code handelt, der sich aktuell nicht auf der Liste der hochteuren Medikamente befindet
-- IST_IN_ATC_GRUPPE: Relation einer Substanz zum ATC-Hierarchie-Level 5 oder vom ATC-Hierarchie-Level jeweils eine Hierarchiestufe hinauf
-- HAT_ATC: Relation eines Produktes zu einer Substanz, wobei der ATC-Code der EMA, von Refdata/SAI und/oder von der SL zu dieser Relation beitragen; inkl. Relationenproperties, welche Quelle zu der Relation beigetragen hat
-- HATTE_ATC: Relation eines Produktes zu einer Substanz, wobei der ATC-Code zu einem früheren ATC-Code gehören, der in der Relation WAR_ATC_BIS hinterlegt ist
-- INDIZIERT_FUER: Relation (dreifach) zwischen den Produkten und den Indikationsknoten
+- IST_IN_ATC_GRUPPE: Relation einer Substanz zum ATC-Hierarchie-Level 5 oder vom ATC-Hierarchie-Level jeweils ein Hierarchie-Level hinauf
+- HAT_ATC: Relation eines Produktes zu einer Substanz, wobei ATC-Codes der EMA und/oder von Refdata/SAI und/oder von der SL zu dieser Relation beitragen; die Quelle der Relation ist als Relationenpropertie vorhanden
+- HATTE_ATC: Relation eines Produktes zu einer Substanz, wobei der ATC-Code zu einem früheren ATC-Code gehört, der in der Relation `WAR_ATC_BIS` hinterlegt ist
+- INDIZIERT_FUER: Relation zwischen den Produkten und den Indikationsknoten (dreifache Relation)
 - IST_AUF_SL: Relation eines Produktes zu einer konkreten Packung, falls sich die Packung auf der Spezialitätenliste befindet
 - IST_AUCH_PRODUKT: Relation eines Produktes zu sich selbst, weil Produkte mit unterschiedlichen Indikationen die gleiche Bezeichnung haben können; diese Relation stellt sicher, dass keine Daten verloren gehen
 
 Das Datenschema kann wie folgt visualisiert werden:
 
 ![Datenschema](pictures/schema.png "Datenschema")
+
+Die Labels haben folgende Properties:
+
+| nodeLabels     | propertyName                | propertyTypes  |
+|---------------|---------------------------|---------------|
+| Indikation, MeSH  | Name                         | String        |
+| Anwendungsgebiet, Indikation  | Name              | String        |
+| Substanz       | Name                         | String        |
+| Substanz       | Zu erfassen seit             | Long          |
+| Substanz       | Einschränkung                | String        |
+| Substanz       | Einschränkung FR             | String        |
+| Substanz       | Einschränkung IT             | String        |
+| Substanz       | url                          | String        |
+| Substanz       | DDD                          | StringArray, Double  |
+| Substanz       | Unit                         | StringArray, String  |
+| Substanz       | Level                        | Long          |
+| Substanz       | Route                        | StringArray, String  |
+| Substanz       | Note                         | StringArray, String  |
+| Substanz       | Bezeichnung                  | String        |
+| Substanz       | Bezeichnung EN               | String        |
+| Substanz       | War auf Medi-Liste bis und mit Jahr | Long  |
+| Substanz       | Bezeichnung FR               | String        |
+| Tarif          | Name                         | String        |
+| Zusatzangabe   | Name                         | String        |
+| Zusatzangabe   | bezeichnung                  | String        |
+| Zusatzangabe   | hinweis                      | String        |
+| Verabreichungsart | Name                      | String        |
+| Verabreichungsart | bezeichnung               | String        |
+| Verabreichungsart | bezeichnung_fr            | String        |
+| Verabreichungsart | bezeichnung_it            | String        |
+| Einheit        | Name                         | String        |
+| Einheit        | bezeichnung                  | String        |
+| Einheit        | bezeichnung_fr               | String        |
+| Einheit        | bezeichnung_it               | String        |
+| Zusatzentgelt      | Name                     | String        |
+| Zusatzentgelt      | ATC                      | String        |
+| Zusatzentgelt      | Version                  | String        |
+| Zusatzentgelt      | ZE-Code                  | String        |
+| Zusatzentgelt      | Zusatzangabe             | String        |
+| Zusatzentgelt      | Einheit                  | String        |
+| Zusatzentgelt      | Verabreichungsart        | String        |
+| Zusatzentgelt      | ZE-Nr                    | String        |
+| Zusatzentgelt      | url                      | String        |
+| Produkt            | Name                     | String        |
+| Produkt            | Mesh                     | String        |
+| Produkt            | Indikation               | String        |
+| Produkt            | Zulassungsinhaberin      | String        |
+| Produkt            | Orphan Status            | String        |
+| Produkt            | Generikum                | String        |
+| Produkt            | Biosimilar               | String        |
+| Produkt            | url                      | String        |
+| Produkt            | IT                       | String        |
+| Produkt            | ATC-EMA                  | String        |
+| Produkt            | Anwendungsgebiet         | String        |
+| Produkt            | Erstzulassung            | String        |
+| Produkt            | Zulassungsnummer         | String        |
+| Produkt            | ATC-SAI                  | String        |
+| Produkt            | Aktive Substanz EMA      | String        |
+| Produkt            | Praeparatename           | String        |
+| Hierarchie         | Name                     | String        |
+| Hierarchie         | url                      | String        |
+| Hierarchie         | Bezeichnung EN           | String        |
+| Hierarchie         | Level                    | Long          |
+| Spezialitätenliste | Name                     | String        |
+| Spezialitätenliste | GTIN                     | String        |
+| Spezialitätenliste | Zulassungsnummer         | String        |
+| Spezialitätenliste | ExFactoryPreis           | Double        |
+| Spezialitätenliste | PublikumsPreis           | Double        |
+| Spezialitätenliste | Letzte Preis Änderung    | Date          |
+| Spezialitätenliste | ATC-SL                   | String        |
+| Anträge            | Tarifsystem              | String        |
+| Anträge            | Partner                  | String        |
+| Anträge            | Antragsjahr              | Long          |
+| Anträge            | Status                   | String        |
+| Anträge            | Antragsnummer            | String        |
+
+Bei den Relationen gibt es einzelne wenige Properties:
+
+| relType          | propertyName                 | propertyTypes  |
+|-----------------|-----------------------------|---------------|
+| HAT_ZA         | null                          | null          |
+| HAT_VA         | null                          | null          |
+| HAT_EINHEIT    | null                          | null          |
+| HAT_ZE         | null                          | null          |
+| INDIZIERT_FUER | Quelle                        | String        |
+| IST_AUF_SL     | null                          | null          |
+| GILT_FUER_TARIF| null                          | null          |
+| IST_AUCH_PRODUKT | null                        | null          |
+| IST_IN_ATC_GRUPPE | null                      | null          |
+| WAR_ATC_BIS    | Gültig bis und mit Jahr       | Long          |
+| WAR_ATC_BIS    | Früherer ATC                  | String        |
+| HAT_ATC        | Quelle                        | String        |
+| NICHT_AUF_MEDI_LISTE | null                   | null          |
+| HATTE_ANTRAG   | Art                           | String        |
+| HATTE_ATC      | Quelle                        | String        |
+
 
 ## Einführung in Neo4j Bloom/Explore
 
@@ -60,13 +156,18 @@ Neo4j Bloom ist ein Tool, das es ermöglicht, Graphdatenbanken visuell zu erkund
 
 Optional vermittelt das ausführliche Video [Training Series - Getting started with Neo4j Bloom](https://www.youtube.com/live/7yS2e4p0_H4?si=AZQItNAICAe_-BPH) einen umfassenden Einblick in das System. Für normale Anwender ist das Video ab Zeitpunkt 32:45 bis Zeitpunkt 1:45:50 relevant. Der Rest ist eher für Entwickler und Administratoren gedacht.
 
+Weitere Einführungsdokumente findet man beispielweise bei
+
+- [Neo4j Explore Qiock Start](https://neo4j.com/docs/aura/explore/explore-quick-start)
+- [Neo4j Bloom User Guide](https://development.neo4j.dev/docs/bloom-user-guide/current/bloom-visual-tour/bloom-overview)
+
 ## Analyse des Datenmodells
 
 Das Datenmodell wurde mit Hilfe von cypher-Code in Neo4j implementiert. Anstatt Neo4j Bloom können Datenanalysen mit Coding-Erfahrung den Neo4j Browser nutzen. Hier wird  die Analyse mit dem No-/Low-Code-Tool Neo4j Bloom/Explore gezeigt. Der Bereich, in dem der Graph visualisert wird, nennt sich Scene.
 
 ### Analyse mit Freitextsuche
 
-Die möglicherweise einfachste Art ist die Suche nach Freitext im Suchfenster oben links. Besonders geeignet ist die Suche nach:
+Die vermutlich einfachste Art ist die Suche nach Freitext im Suchfenster oben links. Besonders geeignet ist die Suche nach:
 
 - ATC-Codes
 - Produkt-Bezeichnungen
@@ -82,11 +183,15 @@ Nachdem der Suchbegriff mit dem Tab (oder Mausklick auf die Auswahl) bestätigt 
 
 ![Suche02](pictures/searching02.png "Suche bestätigen mit 'Play-Button' rechts")
 
-Falls Knoten gefunden wurden, wird dies direkt unter dem Suchfeld bestätigt und der oder die Knoten angezeigt.
+Falls Knoten gefunden wurden, wird dies direkt unter dem Suchfeld bestätigt und der/die Knoten angezeigt.
 
 ![Suche03](pictures/searching03.png "Anzeige der Ergebnisse")
 
-Die Farbe spielt hier keine Rolle und kann in anderen Perspektiven abweichen. Mit Doppelklick auf einen Knoten werden die Properties angezeigt. Auch die Nachbarknoten und die Relationen können in den Untermenues dargestellt, gefiltert oder mit Doppelklick in die Scene hinzugefügt werden.
+Die Farbe spielt hier keine Rolle und kann in anderen Perspektiven abweichen. Mit Doppelklick auf einen Knoten werden die Properties angezeigt.
+
+![Suche04](pictures/searching04.png "Anzeige der Properties eines Knoten mit Doppel-Klick")
+
+Auch die Nachbarknoten und die Relationen können in den Untermenues dargestellt, gefiltert oder mit Doppelklick in die Scene hinzugefügt werden.
 
 ### Analyse mit visuellen Graph-Pfaden
 
@@ -94,27 +199,27 @@ Beim Klick in das Suchfenster öffnet sich die Liste mit den Knoten und Relation
 
 ![Pfad01](pictures/path01.png "Anzeigen der verfügbaren Knoten und Kanten")
 
-Nach der ersten Auswahl kann man zudem nach Properties auswählen und Filterwerte eintragen. Hier wird nach ZE-Nummern gefiltert, wobei einer von diverse Vergleichsoperationen (gleich, nicht gleich, enthält, beginnt mit, endet mit) gewählt werden kann.
+Nach der ersten Auswahl kann man zudem nach Properties auswählen und Filterwerte eintragen. Hier wird nach ZE-Nummern gefiltert, wobei einer von diversen Vergleichsoperationen (gleich, nicht gleich, enthält, beginnt mit, endet mit) gewählt werden kann.
 
 ![Pfad02](pictures/path02.png "Filterung nach ZE-Nummer ist gleich")
 
-Die Filterausprägung kann mit der Tastatur eingegeben und mit Tab bestätigt werden. Manchmal reagiert das System mit leichter Verzögerung, sodass es zu Doppeleingaben kommen kann. Diese können einfach mit "Backspace" wieder entfernt werden.
+Die Filterausprägung kann mit der Tastatur eingegeben und mit Tab bestätigt werden. Manchmal reagiert das System mit leichter Verzögerung, sodass es zu Doppeleingaben kommen kann. Diese können mit "Backspace" wieder entfernt werden.
 
 Wenn die Filterwerte erfolgreich eingetippt wurden, kann der weitere Pfad analysiert werden. Es werden verfügbare Relationen angezeigt oder "irgendeine" Relation kann gewählt werden zum nächsten Label. Hier wird die Verbindung zur Einheit gesucht.
 
 ![Pfad03](pictures/path03.png "Pfad zu weiteren Knoten")
 
-Nach der Bestätigung mit dem "Play-Button" oder Enter werden der gefundene Pfad angezeigt und die Zahl der Knoten kurzzeitig unter dem Suchfenster angezeigt.
+Nach der Bestätigung mit dem "Play-Button" oder Enter wird der gefundene Pfad  dargestellt und die Zahl der Knoten kurzzeitig unter dem Suchfenster eingeblendet.
 
 ![Pfad04](pictures/path04.png "Anzeige der Knoten und Kanten")
 
 ### Analyse mit Search-Phrases
 
-Falls Abfragen in einer Perspektive gespeichert sind, können diese sog. "Search Phrases" für die Analyse der Daten genutzt werden. Search Phrases erscheinen nach dem Klick in das Suchfenster ohne Knoten-Symbol oder -Farbe, sondern mit der Beschreibung. Variablen in den Search Phrases erkennt man am Dollar-Zeichen $. Search Phrases können mit Tab/Klick ausgewählt werden.
+Falls Abfragen in einer Perspektive gespeichert sind, können diese sog. "Search Phrases" für die Analyse der Daten genutzt werden. Search Phrases erscheinen nach dem Klick in das Suchfenster ohne Knoten-Symbol oder -Farbe, sondern mit einer kurzen Beschreibung. Variablen in den Search Phrases erkennt man am Dollar-Zeichen $. Search Phrases können mit Tab/Klick ausgewählt werden.
 
 ![Search Phrases 01](pictures/saved01.png "Anzeige von vorgefertigten Abfragen")
 
-Eine solche Abfrage kann mit Tab/Klick bestätigt und bei Bedarf die gesuchten Variablen als Freitext eingegeben werden. Hier wird nach dem Begriff "ovar" gesucht.
+Die gesuchten Variablen können als Freitext eingegeben werden. Hier wird nach dem Begriff "ovar" gesucht.
 
 ![Search Phrases 02](pictures/saved02.png "Suche nach der Indikation 'ovar'")
 
@@ -128,8 +233,8 @@ Innerhalb einer Scene können ein oder mehrere Knoten und dessen Graph mit Hilfe
 
 ![Actions 01](pictures/action01.png "Auswahlmenü bietet weitere Funktionen zur Analyse eines oder mehrere Knoten")
 
-Bei Scene Actions handelt es sich um vorbereitete Abfrage, die einen oder mehrere Knoten erweitern. Die Scene Actions werden nur dann ausgeführt, wenn ein Knoten und die Scene Action zueinander passen. Im Beispiel unten kann die WHO ATC-Hierarchie eingeblendet werden, da es sich beim ausgewählten Knoten um eine Substanz handelt. Die Produkt-Informationen werden nicht angezeigt, weil sich die zweite Scene Action nur auf Prdoukt-Knoten bezieht.
+Bei Scene Actions handelt es sich um vorbereitete Abfragen, die einen oder mehrere Knoten erweitern. Die Scene Actions werden nur dann ausgeführt, wenn ein Knoten und die Scene Action zueinander passen. Im Beispiel unten kann die WHO ATC-Hierarchie eingeblendet werden, da es sich beim ausgewählten Knoten um eine Substanz handelt. Die Produkt-Informationen werden nicht angezeigt, weil sich die zweite Scene Action nur auf Prdoukt-Knoten bezieht.
 
 ![Actions 02](pictures/action02.png "Auswahlmenü einer Scene Action, falls diese vorhanden sind")
 
-Es gibt weitere Möglichkeiten, das Medikamenten-Graph-Datenmodell zu analysieren. Die oben erwähnten Video zeigen noch mehr Funktionalitäten. Ein grundlegendes Verständnis des allgemeinen Datenschemas hilft jedoch immer bei der Analyse der SwissDRG Medikamenten Informationen.
+Es gibt weitere Möglichkeiten, das Medikamenten-Graph-Datenmodell zu analysieren. Die oben erwähnten Video und Dokumente zeigen noch mehr Funktionalitäten. Ein grundlegendes Verständnis des allgemeinen Datenschemas hilft sehr der Analyse des SwissDRG Medikamenten Graphen.
