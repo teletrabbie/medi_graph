@@ -54,8 +54,6 @@ Die Labels haben folgende Properties:
 
 | nodeLabels     | propertyName                | propertyTypes  |
 |---------------|---------------------------|---------------|
-| Indikation, MeSH  | Name                         | String        |
-| Anwendungsgebiet, Indikation  | Name              | String        |
 | Substanz       | Name                         | String        |
 | Substanz       | Zu erfassen seit             | Long          |
 | Substanz       | Einschränkung                | String        |
@@ -73,16 +71,17 @@ Die Labels haben folgende Properties:
 | Substanz       | Bezeichnung FR               | String        |
 | Tarif          | Name                         | String        |
 | Zusatzangabe   | Name                         | String        |
-| Zusatzangabe   | bezeichnung                  | String        |
-| Zusatzangabe   | hinweis                      | String        |
+| Zusatzangabe   | Bezeichnung                  | String        |
+| Zusatzangabe   | Hinweis                      | String        |
 | Verabreichungsart | Name                      | String        |
-| Verabreichungsart | bezeichnung               | String        |
-| Verabreichungsart | bezeichnung_fr            | String        |
-| Verabreichungsart | bezeichnung_it            | String        |
+| Verabreichungsart | Bezeichnung               | String        |
+| Verabreichungsart | Bezeichnung FR            | String        |
+| Verabreichungsart | Bezeichnung IT            | String        |
 | Einheit        | Name                         | String        |
-| Einheit        | bezeichnung                  | String        |
-| Einheit        | bezeichnung_fr               | String        |
-| Einheit        | bezeichnung_it               | String        |
+| Einheit        | Bezeichnung                  | String        |
+| Einheit        | Bezeichnung FR               | String        |
+| Einheit        | Bezeichnung IT               | String        |
+| Einheit        | Hinweis                      | String        |
 | Zusatzentgelt      | Name                     | String        |
 | Zusatzentgelt      | ATC                      | String        |
 | Zusatzentgelt      | Version                  | String        |
@@ -108,6 +107,8 @@ Die Labels haben folgende Properties:
 | Produkt            | ATC-SAI                  | String        |
 | Produkt            | Aktive Substanz EMA      | String        |
 | Produkt            | Praeparatename           | String        |
+| Indikation, MeSH  | Name                         | String        |
+| Indikation, Anwendungsgebiet  | Name              | String        |
 | Hierarchie         | Name                     | String        |
 | Hierarchie         | url                      | String        |
 | Hierarchie         | Bezeichnung EN           | String        |
@@ -125,7 +126,7 @@ Die Labels haben folgende Properties:
 | Anträge            | Status                   | String        |
 | Anträge            | Antragsnummer            | String        |
 
-Bei den Relationen gibt es einzelne wenige Properties:
+Bei fünf Relationen gibt es Properties:
 
 | relType          | propertyName                 | propertyTypes  |
 |-----------------|-----------------------------|---------------|
