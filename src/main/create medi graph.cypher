@@ -507,7 +507,7 @@ WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/s
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MATCH (s:Substanz {Name: row.aktueller_atc_code})
-MERGE (a:Anträge {Antragsnummer: row.antragsnummer})
+MERGE (a:Antrag {Antragsnummer: row.antragsnummer})
     SET
     a.Tarifsystem = row.tarifsystem,
     a.Status = row.status,

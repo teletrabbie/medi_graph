@@ -23,7 +23,7 @@ Die Knoten handelt es sich um:
 - Substanz: basiert auf den siebenstelligen ATC-Codes der SwissDRG Liste der hochteuren Medikamente/Substanzen sowie dem ATC-Index der WHO
 - Tarif, Einheit, Verarbeitungsart und Zusatzangabe: gemäss der SwissDRG Liste der hochteuren Medikamente/Substanzen und dem dazugehörigen technischen Begleitblatt
 - Zusatzentgelte: stationäre Zusatzentgelte für die Tarife SwissDRG, TARPSY und ST Reha
-- Anträge: abgelehnte oder nicht rechenbare Anträge gemäss SwissDRG Antragsverfahren für Medikamente oder Zusatzentgelte
+- Antrag: abgelehnte oder nicht rechenbare Anträge gemäss SwissDRG Antragsverfahren für Medikamente oder Zusatzentgelte
 - Hierarchie: basiert auf den ATC-Index mit den Detailierungslevels 1, 3, 4 und 5 sowie den Angabe der Definded Daily Dose (DDD) auf Level 7, d.h. für den Knoten Substanz
 - Produkt: basiert auf den Produktnamen der EMA oder Refdata ohne Unterteilung nach Packungen
 - Spezialitätenliste: alle Packungen inkl. Preisangaben der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG)
@@ -120,11 +120,11 @@ Die Labels haben folgende Properties:
 | Spezialitätenliste | PublikumsPreis           | Double        |
 | Spezialitätenliste | Letzte Preis Änderung    | Date          |
 | Spezialitätenliste | ATC-SL                   | String        |
-| Anträge            | Tarifsystem              | String        |
-| Anträge            | Partner                  | String        |
-| Anträge            | Antragsjahr              | Long          |
-| Anträge            | Status                   | String        |
-| Anträge            | Antragsnummer            | String        |
+| Antrag             | Tarifsystem              | String        |
+| Antrag             | Partner                  | String        |
+| Antrag             | Antragsjahr              | Long          |
+| Antrag             | Status                   | String        |
+| Antrag             | Antragsnummer            | String        |
 
 Bei fünf Relationen gibt es Properties:
 
