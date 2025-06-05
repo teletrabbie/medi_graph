@@ -21,9 +21,10 @@ dateOfData <- read_excel(ema_file, range = "D1:D1", col_names = c("dateOfData"))
 medicines_output_medicines_report_en <- read_excel(ema_file, skip = 8)
 
 
-# Filter and arrange data (only authorised medicines --> is this useful??)
+# Filter and arrange data
 ema_data <- medicines_output_medicines_report_en %>% 
-  filter(`Medicine status` == "Authorised", Category == "Human") %>%
+  filter(Category == "Human", `Medicine status` == "Authorised" |
+           (`Medicine status` == "Opinion" & `Opinion status` == "Positive")) %>%
   select(`ATC code (human)`, `Therapeutic area (MeSH)`,`Active substance`
         ,`Name of medicine`,`Therapeutic indication`,`Orphan medicine`, `Generic or hybrid`, Biosimilar,
         ,`Marketing authorisation developer / applicant / holder`,`Medicine URL`) %>% 

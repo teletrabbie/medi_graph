@@ -11,7 +11,7 @@ library(stringr)
 
 # Download files
 sai_file <- "./src/resources/sai.zip"
-download.file(url = "https://sai.refdata.ch/download/structuredexportzip/8480"
+download.file(url = "https://sai.refdata.ch/download/structuredexportzip/8481"
               , destfile = sai_file
               , method = "libcurl"
               , mode="wb")
@@ -21,6 +21,7 @@ unzip(sai_file, exdir = "./src/resources/"
 
 
 # Parse the XML file
+# xml_file <- read_xml("SAI-Praeparate.XML")
 xml_file <- read_xml("./src/resources/SAI/SAI-Praeparate.XML")
 
 # Define the XML namespace
