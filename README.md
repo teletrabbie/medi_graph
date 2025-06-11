@@ -21,7 +21,7 @@ docker run -d \
     --restart always \
     --publish=7474:7474 --publish=7687:7687 \
     --env NEO4J_AUTH=neo4j/medikamente \
-    --volume=/home/medikamente/neo4j:/data \
+    --volume=/home/user/neo4j:/data \
     neo4j:5.26.1
 ```
 
@@ -59,4 +59,4 @@ Der Ordner Resources `./src/resources` dient einerseits als Zwischenspeicher fü
 
 Nachdem die benötigten Dateien im Import-Ordner **der Neo4j-Datenbank** gespeichert wurden, kann das Cypher-Skript `create medi graph.cypher` im Ordner `./src/main` laufen gelassen werden. Das Skript kann wahlweise in die Neo4j-Browser-Umgebung kopiert oder mit Hilfe der VS Code Extension direkt gestartet werden.
 
-Nachdem das Datenmodell erstellt wurde, sollten 13 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen vorhanden sein. Die Zahl der Knoten sollte bei rund 20'000 und die Zahl der Relationen bei ca. 40'000 liegen. Das Datenmodells wird ausführlich im [Benutzerhandbuch](/src/main/documentation/Benutzerhandbuch.MD) beschrieben.
+Nachdem das Datenmodell erstellt wurde, sollten 13 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen vorhanden sein. Die Zahl der Knoten sollte bei rund 20'000 und die Zahl der Relationen bei ca. 40'000 liegen. Das Datenmodells wird ausführlich im [Benutzerhandbuch](/doc/Benutzerhandbuch.MD) beschrieben.
