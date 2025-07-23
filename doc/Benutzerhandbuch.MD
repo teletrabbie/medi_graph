@@ -16,7 +16,7 @@ Folgende Datenquellen wurden verwendet:
 
 ## Datenmodell
 
-Das Datenmodell besteht aus 13 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen.
+Das Datenmodell besteht aus 11 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen.
 
 Die Knoten handelt es sich um:
 
@@ -25,9 +25,9 @@ Die Knoten handelt es sich um:
 - Zusatzentgelte: stationäre Zusatzentgelte für die Tarife SwissDRG, TARPSY und ST Reha
 - Antrag: abgelehnte oder nicht rechenbare Anträge gemäss SwissDRG Antragsverfahren für Medikamente oder Zusatzentgelte
 - Hierarchie: basiert auf den ATC-Index mit den Detailierungslevels 1, 3, 4 und 5 sowie den Angabe der Definded Daily Dose (DDD) auf Level 7, d.h. für den Knoten Substanz
-- Produkt: basiert auf den Produktnamen der EMA oder Refdata ohne Unterteilung nach Packungen
+- Präparat: basiert auf den Produktnamen (Präparate) der EMA oder Refdata ohne Unterteilung nach Packungen
 - Spezialitätenliste: alle Packungen inkl. Preisangaben der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG)
-- Indikation, MeSH, Anwendungsgebiet: für welche Erkrankungen sind die Produkte indiziert gemäss EMA oder Refdata/SAI? Knoten basieren auf den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden); Indikation ist die Vereinigungsmenge von MeSH und Anwendungsgebiet
+- Indikation: für welche Erkrankungen sind die Präparate indiziert gemäss EMA (MeSH Term) oder Refdata/SAI (Anwendungsgebiet)? Knoten basieren auf den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden)
 
 Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relationen)
 
@@ -40,17 +40,17 @@ Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relat
 - WAR_ATC_BIS: Relation einer Substanz zu sich selbst, falls der ATC-Code in der Vergangenheit geändert hat inkl. Relationenproperties
 - NICHT_AUF_MEDI_LISTE: Relation einer Substanz zu sich selbst, falls es sich um einen ATC-Code handelt, der sich aktuell nicht auf der Liste der hochteuren Medikamente befindet
 - IST_IN_ATC_GRUPPE: Relation einer Substanz zum ATC-Hierarchie-Level 5 oder vom ATC-Hierarchie-Level jeweils ein Hierarchie-Level hinauf
-- HAT_ATC: Relation eines Produktes zu einer Substanz, wobei ATC-Codes der EMA und/oder von Refdata/SAI und/oder von der SL zu dieser Relation beitragen; die Quelle der Relation ist als Relationenpropertie vorhanden
-- HATTE_ATC: Relation eines Produktes zu einer Substanz, wobei der ATC-Code zu einem früheren ATC-Code gehört, der in der Relation `WAR_ATC_BIS` hinterlegt ist
-- INDIZIERT_FUER: Relation zwischen den Produkten und den Indikationsknoten (dreifache Relation)
-- IST_AUF_SL: Relation eines Produktes zu einer konkreten Packung, falls sich die Packung auf der Spezialitätenliste befindet
-- IST_AUCH_PRODUKT: Relation eines Produktes zu sich selbst, weil Produkte mit unterschiedlichen Indikationen die gleiche Bezeichnung haben können; diese Relation stellt sicher, dass keine Daten verloren gehen
+- HAT_ATC: Relation eines Präparates zu einer Substanz, wobei ATC-Codes der EMA und/oder von Refdata/SAI und/oder von der SL zu dieser Relation beitragen; die Quelle der Relation ist als Relationenpropertie vorhanden
+- HATTE_ATC: Relation eines Präparates zu einer Substanz, wobei der ATC-Code zu einem früheren ATC-Code gehört, der in der Relation `WAR_ATC_BIS` hinterlegt ist
+- INDIZIERT_FUER: Relation zwischen den Präparaten und den Indikationsknoten
+- IST_AUF_SL: Relation eines Präparates zu einer konkreten Packung, falls sich die Packung auf der Spezialitätenliste befindet
+- IST_AUCH_PRÄPARAT: Relation eines Präparates zu sich selbst, weil Präparate mit unterschiedlichen Indikationen die gleiche Bezeichnung haben können; diese Relation stellt sicher, dass keine Daten verloren gehen
 
 Das Datenschema kann wie folgt visualisiert werden:
 
 ![Datenschema](pictures/schema.png "Datenschema")
 
-Die Labels haben folgende Properties:
+In der ersten Version des Datenmodells hiess das Label `Präparat` noch `Produkt`. Die Labels haben folgende Properties:
 
 | nodeLabels     | propertyName                | propertyTypes  |
 |---------------|---------------------------|---------------|
@@ -91,24 +91,24 @@ Die Labels haben folgende Properties:
 | Zusatzentgelt      | Verabreichungsart        | String        |
 | Zusatzentgelt      | ZE-Nr                    | String        |
 | Zusatzentgelt      | url                      | String        |
-| Produkt            | Name                     | String        |
-| Produkt            | Mesh                     | String        |
-| Produkt            | Indikation               | String        |
-| Produkt            | Zulassungsinhaberin      | String        |
-| Produkt            | Orphan Status            | String        |
-| Produkt            | Generikum                | String        |
-| Produkt            | Biosimilar               | String        |
-| Produkt            | url                      | String        |
-| Produkt            | IT                       | String        |
-| Produkt            | ATC-EMA                  | String        |
-| Produkt            | Anwendungsgebiet         | String        |
-| Produkt            | Erstzulassung            | String        |
-| Produkt            | Zulassungsnummer         | String        |
-| Produkt            | ATC-SAI                  | String        |
-| Produkt            | Aktive Substanz EMA      | String        |
-| Produkt            | Praeparatename           | String        |
-| Indikation, MeSH  | Name                         | String        |
-| Indikation, Anwendungsgebiet  | Name              | String        |
+| Präparat           | Name                     | String        |
+| Präparat           | Mesh                     | String        |
+| Präparat           | Indikation               | String        |
+| Präparat           | Zulassungsinhaberin      | String        |
+| Präparat           | Orphan Status            | String        |
+| Präparat           | Generikum                | String        |
+| Präparat           | Biosimilar               | String        |
+| Präparat           | url                      | String        |
+| Präparat           | IT                       | String        |
+| Präparat           | ATC-EMA                  | String        |
+| Präparat           | Anwendungsgebiet         | String        |
+| Präparat           | Erstzulassung            | String        |
+| Präparat           | Zulassungsnummer         | String        |
+| Präparat           | ATC-SAI                  | String        |
+| Präparat           | Aktive Substanz EMA      | String        |
+| Präparat           | Praeparatename           | String        |
+| Indikation         | Name                     | String        |
+| Indikation         | Name                     | String        |
 | Hierarchie         | Name                     | String        |
 | Hierarchie         | url                      | String        |
 | Hierarchie         | Bezeichnung EN           | String        |
@@ -120,6 +120,8 @@ Die Labels haben folgende Properties:
 | Spezialitätenliste | PublikumsPreis           | Double        |
 | Spezialitätenliste | Letzte Preis Änderung    | Date          |
 | Spezialitätenliste | ATC-SL                   | String        |
+| Spezialitätenliste | Einfügedatum             | Date        |
+| Spezialitätenliste | Therapie-Gruppe          | String        |
 | Antrag             | Tarifsystem              | String        |
 | Antrag             | Partner                  | String        |
 | Antrag             | Antragsjahr              | Long          |
@@ -137,7 +139,7 @@ Bei fünf Relationen gibt es Properties:
 | INDIZIERT_FUER | Quelle                        | String        |
 | IST_AUF_SL     | null                          | null          |
 | GILT_FUER_TARIF| null                          | null          |
-| IST_AUCH_PRODUKT | null                        | null          |
+| IST_AUCH_PRÄPARAT | null                        | null          |
 | IST_IN_ATC_GRUPPE | null                      | null          |
 | WAR_ATC_BIS    | Gültig bis und mit Jahr       | Long          |
 | WAR_ATC_BIS    | Früherer ATC                  | String        |
@@ -171,7 +173,7 @@ Das Datenmodell wurde mit Hilfe von cypher-Code in Neo4j implementiert. Anstatt 
 Die vermutlich einfachste Art ist die Suche nach Freitext im Suchfenster oben links. Besonders geeignet ist die Suche nach:
 
 - ATC-Codes
-- Produkt-Bezeichnungen
+- Präparat-Bezeichnungen
 - Indikationen
 
 Durch Auswahl der Suchtreffer mit Tab und mit Bestätigung der Suche mit Enter oder dem Dreieck-Symbol am rechten Rand der Suchleiste, werden die Knoten in der Scene dargestellt.
@@ -234,7 +236,7 @@ Innerhalb einer Scene können ein oder mehrere Knoten und dessen Graph mit Hilfe
 
 ![Actions 01](pictures/action01.png "Auswahlmenü bietet weitere Funktionen zur Analyse eines oder mehrere Knoten")
 
-Bei Scene Actions handelt es sich um vorbereitete Abfragen, die einen oder mehrere Knoten erweitern. Die Scene Actions werden nur dann ausgeführt, wenn ein Knoten und die Scene Action zueinander passen. Im Beispiel unten kann die WHO ATC-Hierarchie eingeblendet werden, da es sich beim ausgewählten Knoten um eine Substanz handelt. Die Produkt-Informationen werden nicht angezeigt, weil sich die zweite Scene Action nur auf Prdoukt-Knoten bezieht.
+Bei Scene Actions handelt es sich um vorbereitete Abfragen, die einen oder mehrere Knoten erweitern. Die Scene Actions werden nur dann ausgeführt, wenn ein Knoten und die Scene Action zueinander passen. Im Beispiel unten kann die WHO ATC-Hierarchie eingeblendet werden, da es sich beim ausgewählten Knoten um eine Substanz handelt. Die Präparat-Informationen werden nicht angezeigt, weil sich die zweite Scene Action nur auf Präparat-Knoten bezieht.
 
 ![Actions 02](pictures/action02.png "Auswahlmenü einer Scene Action, falls diese vorhanden sind")
 
