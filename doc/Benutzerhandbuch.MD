@@ -31,10 +31,10 @@ Die Knoten handelt es sich um:
 
 Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relationen)
 
-- GILT_FUER_TARIF: Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zum Tarif (zweifache Relation)
-- HAT_EINHEIT: Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Einheit (zweifache Relation)
-- HAT_VA: zweifache Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Verabreichungsart (VA)
-- HAT_ZA: zweifache Relation einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Zusatzangabe (ZA)
+- GILT_FUER_TARIF: zwei Relationen einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zum Tarif
+- HAT_EINHEIT: zwei Relationen einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Einheit
+- HAT_VA: zwei Relationen einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Verabreichungsart (VA)
+- HAT_ZA: drei Relationen einer Substanz der Liste der hochteuren Medikamente oder eines Zusatzentgeltes zur Zusatzangabe (ZA)
 - HAT_ZE: Relation einer Substanz der Liste der hochteuren Medikamente zu ein Zusatzentgelt (ZE)
 - HATTE_ANTRAG: Relation einer Substanz der Liste der hochteuren Medikamente zun Anträgen des Antragsverfahrens
 - WAR_ATC_BIS: Relation einer Substanz zu sich selbst, falls der ATC-Code in der Vergangenheit geändert hat inkl. Relationenproperties

@@ -514,3 +514,143 @@ MERGE (a:Antrag {Antragsnummer: row.antragsnummer})
     a.Partner = row.antragsberechtigte_partnerorganisation
 MERGE (s)-[:HATTE_ANTRAG {Art: row.quelle}]->(a)
 ;
+
+
+
+// Part 10: Some manual inputs are made to the graph
+
+// Relations between nodes "Präparat" and "Zusatzangabe" according to "Technisches Begleitblatt"
+MATCH (n:Präparat{Name: 'ventavis'})
+MATCH (z:Zusatzangabe{Name: 'CVT'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'ilomedin'})
+MATCH (z:Zusatzangabe{Name: 'CIM'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'alprolix'})
+MATCH (z:Zusatzangabe{Name: 'CAI'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'idelvion'})
+MATCH (z:Zusatzangabe{Name: 'CAI'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'refixia'})
+MATCH (z:Zusatzangabe{Name: 'CAI'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'benefix'})
+MATCH (z:Zusatzangabe{Name: 'CBB'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'immunine stim plus'})
+MATCH (z:Zusatzangabe{Name: 'CBB'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'rixubis'})
+MATCH (z:Zusatzangabe{Name: 'CBB'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'zavicefta'})
+MATCH (z:Zusatzangabe{Name: 'CZC'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'zerbaxa'})
+MATCH (z:Zusatzangabe{Name: 'CZB'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'epclusa'})
+MATCH (z:Zusatzangabe{Name: 'CEP'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'vosevi'})
+MATCH (z:Zusatzangabe{Name: 'CVO'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'maviret'})
+MATCH (z:Zusatzangabe{Name: 'CMA'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'lonsurf'})
+MATCH (z:Zusatzangabe{Name: 'CLS'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'qarziba'})
+MATCH (z:Zusatzangabe{Name: 'CQZ'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'thymoglobuline'})
+MATCH (z:Zusatzangabe{Name: 'CTG'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'grafalon'})
+MATCH (z:Zusatzangabe{Name: 'CFR'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'zypadhera'})
+MATCH (z:Zusatzangabe{Name: 'CZY'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'abilify maintena'})
+MATCH (z:Zusatzangabe{Name: 'CAM'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'xeplion'})
+MATCH (z:Zusatzangabe{Name: 'CXE'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'trikafta'})
+MATCH (z:Zusatzangabe{Name: 'CTK'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'cayston'})
+MATCH (z:Zusatzangabe{Name: 'CCS'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'azactam'})
+MATCH (z:Zusatzangabe{Name: 'CAZ'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'livmarli'})
+MATCH (z:Zusatzangabe{Name: 'CLM'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'emblaveo'})
+MATCH (z:Zusatzangabe{Name: 'CEL'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'spectrila'})
+MATCH (z:Zusatzangabe{Name: 'ACO'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat{Name: 'enrylaze'})
+MATCH (z:Zusatzangabe{Name: 'ACY'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
