@@ -46,11 +46,13 @@ Der Ordner Resources `./src/resources` dient einerseits als Zwischenspeicher fü
   - `06_parse_atc_ddd.py`: das Python-Skript führt ein Webscraping der Seite `https://atcddd.fhi.no/atc_ddd_index` durch, auf dem die ATC-Codes gemäss Weltgesundheitsorganisation (WHO) veröffentlicht sind. In einem rekursiven Verfahren wird der ATC-Index von der obersten Hierarchiestufe bis zur detailliertesten Hierarchiestufe gescraped. Aufgrund der Nutzungsbestimmungen wurde der Befehl `time.sleep(10)` eingefügt, sodass zwischen den Webseitenaufrufen zehn Sekunden gewartet wird. Ohne `time.sleep(10)` dauert das Webscraping ca. 5 Minuten. Es werden zwei csv-Dateien erstellt mit der ATC-Hierarchie (`atc_list.csv`) und den Angaben der Defined Daily Dose (DDD, `atc_ddd.csv`)
   - `07_bag_sl.R`: die aktuelle Excel-Datei der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG) wird von der SL-Website heruntergeladen, leicht aufbereitet und die relevanten Spalten als csv-Datei `sl.csv` gespeichert
   - `09_antraege.R`: die beiden manuell erstellten und aufbereiteten Excel-Dateien `proposals Medi.xlsx` und `proposals ZE.xlsx` werden als eine gemeinsame csv-Datei `antraege.csv` gespeichert
+  - `11_gBA_nutzenbewertung.R`: die aktuelle maschinenlesbare Fassung der Beschlüsse zur Nutzenbewertung von Arzneimitteln des deuschen, gemeinsamen Bundesauschuss werden heruntergeladen. Der Link zum Download ist zwar ein Dauerlink, aber er verfällt nach drei Monaten Inaktivität. Die XML-Struktur wird in eine Tabelle umgewandelt und als csv-Datei `gBA_nutzenbewertung.csv` gespeichert
 - Aktualisierungsfrequenz:
   - Monatlich
     - `04_ema_produkte.R` (Dauer: weniger als 1 Minute)
     - `05_refdata.R` (Dauer: weniger als 10 Minuten, Link muss aktualisiert werden)
     - `07_bag_sl.R` (Dauer: weniger als 1 Minute)
+    - `11_gBA_nutzenbewertung.R` (Dauer: weniger als 5 Minuten, Dauerlink ggfs. aktualisieren, weil verfällt bei 3 Monaten Inaktivität)
   - Jährlich
     - `02_technisches_begleitblatt.R` (Link muss aktualisiert werden)
     - `03_zusatzentgelte.R` (Link muss aktualisiert werden)
@@ -61,4 +63,4 @@ Der Ordner Resources `./src/resources` dient einerseits als Zwischenspeicher fü
 
 Nachdem die benötigten Dateien im Import-Ordner **der Neo4j-Datenbank** gespeichert wurden, kann das Cypher-Skript `create medi graph.cypher` im Ordner `./src/main` laufen gelassen werden. Das Skript kann wahlweise in die Neo4j-Browser-Umgebung kopiert oder mit Hilfe der VS Code Extension direkt gestartet werden.
 
-Nachdem das Datenmodell erstellt wurde, sollten 11 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen vorhanden sein. Die Zahl der Knoten sollte bei rund 20'000 und die Zahl der Relationen bei ca. 40'000 liegen. Das Datenmodells wird ausführlich im [Benutzerhandbuch](/doc/Benutzerhandbuch.MD) beschrieben.
+Nachdem das Datenmodell erstellt wurde, sollten 12 Labels (Knoten-Typen) und 15 unterschiedlichen Relationen vorhanden sein. Die Zahl der Knoten sollte bei rund 29'000 und die Zahl der Relationen bei ca. 44'000 liegen. Das Datenmodells wird ausführlich im [Benutzerhandbuch](/doc/Benutzerhandbuch.MD) beschrieben.
