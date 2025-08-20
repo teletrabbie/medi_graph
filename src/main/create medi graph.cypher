@@ -133,7 +133,7 @@ LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MERGE (z:Zusatzentgelt {Name: row.ze_id})
     SET
-    z.`ZE-Nr` = row.ze_nr,
+    z.`ZE-Nr` = toInteger(row.ze_nr),
     z.ATC = row.code,
     z.Version = row.version,
     z.`ZE-Code` = row.ze_code,
@@ -516,9 +516,7 @@ MERGE (s)-[:HATTE_ANTRAG {Art: row.quelle}]->(a)
 ;
 
 
-
-// Part 10: Some manual inputs are made to the graph
-
+// Part 10: some manual inputs are made to the graph database
 // Relations between nodes "Präparat" and "Zusatzangabe" according to "Technisches Begleitblatt"
 MATCH (n:Präparat{Name: 'ventavis'})
 MATCH (z:Zusatzangabe{Name: 'CVT'})
@@ -653,4 +651,33 @@ MERGE (n)-[:HAT_ZA]->(z)
 MATCH (n:Präparat{Name: 'enrylaze'})
 MATCH (z:Zusatzangabe{Name: 'ACY'})
 MERGE (n)-[:HAT_ZA]->(z)
+;
+
+
+// Part 11: Benefit Assessment of Medicinal Products by Federal Joint Committee on an Amendment of the Pharmaceuticals Directive (gBA Nutzenbewertung)
+// Load data and create nodes
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/gBA_nutzenbewertung.csv' AS import
+LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
+
+MERGE (n:Nutzenbewertung {`Patientengruppe ID`: toInteger(row.ID_PAT_GR)})
+SET n.URL = row.URL,
+    n.Handelsname = row.NAME_HN,
+    n.ATC = row.ATC,
+    n.Wirkstoff = row.WS_BEW,
+    n.Beschlussdatum = date(row.DATUM_BE_VOM),
+    n.Vergleichstherapie = row.NAME_ZVT_BEST,
+    n.Ausmass = row.ZVT_ZN_A,
+    n.Wahrscheinlichkeit = row.ZVT_ZN_w
+;
+
+
+// Create relationship from Nutzenbewertung to ATC and/or Präparat
+MATCH (n:Nutzenbewertung)
+MATCH (s:Substanz {Name: n.ATC})
+MERGE (s)-[:HAT_BEWERTUNG]->(n)
+;
+
+MATCH (n:Nutzenbewertung)
+MATCH (p:Präparat {Name: lower(n.Handelsname)})
+MERGE (p)-[:HAT_BEWERTUNG]->(n)
 ;

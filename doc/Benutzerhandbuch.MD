@@ -13,10 +13,11 @@ Folgende Datenquellen wurden verwendet:
 - [Strukturierte Arzneimittelinformationen (SAI)](https://sai.refdata.ch) der Stiftung Refdata (im Auftrag von SwissMedic)
 - Daten der [European Medicines Agency (EMA)](https://www.ema.europa.eu/en/medicines/download-medicine-data)
 - [ATC-Klassifikation](https://atcddd.fhi.no/atc_ddd_index/) der WHO
+- [Nutzenbewertung von Arzneimitteln](https://www.g-ba.de/themen/arzneimittel/arzneimittel-richtlinie-anlagen/nutzenbewertung-35a/ais/) des gemeinsamen Bundesausschuss (Deutschland)
 
 ## Datenmodell
 
-Das Datenmodell besteht aus 11 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen.
+Das Datenmodell besteht aus 12 Labels (Knoten-Typen) und 14 unterschiedlichen Relationen.
 
 Die Knoten handelt es sich um:
 
@@ -28,6 +29,7 @@ Die Knoten handelt es sich um:
 - Präparat: basiert auf den Produktnamen (Präparate) der EMA oder Refdata ohne Unterteilung nach Packungen
 - Spezialitätenliste: alle Packungen inkl. Preisangaben der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG)
 - Indikation: für welche Erkrankungen sind die Präparate indiziert gemäss EMA (MeSH Term) oder Refdata/SAI (Anwendungsgebiet)? Knoten basieren auf den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden)
+- Nutzenbewertung: basiert auf der Nutzenbewertungen des gemeinsamen Bundesauschusses (Deutschland) je Patientengruppe; für ein Präparat (deutsche Handelsnamen) oder eine Substanz können mehrere Nutzenbewertungen vorhanden sein
 
 Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relationen)
 
@@ -45,6 +47,7 @@ Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relat
 - INDIZIERT_FUER: Relation zwischen den Präparaten und den Indikationsknoten
 - IST_AUF_SL: Relation eines Präparates zu einer konkreten Packung, falls sich die Packung auf der Spezialitätenliste befindet
 - IST_AUCH_PRÄPARAT: Relation eines Präparates zu sich selbst, weil Präparate mit unterschiedlichen Indikationen die gleiche Bezeichnung haben können; diese Relation stellt sicher, dass keine Daten verloren gehen
+- HAT_BEWERTUNG: zwei Relationen einer Nutzenbewertung des gemeinsamen Bundesausschluss (gBA) zu Präparaten oder Substanzen
 
 Das Datenschema kann wie folgt visualisiert werden:
 
@@ -89,7 +92,7 @@ In der ersten Version des Datenmodells hiess das Label `Präparat` noch `Produkt
 | Zusatzentgelt      | Zusatzangabe             | String        |
 | Zusatzentgelt      | Einheit                  | String        |
 | Zusatzentgelt      | Verabreichungsart        | String        |
-| Zusatzentgelt      | ZE-Nr                    | String        |
+| Zusatzentgelt      | ZE-Nr                    | Long        |
 | Zusatzentgelt      | url                      | String        |
 | Präparat           | Name                     | String        |
 | Präparat           | Mesh                     | String        |
@@ -127,6 +130,15 @@ In der ersten Version des Datenmodells hiess das Label `Präparat` noch `Produkt
 | Antrag             | Antragsjahr              | Long          |
 | Antrag             | Status                   | String        |
 | Antrag             | Antragsnummer            | String        |
+| Nutzenbewertung | Patientengruppe ID | Long   |
+| Nutzenbewertung | URL                | String |
+| Nutzenbewertung | Handelsname        | String |
+| Nutzenbewertung | ATC                | String |
+| Nutzenbewertung | Wirkstoff          | String |
+| Nutzenbewertung | Beschlussdatum     | Date   |
+| Nutzenbewertung | Vergleichstherapie | String |
+| Nutzenbewertung | Ausmass            | String |
+| Nutzenbewertung | Wahrscheinlichkeit | String |
 
 Bei fünf Relationen gibt es Properties:
 
@@ -147,6 +159,7 @@ Bei fünf Relationen gibt es Properties:
 | NICHT_AUF_MEDI_LISTE | null                   | null          |
 | HATTE_ANTRAG   | Art                           | String        |
 | HATTE_ATC      | Quelle                        | String        |
+| HAT_BEWERTUNG  | null                          | String        |
 
 
 ## Einführung in Neo4j Bloom/Explore

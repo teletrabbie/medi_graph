@@ -1,0 +1,409 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 118.22362277904602,
+        "y": 601.4005605406347
+      },
+      "caption": "Nutzen- bewertung",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 707.2494647994579,
+        "y": 248.16046381657395
+      },
+      "caption": "Substanz",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 1015.6783482591466,
+        "y": -4
+      },
+      "caption": "Tarif",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 409.6312390270913,
+        "y": 248.16046381657395
+      },
+      "caption": "Präparat",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 1278.3436382081145,
+        "y": 326.8322956410152
+      },
+      "caption": "Zusatz- entgelt",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 118.22362277904602,
+        "y": 187.67732976646562
+      },
+      "caption": "Speziali- tätenliste",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 1015.6783482591466,
+        "y": 657.6645912820304
+      },
+      "caption": "Einheit",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 464.0298248684258,
+        "y": 601.4005605406347
+      },
+      "caption": "Hierarchie",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 1015.6783482591466,
+        "y": 445.28318427944964
+      },
+      "caption": "Zusatz- angabe",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 118.22362277904602,
+        "y": 394.5389451535502
+      },
+      "caption": "Indikation",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 707.2494647994579,
+        "y": 657.6645912820304
+      },
+      "caption": "Antrag",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 1015.6783482591466,
+        "y": 187.67732976646562
+      },
+      "caption": "Verabrei- chungsart",
+      "labels": [],
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "fromId": "n3",
+      "toId": "n1",
+      "type": "HAT_ATC",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n1",
+      "fromId": "n3",
+      "toId": "n1",
+      "type": "HATTE_ATC",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n2",
+      "fromId": "n1",
+      "toId": "n7",
+      "type": "IST_IN_ATC_GRUPPE",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n3",
+      "fromId": "n7",
+      "toId": "n7",
+      "type": "IST_IN_ATC_GRUPPE",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff",
+        "detail-position": "above"
+      }
+    },
+    {
+      "id": "n4",
+      "fromId": "n3",
+      "toId": "n5",
+      "type": "IST_AUF_SL",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n5",
+      "fromId": "n1",
+      "toId": "n10",
+      "type": "HATTE_ANTRAG",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n6",
+      "fromId": "n1",
+      "toId": "n2",
+      "type": "GILT_FUER_TARIF",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n7",
+      "fromId": "n4",
+      "toId": "n2",
+      "type": "GILT_FUER_TARIF",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n1",
+      "toId": "n6",
+      "type": "HAT_EINHEIT",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n9",
+      "fromId": "n4",
+      "toId": "n6",
+      "type": "HAT_EINHEIT",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n10",
+      "fromId": "n1",
+      "toId": "n11",
+      "type": "HAT_VA",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n11",
+      "fromId": "n4",
+      "toId": "n11",
+      "type": "HAT_VA",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n12",
+      "fromId": "n4",
+      "toId": "n8",
+      "type": "HAT_ZA",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n13",
+      "fromId": "n1",
+      "toId": "n8",
+      "type": "HAT_ZA",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n14",
+      "fromId": "n1",
+      "toId": "n1",
+      "type": "WAR_ATC_BIS",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff",
+        "detail-position": "below"
+      }
+    },
+    {
+      "id": "n15",
+      "fromId": "n1",
+      "toId": "n1",
+      "type": "NICHT_AUF_MEDI_LISTE",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff",
+        "type-color": "#000000",
+        "detail-position": "below"
+      }
+    },
+    {
+      "id": "n16",
+      "fromId": "n1",
+      "toId": "n4",
+      "type": "HAT_ZE",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n17",
+      "fromId": "n3",
+      "toId": "n9",
+      "type": "INDIZIERT_FUER",
+      "properties": {},
+      "style": {
+        "type-border-color": "#ffffff"
+      }
+    },
+    {
+      "id": "n18",
+      "fromId": "n3",
+      "toId": "n3",
+      "type": "IST_AUCH_PRÄPARAT",
+      "properties": {},
+      "style": {
+        "detail-position": "below"
+      }
+    },
+    {
+      "id": "n19",
+      "fromId": "n3",
+      "toId": "n8",
+      "type": "HAT_ZA",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "type": "HAT_BEWERTUNG",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n0"
+    },
+    {
+      "id": "n21",
+      "type": "HAT_BEWERTUNG",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n0"
+    }
+  ]
+}
