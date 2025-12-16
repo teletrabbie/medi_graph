@@ -10,16 +10,16 @@ library(tidyverse)
 
 # Download files
 ze_files <- "./src/resources/ze_v150.zip"
-download.file(url="https://www.swissdrg.org/download_file/view/5286/2330"
+download.file(url="https://www.swissdrg.org/download_file/view/5383/2330"
               , destfile = ze_files
               , method = "libcurl"
               , mode="wb")
 unzip(ze_files, exdir = "./src/resources/", list=TRUE)
-unzip(ze_files, exdir = "./src/resources/", files = "ZE-EDV_V15.2_20250806-definitions.csv")
+unzip(ze_files, exdir = "./src/resources/", files = "ZE-EDV_V15.3_20251128-definitions.csv")
 
 
 # Import data to environment
-definitions <- read_delim("./src/resources/ZE-EDV_V15.2_20250806-definitions.csv", 
+definitions <- read_delim("./src/resources/ZE-EDV_V15.3_20251128-definitions.csv", 
                             delim = "|", escape_double = FALSE, trim_ws = TRUE)
 
 # data for reha + tarpsy (here manually prepared, in SwissDRG via API)

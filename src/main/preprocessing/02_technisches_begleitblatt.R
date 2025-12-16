@@ -9,8 +9,8 @@ library(tidyverse)
 
 
 # Download files
-import_file <- "./src/resources/Technisches_Begleitblatt_2025.xlsx"
-download.file(url = "https://www.swissdrg.org/download_file/view/5010/2253"
+import_file <- "./src/resources/Technisches_Begleitblatt_2026.xlsx"
+download.file(url = "https://www.swissdrg.org/download_file/view/5323/2390"
               , destfile = import_file
               , method = "libcurl"
               , mode="wb")

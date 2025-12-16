@@ -5,7 +5,7 @@
 
 // Part 1: Liste der hochteuren Medikamente/Substanzen
 // Load data from input list
-WITH 'https://www.swissdrg.org/download_file/view/4992/2253' AS import
+WITH 'https://www.swissdrg.org/download_file/view/5319/2390' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 WITH row,
@@ -653,6 +653,16 @@ MATCH (z:Zusatzangabe{Name: 'ACY'})
 MERGE (n)-[:HAT_ZA]->(z)
 ;
 
+MATCH (n:Präparat{Name: 'pedmarqsi'})
+MATCH (z:Zusatzangabe{Name: 'CPM'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
+MATCH (n:Präparat) WHERE n.Name STARTS WITH 'onivyde'
+MATCH (z:Zusatzangabe{Name: 'CON'})
+MERGE (n)-[:HAT_ZA]->(z)
+;
+
 
 // Part 11: Benefit Assessment of Medicinal Products by Federal Joint Committee on an Amendment of the Pharmaceuticals Directive (gBA Nutzenbewertung)
 // Load data and create nodes
@@ -680,4 +690,25 @@ MERGE (s)-[:HAT_BEWERTUNG]->(n)
 MATCH (n:Nutzenbewertung)
 MATCH (p:Präparat {Name: lower(n.Handelsname)})
 MERGE (p)-[:HAT_BEWERTUNG]->(n)
+;
+
+
+// Part 12: ICD diagnosis per product by Federal Joint Committee on an Amendment of the Pharmaceuticals Directive
+// Load data and create nodes
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/gBA_icd.csv' AS import
+LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
+
+MERGE (n:Indikation {Name: row.NAME_ICD_GROUPED})
+SET n.ICD = row.ID_ICD_GROUPED,
+    n.FLAG_GBA = 'true'
+;
+
+
+// Create relationship from Präparat to Indikation
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/gBA_icd.csv' AS import
+LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
+
+MATCH (p:Präparat {Name: lower(row.NAME_HN)})
+MATCH (n:Indikation {ICD: row.ID_ICD_GROUPED})
+MERGE (p)-[:INDIZIERT_FUER {Quelle: 'gBA'}]->(n)
 ;

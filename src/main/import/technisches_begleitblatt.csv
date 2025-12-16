@@ -14,7 +14,6 @@
 "de","medi_zusatz","CTG","Thymoglobuline®",NA
 "de","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "de","medi_zusatz","CZY","Zypadhera®",NA
-"de","medi_zusatz","CRC","Risperdal Consta®",NA
 "de","medi_zusatz","CAM","Abilify Maintena®",NA
 "de","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
 "de","medi_zusatz","CTK","Trikafta®","Kombipräparate mit anderem Handelsnamen, aber gleicher Zusammensetzung sind mit dem gleichen Kürzel zu kodieren wie das angegebene Präparat."
@@ -22,6 +21,8 @@
 "de","medi_zusatz","CAZ","Azactam®",NA
 "de","medi_zusatz","CLM","Livmarli®",NA
 "de","medi_zusatz","CEL","Emblaveo®","WHO ATC level name ""aztreonam and beta-lactamase inhibitor"""
+"de","medi_zusatz","CPM","Pedmarqsi®",NA
+"de","medi_zusatz","CON","Onivyde® liposomal pégylé",NA
 "de","medi_zusatz","ACO","Asparaginase, aus Escherichia coli gewonnen",NA
 "de","medi_zusatz","ACY","Asparaginase, aus Erwinia chrysanthemi (Dickeya dadantii) gewonnen",NA
 "de","medi_zusatz","Rec","Rekombinant",NA
@@ -33,6 +34,8 @@
 "de","medi_zusatz","FL","Autologe CAR-T Zelltherapie bei follikulärem Lymphom",NA
 "de","medi_zusatz","MCL","Autologe CAR-T Zelltherapie bei Mantelzell-Lymphom",NA
 "de","medi_zusatz","MM","Autologe CAR-T Zelltherapie bei multiplem Myelom",NA
+"de","medi_zusatz","PPA","Plaque-Psoriasis, Psoriasis-Arthritis",NA
+"de","medi_zusatz","MCU","Morbus Crohn, Colitis ulcerosa",NA
 "de","medi_verabreichungsart","ET","endotracheopulmonal",NA
 "de","medi_verabreichungsart","ICV","intracerebroventrikulär",NA
 "de","medi_verabreichungsart","IGLAN","intraglandulär",NA
@@ -44,6 +47,7 @@
 "de","medi_verabreichungsart","ITST","intestinal",NA
 "de","medi_verabreichungsart","IV","intravenös",NA
 "de","medi_verabreichungsart","IVITR","intravitreal",NA
+"de","medi_verabreichungsart","IVSK","intravesikal",NA
 "de","medi_verabreichungsart","N","nasal",NA
 "de","medi_verabreichungsart","O","oral",NA
 "de","medi_verabreichungsart","R","rektal",NA
@@ -77,7 +81,6 @@
 "fr","medi_zusatz","CTG","Thymoglobuline®",NA
 "fr","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "fr","medi_zusatz","CZY","Zypadhera®",NA
-"fr","medi_zusatz","CRC","Risperdal Consta®",NA
 "fr","medi_zusatz","CAM","Abilify Maintena®",NA
 "fr","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
 "fr","medi_zusatz","CTK","Trikafta®","Les préparations combinées portant un autre nom commercial, mais présentant la même composition doivent être codées avec la même abréviation que la préparation indiquée."
@@ -85,6 +88,8 @@
 "fr","medi_zusatz","CAZ","Azactam®",NA
 "fr","medi_zusatz","CLM","Livmarli®",NA
 "fr","medi_zusatz","CEL","Emblaveo®","WHO ATC level name ""aztreonam and beta-lactamase inhibitor"""
+"fr","medi_zusatz","CPM","Pedmarqsi®",NA
+"fr","medi_zusatz","CON","Onivyde® liposomal pégylé",NA
 "fr","medi_zusatz","ACO","Asparaginase, provenant de Escherichia coli",NA
 "fr","medi_zusatz","ACY","Asparaginase, rovenant de Erwinia chrysanthemi (Dickeya dadantii)",NA
 "fr","medi_zusatz","Rec","Recombinant",NA
@@ -96,6 +101,8 @@
 "fr","medi_zusatz","FL","Thérapie cellulaire CAR-T autologue contre le lymphome folliculaire",NA
 "fr","medi_zusatz","MCL","Thérapie cellulaire CAR-T autologue contre le lymphome à cellules du manteau",NA
 "fr","medi_zusatz","MM","Thérapie cellulaire CAR-T autologue contre le myélome multiple",NA
+"fr","medi_zusatz","PPA","Psoriasis en plaques, arthrite psoriasique",NA
+"fr","medi_zusatz","MCU","Maladie de Crohn, colite ulcéreuse",NA
 "fr","medi_verabreichungsart","ET","endotrachéobronchique",NA
 "fr","medi_verabreichungsart","ICV","intracérébroventriculaire",NA
 "fr","medi_verabreichungsart","IGLAN","intraglandulaire",NA
@@ -107,6 +114,7 @@
 "fr","medi_verabreichungsart","ITST","intestinale",NA
 "fr","medi_verabreichungsart","IV","intraveineux",NA
 "fr","medi_verabreichungsart","IVITR","intravitreux",NA
+"fr","medi_verabreichungsart","IVSK","intravésicale",NA
 "fr","medi_verabreichungsart","N","nasal",NA
 "fr","medi_verabreichungsart","O","oral",NA
 "fr","medi_verabreichungsart","R","rectal",NA
@@ -140,7 +148,6 @@
 "it","medi_zusatz","CTG","Thymoglobuline®",NA
 "it","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "it","medi_zusatz","CZY","Zypadhera®",NA
-"it","medi_zusatz","CRC","Risperdal Consta®",NA
 "it","medi_zusatz","CAM","Abilify Maintena®",NA
 "it","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
 "it","medi_zusatz","CTK","Trikafta®","I preparati combinati con un altro nome commerciale ma con la stessa composizione vanno codificati con la stessa abbreviazione del preparato indicato."
@@ -148,6 +155,8 @@
 "it","medi_zusatz","CAZ","Azactam®",NA
 "it","medi_zusatz","CLM","Livmarli®",NA
 "it","medi_zusatz","CEL","Emblaveo®","WHO ATC level name ""aztreonam and beta-lactamase inhibitor"""
+"it","medi_zusatz","CPM","Pedmarqsi®",NA
+"it","medi_zusatz","CON","Onivyde® liposomal pégylé",NA
 "it","medi_zusatz","ACO","Asparaginase, provenant de Escherichia coli",NA
 "it","medi_zusatz","ACY","Asparaginase, rovenant de Erwinia chrysanthemi (Dickeya dadantii)",NA
 "it","medi_zusatz","Rec","Ricombinante",NA
@@ -159,6 +168,8 @@
 "it","medi_zusatz","FL","Terapia cellulare autologa CAR-T per il linfoma folliculare",NA
 "it","medi_zusatz","MCL","Terapia cellulare autologa CAR-T per il linfoma a cellule del mantello",NA
 "it","medi_zusatz","MM","Terapia cellulare autologa CAR-T per il mieloma multiplo",NA
+"it","medi_zusatz","PPA","Psoriasi a placche, artrite psoriasica",NA
+"it","medi_zusatz","MCU","Morbo di Crohn, colite ulcerosa",NA
 "it","medi_verabreichungsart","ET","endotracheopolmonare",NA
 "it","medi_verabreichungsart","ICV","intracerebroventricolare",NA
 "it","medi_verabreichungsart","IGLAN","intraglandolare",NA
@@ -170,6 +181,7 @@
 "it","medi_verabreichungsart","ITST","intestinale",NA
 "it","medi_verabreichungsart","IV","endovenoso",NA
 "it","medi_verabreichungsart","IVITR","intravitreale",NA
+"it","medi_verabreichungsart","IVSK","endovescicale",NA
 "it","medi_verabreichungsart","N","nasale",NA
 "it","medi_verabreichungsart","O","orale",NA
 "it","medi_verabreichungsart","R","rettale",NA
