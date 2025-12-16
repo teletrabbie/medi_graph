@@ -6,7 +6,7 @@ Es wurde ein Datenmodell mit der Graphdatenbank Neo4j entwickelt. Dabei wurden d
 
 Folgende Datenquellen wurden verwendet:
 
-- [Liste der hochteuren Medikamente/Substanzen 2025](https://www.swissdrg.org/de/akutsomatik/datenerhebung/erhebung-2026-daten-2025)
+- [Liste der hochteuren Medikamente/Substanzen 2026](https://www.swissdrg.org/de/akutsomatik/datenerhebung/erhebung-2027-daten-2026)
 - [Zusatzentgelte von SwissDRG](https://www.swissdrg.org/de/akutsomatik/swissdrg-system-1402025/fallpauschalenkatalog), TARPSY und ST Reha
 - [SwissDRG Antragsverfahren](https://antragsverfahren.swissdrg.org/de/swissdrg/proposals/public_index)
 - [Spezialitätenliste](https://www.spezialitätenliste.ch/Default.aspx) des Bundesamtes für Gesundheit (BAG)
@@ -28,7 +28,7 @@ Die Knoten handelt es sich um:
 - Hierarchie: basiert auf den ATC-Index mit den Detailierungslevels 1, 3, 4 und 5 sowie den Angabe der Definded Daily Dose (DDD) auf Level 7, d.h. für den Knoten Substanz
 - Präparat: basiert auf den Produktnamen (Präparate) der EMA oder Refdata ohne Unterteilung nach Packungen
 - Spezialitätenliste: alle Packungen inkl. Preisangaben der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG)
-- Indikation: für welche Erkrankungen sind die Präparate indiziert gemäss EMA (MeSH Term) oder Refdata/SAI (Anwendungsgebiet)? Knoten basieren auf den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden)
+- Indikation: für welche Erkrankungen sind für die Präparate indiziert gemäss EMA (MeSH Term), Refdata/SAI (Anwendungsgebiet) oder gemeinsamen Bundesausschuss (ICD-Codes)? Knoten basieren auf den ICD-Codes oder den Indikationstexten, die semikolongetrennt in mehrere Indikationen aufgeteilt wurden (aber kommagetrennte Indikationen sind nicht separat, sondern als ein gemeinsamer Knoten vorhanden).
 - Nutzenbewertung: basiert auf der Nutzenbewertungen des gemeinsamen Bundesauschusses (Deutschland) je Patientengruppe; für ein Präparat (deutsche Handelsnamen) oder eine Substanz können mehrere Nutzenbewertungen vorhanden sein
 
 Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relationen)
@@ -44,7 +44,11 @@ Zwischen den Knoten wurden diverse Relationen erstellt (teilweise Mehrfach-Relat
 - IST_IN_ATC_GRUPPE: Relation einer Substanz zum ATC-Hierarchie-Level 5 oder vom ATC-Hierarchie-Level jeweils ein Hierarchie-Level hinauf
 - HAT_ATC: Relation eines Präparates zu einer Substanz, wobei ATC-Codes der EMA und/oder von Refdata/SAI und/oder von der SL zu dieser Relation beitragen; die Quelle der Relation ist als Relationenpropertie vorhanden
 - HATTE_ATC: Relation eines Präparates zu einer Substanz, wobei der ATC-Code zu einem früheren ATC-Code gehört, der in der Relation `WAR_ATC_BIS` hinterlegt ist
-- INDIZIERT_FUER: Relation zwischen den Präparaten und den Indikationsknoten
+- INDIZIERT_FUER: Relation zwischen den Präparaten und den Indikationsknoten; Attribut `Quelle` gibt an, woher die Indikationsdaten stammen
+  - Quelle = 'EMA': Europäische Arzneimittelagentur
+  - Quelle = 'SAI': Stiftung Refdata
+  - Quelle = 'Ist auch Präparat': Stiftung Refdata, falls ein Präparatename mehrfach vorhanden und uneindeutig ist
+  - Quelle = 'gBA': gemeinsamen Bundesausschuss (Deutschland)
 - IST_AUF_SL: Relation eines Präparates zu einer konkreten Packung, falls sich die Packung auf der Spezialitätenliste befindet
 - IST_AUCH_PRÄPARAT: Relation eines Präparates zu sich selbst, weil Präparate mit unterschiedlichen Indikationen die gleiche Bezeichnung haben können; diese Relation stellt sicher, dass keine Daten verloren gehen
 - HAT_BEWERTUNG: zwei Relationen einer Nutzenbewertung des gemeinsamen Bundesausschluss (gBA) zu Präparaten oder Substanzen
@@ -111,7 +115,7 @@ In der ersten Version des Datenmodells hiess das Label `Präparat` noch `Produkt
 | Präparat           | Aktive Substanz EMA      | String        |
 | Präparat           | Praeparatename           | String        |
 | Indikation         | Name                     | String        |
-| Indikation         | Name                     | String        |
+| Indikation         | ICD                      | String        |
 | Hierarchie         | Name                     | String        |
 | Hierarchie         | url                      | String        |
 | Hierarchie         | Bezeichnung EN           | String        |
