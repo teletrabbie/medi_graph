@@ -353,6 +353,7 @@ A16AX10|eliglustat|0.168|g|O|
 A16AX12|trientine|0.45|g|O|Expressed as trientine
 A16AX14|migalastat|61.5|mg|O|
 A16AX15|telotristat|0.75|g|O|
+A16AX19|fosdenopterin|63|mg|P|
 B01AA01|dicoumarol|0.1|g|O|
 B01AA02|phenindione|0.1|g|O|
 B01AA03|warfarin|7.5|mg|O|
@@ -398,6 +399,7 @@ B01AD04|urokinase|3|MU|P|
 B01AD07|reteplase|20|U|P|
 B01AD10|drotrecogin alfa (activated)|40|mg|P|
 B01AD11|tenecteplase|40|mg|P|
+B01AD13|apadamtase alfa and cinaxadamtase alfa|200|U|P|
 B01AE01|desirudin|30|mg|P|
 B01AE02|lepirudin|0.25|g|P|
 B01AE03|argatroban|0.2|g|P|
@@ -444,7 +446,7 @@ B03AB03|sodium feredetate|0.17|g|O|Fe3+
 B03AB05|ferric oxide polymaltose complexes|90|mg|O|Fe3+
 B03AB09|ferric proteinsuccinylate|80|mg|O|Fe3+
 B03AB10|ferric maltol|60|mg|O|Fe3+
-B03AC|Iron, parenteral preparations|0.1|g|P|Fe
+B03AC|Iron, parenteral preparations|0.1|g|P|
 B03BA01|cyanocobalamin|70|mcg|N|
 B03BA01|cyanocobalamin|1|mg|O|
 B03BA01|cyanocobalamin|20|mcg|P|
@@ -460,6 +462,7 @@ B03XA03|methoxy polyethylene glycol-epoetin beta|4|mcg|P|
 B03XA05|roxadustat|43|mg|O|
 B03XA06|luspatercept|3.33|mg|P|
 B03XA08|vadadustat|0.3|g|O|
+B03XA10|efepoetin alfa|20|mcg|P|
 B06AC01|c1-inhibitor, plasma derived|1.4|TU|P|
 B06AC02|icatibant|30|mg|P|
 B06AC04|conestat alfa|3.5|TU|P|
@@ -574,6 +577,7 @@ C01EB16|ibuprofen|30|mg|P|
 C01EB17|ivabradine|10|mg|O|
 C01EB18|ranolazine|1.5|g|O|
 C01EB21|regadenoson|0.4|mg|P|
+C01EB22|meldonium|0.75|g|O|
 C01EB24|mavacamten|5|mg|O|
 C02AA02|reserpine|0.5|mg|O|
 C02AA02|reserpine|0.5|mg|P|
@@ -778,6 +782,7 @@ C09CA08|olmesartan medoxomil|20|mg|O|
 C09CA09|azilsartan medoxomil|40|mg|O|
 C09CA10|fimasartan|60|mg|O|
 C09XA02|aliskiren|0.15|g|O|
+C09XX01|sparsentan|0.4|g|O|
 C10AA01|simvastatin|30|mg|O|
 C10AA02|lovastatin|45|mg|O|
 C10AA03|pravastatin|30|mg|O|
@@ -822,6 +827,7 @@ D11AH04|alitretinoin|20|mg|O|
 D11AH05|dupilumab|21.4|mg|P|
 D11AH07|tralokinumab|16.1|mg|P|
 D11AH08|abrocitinib|0.15|g|O|
+D11AH10|lebrikizumab|8.9|mg|P|
 D11AX02|gamolenic acid|0.4|g|O|
 D11AX10|finasteride|1|mg|O|
 G01AA01|nystatin|0.1|MU|V|
@@ -1201,6 +1207,7 @@ J01DE03|cefozopran|4|g|P|
 J01DF01|aztreonam|0.225|g|Inhal.solution|
 J01DF01|aztreonam|4|g|P|
 J01DF02|carumonam|2|g|P|
+J01DF51|aztreonam and beta-lactamase inhibitor|6|g|P|refers to aztreonam
 J01DH02|meropenem|3|g|P|
 J01DH03|ertapenem|1|g|P|
 J01DH04|doripenem|1.5|g|P|
@@ -1490,6 +1497,8 @@ J05AX31|lenacapavir|5.1|mg|P|
 J05AX33|labuvirtide|45.7|mg|P|
 J06BC01|nebacumab|0.1|g|P|
 J06BD05|sotrovimab|0.5|g|P|
+L01AX04|dacarbazine|43.3|mg|P|
+L01BB04|cladribine|6.3|mg|P|
 L01EA01|imatinib|0.4|g|O|
 L01EA02|dasatinib|0.1|g|O|
 L01EA03|nilotinib|0.6|g|O|
@@ -1501,6 +1510,7 @@ L01EB02|erlotinib|0.15|g|O|
 L01EB03|afatinib|40|mg|O|
 L01EB04|osimertinib|80|mg|O|
 L01EB07|dacomitinib|45|mg|O|
+L01EB12|firmonertinib|80|mg|O|
 L01EC01|vemurafenib|1.92|g|O|
 L01EC02|dabrafenib|0.3|g|O|
 L01EC03|encorafenib|0.45|g|O|
@@ -1522,18 +1532,24 @@ L01EH02|neratinib|0.24|g|O|
 L01EH03|tucatinib|0.6|g|O|
 L01EJ01|ruxolitinib|30|mg|O|
 L01EJ02|fedratinib|0.4|g|O|
+L01EJ04|momelotinib|0.2|g|O|
 L01EK01|axitinib|10|mg|O|
 L01EK03|tivozanib|1|mg|O|
+L01EK04|fruquintinib|3.75|mg|O|
 L01EL01|ibrutinib|0.42|g|O|
 L01EL02|acalabrutinib|0.2|g|O|
 L01EL03|zanubrutinib|0.32|g|O|
 L01EL04|orelabrutinib|0.15|g|O|
+L01EL05|pirtobrutinib|0.2|g|O|
 L01EM01|idelalisib|0.3|g|O|
 L01EM02|copanlisib|6.43|mg|P|
 L01EM03|alpelisib|0.3|g|O|
 L01EM04|duvelisib|50|mg|O|
+L01EM06|inavolisib|9|mg|O|
 L01EN01|erdafitinib|9|mg|O|
 L01EN02|pemigatinib|9|mg|O|
+L01EP01|capmatinib|0.8|g|O|
+L01EP02|tepotinib|0.45|g|O|
 L01EX01|sunitinib|33|mg|O|
 L01EX02|sorafenib|0.8|g|O|
 L01EX03|pazopanib|0.8|g|O|
@@ -1547,12 +1563,39 @@ L01EX12|larotrectinib|0.2|g|O|
 L01EX13|gilteritinib|0.12|g|O|
 L01EX14|entrectinib|0.6|g|O|
 L01EX15|pexidartinib|0.5|g|O|
-L01EX17|capmatinib|0.8|g|O|
 L01EX18|avapritinib|0.3|g|O|
 L01EX19|ripretinib|0.15|g|O|
-L01EX21|tepotinib|0.45|g|O|
 L01EX22|selpercatinib|0.32|g|O|
 L01EX23|pralsetinib|0.4|g|O|
+L01EX27|capivasertib|0.46|g|O|
+L01FA03|obinutuzumab|35.7|mg|P|
+L01FC01|daratumumab|64.3|mg|P|
+L01FD01|trastuzumab|28.6|mg|P|
+L01FD02|pertuzumab|20|mg|P|
+L01FD03|trastuzumab emtansine|12|mg|P|
+L01FD04|trastuzumab deruxtecan|18|mg|P|
+L01FF01|nivolumab|17.1|mg|P|
+L01FF02|pembrolizumab|9.5|mg|P|
+L01FF03|durvalumab|53.6|mg|P|
+L01FF04|avelumab|57.1|mg|P|
+L01FF05|atezolizumab|57.1|mg|P|Refers to IV infusion
+L01FF06|cemiplimab|16.7|mg|P|
+L01FG02|ramucirumab|40|mg|P|
+L01FX04|ipilimumab|10|mg|P|
+L01FX05|brentuximab vedotin|6|mg|P|
+L01FX07|blinatumomab|18.7|mcg|P|
+L01FX08|elotuzumab|50|mg|P|
+L01XB01|procarbazine|0.1|g|O|
+L01XG03|ixazomib|0.43|mg|O|
+L01XJ01|vismodegib|0.15|g|O|
+L01XJ02|sonidegib|0.2|g|O|
+L01XK01|olaparib|0.6|g|O|
+L01XK02|niraparib|0.3|g|O|
+L01XK03|rucaparib|1.2|g|O|
+L01XX05|hydroxycarbamide|1.4|g|O|
+L01XX27|arsenic trioxide|7.5|mg|P|
+L01XX44|aflibercept|20|mg|P|
+L01XX52|venetoclax|0.4|g|O|
 L02AA01|diethylstilbestrol|3|mg|O|
 L02AA02|polyestradiol phosphate|6|mg|P|
 L02AA03|ethinylestradiol|1.5|mg|O|
@@ -1589,6 +1632,7 @@ L02BG06|exemestane|25|mg|O|
 L02BX01|abarelix|3.6|mg|P|
 L02BX02|degarelix|2.7|mg|P|
 L02BX03|abiraterone|1|g|O|
+L02BX04|relugolix|0.12|g|O|
 L03AA02|filgrastim|0.35|mg|P|
 L03AA03|molgramostim|0.35|mg|P|
 L03AA09|sargramostim|0.45|mg|P|
@@ -1612,6 +1656,7 @@ L03AB13|peginterferon beta-1a|8.9|mcg|P|
 L03AB14|cepeginterferon alfa-2b|17|mcg|P|
 L03AC01|aldesleukin|0.2|mg|P|
 L03AC02|oprelvekin|3.5|mg|P|
+L03AC03|nogapendekin alfa and inbakicept|12.5|mcg|intravesical|
 L03AX01|lentinan|0.3|mg|O|
 L03AX01|lentinan|0.3|mg|P|
 L03AX03|BCG vaccine|1.8|mg|intravesical|
@@ -1663,7 +1708,9 @@ L04AD02|tacrolimus|5|mg|P|
 L04AD03|voclosporin|47.4|mg|O|
 L04AE01|fingolimod|0.5|mg|O|
 L04AE02|ozanimod|0.92|mg|O|
+L04AE03|siponimod|2|mg|O|
 L04AE04|ponesimod|20|mg|O|
+L04AE05|etrasimod|2|mg|O|
 L04AF01|tofacitinib|10|mg|O|
 L04AF02|baricitinib|3|mg|O|
 L04AF03|upadacitinib|15|mg|O|
@@ -1686,6 +1733,7 @@ L04AJ02|ravulizumab|70|mg|P|
 L04AJ03|pegcetacoplan|0.3|g|P|
 L04AJ04|sutimlimab|0.46|g|P|
 L04AJ05|avacopan|60|mg|O|
+L04AJ07|crovalimab|24.3|mg|P|
 L04AK01|leflunomide|20|mg|O|
 L04AK02|teriflunomide|14|mg|O|
 L04AX01|azathioprine|0.15|g|O|
@@ -2006,7 +2054,7 @@ N03AX23|brivaracetam|0.1|g|O|
 N03AX23|brivaracetam|0.1|g|P|
 N03AX24|cannabidiol|0.7|g|O|
 N03AX25|cenobamate|0.2|g|O|
-N03AX26|fenfluramine|8|mg|O|
+N03AX26|fenfluramine|14|mg|O|
 N04AA01|trihexyphenidyl|10|mg|O|
 N04AA02|biperiden|10|mg|O|
 N04AA02|biperiden|10|mg|P|
@@ -2308,6 +2356,7 @@ N06BA09|atomoxetine|80|mg|O|
 N06BA11|dexmethylphenidate|15|mg|O|
 N06BA12|lisdexamfetamine|30|mg|O|
 N06BA13|armodafinil|0.15|g|O|
+N06BA14|solriamfetol|0.1|g|O|
 N06BC01|caffeine|0.4|g|O|
 N06BC01|caffeine|0.4|g|P|
 N06BX02|pyritinol|0.6|g|O|

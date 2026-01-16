@@ -11,7 +11,7 @@ library(stringr)
 
 # Download files
 sai_file <- "./src/resources/sai.zip"
-download.file(url = "https://sai.refdata.ch/download/structuredexportzip/8725"
+download.file(url = "https://sai.refdata.ch/download/structuredexportzip/8756"
               , destfile = sai_file
               , method = "libcurl"
               , mode="wb")
