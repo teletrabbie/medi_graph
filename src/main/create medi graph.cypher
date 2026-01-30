@@ -457,6 +457,22 @@ MERGE (n:Spezialitätenliste {Name: row.bezeichnung})
 ;
 
 
+// Create index for Spezialitätenliste (for better performance while adding Flag Preismodell)
+CREATE INDEX SL_text_index_GTIN IF NOT EXISTS
+FOR (n:`Spezialitätenliste`) ON (n.GTIN)
+;
+
+
+// Add Flag Preismodell for SL-products with "PM" in preismodell column
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/sl.csv' AS import
+LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
+WITH row
+WHERE row.preismodell = "PM"
+MERGE (s:`Spezialitätenliste`{GTIN: row.gtin})
+    SET s.`Flag Preismodell` = TRUE
+;
+
+
 // Create relationships between Präparat and Spezialitätenliste
 MATCH (n:Präparat)
 MATCH (s:Spezialitätenliste)
