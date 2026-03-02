@@ -38,6 +38,7 @@ ema_data[ema_data$product_name=='Trodelvy','atc'] <-"L01FX17"
 ema_data[ema_data$product_name=='Besponsa','atc'] <-"L01FB01"
 ema_data[ema_data$product_name=='Vumerity','atc'] <-"L04AX09"
 ema_data[ema_data$product_name=='Pedmarqsi','atc'] <-"V03AB06"
+ema_data[ema_data$product_name=='Itovebi','atc'] <-"L01EM06"
 
 
 # Export as csv (to import folder of Neo4j)
