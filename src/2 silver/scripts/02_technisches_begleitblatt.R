@@ -8,12 +8,8 @@ library(readxl)
 library(tidyverse)
 
 
-# Download files
-import_file <- "./src/resources/Technisches_Begleitblatt_2026.xlsx"
-download.file(url = "https://www.swissdrg.org/download_file/view/5323/2390"
-              , destfile = import_file
-              , method = "libcurl"
-              , mode="wb")
+# Define files to load into R
+import_file <- "./src/1 bronze/staging area/Technisches_Begleitblatt.xlsx"
 
 
 # Import data to environment
@@ -44,11 +40,7 @@ technisches_begleitblatt$hinweis <- gsub("\n", "", technisches_begleitblatt$hinw
 
 
 # Export as csv (to import folder of Neo4j)
-import_folder <- "./src/main/import"
+silver_folder <- "./src/2 silver/staging area"
 write.csv(technisches_begleitblatt
-    , file = paste0(import_folder,"/technisches_begleitblatt.csv")
+    , file = paste0(silver_folder,"/technisches_begleitblatt.csv")
     , row.names = FALSE)
-
-
-# Delete resource file
-file.remove(import_file)
