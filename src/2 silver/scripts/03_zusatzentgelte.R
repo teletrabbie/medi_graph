@@ -9,7 +9,8 @@ library(tidyverse)
 
 
 # Import data to environment
-definitions <- read_delim("./src/1 bronze/staging area/definitions.csv", 
+bronze_file <- "./src/1 bronze/staging area/definitions.csv"
+definitions <- read_delim(bronze_file, 
                             delim = "|", escape_double = FALSE, trim_ws = TRUE)
 
 # data for reha + tarpsy (here manually prepared, in SwissDRG via API)
@@ -36,3 +37,6 @@ write.table(ze_all
   , file = paste0(silver_folder, "ze_definitions.csv")
   , row.names = FALSE, sep ="|", fileEncoding = "UTF-8")
 
+
+# Delete bronze file
+file.remove(bronze_file)

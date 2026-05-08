@@ -42,6 +42,7 @@
 "de","medi_zusatz","HEB","Spenderhaut ETB-BISLIFE",NA
 "de","medi_zusatz","HKR","Kerecis®",NA
 "de","medi_zusatz","CEY","Epidyolex®",NA
+"de","medi_zusatz","HDS","denovoSkin™",NA
 "de","medi_verabreichungsart","ET","endotracheopulmonal",NA
 "de","medi_verabreichungsart","ICV","intracerebroventrikulär",NA
 "de","medi_verabreichungsart","IGLAN","intraglandulär",NA
@@ -116,6 +117,7 @@
 "fr","medi_zusatz","HEB","Peau d'un donneur ETB-BISLIFE",NA
 "fr","medi_zusatz","HKR","Kerecis®",NA
 "fr","medi_zusatz","CEY","Epidyolex®",NA
+"fr","medi_zusatz","HDS","denovoSkin™",NA
 "fr","medi_verabreichungsart","ET","endotrachéobronchique",NA
 "fr","medi_verabreichungsart","ICV","intracérébroventriculaire",NA
 "fr","medi_verabreichungsart","IGLAN","intraglandulaire",NA
@@ -190,6 +192,7 @@
 "it","medi_zusatz","HEB","Pelle di un donatore ETB-BISLIFE",NA
 "it","medi_zusatz","HKR","Kerecis®",NA
 "it","medi_zusatz","CEY","Epidyolex®",NA
+"it","medi_zusatz","HDS","denovoSkin™",NA
 "it","medi_verabreichungsart","ET","endotracheopolmonare",NA
 "it","medi_verabreichungsart","ICV","intracerebroventricolare",NA
 "it","medi_verabreichungsart","IGLAN","intraglandolare",NA

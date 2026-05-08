@@ -9,20 +9,9 @@ library(dplyr)
 library(stringr)
 
 
-# Download files
-sai_file <- "./src/resources/sai.zip"
-download.file(url = "https://sai.refdata.ch/download/structuredexportzip/8756"
-              , destfile = sai_file
-              , method = "libcurl"
-              , mode="wb")
-unzip(sai_file, exdir = "./src/resources/", list=TRUE)
-unzip(sai_file, exdir = "./src/resources/"
-  , files = c("SAI/SAI-Praeparate.XML", "SAI/SAI-Adressen.XML"))
-
-
 # Parse the XML file
 # xml_file <- read_xml("SAI-Praeparate.XML")
-xml_file <- read_xml("./src/resources/SAI/SAI-Praeparate.XML")
+xml_file <- read_xml("./src/1 bronze/staging area/SAI/SAI-Praeparate.XML")
 
 # Define the XML namespace
 ns <- c(ns1 = "http://sai.refdata.ch")
@@ -126,7 +115,7 @@ df_praeparate <- df_praeparate %>%
 
 
 # Add Name of 'ZULASSUNGSINHABERIN" from adress xml-file
-xml_file <- read_xml("./src/resources/SAI/SAI-Adressen.XML")
+xml_file <- read_xml("./src/1 bronze/staging area/SAI/SAI-Adressen.XML")
 adressen <- xml_find_all(xml_file, paste0(".//ns1:ADRESSE"), ns)
 
 df_adressen <- data.frame(
@@ -143,11 +132,12 @@ colnames(df_praeparate) <- sub("FIRMENNAME","ZULASSUNGSINHABERIN",colnames(df_pr
 
 
 # Export as csv (to import folder of Neo4j)
-import_folder <- "./src/main/import"
+silver_folder <- "./src/2 silver/staging area/"
 write.csv(df_praeparate
-  , paste0(import_folder,"/sai_praeparate.csv")
+  , paste0(silver_folder,"/sai_praeparate.csv")
   , row.names = FALSE)
 
 
 # Delete resource file
-file.remove(sai_file)
+file.remove("./src/1 bronze/staging area/SAI/SAI-Praeparate.XML")
+file.remove("./src/1 bronze/staging area/SAI/SAI-Adressen.XML")

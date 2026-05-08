@@ -9,13 +9,13 @@ library(tidyverse)
 
 
 # Define files to load into R
-import_file <- "./src/1 bronze/staging area/Technisches_Begleitblatt.xlsx"
+bronze_file <- "./src/1 bronze/staging area/Technisches_Begleitblatt.xlsx"
 
 
 # Import data to environment
-import_tech_de <- read_excel(import_file, sheet = 1, skip = 7, col_names = TRUE)
-import_tech_fr <- read_excel(import_file, sheet = 2, skip = 7, col_names = TRUE)
-import_tech_it <- read_excel(import_file, sheet = 3, skip = 7, col_names = TRUE)
+import_tech_de <- read_excel(bronze_file, sheet = 1, skip = 7, col_names = TRUE)
+import_tech_fr <- read_excel(bronze_file, sheet = 2, skip = 7, col_names = TRUE)
+import_tech_it <- read_excel(bronze_file, sheet = 3, skip = 7, col_names = TRUE)
 
 import_tech_de$sprache <- "de"
 import_tech_fr$sprache <- "fr"
@@ -44,3 +44,7 @@ silver_folder <- "./src/2 silver/staging area"
 write.csv(technisches_begleitblatt
     , file = paste0(silver_folder,"/technisches_begleitblatt.csv")
     , row.names = FALSE)
+
+
+# Delete bronze file
+file.remove(bronze_file)
