@@ -7,18 +7,11 @@ rm(list = ls())
 library(readxl)
 library(tidyverse)
 
-
-# Download files
-ema_file <- "./src/resources/medicines_output_medicines_report_en.xlsx"
-download.file(url = "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx"
-            , destfile = ema_file
-            , method = "libcurl"
-            , mode = "wb")
-
+bronze_file <- "./src/1 bronze/staging area/medicines_output_medicines_report_en.xlsx"
 
 # Import data to environment
-dateOfData <- read_excel(ema_file, range = "D1:D1", col_names = c("dateOfData"))
-medicines_output_medicines_report_en <- read_excel(ema_file, skip = 8)
+dateOfData <- read_excel(bronze_file, range = "D1:D1", col_names = c("dateOfData"))
+medicines_output_medicines_report_en <- read_excel(bronze_file, skip = 8)
 
 
 # Filter and arrange data
@@ -26,7 +19,7 @@ ema_data <- medicines_output_medicines_report_en %>%
   filter(Category == "Human", `Medicine status` == "Authorised" |
            (`Medicine status` == "Opinion" & `Opinion status` == "Positive")) %>%
   select(`ATC code (human)`, `Therapeutic area (MeSH)`,`Active substance`
-        ,`Name of medicine`,`Therapeutic indication`,`Orphan medicine`, `Generic or hybrid`, Biosimilar,
+        ,`Name of medicine`,`Therapeutic indication`,`Orphan medicine`, `Generic`, Biosimilar
         ,`Marketing authorisation developer / applicant / holder`,`Medicine URL`) %>% 
   unique()
 names(ema_data) <- c("atc","mesh","substance","product_name","indication","orphan","generic","biosimilar","company","url")
@@ -41,12 +34,12 @@ ema_data[ema_data$product_name=='Pedmarqsi','atc'] <-"V03AB06"
 ema_data[ema_data$product_name=='Itovebi','atc'] <-"L01EM06"
 
 
-# Export as csv (to import folder of Neo4j)
-import_folder <- "./src/main/import"
+# Export as csv
+silver_folder <- "./src/2 silver/staging area/"
 write.table(ema_data
-    , file = paste0(import_folder,"/ema_products.csv")
+    , file = paste0(silver_folder,"/ema_products.csv")
     , row.names = FALSE, quote = TRUE, sep = "|")
 
 
-# Delete resource file
-file.remove(ema_file)
+# Delete bronze file
+file.remove(bronze_file)

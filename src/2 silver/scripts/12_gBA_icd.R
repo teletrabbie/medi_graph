@@ -9,21 +9,6 @@ library(tidyverse)
 library(xml2)
 
 
-# Download files
-
-# Manual download is possible on 
-# https://www.g-ba.de/themen/arzneimittel/arzneimittel-richtlinie-anlagen/nutzenbewertung-35a/ais/#direkter-download
-
-# Automatic download link gets invalid after 3 months inactivity
-import_file <- "./src/resources/gBA.xml"
-download.file(url = "https://ais.g-ba.de/download/1a3faa01-e3f5-41b0-9900-bdeb3a4eec7a"
-              , destfile = import_file
-              , method = "libcurl"
-              , mode="wb")
-
-
-# Prepare data
-
 # Function to extract data from XML
 extract_gba_info <- function(xml_path) {
   doc <- read_xml(xml_path)
@@ -75,7 +60,7 @@ extract_gba_info <- function(xml_path) {
 }
 
 # Apply function to dataset
-df_gBA <- extract_gba_info("./src/resources/gBA.xml")
+df_gBA <- extract_gba_info("./src/1 bronze/staging area/gBA.xml")
 df_gBA$ATC <- ifelse(is.na(df_gBA$ATC_CODE), df_gBA$ATC_FIX_KOMB, df_gBA$ATC_CODE)
 
 gBA <- df_gBA %>% 
@@ -121,11 +106,10 @@ gBA <- gBA %>%
   unique()
 
 
-# Export as csv (to import folder of Neo4j)
-import_folder <- "./src/main/import"
-write.table(gBA, file = paste0(import_folder, "/gBA_icd.csv")
+# Export as csv
+silver_folder <- "./src/2 silver/staging area/"
+write.table(gBA, file = paste0(silver_folder, "/gBA_icd.csv")
             , row.names = FALSE, sep ="|", fileEncoding = "UTF-8")
 
 # Delete resource file
-file.remove(import_file)
-
+file.remove("./src/1 bronze/staging area/gBA.xml")

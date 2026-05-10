@@ -1,0 +1,379 @@
+atc_code|tariff|compound_de|compound_fr|addition|constraints_de|constraints_fr|constraints_it|application|unit|since
+A05AX04||Maralixibatchlorid|Chlorure de maralixibat|CLM||||O|mcg|2025
+A07AA12||Fidaxomicin|Fidaxomicine|||||O|mg|2015
+A16AA04||Mercaptamin|Mercaptamine|||||O|mg|2021
+A16AA05||Carglumsäure|Acide carglumique|||||O|mg|2022
+A16AB07||Alglucosidase alfa|Alglucosidase alfa|||||IV|mg|2025
+A16AB15||Velmanase alfa|Velmanase alfa|||||IV|mg|2024
+A16AB17||Cerliponase alfa|Cerliponase alfa|||||ICV|mg|2025
+A16AB20||Pegunigalsidase alfa|Pégunigalsidase alfa|||||IV|mg|2024
+A16AB21||Atidarsagen autotemcel|Atidarsagen autotemcel|||||IV|AN|2025
+A16AB22||Avalglucosidase alfa|Avalglucosidase alfa|||||IV|mg|2023
+A16AB23||Cipaglucosidase alfa|Cipaglucosidase alfa|||||IV|mg|2024
+A16AB25||Olipudase alfa|Olipudase alfa|||||IV|mg|2025
+A16AX06||Miglustat|Miglustat|||||O|mg|2024
+A16AX12||Trientin dihydrochlorid|Trientine dichlorhydrate|||||O|mg|2021
+A16AX18||Lumasiranum|Lumasiran|||||SC|mg|2023
+A16AX28||Sepiapterin|Sepiapterin|||||O|mg|2026
+B01AB02||Antithrombin III|Antithrombine III|||||IV|U|2010
+B01AC09||Epoprostenol|Époprosténol|||||IV|mg|2020
+B01AC11||Iloprost|Iloprost|||||Inhal,IV|mcg|2019
+B01AC21||Treprostinil|Tréprostinil|||||IV,SC|mg|2016
+B01AC25||Cangrelor|Cangrélor|||||IV|mg|2019
+B01AC27||Selexipag|Sélexipag|||||O|mcg|2020
+B01AD13||Apadamtase alfa und Cinaxadamtase alfa|Apadamtase alfa et Cinaxadamtase alfa|||||IV|U|2026
+B01AE03||Argatroban|Argatroban|||||IV|mg|2020
+B01AX01||Defibrotid|Défibrotide|||||IV|mg|2017
+B01AX07||Caplacizumab|Caplacizumab|||||IV,SC|mg|2021
+B02AB02||Alpha-1 Protease-Inhibitor|Inhibiteur de la protéinase alpha-1|||||IV|mg|2023
+B02BB01||Fibrinogen, human|Fibrinogène humain|||||IV|g|2010
+B02BD01||Blutgerinnungsfaktoren IX, II, VII und X in Kombination|Facteurs IX, II, VII et X de coagulation en association|||||IV|U|2010
+B02BD02||Blutgerinnungsfaktor VIII|Facteur VIII de coagulation|Rec,Plas||||IV|U|2010
+B02BD03||Faktor-VIII-Inhibitor-bypass-Aktivität|Protéines plasmatiques humaines avec activité FEIBA|||||IV|U|2010
+B02BD04||Blutgerinnungsfaktor IX|Facteur IX de coagulation|CAI,CBB||||IV|U|2010
+B02BD05||Blutgerinnungsfaktor VII|Facteur VII de coagulation|||||IV|U|2010
+B02BD06||Von Willebrand-Faktor und Blutgerinnungsfaktor VIII in Kombination|Facteur von Willebrand et facteur VIII de coagulation en association|||||IV|U|2010
+B02BD07||Blutgerinnungsfaktor XIII|Facteur XIII de coagulation|||||IV|U|2010
+B02BD08||Blutgerinnungsfaktor VIIa|Facteur VIIa de coagulation|||||IV|mg|2010
+B02BD10||Von Willebrand-Faktor|Facteur von Willebrand|||||IV|U|2016
+B02BD14||Susoctocog alfa|Susoctocog alfa|||||IV|U|2017
+B02BD16||Etranacogene Dezaparvovec|Etranacogene Dezaparvovec|||||IV|AN|2024
+B02BX04||Romiplostim|Romiplostim|||||SC|mcg|2012
+B02BX05||Eltrombopag|Eltrombopag|||||O|mg|2020
+B02BX06||Emicizumab|Emicizumab|||||SC|mg|2020
+B02BX10||Concizumab|Concizumab|||||SC|mg|2025
+B02BX11||Marstacimab|Marstacimab|||||SC|mg|2025
+B06AB01||Hemin|Hémine|||||IV|mg|2020
+B06AC01||C1-Inhibitor, aus Plasma gewonnen|Inhibiteur C1, dérivé du plasma|||||IV|U|2013
+B06AC02||Icatibant|Icatibant|||||SC|mg|2022
+B06AC05||Lanadelumab|Lanadelumab|||||SC|mg|2026
+B06AC07||Garadacimab|Garadacimab|||||SC|mg|2026
+B06AC08||Sebetralstat|Sébétralstat|||||O|mg|2026
+B06AX05||Exagamglogene autotemcel|Exagamglogene autotemcel|||||IV|AN|2024
+C01CX08||Levosimendan|Lévosimendan|||||IV|mg|2012
+C01EB24|TR|Mavacamten|Mavacamten|||||O|mg|2024
+C02KX01||Bosentan|Bosentan|||||O|mg|2010
+C02KX04||Macitentan|Macitentan|||||O|mg|2017
+C02KX05||Riociguat|Riociguat|||||O|mg|2017
+C02KX06||Sotatercept|Sotatercept|||||SC|mg|2026
+C09XX01|TR|Sparsentan|Sparsentan|||||O|mg|2026
+CH00202||Autologes CD34+-Zellen enkodierendes βA-T87Q-Globin-Gen|Cellules autologues enrichie en cellules CD34+ qui contient des cellules souches hématopoïétiques (CSH) transduites avec un vecteur lentiviral (VLV) codant le gène βA-T87Q-globine|||||IV|AN|2020
+CH00203||Autologe CD34+-angereicherte Zellfraktion, die CD34+-Zellen enthält, die mit retroviralem Vektor transduziert wurden, der für die humane ADA-cDNASequenz codiert|Fraction cellulaire autologue enrichie en CD34+ contenant des cellules CD34+ transduites avec un vecteur rétroviral codant la séquence d’ADNc du gène ADA humain|||||IV|AN|2020
+CH00301||Tumor infiltrierende Lymphozyten (TIL)|Lymphocytes d’infiltration tumorale (TIL)|||||IV|AN|2024
+CH00302||Virus spezifische T-Lymphozyten (VST)|Lymphocytes T spécifiques virales (VST)|||||IV|AN|2024
+CH00405||Cevostamab|Cevostamab|||||IV|mg|2026
+CH00406||Dordavipron|Dordavipron|||||O|mg|2026
+CH00407||Cultured Epidermal Autograft|Cultured Epidermal Autograft|CHUV|nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|cm2|2026
+CH00408||Hautdeckung, alloplastisch|Couverture cutanée, alloplastique|HNB|nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|cm2|2026
+CH00409||Hautdeckung, allogen, HPS|Couverture cutanée, allogénique, HPS|HPS|nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|cm2|2026
+CH00410||Hautdeckung, allogen, HEB|Couverture cutanée, allogénique, HEB|HEB|nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|cm2|2026
+CH00411||Hautdeckung, xenogen|Couverture cutanée, xénogénique|HKR|nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|cm2|2026
+CH00412||Hautdeckung, autolog|Couverture cutanée, atologue|HDS|nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|cm2|2026
+CH19003||Bamlanivimab und Etesevimab|Bamlanivimab et Etesevimab|||||IV|mg|2021
+D03BA03||Bromelain|Bromélaïnes||nur für topische Anwendung in Verbrennungszentren|Uniquement pour l’application topique dans les centres de traitement des brûlés|Solo per uso topico in centri ustionati|T|g|2018
+D11AH05||Dupilumab|Dupilumab|||||SC|mg|2021
+D11AH10||Lebrikizumab|Lebrikizumab|||||SC|mg|2025
+D11AH12||Nemolizumab|Nemolizumab|||||SC|mg|2026
+H01AC07||Somapacitan|Somapacitan|||||SC|mg|2025
+H01BA04||Terlipressin|Terlipressine|||||ET,Inhal,IV|mg|2010
+J01AA12|TR|Tigecyclin|Tigecyclin|||||IV|mg|2025
+J01AA13|TR|Eravacyclin|Eravacyclin|||||IV|mg|2025
+J01CG30||Sulbactam und Durlobactam|Sulbactam et Durlobactam|||||IV|g|2026
+J01DD52||Ceftazidim und Avibactam|Ceftazidime et Avibactam|CZC||||IV|g|2019
+J01DF01|TR|Aztreonam|Aztreonam|CCS,CAZ||||Inhal,IV|g|2022
+J01DF51||Aztreonam und Avibactam |Aztreonam et Avibactam|CEL||||IV|g|2025
+J01DH02|TR|Meropenem|Méropénem|||||IV|g|2026
+J01DH51|TR|Imipenem und Cilastin|Imipénem et cilastatine|||||IV|g|2026
+J01DH52|TR|Meropenem und Vaborbactam|Méropénem et Vaborbactam|||||IV|g|2023
+J01DH56||Imipenem, Cilastatin und Relebactam|Imipénem, cilastatine et rélébactam|||||IV|g|2024
+J01DI04||Cefiderocol|Céfidérocol|||||IV|g|2022
+J01DI54||Ceftolozan und Tazobactam|Ceftolozane et Tazobactam|CZB||||IV|g|2019
+J01MA23|TR|Delafloxacinum|Delafloxacinum|||||IV,O|mg|2022
+J01XA02|TR|Teicoplanin|Téicoplanine|||||IV|mg|2026
+J01XA04||Dalbavancin|Dalbavancin|||||IV|mg|2024
+J01XA05||Oritavancinum|Oritavancin|||||IV|mg|2023
+J01XX08|TR|Linezolid|Linézolide|||||IV,O|mg|2022
+J01XX09|TR|Daptomycin|Daptomycine|||||IV|mg|2022
+J02AA01||Amphotericin B|Amphotéricine B||liposomal IV|forme liposomale i.v.|Liposomiale e.v.|IV|mg|2010
+J02AC03||Voriconazol|Voriconazole|||||IV,O|mg|2010
+J02AC04||Posaconazol|Posaconazole|||||IV,O|mg|2010
+J02AC05||Isavuconazol|Isavuconazole|||||IV,O|mg|2017
+J02AX04||Caspofungin|Caspofungine|||||IV|mg|2010
+J02AX06||Anidulafungin|Anidulafungine|||||IV|mg|2010
+J02AX08||Rezafungin Acetate|Rezafungin Acetate|||||IV|mg|2024
+J05AB12||Cidofovir|Cidofovir|||||IV|mg|2025
+J05AB16||Remdesivir|Remdesivir|||||IV|mg|2020
+J05AD01||Foscarnet|Foscarnet|||||IV|mg|2019
+J05AE30||Nirmatrelvir und Ritonavir|Nirmatrelvir et Ritonavir|||||O|mg|2025
+J05AP55||Sofosbuvir und Velpatasvir|Sofosbuvir et Velpatasvir|CEP||||O|UD|2018
+J05AP56||Sofosbuvir, Velpatasvir und Voxilaprevir|Sofosbuvir, Velpatasvir et Voxilaprévir|CVO||||O|UD|2018
+J05AP57||Glecaprevir und Pibrentasvir|Glécaprévir et Pibrentasvir|CMA||||O|UD|2018
+J05AX10||Maribavir|Maribavir|||||O|mg|2024
+J05AX18||Letermovir|Létermovir|||||IV,O|mg|2020
+J05AX29|TR|Fostemsavir|Fostemsavir|||||O|mg|2022
+J05AX31||Lenacapavir|Lenacapavir|||||O,SC|mg|2025
+J06BA01||Immunglobuline, normal human, zur extravasalen Anwendung|Immunoglobulines, humaines non spécifiques, pour l'administration extravasculaire|||||SC|g|2023
+J06BA02||Immunglobuline, normal human, zur intravasalen Anwendung|Immunoglobulines, humaines non spécifiques, pour l'administration intravasculaire|||||IV|g|2010
+J06BB04||Hepatitis-B-Immunglobulin|Immunoglobuline anti-hépatite B|||||IM,IV,SC|U|2013
+J06BB09||Cytomegalievirus-Immunglobulin|Immunoglobuline anti-cytomégalovirus|||||IV|U|2010
+J06BC03||Bezlotoxumab|Bezlotoxumab|||||IV|mg|2020
+J06BD01||Palivizumab|Palivizumab|||||IM|mg|2010
+J06BD03||Tixagevimab und Cilgavimab|Tixagevimab et Cilgavimab|||||IM,IV|mg|2022
+J06BD05||Sotrovimab|Sotrovimab|||||IV|mg|2021
+J06BD07||Casirivimab und Imdevimab|Casirivimab et Imdevimab|||||IV|mg|2021
+J06BD08||Nirsevimab|Nirsévimab|||||IM|mg|2024
+J06BD10||Clesrovimab|Clesrovimab|||||IM|mg|2026
+L01AA10||Melphalan flufenamid|Melphalan flufénamide|||||IV|mg|2023
+L01AB01||Busulfan|Busulfan|||||IV,O|mg|2010
+L01AB02||Treosulfan|Tréosulfan|||||IV|mg|2021
+L01AC01||Thiotepa|Thiotépa|||||IV|mg|2019
+L01AD01||Carmustin|Carmustine|||||IV|mg|2019
+L01AX03|TR|Temozolomid|Témozolomide|||||O|mg|2021
+L01BA04||Pemetrexed|Pémétrexed|||||IV|mg|2010
+L01BB06||Clofarabin|Clofarabine|||||IV|mg|2010
+L01BB07||Nelarabin|Nélarabine|||||IV|mg|2010
+L01BC07||Azacitidin|Azacitidine|||||IV,SC|mg|2012
+L01BC08||Decitabin|Décitabine|||||IV|mg|2016
+L01BC59||Trifluridin|Trifluridine|CLS||||O|mg|2019
+L01CD04||Cabazitaxel|Cabazitaxel|||||IV|mg|2026
+L01CE02||Irinotecan|Irinotecan|CON|liposomal IV|forme liposomale i.v.|Liposomiale e.v.|IV|mg|2021
+L01CX01||Trabectedin|Trabectédine|||||IV|mg|2013
+L01DB01||Doxorubicin|Doxorubicine||liposomal IV|forme liposomale i.v.|Liposomiale e.v.|IV|mg|2019
+L01EA02|TR|Dasatinib|Dasatinib|||||O|mg|2010
+L01EA03|TR|Nilotinib|Nilotinib|||||O|mg|2010
+L01EA04||Bosutinibum|Bosutinibum|||||O|mg|2022
+L01EA05||Ponatinib|Ponatinib|||||O|mg|2020
+L01EA06||Asciminib|Asciminib|||||O|mg|2022
+L01EB04||Osimertinib|Osimertinib|||||O|mg|2020
+L01EB09||Lazertinib|Lazertinib|||||O|mg|2026
+L01EB10||Mobocertinib|Mobocertinib|||||O|mg|2023
+L01EC01||Vemurafenib|Vémurafénib|||||O|mg|2013
+L01EC02||Dabrafenib|Dabrafénib|||||O|mg|2015
+L01EC03||Encorafenib|Encorafénib|||||O|mg|2021
+L01ED01||Crizotinib|Crizotinib|||||O|mg|2015
+L01ED03|TR|Alectinib|Alectinib|||||O|mg|2025
+L01ED04||Brigatinibum|Brigatinibum|||||O|mg|2022
+L01ED05|TR|Lorlatinib|Lorlatinib|||||O|mg|2021
+L01EE01||Trametinib|Tramétinib|Susp,Tab||||O|mg|2017
+L01EE02||Cobimetinib|Cobimétinib|||||O|mg|2017
+L01EE03||Binimetinib|Binimétinib|||||O|mg|2021
+L01EE04|TR|Selumetinib|Sélumétinib|||||O|mg|2024
+L01EE05||Mirdametinib|Mirdamétinib|||||O|mg|2026
+L01EF01||Palbociclib|Palbociclib|||||O|mg|2019
+L01EF02||Ribociclib|Ribociclib|||||O|mg|2019
+L01EF03|TR|Abemaciclib|Abémaciclib|||||O|mg|2020
+L01EH02|TR|Neratinib|Nératinib|||||O|mg|2021
+L01EH03||Tucatinib|Tucatinib|||||O|mg|2022
+L01EJ01||Ruxolitinib|Ruxolitinib|||||O|mg|2019
+L01EJ02||Fedratinibum|Fédratinib|||||O|mg|2023
+L01EJ04||Momelotinib|Momelotinib|||||O|mg|2024
+L01EK04||Fruquintinib|Fruquintinib|||||O|mg|2025
+L01EL01||Ibrutinib|Ibrutinib|||||O|mg|2016
+L01EL02||Acalabrutinibum|Acalabrutinibum|||||O|mg|2022
+L01EL03|TR|Zanubrutinibum|Zanubrutinib|||||O|mg|2023
+L01EL05||Pirtobrutinib|Pirtobrutinib|||||O|mg|2025
+L01EM01|TR|Idelalisib|Idélalisib|||||O|mg|2016
+L01EM03||Alpelisib|Alpélisib|||||O|mg|2021
+L01EM06||Inavolisib|Inavolisib|||||O|mg|2025
+L01EN01||Erdafitinib|Erdafitinib|||||O|mg|2023
+L01EN02||Pemigatinib|Pemigatinib|||||O|mg|2022
+L01EN04||Futibatinib|Futibatinib|||||O|mg|2024
+L01EP01||Capmatinib|Capmatinib|||||O|mg|2022
+L01EP02||Tepotinib|Tepotinib|||||O|mg|2022
+L01EX01|TR|Sunitinib|Sunitinib|||||O|mg|2010
+L01EX02|TR|Sorafenib|Sorafénib|||||O|mg|2010
+L01EX03||Pazopanib|Pazopanib|||||O|mg|2013
+L01EX05||Regorafenib|Régorafénib|||||O|mg|2019
+L01EX07||Cabozantinib|Cabozantinib|||||O|mg|2023
+L01EX08||Lenvatinib|Lenvatinib|||||O|mg|2017
+L01EX09||Nintedanib|Nintédanib|||||O|mg|2017
+L01EX10||Midostaurin|Midostaurine|||||O|mg|2018
+L01EX11||Quizartinib|Quizartinib|||||O|mg|2026
+L01EX12||Larotrectinib|Larotrectinib|||||O|mg|2021
+L01EX13||Gilteritinib|Giltéritinib|||||O|mg|2022
+L01EX14||Entrectinibum|Entrectinibum|||||O|mg|2022
+L01EX18||Avapritinib|Avapritinib|||||O|mg|2022
+L01EX22||Selpercatinib|Selpercatinib|||||O|mg|2022
+L01EX27||Capivasertib|Capivasertib|||||O|mg|2025
+L01EX28||Repotrectinib|Repotrectinib|||||O|mg|2025
+L01EX29||Vimseltinib|Vimseltinib|||||O|mg|2026
+L01FA01||Rituximab|Rituximab|||||IV,SC|mg|2010
+L01FA03||Obinutuzumab|Obinutuzumab|||||IV|mg|2017
+L01FB01||Inotuzumab ozogamicin|Inotuzumab ozogamicine|||||IV|mg|2019
+L01FC01||Daratumumab|Daratumumab|||||IV,SC|mg|2017
+L01FC02||Isatuximab|Isatuximab|||||IV|mg|2021
+L01FD01||Trastuzumab|Trastuzumab|||||IT,IV,SC|mg|2010
+L01FD02||Pertuzumab|Pertuzumab|||||IV|mg|2014
+L01FD03||Trastuzumab emtansin|Trastuzumab emtansine|||||IV|mg|2014
+L01FD04||Trastuzumab Deruxtecan|Trastuzumabum Déruxtécanum|||||IV|mg|2023
+L01FD07||Zanidatamab|Zanidatamab|||||IV|mg|2026
+L01FE01||Cetuximab|Cétuximab|||||IV|mg|2010
+L01FE02||Panitumumab|Panitumumab|||||IV|mg|2012
+L01FF01||Nivolumab|Nivolumab|||||IV|mg|2017
+L01FF02||Pembrolizumab|Pembrolizumab|||||IV|mg|2017
+L01FF03||Durvalumab|Durvalumab|||||IV|mg|2022
+L01FF04||Avelumab|Avelumab|||||IV|mg|2025
+L01FF05||Atezolizumab|Atézolizumab|||||IV,SC|mg|2019
+L01FF06||Cemiplimab|Cémiplimab|||||IV|mg|2021
+L01FF07||Dostarlimabum|Dostarlimab|||||IV|mg|2023
+L01FF09||Tislelizumab|Tislelizumab|||||IV|mg|2025
+L01FG01||Bevacizumab|Bévacizumab|||||IV|mg|2010
+L01FX02||Gemtuzumab Ozogamicin|Gemtuzumab ozogamicine|||||IV|mg|2021
+L01FX04||Ipilimumab|Ipilimumab|||||IV|mg|2017
+L01FX05||Brentuximab vedotin|Brentuximab védotine|||||IV|mg|2014
+L01FX06||Dinutuximab beta|Dinutuximab bêta|CQZ||||IV|mg|2020
+L01FX07||Blinatumomab|Blinatumomab|||||IV|mcg|2017
+L01FX08||Elotuzumab|Élotuzumab|||||IV|mg|2017
+L01FX12||Tafasitamab|Tafasitamab|||||IV|mg|2021
+L01FX13||Enfortumab vedotin|Enfortumab védotine|||||IV|mg|2023
+L01FX14||Polatuzumab vedotin|Polatuzumab védotine|||||IV|mg|2023
+L01FX15||Belantamab mafodotin|Bélantamab mafodotine|||||IV|mg|2023
+L01FX17||Sacituzumab Govitecan|Sacituzumab govitecan|||||IV|mg|2023
+L01FX18||Amivantamab|Amivantamab|||||IV|mg|2023
+L01FX20||Tremelimumab|Tremelimumab|||||IV|mg|2025
+L01FX24||Teclistamab|Teclistamab|||||SC|mg|2023
+L01FX25||Mosunetuzumab|Mosunetuzumab|||||IV|mg|2023
+L01FX26||Mirvetuximab soravtansin|Mirvétuximab soravtansine|||||IV|mg|2026
+L01FX27||Epcoritamab|Epcoritamab|||||SC|mg|2025
+L01FX28||Glofitamab|Glofitamab|||||IV|mg|2024
+L01FX29||Talquetamab|Talquetamab|||||SC|mg|2024
+L01FX31||Zolbetuximab|Zolbétuximab|||||IV|mg|2026
+L01FX32||Elranatamab|Elranatamab|||||SC|mg|2024
+L01FX34||Odronextamab|Odronextamab|||||IV|mg|2026
+L01FX35||Datopotamab deruxtecan|Datopotamab déruxtécan|||||IV|mg|2026
+L01FY01||Pertuzumab und Trastuzumab|Pertuzumab et Trastuzumab|||||SC|mg|2022
+L01FY02||Nivolumab und Relatlimab|Nivolumab et Relatlimab|||||IV|mg|2024
+L01XG01||Bortezomib|Bortézomib|||||IV,SC|mg|2010
+L01XG02||Carfilzomib|Carfilzomib|||||IV|mg|2016
+L01XG03||Ixazomib|Ixazomib|||||O|mg|2019
+L01XH03||Panobinostat|Panobinostat|||||O|mg|2025
+L01XK01||Olaparib|Olaparib|||||O|mg|2017
+L01XK02||Niraparib|Niraparib|||||O|mg|2020
+L01XK04||Talazoparib|Talazoparib|||||O|mg|2021
+L01XK52||Niraparib und Abirateron|Niraparib et Abiraterone|||||O|UD|2024
+L01XL03||Axicabtagen Ciloleucel|Axicabtagen Ciloleucel|BCL,FL||||IV|AN|2019
+L01XL04||Tisagenlecleucel|Tisagenlecleucel|BCL,ALL,FL||||IV|AN|2019
+L01XL05||Ciltacabtagene autoleucel|Ciltacabtagene autoleucel|MM||||IV|AN|2021
+L01XL06||Brexucabtagene autoleucel|Brexucabtagene autoleucel|ALL,MCL||||IV|AN|2021
+L01XL07||Idecabtagene vicleucel|Idecabtagene vicleucel|MM||||IV|AN|2019
+L01XL08||Lisocabtagene Maraleucel|Lisocabtagene Maraleucel|BCL,FL,MCL||||IV|AN|2019
+L01XL09||Tabelecleucel|Tabelecleucel|||||IV|AN|2024
+L01XL11||Lifileucel|Lifileucel|||||IV|AN|2025
+L01XL12||Obecabtagen autoleucel|Obecabtagen autoleucel|ALL||||IV|AN|2026
+L01XM02||Ivosidenib|Ivosidénib|||||O|mg|2024
+L01XM04||Vorasidenib|Vorasidenib|||||O|mg|2025
+L01XX02||Asparaginase|Asparaginase|ACO,ACY||||IM,IV|U|2010
+L01XX24||Pegaspargase|Pégaspargase|||||IM,IV|U|2022
+L01XX27||Arsentrioxid|Trioxyde d´arsenic|||||IV|mg|2012
+L01XX52||Venetoclax|Vénétoclax|||||O|mg|2019
+L01XX66||Selinexor|Sélinexor|||||O|mg|2023
+L01XX67||Tagraxofusp|Tagraxofusp|||||IV|mg|2022
+L01XX69||Lurbinectedin|Lurbinectédine|||||IV|mg|2024
+L01XX73||Sotorasib|Sotorasib|||||O|mg|2022
+L01XX74||Belzutifan|Belzutifan|||||O|mg|2025
+L01XX75||Tebentafusp|Tebentafusp|||||IV|mcg|2023
+L01XX81||Nirogacestat|Nirogacestat|||||O|mg|2024
+L01XY01||Cytarabin und Daunorubicin|Cytarabine et Daunorubicine||liposomal IV|forme liposomale i.v.|Liposomiale e.v.|IV|mg|2021
+L02BA03||Fulvestrant|Fulvestrant|||||IM|mg|2025
+L02BA04||Elacestrant|Elacestrant|||||O|mg|2025
+L02BB04||Enzalutamid|Enzalutamide|||||O|mg|2017
+L02BB05||Apalutamid|Apalutamide|||||O|mg|2020
+L02BX03||Abirateron|Abiratérone|||||O|mg|2014
+L03AA02||Filgrastim|Filgrastim|||||IV,SC|MU|2022
+L03AA13||Pegfilgrastim|Pegfilgrastim|||||SC|mg|2010
+L03AB15||Ropeginterferon alfa-2b|Ropéginterféron alfa-2b|||||SC|mcg|2023
+L03AX15||Mifamurtid|Mifamurtide|||||IV|mg|2020
+L03AX16||Plerixafor|Plérixafor|||||IV,SC|mg|2012
+L03AX22||Leniolisib|Leniolisib|||||O|mg|2024
+L04AA03||Antilymphozytäres Immunglobulin (Pferd)|Immunoglobuline anti-lymphocytes (cheval)|||||IV|mg|2010
+L04AA04||Antithymozytäres Immunglobulin (Kaninchen)|Immunoglobuline anti-thymocytes (lapin)|CTG,CFR||||IV|mg|2014
+L04AA24||Abatacept|Abatacept|||||IT,IV,SC|mg|2010
+L04AA40||Cladribin|Cladribine|||||O|mg|2026
+L04AA41||Imlifidase|Imlifidase|||||IV|mg|2023
+L04AA48||Belumosudil|Belumosudil|||||O|mg|2025
+L04AB01|TR|Etanercept|Étanercept|||||SC|mg|2010
+L04AB02||Infliximab|Infliximab|||||IV,SC|mg|2010
+L04AB04||Adalimumab|Adalimumab|||||IV,SC|mg|2010
+L04AB05||Certolizumab pegol|Certolizumab pégol|||||IV,SC|mg|2010
+L04AB06||Golimumab|Golimumab|||||IV,SC|mg|2010
+L04AC05||Ustekinumab|Ustékinumab|||||IV,SC|mg|2012
+L04AC07||Tocilizumab|Tocilizumab|||||IV,SC|mg|2010
+L04AC08||Canakinumab|Canakinumab|||||SC|mg|2019
+L04AC10||Secukinumab|Sécukinumab|||||SC|mg|2019
+L04AC11||Siltuximab|Siltuximab|||||IV|mg|2023
+L04AC13||Ixekizumab|Ixékizumab|||||SC|mg|2020
+L04AC14||Sarilumab|Sarilumab|||||SC|mg|2020
+L04AC16||Guselkumab|Guselkumab|||||IV,SC|mg|2026
+L04AC18||Risankizumab|Risankizumab|PPA,MCU||||IV,SC|mg|2025
+L04AC19||Satralizumab|Satralizumab|||||SC|mg|2025
+L04AC21||Bimekizumab|Bimekizumab|||||SC|mg|2026
+L04AC22||Spesolimab|Spesolimab|||||IV|mg|2025
+L04AC24||Mirikizumab|Mirikizumab|||||IV,SC|mg|2025
+L04AE03|TR|Siponimod|Siponimod|||||O|mg|2023
+L04AF01|TR|Tofacitinib|Tofacitinib|||||O|mg|2020
+L04AG03||Natalizumab|Natalizumab|||||IV|mg|2010
+L04AG04|TR|Belimumab|Bélimumab|||||IV,SC|mg|2026
+L04AG05||Vedolizumab|Védolizumab|||||IV,SC|mg|2016
+L04AG06||Alemtuzumab|Alemtuzumab|||||IV|mg|2021
+L04AG08||Ocrelizumab|Ocrélizumab|||||IV,SC|mg|2019
+L04AG12||Ofatumumab|Ofatumumab|||||SC|mg|2022
+L04AG14||Ublituximab|Ublituximab|||||IV|mg|2026
+L04AJ01||Eculizumab|Éculizumab|||||IV|mg|2010
+L04AJ02||Ravulizumab|Ravulizumab|||||IV|mg|2021
+L04AJ03||Pegcetacoplan|Pegcétacoplan|||||SC|mg|2024
+L04AJ04||Sutimlimab|Sutimlimab|||||IV|mg|2025
+L04AJ05||Avacopan|Avacopan|||||O|mg|2026
+L04AJ06||Zilucoplan|Zilucoplan|||||IV|mg|2024
+L04AJ07||Crovalimab|Crovalimab|||||IV,SC|mg|2026
+L04AJ08||Iptacopan|Iptacopan|||||O|mg|2024
+L04AJ09||Danicopan|Danicopan|||||O|mg|2025
+L04AL01||Efgartigimod alfa|Efgartigimod alfa|||||IV|mg|2026
+L04AL02||Rozanolixizumab|Rozanolixizumab|||||SC|mg|2026
+L04AX04||Lenalidomid|Lénalidomide|||||O|mg|2010
+L04AX05||Pirfenidon|Pirfénidone|||||O|mg|2017
+L04AX06||Pomalidomid|Pomalidomide|||||O|mg|2016
+L04AX18||Humane allogene mesenchymale Stromazellen|Cellules stromales mésenchymateuses allogéniques|||||IV|U|2021
+M03AX01||Botulinus Toxin|Toxine botulique|||||IM,IGLAN|U|2022
+M05BC01||Dibotermin alfa|Dibotermine alfa|||||IMPL|mg|2023
+M05BX05||Burosumab|Burosumab|||||SC|mg|2021
+M05BX07||Vosoritid|Vosoritide|||||SC|mg|2026
+M09AX07||Nusinersen|Nusinersen|||||IT|mg|2018
+M09AX09||Onasemnogen abeparvovec|Onasemnogène abéparvovec|||||IT,IV|AN|2020
+M09AX10||Risdiplam|Risdiplam|||||O|mg|2021
+M09AX14||Givinostat|Givinostat|||||O|mg|2025
+M09AX15||Delandistrogene Moxeparvovec|Delandistrogene Moxeparvovec|||||IV|AN|2024
+N02CD01||Erenumab|Erénumab|||||SC|mg|2024
+N03AX24||Cannabidiol|Cannabidiol|CEY||||O|mg|2026
+N03AX26||Fenfluramin|Fenfluramine|||||O|mg|2026
+N03AX27||Ganaxolon|Ganaxolone|||||O|mg|2024
+N04BA02||Levodopa und Decarboxylasehemmer|Lévodopa avec inhibiteur de la décarboxylase|||||ITST|mg|2022
+N05AH03|TR|Olanzapin|Olanzapine|CZY|Depotinjektion|injection dépôt|Iniezione deposito|IM|mg|2017
+N05AX08|TR|Risperidon|Rispéridone||Depotinjektion|injection dépôt|Iniezione deposito|IM|mg|2017
+N05AX12|TR|Aripiprazol|Aripiprazole|CAM|Depotinjektion|injection dépôt|Iniezione deposito|IM|mg|2017
+N05AX13|TR|Paliperidon|Palipéridone|CXE|Depotinjektion|injection dépôt|Iniezione deposito|IM|mg|2017
+N06AX27|T|Esketamine|Eskétamine|||||N|mg|2020
+N07XX08||Tafamidis|Tafamidis|||||O|mg|2021
+N07XX12||Patisiran|Patisiran|||||IV|mg|2021
+N07XX14||Edaravon|Edaravon|||||IV,O|mg|2021
+N07XX15||Inotersen|Inotersen|||||SC|mg|2023
+N07XX17||Arimoclomol|Arimoclomol|||||O|mg|2025
+N07XX18||Vutrisiran|Vutrisiran|||||SC|mg|2025
+N07XX21|TR|Eplontersen|Éplontersen|||||SC|mg|2026
+N07XX22||Tofersen|Tofersen|||||IT|mg|2024
+N07XX25||Omaveloxolon|Omaveloxolon|||||O|mg|2024
+N07XX26||Pridopidine|Pridopidine|||||O|mg|2026
+P01BE03||Artesunat|Artesunat|||||IV|mg|2025
+R03DX05||Omalizumab|Omalizumab|||||SC|mg|2022
+R03DX09||Mepolizumab|Mépolizumab|||||SC|mg|2023
+R03DX10||Benralizumab|Benralizumab|||||SC|mg|2020
+R07AA02||Surfactant|Surfactant|||||ET|mg|2010
+R07AX32||Ivacaftor, Tezacaftor und Elexacaftor|Ivacaftor, Tezacaftor et Elexacaftor|CTK||||O|UD|2021
+S01XA27||Voretigen Neparvovec|Voretigène néparvovec|||||SR|AN|2020
+V03AB06||Natriumthiosulfat|Thiosulfate de sodium|CPM||||IV|mg|2026
+V03AB24||Digitalis-Antitoxin|Digitalis-Antitoxin|||||IV|mg|2025
+V03AB33||Hydroxocobalamin|Hydroxocobalamine|||||IV|g|2023
+V03AB37||Idarucizumab|Idarucizumab|||||IV|g|2022
+V03AB38||Andexanet alfa|Andexanet alfa|||||IV|mg|2022
+V03AF07||Rasburicase|Rasburicase|||||IV|mg|2010
+V03AF09||Glucarpidase|Glucarpidase|||||IV|U|2017
+V04CX06||Hexaminolevulinat|Héxaminolevulinat|||||IVSK|mg|2026

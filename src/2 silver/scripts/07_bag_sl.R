@@ -8,17 +8,9 @@ library(readxl)
 library(janitor)
 
 
-# Download files
-sl_file <- "./src/resources/SL-Export.zip"
-download.file(url = "https://www.spezialitaetenliste.ch/File.axd?file=XMLPublications.zip"
-              ,destfile = sl_file
-              , method = "libcurl"
-              , mode = "wb")
-unzip(sl_file, files="Publications.xlsx" , exdir = "./src/resources/", list=FALSE)
-
-
 # Import data to environment
-Publications <- read_excel("./src/resources/Publications.xlsx", 
+bronze_file <- "./src/1 bronze/staging area/Publications.xlsx"
+Publications <- read_excel(bronze_file, 
                            sheet = "Publications")
 colnames(Publications) <- sub(" per.*", "", colnames(Publications))
 Publications <- clean_names(Publications)
@@ -36,11 +28,11 @@ Publications$letzte_preis_anderung <- as.Date(
 Publications$einf_datum <- as.Date(Publications$einf_datum, "%d.%m.%Y")
 
 
-# Export as csv (to import folder of Neo4j)
-import_folder <- "./src/main/import"
-write.table(Publications, file = paste0(import_folder, "/sl.csv")
+# Export as csv
+silver_folder <- "./src/2 silver/staging area/"
+write.table(Publications, file = paste0(silver_folder, "/sl.csv")
             , row.names = FALSE, sep ="|", fileEncoding = "UTF-8")
 
 
-# Delete resource file
-file.remove(sl_file)
+# Delete bronze file
+file.remove(bronze_file)

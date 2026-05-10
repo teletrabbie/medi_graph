@@ -14,7 +14,7 @@
 "de","medi_zusatz","CTG","Thymoglobuline®",NA
 "de","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "de","medi_zusatz","CZY","Zypadhera®",NA
-"de","medi_zusatz","CAM","Abilify Maintena®",NA
+"de","medi_zusatz","CAM","Abilify Maintena® / Abilify Asimtufii®","Präparate mit anderem Handelsnamen, aber gleichem Wirkstoff und gleicher Verabreichungsart sind mit dem gleichen Kürzel zu kodieren wie das angegebene Präparat."
 "de","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
 "de","medi_zusatz","CTK","Trikafta®","Kombipräparate mit anderem Handelsnamen, aber gleicher Zusammensetzung sind mit dem gleichen Kürzel zu kodieren wie das angegebene Präparat."
 "de","medi_zusatz","CCS","Cayston®",NA
@@ -36,6 +36,13 @@
 "de","medi_zusatz","MM","Autologe CAR-T Zelltherapie bei multiplem Myelom",NA
 "de","medi_zusatz","PPA","Plaque-Psoriasis, Psoriasis-Arthritis",NA
 "de","medi_zusatz","MCU","Morbus Crohn, Colitis ulcerosa",NA
+"de","medi_zusatz","CHUV","Eigenprodukt CHUV-Herstellung",NA
+"de","medi_zusatz","HNB","Novosorb® Biodegradable Temporary Matrix",NA
+"de","medi_zusatz","HPS","Pure Skin® 2:1",NA
+"de","medi_zusatz","HEB","Spenderhaut ETB-BISLIFE",NA
+"de","medi_zusatz","HKR","Kerecis®",NA
+"de","medi_zusatz","CEY","Epidyolex®",NA
+"de","medi_zusatz","HDS","denovoSkin™",NA
 "de","medi_verabreichungsart","ET","endotracheopulmonal",NA
 "de","medi_verabreichungsart","ICV","intracerebroventrikulär",NA
 "de","medi_verabreichungsart","IGLAN","intraglandulär",NA
@@ -66,6 +73,7 @@
 "de","medi_einheit","MU","Millionen Unit","Identisch mit 10*6.[IU] (million international unit) gemäss UCUM"
 "de","medi_einheit","UD","Unit Dose","Die Einheit Unit Dose ist bei Kombinationspräparaten anzugeben. Sie bezeichnet die Anzahl an Einzeldosen und somit die Stückzahl des gegebenen Präparates (z.B. 1 Tablette)."
 "de","medi_einheit","AN","Anwendung",NA
+"de","medi_einheit","cm2","Quadrat-Zentimeter",NA
 "fr","medi_atc",NA,NA,NA
 "fr","medi_zusatz","CVT","Ventavis®",NA
 "fr","medi_zusatz","CIM","Ilomedin®",NA
@@ -81,7 +89,7 @@
 "fr","medi_zusatz","CTG","Thymoglobuline®",NA
 "fr","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "fr","medi_zusatz","CZY","Zypadhera®",NA
-"fr","medi_zusatz","CAM","Abilify Maintena®",NA
+"fr","medi_zusatz","CAM","Abilify Maintena® / Abilify Asimtufii®","Les préparations portant un autre nom commercial, mais présentant le même principe actif et ayant le même mode d'administration doivent être codées avec la même abréviation que la préparation indiquée."
 "fr","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
 "fr","medi_zusatz","CTK","Trikafta®","Les préparations combinées portant un autre nom commercial, mais présentant la même composition doivent être codées avec la même abréviation que la préparation indiquée."
 "fr","medi_zusatz","CCS","Cayston®",NA
@@ -103,6 +111,13 @@
 "fr","medi_zusatz","MM","Thérapie cellulaire CAR-T autologue contre le myélome multiple",NA
 "fr","medi_zusatz","PPA","Psoriasis en plaques, arthrite psoriasique",NA
 "fr","medi_zusatz","MCU","Maladie de Crohn, colite ulcéreuse",NA
+"fr","medi_zusatz","CHUV","Produit propre production CHUV",NA
+"fr","medi_zusatz","HNB","Novosorb® Biodegradable Temporary Matrix",NA
+"fr","medi_zusatz","HPS","Pure Skin® 2:1",NA
+"fr","medi_zusatz","HEB","Peau d'un donneur ETB-BISLIFE",NA
+"fr","medi_zusatz","HKR","Kerecis®",NA
+"fr","medi_zusatz","CEY","Epidyolex®",NA
+"fr","medi_zusatz","HDS","denovoSkin™",NA
 "fr","medi_verabreichungsart","ET","endotrachéobronchique",NA
 "fr","medi_verabreichungsart","ICV","intracérébroventriculaire",NA
 "fr","medi_verabreichungsart","IGLAN","intraglandulaire",NA
@@ -133,6 +148,7 @@
 "fr","medi_einheit","MU","Millions d’unités","Identique à 10*6.[IU] (million international unit) selon UCUM"
 "fr","medi_einheit","UD","Unit Dose","L’unité „unit dose“ doit être indiquée pour les préparations combinées. Elle désigne le nombre de doses individuelles et donc le nombre d’unités de la préparation administrée (par ex. 1 comprimé)"
 "fr","medi_einheit","AN","Application",NA
+"fr","medi_einheit","cm2","Centimètre carré",NA
 "it","medi_atc",NA,NA,NA
 "it","medi_zusatz","CVT","Ventavis®",NA
 "it","medi_zusatz","CIM","Ilomedin®",NA
@@ -148,7 +164,7 @@
 "it","medi_zusatz","CTG","Thymoglobuline®",NA
 "it","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "it","medi_zusatz","CZY","Zypadhera®",NA
-"it","medi_zusatz","CAM","Abilify Maintena®",NA
+"it","medi_zusatz","CAM","Abilify Maintena® / Abilify Asimtufii®","I preparati con un altro nome commerciale ma con lo stesso principio attivo e lo stesso modo di somministrazione devono essere codificati con la stessa abbreviazione del preparato indicato."
 "it","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
 "it","medi_zusatz","CTK","Trikafta®","I preparati combinati con un altro nome commerciale ma con la stessa composizione vanno codificati con la stessa abbreviazione del preparato indicato."
 "it","medi_zusatz","CCS","Cayston®",NA
@@ -170,6 +186,13 @@
 "it","medi_zusatz","MM","Terapia cellulare autologa CAR-T per il mieloma multiplo",NA
 "it","medi_zusatz","PPA","Psoriasi a placche, artrite psoriasica",NA
 "it","medi_zusatz","MCU","Morbo di Crohn, colite ulcerosa",NA
+"it","medi_zusatz","CHUV","Prodotto proprio produzione CHUV",NA
+"it","medi_zusatz","HNB","Novosorb® Biodegradable Temporary Matrix",NA
+"it","medi_zusatz","HPS","Pure Skin® 2:1",NA
+"it","medi_zusatz","HEB","Pelle di un donatore ETB-BISLIFE",NA
+"it","medi_zusatz","HKR","Kerecis®",NA
+"it","medi_zusatz","CEY","Epidyolex®",NA
+"it","medi_zusatz","HDS","denovoSkin™",NA
 "it","medi_verabreichungsart","ET","endotracheopolmonare",NA
 "it","medi_verabreichungsart","ICV","intracerebroventricolare",NA
 "it","medi_verabreichungsart","IGLAN","intraglandolare",NA
@@ -200,3 +223,4 @@
 "it","medi_einheit","MU","Milioni di unità","Identico a 10*6[UI] (milioni di unità internazionali) secondo UCUM"
 "it","medi_einheit","UD","Unit Dose","L’unità «unit dose» deve essere indicata per le preparazioni combinate. Definisce il numero di dose et quindi il numero d’unità della preparazione somministrata (per esempio 1 compressa)."
 "it","medi_einheit","AN","Applicazione",NA
+"it","medi_einheit","cm2","Centimetro quadrato",NA

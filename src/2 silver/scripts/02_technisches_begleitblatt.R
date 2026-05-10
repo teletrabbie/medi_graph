@@ -8,18 +8,14 @@ library(readxl)
 library(tidyverse)
 
 
-# Download files
-import_file <- "./src/resources/Technisches_Begleitblatt_2026.xlsx"
-download.file(url = "https://www.swissdrg.org/download_file/view/5323/2390"
-              , destfile = import_file
-              , method = "libcurl"
-              , mode="wb")
+# Define files to load into R
+bronze_file <- "./src/1 bronze/staging area/Technisches_Begleitblatt.xlsx"
 
 
 # Import data to environment
-import_tech_de <- read_excel(import_file, sheet = 1, skip = 7, col_names = TRUE)
-import_tech_fr <- read_excel(import_file, sheet = 2, skip = 7, col_names = TRUE)
-import_tech_it <- read_excel(import_file, sheet = 3, skip = 7, col_names = TRUE)
+import_tech_de <- read_excel(bronze_file, sheet = 1, skip = 7, col_names = TRUE)
+import_tech_fr <- read_excel(bronze_file, sheet = 2, skip = 7, col_names = TRUE)
+import_tech_it <- read_excel(bronze_file, sheet = 3, skip = 7, col_names = TRUE)
 
 import_tech_de$sprache <- "de"
 import_tech_fr$sprache <- "fr"
@@ -44,11 +40,11 @@ technisches_begleitblatt$hinweis <- gsub("\n", "", technisches_begleitblatt$hinw
 
 
 # Export as csv (to import folder of Neo4j)
-import_folder <- "./src/main/import"
+silver_folder <- "./src/2 silver/staging area"
 write.csv(technisches_begleitblatt
-    , file = paste0(import_folder,"/technisches_begleitblatt.csv")
+    , file = paste0(silver_folder,"/technisches_begleitblatt.csv")
     , row.names = FALSE)
 
 
-# Delete resource file
-file.remove(import_file)
+# Delete bronze file
+file.remove(bronze_file)

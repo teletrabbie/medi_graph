@@ -8,22 +8,13 @@ library(readr)
 library(tidyverse)
 
 
-# Download files
-ze_files <- "./src/resources/ze_v150.zip"
-download.file(url="https://www.swissdrg.org/download_file/view/5383/2330"
-              , destfile = ze_files
-              , method = "libcurl"
-              , mode="wb")
-unzip(ze_files, exdir = "./src/resources/", list=TRUE)
-unzip(ze_files, exdir = "./src/resources/", files = "ZE-EDV_V15.3_20251128-definitions.csv")
-
-
 # Import data to environment
-definitions <- read_delim("./src/resources/ZE-EDV_V15.3_20251128-definitions.csv", 
+bronze_file <- "./src/1 bronze/staging area/definitions.csv"
+definitions <- read_delim(bronze_file, 
                             delim = "|", escape_double = FALSE, trim_ws = TRUE)
 
 # data for reha + tarpsy (here manually prepared, in SwissDRG via API)
-ze_tr <- read_delim("./src/resources/ZE_tarpsy_reha.csv", 
+ze_tr <- read_delim("./src/1 bronze/staging area/ZE_tarpsy_reha.csv", 
                             delim = "|", escape_double = FALSE, trim_ws = TRUE)
 
 
@@ -41,11 +32,11 @@ ze_all$ze_id <- gsub("-[0-9]{4}-","-", ze_all$ze_code)
 
 
 # Export as csv
-import_folder <- "./src/main/import"
+silver_folder <- "./src/2 silver/staging area/"
 write.table(ze_all
-  , file = paste0(import_folder,"/ze_definitions.csv")
+  , file = paste0(silver_folder, "ze_definitions.csv")
   , row.names = FALSE, sep ="|", fileEncoding = "UTF-8")
 
 
-# Delete resource file
-file.remove(ze_files)
+# Delete bronze file
+file.remove(bronze_file)
