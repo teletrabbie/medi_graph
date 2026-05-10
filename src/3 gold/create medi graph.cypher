@@ -5,7 +5,7 @@
 
 // Part 1: Liste der hochteuren Medikamente/Substanzen
 // Load data from input list
-WITH 'https://www.swissdrg.org/download_file/view/5319/2390' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/hochteure_medis.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 WITH row,
@@ -80,7 +80,7 @@ UNWIND [
   {lang: 'fr', suffix: 'Bezeichnung FR'},
   {lang: 'it', suffix: 'Bezeichnung IT'}
 ] AS langInfo
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/technisches_begleitblatt.csv' AS row
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/technisches_begleitblatt.csv' AS row
 MATCH (n:Verabreichungsart {Name: row.kuerzel})
 WHERE langInfo.lang = row.sprache
 SET n[langInfo.suffix] = row.kuerzel_bezeichnung
@@ -93,14 +93,14 @@ UNWIND [
   {lang: 'fr', suffix: 'Bezeichnung FR'},
   {lang: 'it', suffix: 'Bezeichnung IT'}
 ] AS langInfo
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/technisches_begleitblatt.csv' AS row
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/technisches_begleitblatt.csv' AS row
 MATCH (n:Einheit {Name: row.kuerzel})
 WHERE langInfo.lang = row.sprache
 SET n[langInfo.suffix] = row.kuerzel_bezeichnung
 ;
 
 // Einheit (Hinweis)
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/technisches_begleitblatt.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/technisches_begleitblatt.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row
 MATCH (n:Einheit)
 WHERE n.Name=row.kuerzel AND 'de'= row.sprache AND 'NA'<> row.hinweis
@@ -109,7 +109,7 @@ SET n.Hinweis = row.hinweis
 
 
 // Zusatzangabe (Bezeichnung)
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/technisches_begleitblatt.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/technisches_begleitblatt.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row
 MATCH (n:Zusatzangabe)
 WHERE n.Name=row.kuerzel AND 'de'=row.sprache
@@ -117,7 +117,7 @@ SET n.Bezeichnung = row.kuerzel_bezeichnung
 ;
 
 // Zusatzangabe (Hinweis)
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/technisches_begleitblatt.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/technisches_begleitblatt.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row
 MATCH (n:Zusatzangabe)
 WHERE n.Name=row.kuerzel AND 'de'= row.sprache AND 'NA'<> row.hinweis
@@ -128,7 +128,7 @@ SET n.Hinweis = row.hinweis
 
 // Part 3: Liste der Zusatzentgelte (ZE, supplements, supplementary charges)
 // Load data and create node for ZE with properties
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/ze_definitions.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/ze_definitions.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MERGE (z:Zusatzentgelt {Name: row.ze_id})
@@ -194,7 +194,7 @@ merge (n)-[g:GILT_FUER_TARIF]->(t)
 
 // Part 4: Implement product information from EMA (European Medicines Agency)
 // Create Präparat nodes
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/ema_products.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/ema_products.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MERGE (p:Präparat {Name: lower(row.product_name)})
@@ -229,7 +229,7 @@ MERGE (n)-[:INDIZIERT_FUER {Quelle: 'EMA'}]->(m)
 
 // Part 5: Load structured refdata information (SAI) of level "Präparate" to Präparat nodes
 // Create Präparat nodes with short "Praep_Name"
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/sai_praeparate.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/sai_praeparate.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR ','
 
 MERGE (p:Präparat {Name: row.Praep_Name})
@@ -244,7 +244,7 @@ MERGE (p:Präparat {Name: row.Praep_Name})
 
 
 // Create Präparat nodes in case there are multiple products with the same name
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/sai_praeparate.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/sai_praeparate.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR ','
 
 WITH row WHERE tointeger(row.anz) > 1
@@ -318,7 +318,7 @@ DELETE a,b
 
 // Part 6: ATC Index (WHO ATC Hierarchy) and DDD (Defined Daily Dose) information
 // Match Medi-Liste Substanz and ATC Nodes of WHO
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/atc_list.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/atc_list.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 WITH row where toInteger(row.level) = 7
@@ -330,7 +330,7 @@ MERGE (s:Substanz {Name: row.atc_code})
 
 
 // Create nodes for WHO ATC Hierarchy
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/atc_list.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/atc_list.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 WITH row where toInteger(row.level) < 7
@@ -342,7 +342,7 @@ MERGE (h:Hierarchie {Name: row.atc_code})
 
 
 // Substances of "old" Medi-Lists which are not in the current Medi-List will get a own property
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/geloeschte_substanzen.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/geloeschte_substanzen.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR ';'
 
 MATCH (h:Substanz)
@@ -412,7 +412,7 @@ SET n.url = 'https://compendium.ch/register/atc/' + n.Name
 
 
 // Add DDD Information to Substanz nodes as value or as array
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/atc_ddd.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/atc_ddd.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MATCH (h:Substanz)
@@ -428,7 +428,7 @@ SET h.Unit = U_R,
 
 
 // Add Note information from DDD
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/atc_ddd.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/atc_ddd.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MATCH (h:Substanz)
@@ -441,7 +441,7 @@ SET h.Note = N_R
 
 // Part 7: Detailed package information from BAG Spezialitätenliste
 // Create the Spezialitätenliste nodes
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/sl.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/sl.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MERGE (n:Spezialitätenliste {Name: row.bezeichnung})
@@ -464,7 +464,7 @@ FOR (n:`Spezialitätenliste`) ON (n.GTIN)
 
 
 // Add Flag Preismodell for SL-products with "PM" in preismodell column
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/sl.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/sl.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 WITH row
 WHERE row.preismodell = "PM"
@@ -492,7 +492,7 @@ MERGE (p)-[:HAT_ATC {Quelle: 'SL'}]->(s)
 
 
 // Part 8: WHO ATC code alterations as relationship of Substanz node to itself
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/atc_alterations.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/atc_alterations.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR ';'
 
 MATCH (s:Substanz {Name: row.`New ATC code`})
@@ -518,7 +518,7 @@ MERGE (p)-[:HATTE_ATC {Quelle: 'Gemäss früherem ATC'}]->(s)
 
 // Part 9: Import data of SwissDRG "Antragsverfahren"
 // Property for Relationship because this information is a "meta information" and not directly from the "Antragsverfahren WebApp"
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/antraege.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/antraege.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MATCH (s:Substanz {Name: row.aktueller_atc_code})
@@ -682,7 +682,7 @@ MERGE (n)-[:HAT_ZA]->(z)
 
 // Part 11: Benefit Assessment of Medicinal Products by Federal Joint Committee on an Amendment of the Pharmaceuticals Directive (gBA Nutzenbewertung)
 // Load data and create nodes
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/gBA_nutzenbewertung.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/gBA_nutzenbewertung.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MERGE (n:Nutzenbewertung {`Patientengruppe ID`: toInteger(row.ID_PAT_GR)})
@@ -711,7 +711,7 @@ MERGE (p)-[:HAT_BEWERTUNG]->(n)
 
 // Part 12: ICD diagnosis per product by Federal Joint Committee on an Amendment of the Pharmaceuticals Directive
 // Load data and create nodes
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/gBA_icd.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/gBA_icd.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MERGE (n:Indikation {Name: row.NAME_ICD_GROUPED})
@@ -721,7 +721,7 @@ SET n.ICD = row.ID_ICD_GROUPED,
 
 
 // Create relationship from Präparat to Indikation
-WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/main/import/gBA_icd.csv' AS import
+WITH 'https://raw.githubusercontent.com/teletrabbie/medi_graph/refs/heads/main/src/2 silver/staging area/gBA_icd.csv' AS import
 LOAD CSV WITH HEADERS FROM import AS row FIELDTERMINATOR '|'
 
 MATCH (p:Präparat {Name: lower(row.NAME_HN)})

@@ -1,2 +1,7 @@
-# Preparation of "ATC Alternations" have to be done manually
-# Source: https://atcddd.fhi.no/atc_ddd_alterations__cumulative/atc_alterations/
+# Copy "ATC Alternations" to silver staging area
+
+rm(list = ls())
+
+bronze_file <- "./src/1 bronze/staging area/atc_alterations.csv"
+silver_file <- "./src/2 silver/staging area/atc_alterations.csv"
+file.copy(bronze_file, silver_file)

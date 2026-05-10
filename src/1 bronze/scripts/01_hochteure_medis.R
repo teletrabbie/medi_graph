@@ -9,3 +9,5 @@ download.file(url = source
               , destfile = download_file
               , method = "libcurl"
               , mode="wb")
+
+# Important: add deleted substances (ATC-Codes) manually to file "geloeschte_substanzen.csv"
