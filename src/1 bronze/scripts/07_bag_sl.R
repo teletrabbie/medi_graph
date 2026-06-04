@@ -2,7 +2,7 @@
 
 rm(list = ls())
 
-source <- "https://www.spezialitaetenliste.ch/File.axd?file=XMLPublications.zip"
+source <- "https://epl.bag.admin.ch/static/sl/current/excel/all/ExcelPublicationsSL,GGSLundAenderungen.zip"
 download_file <- "./src/1 bronze/staging area/SL-Export.zip"
 
 download.file(url = source
