@@ -4,7 +4,7 @@
 
 Christian Franke hat im erstem Halbjahr 2025 eine Bachelor-Thesis im Studiengang Medizininformatik an der Berner Fachhochschule durchgeführt. Das Ziel war es, diverse Medikamentendaten in eine übersichtliche Datenbank zu vereinen. Als Datenbank wurde die Graph-Datenbank Neo4j verwendet. Die SwissDRG AG hat das Projekt in Auftrag gegeben.
 
-Das Projekt wurde im Sommer 2025 erfolgreich abgeschlossen. Gewisse Details wurden diesem Repository nach Abgabe der Bachelorarbeit hinzugefügt. Die Weiterentwicklung ist weiterhin geplant, erfolgt jedoch nur noch sporadisch.
+Das Projekt wurde im Sommer 2025 erfolgreich abgeschlossen. Gewisse Details wurden diesem Repository nach Abgabe der Bachelorarbeit hinzugefügt. Die Weiterentwicklung wurde im November 2026 eingestellt.
 
 ## Neo4j
 
@@ -43,7 +43,7 @@ Die Datenverarbeitung ist nach dem Medaillon Data Pattern mit drei Schichten auf
     - `01_hochteure_medis.R` (Link muss aktualisiert werden)
     - `02_technisches_begleitblatt.R` (Link muss aktualisiert werden)
     - `03_zusatzentgelte.R` (Link muss aktualisiert werden)
-    - `06_parse_atc_ddd.py` (Dauer: weniger als 10 Minuten ohne `time.sleep(10)`)
+    - `06_atc_ddd.R` (Dauer: abhängig von den 10-Sekunden-Pausen)
     - `08_atc_alterations.R` (manuelle Aufbereitung nötig)
     - `09_antraege.R` (manuelle Aufbereitung nötig, `proposals Medi.xlsx` und `proposals ZE.xlsx`)
 
@@ -58,7 +58,7 @@ Die Datenverarbeitung ist nach dem Medaillon Data Pattern mit drei Schichten auf
   - `03_zusatzentgelte.R`: der Zusatzentgelt-Katalog wird als zip-Datei von der Website der SwissDRG AG heruntergeladen und die definitions-csv-Datei extrahiert. Die URL muss jährlich aktualisiert werden. Eine Datei zu den Zusatzentgelten von TARPSY/ST Reha (`ZE_tarpsy_reha.csv`) muss manuell erstellt werden.
   - `04_ema_produkte.R`: eine aktuelle Excel-Datei mit Medikamenten-Daten der Europäischen Arzneimittelagentur (EMA) wird von der EMA-Website heruntergeladen. Die Excel-Datei wird regelmässig aktualisiert. Die URL muss nicht geändert werden.
   - `05_refdata.R`: die strukturierten Arzneimittelinformationen der Stiftung Refdata werden als zip-Datei von der SAI-Platform heruntergeladen und zwei relevante XML-Dateien (Präparate und Adressen) extrahiert. Für monatliche Updates muss der Download-Link angepasst werden, weil sich der Download-Link immer nur auf einen spezifischen Monat bezieht.
-  - `06_parse_atc_ddd.py`: Dummy-Datei ohne Datenaufbereitung. Siehe stattdessen `06_parse_atc_ddd.py` im Silber-Layer. Zukünftig soll das Webscraping durch den Download des ATC-Index von einem Terminologie-Server abgelost werden.
+  - `06_atc_ddd.R`: ruft die ATC-Seiten hierarchisch ab und speichert die HTML-Antworten unverändert unter `src/1 bronze/staging area/atc_ddd/html`. Zwischen Anfragen wird aus Rücksicht auf den Server zehn Sekunden gewartet. Zukünftig soll das Webscraping durch den Download des ATC-Index von einem Terminologie-Server abgelöst werden.
   - `07_bag_sl.R`: die aktuelle Excel-Datei der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG) wird von der (alten) SL-Website heruntergeladen. Die Excel-Datei wird monatlich aktualisiert. Mit der neuen SL-Platform muss die URL zukünftig wahrscheinlich angepasst werden.
   - `08_atc_alterations.R`: Dummy-Datei ohne Datenaufbereitung.
   - `09_antraege.R`: Dummy-Datei ohne Datenaufbereitung. Eine manuelle Datenaufbereitung ist nötig, um  `proposals Medi.xlsx` und `proposals ZE.xlsx` zu erstellen.
@@ -75,7 +75,7 @@ Die Datenverarbeitung ist nach dem Medaillon Data Pattern mit drei Schichten auf
   - `03_zusatzentgelte.R`: relevante Daten des aktuellen Zusatzentgelt-Kataloges (definitions-Datei) werden aufbereitet, mit den Zusatzentgelten von TARSPY und ST Reha ergänzt und als csv-Datei `ze_definitions.csv` gespeichert.
   - `04_ema_produkte.R`: es werden nur die zugelassenen Humanarzneimittel gefiltert, wenige alte (falsche) ATC-Codes korrigiert und als csv-Datei `ema_products.csv` gespeichert.
   - `05_refdata.R`: aus zwei XML-Dateien (Präparate und Adressen) werden relevante Daten extrahiert, ein Data-Frame der Daten erstellt, mehrere alte (falsche) ATC-Codes korrigiert, Firmennamen der Zulassunginhaberin zu den Präparaten hinzugefügt und als csv-Datei `sai_praeparate.csv` gespeichert.
-  - `06_parse_atc_ddd.py`: das Python-Skript führt ein Webscraping der Seite `https://atcddd.fhi.no/atc_ddd_index` durch, auf dem die ATC-Codes gemäss Weltgesundheitsorganisation (WHO) veröffentlicht sind. In einem rekursiven Verfahren wird der ATC-Index von der obersten Hierarchiestufe bis zur detailliertesten Hierarchiestufe gescraped. Aufgrund der Nutzungsbestimmungen wurde der Befehl `time.sleep(10)` eingefügt, sodass zwischen den Webseitenaufrufen zehn Sekunden gewartet wird. Ohne `time.sleep(10)` dauert das Webscraping ca. 5 Minuten. Es werden zwei csv-Dateien erstellt mit der ATC-Hierarchie (`atc_list.csv`) und den Angaben der Defined Daily Dose (DDD, `atc_ddd.csv`).
+  - `06_atc_ddd.R`: liest die Bronze-HTML-Snapshots ein und erstellt daraus die ATC-Hierarchie (`atc_list.csv`) und die Angaben der Defined Daily Dose (DDD, `atc_ddd.csv`).
   - `07_bag_sl.R`: die aktuelle Excel-Datei der Spezialitätenliste (SL) des Bundesamt für Gesundheit (BAG) wird leicht aufbereitet und nur die relevanten Spalten als csv-Datei `sl.csv` gespeichert.
   - `08_atc_alterations.R`: Die Datei "atc_alterations.csv" wird unverändert kopiert.
   - `09_antraege.R`: die beiden manuell erstellten und aufbereiteten Excel-Dateien `proposals Medi.xlsx` und `proposals ZE.xlsx` werden als eine gemeinsame csv-Datei `antraege.csv` gespeichert.

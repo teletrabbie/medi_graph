@@ -2,7 +2,7 @@
 
 rm(list = ls())
 
-source <- "https://sai.refdata.ch/download/structuredexportzip/8907"
+source <- "https://sai.refdata.ch/download/structuredexportzip/9060"
 download_file <- "./src/1 bronze/staging area/sai.zip"
 
 download.file(url = source

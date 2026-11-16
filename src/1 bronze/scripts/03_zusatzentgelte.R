@@ -3,7 +3,7 @@
 rm(list = ls())
 
 staging_path <- "./src/1 bronze/staging area/"
-source <- "https://www.swissdrg.org/download_file/view/5383/2330"
+source <- "https://www.swissdrg.org/download_file/view/5692/2494"
 download_file <- paste0(staging_path, "ze_katalog.zip")
 
 download.file(url = source

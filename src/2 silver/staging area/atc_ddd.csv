@@ -409,6 +409,7 @@ B01AE06|bivalirudin|0.25|g|P|
 B01AE07|dabigatran etexilate|0.3|g|O|
 B01AF01|rivaroxaban|20|mg|O|
 B01AF02|apixaban|10|mg|O|
+B01AF03|edoxaban|60|mg|O|
 B01AX01|defibrotide|1.75|g|P|
 B01AX05|fondaparinux|2.5|mg|P|
 B01AX07|caplacizumab|10|mg|P|
@@ -903,7 +904,7 @@ G03CA03|estradiol|50|mcg|TD|patch, refer to amount delivered per 24 hours
 G03CA03|estradiol|1|mg|TD|gel
 G03CA03|estradiol|1.53|mg|TD|spray
 G03CA03|estradiol|25|mcg|V|
-G03CA03|estradiol|7.5|mcg|V|vaginal ring,  refers to amount delivered per 24 hours
+G03CA03|estradiol|7.5|mcg|V|vaginal ring, refers to amount delivered per 24 hours
 G03CA04|estriol|2|mg|O|
 G03CA04|estriol|2|mg|P|
 G03CA04|estriol|0.2|mg|V|
@@ -2189,7 +2190,7 @@ N05AX12|aripiprazole|15|mg|O|
 N05AX12|aripiprazole|15|mg|P|
 N05AX12|aripiprazole|13.3|mg|P|depot
 N05AX13|paliperidone|6|mg|O|
-N05AX13|paliperidone|2.5|mg|P|depot    Expressed as paliperidone
+N05AX13|paliperidone|2.5|mg|P|depot Expressed as paliperidone
 N05AX14|iloperidone|18|mg|O|
 N05AX15|cariprazine|3|mg|O|
 N05AX16|brexpiprazole|3|mg|O|

@@ -81,7 +81,7 @@ J01AA13|TR|Eravacyclin|Eravacyclin|||||IV|mg|2025
 J01CG30||Sulbactam und Durlobactam|Sulbactam et Durlobactam|||||IV|g|2026
 J01DD52||Ceftazidim und Avibactam|Ceftazidime et Avibactam|CZC||||IV|g|2019
 J01DF01|TR|Aztreonam|Aztreonam|CCS,CAZ||||Inhal,IV|g|2022
-J01DF51||Aztreonam und Avibactam |Aztreonam et Avibactam|CEL||||IV|g|2025
+J01DF51||Aztreonam und Avibactam|Aztreonam et Avibactam|CEL||||IV|g|2025
 J01DH02|TR|Meropenem|Méropénem|||||IV|g|2026
 J01DH51|TR|Imipenem und Cilastin|Imipénem et cilastatine|||||IV|g|2026
 J01DH52|TR|Meropenem und Vaborbactam|Méropénem et Vaborbactam|||||IV|g|2023
@@ -139,6 +139,7 @@ L01CD04||Cabazitaxel|Cabazitaxel|||||IV|mg|2026
 L01CE02||Irinotecan|Irinotecan|CON|liposomal IV|forme liposomale i.v.|Liposomiale e.v.|IV|mg|2021
 L01CX01||Trabectedin|Trabectédine|||||IV|mg|2013
 L01DB01||Doxorubicin|Doxorubicine||liposomal IV|forme liposomale i.v.|Liposomiale e.v.|IV|mg|2019
+L01EA01||Imatinib|Imatinib|||||O|mg|2026
 L01EA02|TR|Dasatinib|Dasatinib|||||O|mg|2010
 L01EA03|TR|Nilotinib|Nilotinib|||||O|mg|2010
 L01EA04||Bosutinibum|Bosutinibum|||||O|mg|2022
@@ -229,7 +230,7 @@ L01FX13||Enfortumab vedotin|Enfortumab védotine|||||IV|mg|2023
 L01FX14||Polatuzumab vedotin|Polatuzumab védotine|||||IV|mg|2023
 L01FX15||Belantamab mafodotin|Bélantamab mafodotine|||||IV|mg|2023
 L01FX17||Sacituzumab Govitecan|Sacituzumab govitecan|||||IV|mg|2023
-L01FX18||Amivantamab|Amivantamab|||||IV|mg|2023
+L01FX18||Amivantamab|Amivantamab|||||IV,SC|mg|2023
 L01FX20||Tremelimumab|Tremelimumab|||||IV|mg|2025
 L01FX24||Teclistamab|Teclistamab|||||SC|mg|2023
 L01FX25||Mosunetuzumab|Mosunetuzumab|||||IV|mg|2023
@@ -333,7 +334,7 @@ L04AX04||Lenalidomid|Lénalidomide|||||O|mg|2010
 L04AX05||Pirfenidon|Pirfénidone|||||O|mg|2017
 L04AX06||Pomalidomid|Pomalidomide|||||O|mg|2016
 L04AX18||Humane allogene mesenchymale Stromazellen|Cellules stromales mésenchymateuses allogéniques|||||IV|U|2021
-M03AX01||Botulinus Toxin|Toxine botulique|||||IM,IGLAN|U|2022
+M03AX01||Botulinus Toxin|Toxine botulique|BBO,BDY,BXE||||IGLAN,IM|U|2022
 M05BC01||Dibotermin alfa|Dibotermine alfa|||||IMPL|mg|2023
 M05BX05||Burosumab|Burosumab|||||SC|mg|2021
 M05BX07||Vosoritid|Vosoritide|||||SC|mg|2026

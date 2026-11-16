@@ -15,7 +15,7 @@
 "de","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "de","medi_zusatz","CZY","Zypadhera®",NA
 "de","medi_zusatz","CAM","Abilify Maintena® / Abilify Asimtufii®","Präparate mit anderem Handelsnamen, aber gleichem Wirkstoff und gleicher Verabreichungsart sind mit dem gleichen Kürzel zu kodieren wie das angegebene Präparat."
-"de","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
+"de","medi_zusatz","CXE","Xeplion® / Trevicta® / Paliperidon Spirig HC retard Inj",NA
 "de","medi_zusatz","CTK","Trikafta®","Kombipräparate mit anderem Handelsnamen, aber gleicher Zusammensetzung sind mit dem gleichen Kürzel zu kodieren wie das angegebene Präparat."
 "de","medi_zusatz","CCS","Cayston®",NA
 "de","medi_zusatz","CAZ","Azactam®",NA
@@ -43,6 +43,9 @@
 "de","medi_zusatz","HKR","Kerecis®",NA
 "de","medi_zusatz","CEY","Epidyolex®",NA
 "de","medi_zusatz","HDS","denovoSkin™",NA
+"de","medi_zusatz","BBO","Botox",NA
+"de","medi_zusatz","BDY","Dysport",NA
+"de","medi_zusatz","BXE","Xeomin",NA
 "de","medi_verabreichungsart","ET","endotracheopulmonal",NA
 "de","medi_verabreichungsart","ICV","intracerebroventrikulär",NA
 "de","medi_verabreichungsart","IGLAN","intraglandulär",NA
@@ -90,7 +93,7 @@
 "fr","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "fr","medi_zusatz","CZY","Zypadhera®",NA
 "fr","medi_zusatz","CAM","Abilify Maintena® / Abilify Asimtufii®","Les préparations portant un autre nom commercial, mais présentant le même principe actif et ayant le même mode d'administration doivent être codées avec la même abréviation que la préparation indiquée."
-"fr","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
+"fr","medi_zusatz","CXE","Xeplion® / Trevicta® / Paliperidon Spirig HC retard Inj",NA
 "fr","medi_zusatz","CTK","Trikafta®","Les préparations combinées portant un autre nom commercial, mais présentant la même composition doivent être codées avec la même abréviation que la préparation indiquée."
 "fr","medi_zusatz","CCS","Cayston®",NA
 "fr","medi_zusatz","CAZ","Azactam®",NA
@@ -118,6 +121,9 @@
 "fr","medi_zusatz","HKR","Kerecis®",NA
 "fr","medi_zusatz","CEY","Epidyolex®",NA
 "fr","medi_zusatz","HDS","denovoSkin™",NA
+"fr","medi_zusatz","BBO","Botox",NA
+"fr","medi_zusatz","BDY","Dysport",NA
+"fr","medi_zusatz","BXE","Xeomin",NA
 "fr","medi_verabreichungsart","ET","endotrachéobronchique",NA
 "fr","medi_verabreichungsart","ICV","intracérébroventriculaire",NA
 "fr","medi_verabreichungsart","IGLAN","intraglandulaire",NA
@@ -165,7 +171,7 @@
 "it","medi_zusatz","CFR","ATG-Fresenius® / Grafalon®",NA
 "it","medi_zusatz","CZY","Zypadhera®",NA
 "it","medi_zusatz","CAM","Abilify Maintena® / Abilify Asimtufii®","I preparati con un altro nome commerciale ma con lo stesso principio attivo e lo stesso modo di somministrazione devono essere codificati con la stessa abbreviazione del preparato indicato."
-"it","medi_zusatz","CXE","Xeplion® / Trevicta®",NA
+"it","medi_zusatz","CXE","Xeplion® / Trevicta® / Paliperidon Spirig HC retard Inj",NA
 "it","medi_zusatz","CTK","Trikafta®","I preparati combinati con un altro nome commerciale ma con la stessa composizione vanno codificati con la stessa abbreviazione del preparato indicato."
 "it","medi_zusatz","CCS","Cayston®",NA
 "it","medi_zusatz","CAZ","Azactam®",NA
@@ -193,6 +199,9 @@
 "it","medi_zusatz","HKR","Kerecis®",NA
 "it","medi_zusatz","CEY","Epidyolex®",NA
 "it","medi_zusatz","HDS","denovoSkin™",NA
+"it","medi_zusatz","BBO","Botox",NA
+"it","medi_zusatz","BDY","Dysport",NA
+"it","medi_zusatz","BXE","Xeomin",NA
 "it","medi_verabreichungsart","ET","endotracheopolmonare",NA
 "it","medi_verabreichungsart","ICV","intracerebroventricolare",NA
 "it","medi_verabreichungsart","IGLAN","intraglandolare",NA

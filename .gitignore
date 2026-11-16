@@ -1,2 +1,7 @@
-doc/Benutzerhandbuch.html
-doc/Benutzerhandbuch_files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+test/
+src/1 bronze/staging area/atc_ddd

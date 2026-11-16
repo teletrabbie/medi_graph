@@ -286,12 +286,12 @@ Die Therapie soll nach Wahl des Arztes in Abhängigkeit der Basis – und Vorthe
 "116"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/117/"|"Betmiga"|"194"|"Mirabegron"|"2014-11-20"|"Darifenacin oder Fesoterodin oder Propiverin oder Solifenacin oder Tolterodin oder Trospiumchlorid."|"ist nicht belegt"|NA|"G04BD12"
 "119"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/119/"|"BioBag"|"212"|"lebende Larven von Lucilia sericata"|"2014-11-20"|"Die zweckmäßige Vergleichstherapie für das Debridement belegter chronischer oder schwer heilender Wunden ist eine patientenindividuell geeignete Debridement-Technik nach Wahl des Arztes. Kriterien für die Auswahl der Debridement-Technik sind unter anderem der Wundtyp, sowie die Lokalisation und Größe der Wunde."|"gilt als nicht belegt"|NA|"D03AX32"
 "121"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/122/"|"Sylvant"|"214"|"Siltuximab"|"2014-12-04"|NA|"nicht quantifizierbar"|NA|"L04AC11"
-"123"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/124/"|"Anoro Ellipta"|"217"|"Vilanterol/Umeclidinium"|"2015-01-08"|"-	langwirksame Beta-2-Sympathomimetika (Formoterol oder Salmeterol)
+"123"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/124/"|"Anoro Ellipta"|"217"|"Umeclidinium/Vilanterol"|"2015-01-08"|"-	langwirksame Beta-2-Sympathomimetika (Formoterol oder Salmeterol)
 oder
 -	langwirksame Anticholinergika (Tiotropium)
 oder
 -	die Kombination beider Wirkstoffklassen"|"ist nicht belegt"|NA|"R03AL03"
-"123"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/124/"|"Anoro Ellipta"|"218"|"Vilanterol/Umeclidinium"|"2015-01-08"|"zusätzlich inhalative Corticosteroide (zu langwirksamen Beta-2-Sympathomimetika [Formoterol oder Salmeterol] oder langwirksamen Anticholinergika [Tiotropium] oder der Kombination beider Wirkstoffklassen)"|"gilt als nicht belegt"|NA|"R03AL03"
+"123"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/124/"|"Anoro Ellipta"|"218"|"Umeclidinium/Vilanterol"|"2015-01-08"|"zusätzlich inhalative Corticosteroide (zu langwirksamen Beta-2-Sympathomimetika [Formoterol oder Salmeterol] oder langwirksamen Anticholinergika [Tiotropium] oder der Kombination beider Wirkstoffklassen)"|"gilt als nicht belegt"|NA|"R03AL03"
 "124"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/125/"|"Entyvio"|"219"|"Vedolizumab"|"2015-01-08"|"Ein TNF-alpha-Antagonist (Adalimumab oder Infliximab)"|"ist nicht belegt"|NA|"L04AG05"
 "124"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/125/"|"Entyvio"|"220"|"Vedolizumab"|"2015-01-08"|"Ein TNF-alpha-Antagonist (Adalimumab oder Infliximab unter Berücksichtigung der Vortherapien)
 (Hinweis: Bei Versagen der Therapie mit einem TNF-alpha-Antagonisten (Adalimumab oder Infliximab) ist eine Dosisanpassung oder ein Wechsel auf jeweils den anderen TNF-alpha-Antagonisten möglich.)"|"ist nicht belegt"|NA|"L04AG05"
@@ -587,11 +587,11 @@ oder
 oder
 - Crizotinib (nur für Patienten mit aktivierenden ALK-Mutationen, die noch nicht mit Crizotinib vorbehandelt wurden)"|"beträchtlich"|"Hinweis"|"L01FF01"
 "233"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/232/"|"Opdivo"|"1079"|"Nivolumab"|"2016-10-20"|"Best Supportive Care"|"ist nicht belegt"|NA|"L01FF01"
-"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"446"|"Emtricitabin/Tenofoviralafenamid "|"2016-11-03"|"NRTI-Backbone: Tenofovirdisoproxil plus Emtricitabin oder Abacavir plus Lamivudin 
+"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"446"|"Emtricitabin/Tenofoviralafenamid"|"2016-11-03"|"NRTI-Backbone: Tenofovirdisoproxil plus Emtricitabin oder Abacavir plus Lamivudin 
 In Kombination mit dem NRTI-Backbone sollen wirkstoffgleiche dritte Kombinationspartner (Efavirenz oder Rilpivirin oder Dolutegravir) über die Studienarme gleich verteilt eingesetzt werden."|"ist nicht belegt"|NA|"J05AR17"
-"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"447"|"Emtricitabin/Tenofoviralafenamid "|"2016-11-03"|"Efavirenz in Kombination mit Abacavir plus Lamivudin"|"ist nicht belegt"|NA|"J05AR17"
-"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"448"|"Emtricitabin/Tenofoviralafenamid "|"2016-11-03"|"Individuelle antiretrovirale Therapie in Abhängigkeit der Vortherapie(n) und unter Berücksichtigung des Grundes für den Therapiewechsel, insbesondere Therapieversagen aufgrund eines virologischen Versagens und etwaig einhergehender Resistenzbildung oder aufgrund von Nebenwirkungen."|"ist nicht belegt"|NA|"J05AR17"
-"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"449"|"Emtricitabin/Tenofoviralafenamid "|"2016-11-03"|"Individuelle antiretrovirale Therapie in Abhängigkeit der Vortherapie(n) und unter Berücksichtigung des Grundes für den Therapiewechsel, insbesondere Therapieversagen aufgrund eines virologischen Versagens und etwaig einhergehender Resistenzbildung oder aufgrund von Nebenwirkungen."|"ist nicht belegt"|NA|"J05AR17"
+"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"447"|"Emtricitabin/Tenofoviralafenamid"|"2016-11-03"|"Efavirenz in Kombination mit Abacavir plus Lamivudin"|"ist nicht belegt"|NA|"J05AR17"
+"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"448"|"Emtricitabin/Tenofoviralafenamid"|"2016-11-03"|"Individuelle antiretrovirale Therapie in Abhängigkeit der Vortherapie(n) und unter Berücksichtigung des Grundes für den Therapiewechsel, insbesondere Therapieversagen aufgrund eines virologischen Versagens und etwaig einhergehender Resistenzbildung oder aufgrund von Nebenwirkungen."|"ist nicht belegt"|NA|"J05AR17"
+"234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/233/"|"Descovy"|"449"|"Emtricitabin/Tenofoviralafenamid"|"2016-11-03"|"Individuelle antiretrovirale Therapie in Abhängigkeit der Vortherapie(n) und unter Berücksichtigung des Grundes für den Therapiewechsel, insbesondere Therapieversagen aufgrund eines virologischen Versagens und etwaig einhergehender Resistenzbildung oder aufgrund von Nebenwirkungen."|"ist nicht belegt"|NA|"J05AR17"
 "237"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/238/"|"Empliciti"|"451"|"Elotuzumab"|"2016-12-01"|"− Bortezomib als Monotherapie
 oder
 − Bortezomib in Kombination mit pegyliertem, liposomalen Doxorubicin
@@ -686,7 +686,7 @@ Die Angaben der Fachinformationen der Kombinationspartner der zweckmäßigen Ver
 "299"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/300/"|"Opdivo"|"622"|"Nivolumab"|"2017-12-21"|"•	Vinflunin 
 oder
 •	eine erneute Cisplatin-basierte Chemotherapie (für Patienten die, abhängig von Krankheitsverlauf, Allgemeinzustand und Verträglichkeit der Erstlinientherapie, für eine solche in Frage kommen)"|"ist nicht belegt"|NA|"L01FF01"
-"302"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/301/"|"Besponsa"|"575"|"Inotuzumab Ozogamicin"|"2018-01-18"|NA|"gering"|NA|"L01FB01"
+"302"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/301/"|"Besponsa"|"575"|"Inotuzumab ozogamicin"|"2018-01-18"|NA|"gering"|NA|"L01FB01"
 "303"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/304/"|"Zykadia"|"623"|"Ceritinib"|"2018-02-01"|"Crizotinib"|"ist nicht belegt"|NA|"L01ED02"
 "304"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/303/"|"Maviret"|"624"|"Glecaprevir/Pibrentasvir"|"2018-02-01"|"Ledipasvir/Sofosbuvir"|"ist nicht belegt"|NA|"J05AP57"
 "304"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/303/"|"Maviret"|"1177"|"Glecaprevir/Pibrentasvir"|"2018-02-01"|"Sofosbuvir plus Ribavirin oder Sofosbuvir/Velpatasvir."|"ist nicht belegt"|NA|"J05AP57"
@@ -767,7 +767,7 @@ Hinweis: Empagliflozin ​und Liraglutid in Kombination mit weiterer Medikation 
 "351"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/353/"|"Suliqua"|"1315"|"Insulin glargin/Lixisenatid"|"2018-08-16"|"Die Optimierung des Humaninsulinregimes (ggf. + Metformin oder Empagliflozin oder Liraglutid)
 
 Hinweis: Empagliflozin ​und Liraglutid in Kombination mit weiterer Medikation zur Behandlung der kardiovaskulären Risikofaktoren, insbesondere Antihypertensiva, Antikoagulanzien und/oder Lipidsenker und nur für Patienten mit manifester kardiovaskulärer Erkrankung.​"|"ist nicht belegt"|NA|"A10AE54"
-"352"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/352/"|"Trelegy Ellipta"|"671"|"Vilanterol/Umeclidinium/Fluticason"|"2018-08-16"|"eine patientenindividuelle Therapieoptimierung - unter Berücksichtigung der Vortherapie - mit einem langwirksamen Beta-2-Sympathomimetika (LABA) und einem langwirksamen Anticholinergika (LAMA) und ggf. einem inhalativen Corticosteroid (ICS)"|"ist nicht belegt"|NA|"R03AL08"
+"352"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/352/"|"Trelegy Ellipta"|"671"|"Fluticasonfuroat/Umeclidinium/Vilanterol"|"2018-08-16"|"eine patientenindividuelle Therapieoptimierung - unter Berücksichtigung der Vortherapie - mit einem langwirksamen Beta-2-Sympathomimetika (LABA) und einem langwirksamen Anticholinergika (LAMA) und ggf. einem inhalativen Corticosteroid (ICS)"|"ist nicht belegt"|NA|"R03AL08"
 "353"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/354/"|"Repatha"|"1164"|"Evolocumab"|"2018-09-06"|"maximal tolerierte medikamentöse und diätetische Therapie zur Lipidsenkung"|"ist nicht belegt"|NA|"C10AX13"
 "353"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/354/"|"Repatha"|"1166"|"Evolocumab"|"2018-09-06"|"Alirocumab oder LDL-Apherese (als „ultima ratio“ bei therapierefraktären Verläufen) ggf. mit begleitender medikamentöser lipidsenkender Therapie."|"ist nicht belegt"|NA|"C10AX13"
 "353"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/354/"|"Repatha"|"1201"|"Evolocumab"|"2018-09-06"|"maximal tolerierte medikamentöse und diätetische Therapie zur Lipidsenkung"|"ist nicht belegt"|NA|"C10AX13"
@@ -852,7 +852,7 @@ Im vorliegenden Anwendungsgebiet sind Tamoxifen, Letrozol, Exemestan, Megestrola
 "410"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/407/"|"Praluent"|"1115"|"Alirocumab"|"2019-05-02"|"andere (als Statine) Lipidsenker (Fibrate oder Anionenaustauscher oder Cholesterinresorptionshemmer) als Monotherapie und diätetische Therapie zur Lipidsenkung"|"ist nicht belegt"|NA|"C10AX14"
 "412"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/414/"|"Ilumetri"|"730"|"Tildrakizumab"|"2019-05-02"|"Adalimumab oder Guselkumab oder Ixekizumab oder Secukinumab"|"ist nicht belegt"|NA|"L04AC17"
 "412"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/414/"|"Ilumetri"|"1395"|"Tildrakizumab"|"2019-05-02"|"Adalimumab oder Guselkumab oder Infliximab oder Ixekizumab oder Secukinumab oder Ustekinumab"|"ist nicht belegt"|NA|"L04AC17"
-"413"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/413/"|"Elebrato Ellipta"|"731"|"Vilanterol/Umeclidinium/Fluticason"|"2019-05-02"|"langwirksamen Beta2-Agonisten (LABA) und langwirksame Muscarinrezeptor-Antagonisten (LAMA) und inhalative Corticoide (ICS)"|"ist nicht belegt"|NA|"R03AL08"
+"413"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/413/"|"Elebrato Ellipta"|"731"|"Fluticasonfuroat/Umeclidinium/Vilanterol"|"2019-05-02"|"langwirksamen Beta2-Agonisten (LABA) und langwirksame Muscarinrezeptor-Antagonisten (LAMA) und inhalative Corticoide (ICS)"|"ist nicht belegt"|NA|"R03AL08"
 "414"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/415/"|"Tresiba"|"732"|"Insulin degludec"|"2019-05-16"|"Humaninsulin + Metformin oder
 • Humaninsulin + Empagliflozin oder
 • Humaninsulin + Liraglutid oder
@@ -889,7 +889,7 @@ Best-Supportive-Care"|"ist nicht belegt"|NA|"L01XX52"
 "422"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/426/"|"Tecentriq"|"740"|"Atezolizumab"|"2019-06-20"|"Eine Chemotherapie nach Maßgabe des Arztes."|"ist nicht belegt"|NA|"L01FF05"
 "386"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/395/"|"Lenvima"|"865"|"Lenvatinib"|"2019-03-22"|"Sorafenib"|"ist nicht belegt"|NA|"L01EX08"
 "386"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/395/"|"Lenvima"|"866"|"Lenvatinib"|"2019-03-22"|"Best Supportive Care"|"ist nicht belegt"|NA|"L01EX08"
-"388"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/396/"|"Vyxeos liposomal"|"706"|"Daunorubicin/Cytarabin liposomal"|"2019-03-22"|NA|"beträchtlich"|NA|"L01XY01"
+"388"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/396/"|"Vyxeos liposomal"|"706"|"Daunorubicin/Cytarabin"|"2019-03-22"|NA|"beträchtlich"|NA|"L01XY01"
 "389"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/388/"|"Tafinlar"|"707"|"Dabrafenib"|"2019-03-22"|"Beobachtendes Abwarten"|"beträchtlich"|"Hinweis"|"L01EC02"
 "390"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/387/"|"Mekinist"|"708"|"Trametinib"|"2019-03-22"|"Beobachtendes Abwarten"|"beträchtlich"|"Hinweis"|"L01EE01"
 "391"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/391/"|"Myalepta"|"709"|"Metreleptin"|"2019-03-22"|NA|"nicht quantifizierbar"|NA|"A16AA07"
@@ -978,7 +978,7 @@ oder
 oder
 Chlorambucil in Kombination mit Rituximab oder Obinutuzumab"|"gering"|"Anhaltspunkt"|"L01EL01"
 "477"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/490/"|"Imbruvica"|"780"|"Ibrutinib"|"2020-02-20"|"Ibrutinib"|"ist nicht belegt"|NA|"L01EL01"
-"476"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/479/"|"Waylivra"|"788"|"Volanesorsen "|"2020-02-20"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"C10AX18"
+"476"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/479/"|"Waylivra"|"788"|"Volanesorsen"|"2020-02-20"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"C10AX18"
 "479"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/505/"|"Strensiq"|"782"|"Asfotase alfa"|"2020-04-02"|"Best Supportive Care"|"nicht quantifizierbar"|"Anhaltspunkt"|"A16AB13"
 "479"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/505/"|"Strensiq"|"874"|"Asfotase alfa"|"2020-04-02"|"Best Supportive Care"|"ist nicht belegt"|NA|"A16AB13"
 "479"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/505/"|"Strensiq"|"875"|"Asfotase alfa"|"2020-04-02"|"Best Supportive Care"|"ist nicht belegt"|NA|"A16AB13"
@@ -1510,7 +1510,7 @@ Abacavir mit Lamivudin oder Abacavir mit Emtricitabin jeweils in Kombination mit
 "646"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/654/"|"Xofluza"|"1141"|"Baloxavir marboxil"|"2021-08-05"|"eine antivirale Therapie (Oseltamivir oder Zanamivir)"|"ist nicht belegt"|NA|"J05AX25"
 "647"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/655/"|"Xofluza"|"1065"|"Baloxavir marboxil"|"2021-08-05"|"Beobachtendes Abwarten"|"beträchtlich"|"Hinweis"|"J05AX25"
 "647"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/655/"|"Xofluza"|"1142"|"Baloxavir marboxil"|"2021-08-05"|"eine antivirale Therapie (Oseltamivir oder Zanamivir)"|"ist nicht belegt"|NA|"J05AX25"
-"648"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/657/"|"Tecartus"|"1066"|"Brexucabtagen-Autoleucel"|"2021-08-05"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XL06"
+"648"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/657/"|"Tecartus"|"1066"|"Brexucabtagen autoleucel"|"2021-08-05"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XL06"
 "651"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/658/"|"Bavencio"|"1069"|"Avelumab"|"2021-08-19"|"Best Supportive Care"|"beträchtlich"|"Anhaltspunkt"|"L01FF04"
 "653"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/660/"|"Spravato"|"1071"|"Esketamin"|"2021-08-19"|"Eine Therapie nach ärztlicher Maßgabe unter Berücksichtigung von
 - Krisenintervention / Psychotherapie
@@ -1567,7 +1567,7 @@ oder
 - Capecitabin ± Bevacizumab"|"ist nicht belegt"|NA|"L01FF02"
 "667"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/674/"|"Rukobia"|"1105"|"Fostemsavir"|"2021-09-16"|"Eine patientenindividuelle antiretrovirale Therapie unter Auswahl der zugelassenen Wirkstoffe; unter Berücksichtigung der Vortherapie(n) und des Grundes für den Therapiewechsel, insbesondere Therapieversagen aufgrund eines virologischen Versagens und etwaig einhergehender Resistenzbildung oder aufgrund von Nebenwirkungen."|"ist nicht belegt"|NA|"J05AX29"
 "668"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/672/"|"Keytruda"|"1106"|"Pembrolizumab"|"2021-09-16"|"Carboplatin in Kombination mit Gemcitabin (vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie)"|"ist nicht belegt"|NA|"L01FF02"
-"669"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/669/"|"Lokelma"|"1107"|"Natrium-Zirkonium-Cyclosilikat"|"2021-09-16"|"Eine patientenindividuelle Therapie unter Berücksichtigung der Ätiologie, des Schweregrads und der Symptomatik.
+"669"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/669/"|"Lokelma"|"1107"|"Natrium-Zirconiumcyclosilicat"|"2021-09-16"|"Eine patientenindividuelle Therapie unter Berücksichtigung der Ätiologie, des Schweregrads und der Symptomatik.
 Optimierung der Behandlung der Grund- und Begleiterkrankungen, insbesondere Anpassung der medikamentösen Therapie, sowie ggf. Ernährungsumstellung sind Maßnahmen im Rahmen der patientenindividuellen Therapie, die in der Behandlung der Hyperkaliämie die Standardtherapie darstellen."|"ist nicht belegt"|NA|"V03AE10"
 "670"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/671/"|"Veklury"|"1108"|"Remdesivir"|"2021-09-16"|"Therapie nach ärztlicher Maßgabe"|"gering"|"Anhaltspunkt"|"J05AB16"
 "670"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/671/"|"Veklury"|"1265"|"Remdesivir"|"2021-09-16"|"Therapie nach ärztlicher Maßgabe"|"ist nicht belegt"|NA|"J05AB16"
@@ -1594,8 +1594,8 @@ oder
 •	Nivolumab in Kombination mit Ipilimumab 
 oder
 •	Pembrolizumab in Kombination mit Axitinib"|"ist nicht belegt"|NA|"L01EX07"
-"678"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/684/"|"Libmeldy"|"1132"|"Atidarsagen autotemcel OTL-200"|"2021-11-04"|NA|"erheblich"|"Anhaltspunkt"|"A16AB21"
-"678"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/684/"|"Libmeldy"|"1310"|"Atidarsagen autotemcel OTL-200"|"2021-11-04"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A16AB21"
+"678"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/684/"|"Libmeldy"|"1132"|"Atidarsagen autotemcel"|"2021-11-04"|NA|"erheblich"|"Anhaltspunkt"|"A16AB21"
+"678"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/684/"|"Libmeldy"|"1310"|"Atidarsagen autotemcel"|"2021-11-04"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A16AB21"
 "679"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/683/"|"Rekambys"|"1133"|"Rilpivirin"|"2021-10-21"|"eine patientenindividuelle antiretrovirale Therapie unter Auswahl der zugelassenen Wirkstoffe; unter Berücksichtigung der Vortherapie(n) und ggf. von Nebenwirkungen"|"ist nicht belegt"|NA|"J05AG05"
 "680"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/682/"|"Opdivo"|"1134"|"Nivolumab"|"2021-10-21"|"Pembrolizumab in Kombination mit Axitinib"|"ist nicht belegt"|NA|"L01FF01"
 "680"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/682/"|"Opdivo"|"1288"|"Nivolumab"|"2021-10-21"|"•	Avelumab in Kombination mit Axitinib (nur für Patienten mit ungünstigem Risikoprofil) 
@@ -1872,6 +1872,9 @@ oder
 "759"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/761/"|"Skyrizi"|"1339"|"Risankizumab"|"2022-05-19"|"ein TNF-alpha-Antagonist (Adalimumab oder Certolizumab Pegol oder Etanercept oder Golimumab oder Infliximab) oder ein Interleukin-Inhibitor (Ixekizumab oder Secukinumab oder Ustekinumab), ggf. in Kombination mit Methotrexat"|"ist nicht belegt"|NA|"L04AC18"
 "759"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/761/"|"Skyrizi"|"1516"|"Risankizumab"|"2022-05-19"|"der Wechsel auf ein anderes biologisches krankheitsmodifizierendes Antirheumatikum (Adalimumab oder Certolizumab Pegol oder Etanercept oder Golimumab oder Infliximab oder Ixekizumab oder Secukinumab oder Ustekinumab), ggf. in Kombination mit Methotrexat"|"ist nicht belegt"|NA|"L04AC18"
 "760"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/765/"|"Nucala"|"1340"|"Mepolizumab"|"2022-05-19"|"Eine patientenindividuelle Therapie unter Berücksichtigung des Schweregrads der Erkrankung (Organ- oder lebensbedrohliche Manifestation), der Symptomatik, der Behandlungsphase und des Krankheitsverlaufs"|"ist nicht belegt"|NA|"R03DX09"
+"761"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1323/"|"Nucala"|"1341"|"Mepolizumab"|"2026-09-03"|"Individualisierte Therapie unter Auswahl von:
+•	LABA und LAMA und ICS und Dupilumab
+•	LABA und LAMA und ICS und Roflumilast"|"ist nicht belegt"|NA|"R03DX09"
 "395"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/397/"|"Nucala"|"1347"|"Mepolizumab"|"2019-03-22"|"Fortführung der optimierten Therapie des schweren Asthmas nach Stufe 5 Nationalen Versorgungsleitlinie Asthma (NVL Asthma 2018, 3. Auflage, Version 1) und zusätzlich eine Eskalation mit Omalizumab, sofern die für die Anwendung von Omalizumab notwendigen Kriterien erfüllt sind."|"ist nicht belegt"|NA|"R03DX09"
 "763"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/487/"|"Dupixent"|"1351"|"Dupilumab"|"2020-02-20"|"eine patientenindividuelle Therapieeskalation unter Berücksichtigung der Vortherapie unter Auswahl von: 
 •	hochdosiertes ICS und LABA und LAMA
@@ -2120,7 +2123,7 @@ Tezacaftor/Ivacaftor in Kombination mit Ivacaftor"|"nicht quantifizierbar"|"Anha
 "841"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/821/"|"Voraxaze"|"1537"|"Glucarpidase"|"2022-10-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"V03AF09"
 "842"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/811/"|"Raxone"|"1538"|"Idebenon"|"2022-09-15"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"S01XA43"
 "843"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/823/"|"Beovu"|"1539"|"Brolucizumab"|"2022-10-20"|"Ranibizumab oder Aflibercept"|"ist nicht belegt"|NA|"S01LA06"
-"846"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/815/"|"Ngenla"|"1542"|"Somatrogon"|"2022-09-15"|"intranasales Glukokortikoid (INCS) in Kombination mit intranasalem Antihistaminikum (INAH)"|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"H01AC08"
+"846"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/815/"|"Ngenla"|"1542"|"Somatrogon"|"2022-09-15"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"H01AC08"
 "847"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/824/"|"Verzenios"|"1615"|"Abemaciclib"|"2022-10-20"|"Tamoxifen"|"ist nicht belegt"|NA|"L01EF03"
 "848"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/809/"|"Darzalex"|"1544"|"Daratumumab"|"2022-09-15"|"− Bortezomib in Kombination mit pegyliertem liposomalen Doxorubicin
 oder
@@ -2176,7 +2179,6 @@ Tenofoviralafenamid plus Emtricitabin oder Abacavir plus Lamivudin oder Abacavir
 "864"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/830/"|"Opdivo"|"1571"|"Nivolumab"|"2022-10-20"|"- Cisplatin + Gemcitabin
 oder
 - Cisplatin + Methotrexat"|"ist nicht belegt"|NA|"L01FF01"
-"864"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/830/"|"Opdivo"|"1612"|"Nivolumab"|"2022-10-20"|"Beobachtendes Abwarten"|"nicht quantifizierbar"|"Anhaltspunkt"|"L01FF01"
 "865"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/831/"|"Opdivo"|"1572"|"Nivolumab"|"2022-10-20"|"Cisplatin in Kombination mit 5-Fluorouracil"|"beträchtlich"|"Hinweis"|"L01FF01"
 "866"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/832/"|"Opdivo"|"1573"|"Nivolumab"|"2022-10-20"|"Cisplatin in Kombination mit 5-Fluorouracil"|"beträchtlich"|"Anhaltspunkt"|"L01FF01"
 "867"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/835/"|"Xevudy"|"1574"|"Sotrovimab"|"2022-11-03"|"Therapie nach ärztlicher Maßgabe"|"ist nicht belegt"|NA|"J06BD05"
@@ -2196,18 +2198,6 @@ oder
 unter Berücksichtigung der Vortherapie und des Allgemeinzustandes."|"ist nicht belegt"|NA|"L01EX07"
 "873"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/840/"|"Kymriah"|"1580"|"Tisagenlecleucel"|"2022-12-01"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XL04"
 "874"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/848/"|"Lunsumio"|"1581"|"Mosunetuzumab"|"2022-12-15"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01FX25"
-"876"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/846/"|"Retsevmo"|"1583"|"Selpercatinib"|"2022-12-15"|"Pembrolizumab als Monotherapie"|"ist nicht belegt"|NA|"L01EX22"
-"876"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/846/"|"Retsevmo"|"1679"|"Selpercatinib"|"2022-12-15"|"-	Cisplatin in Kombination mit einem Drittgenerationszytostatikum (Vinorelbin oder Gemcitabin oder Docetaxel oder Paclitaxel oder Pemetrexed (außer bei überwiegend plattenepithelialer Histologie))
-oder
--	Carboplatin in Kombination mit einem Drittgenerationszytostatikum (Vinorelbin oder Gemcitabin oder Docetaxel oder Paclitaxel oder Pemetrexed (außer bei überwiegend plattenepithelialer Histologie)) vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie
-oder
--	Carboplatin in Kombination mit nab-Paclitaxel
-oder
--	Pembrolizumab in Kombination mit Pemetrexed und platinhaltiger Chemotherapie (nur für Patienten ohne EGFR- oder ALK-positive Tumormutationen und bei nicht-plattenepithelialer Histologie)
-oder
--	Pembrolizumab in Kombination mit Carboplatin und entweder Paclitaxel oder nab-Paclitaxel (nur bei plattenepithelialer Histologie)
-oder
--	Monotherapie mit Gemcitabin oder Vinorelbin (nur für Patientinnen und Patienten mit ECOG-Performance-Status 2 als Alternative zur Platin-basierten Kombinationsbehandlung)"|"ist nicht belegt"|NA|"L01EX22"
 "877"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/845/"|"Ibrance"|"1584"|"Palbociclib"|"2022-12-15"|"–	Anastrozol 
 oder
 –	Letrozol 
@@ -2332,7 +2322,7 @@ oder
 "912"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/872/"|"Vyepti"|"1650"|"Eptinezumab"|"2023-02-16"|"Metoprolol oder Propranolol oder Flunarizin oder Topiramat oder Amitriptylin oder Clostridium botulinum Toxin Typ A oder Erenumab"|"ist nicht belegt"|NA|"N02CD05"
 "912"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/872/"|"Vyepti"|"1712"|"Eptinezumab"|"2023-02-16"|"Erenumab oder Fremanezumab oder Galcanezumab"|"ist nicht belegt"|NA|"N02CD05"
 "913"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/876/"|"Filsuvez"|"1651"|"Birkenrindenextrakt"|"2023-02-16"|NA|"gering"|"Anhaltspunkt"|"D03AP09"
-"914"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/869/"|"Breyanzi"|"1652"|"Lisocabtagen maraleucel "|"2023-04-06"|"Patientenindividuelle Therapie unter Berücksichtigung der Lymphom-Subentität, der Biologie der Erkrankung, der Vortherapie, des Krankheitsverlaufs und des Allgemeinzustandes"|"ist nicht belegt"|NA|"L01XL08"
+"914"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/869/"|"Breyanzi"|"1652"|"Lisocabtagen maraleucel"|"2023-04-06"|"Patientenindividuelle Therapie unter Berücksichtigung der Lymphom-Subentität, der Biologie der Erkrankung, der Vortherapie, des Krankheitsverlaufs und des Allgemeinzustandes"|"ist nicht belegt"|NA|"L01XL08"
 "915"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/877/"|"Roctavian"|"1653"|"Valoctocogen roxaparvovec"|"2023-03-16"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"B02BD15"
 "916"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/887/"|"Kapruvia"|"1654"|"Difelikefalin"|"2023-04-06"|"Best Supportive Care"|"ist nicht belegt"|NA|"V03AX04"
 "917"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/886/"|"Nexpovio"|"1655"|"Selinexor"|"2023-03-16"|"-	Bortezomib in Kombination mit pegyliertem liposomalen Doxorubicin 
@@ -2407,15 +2397,9 @@ unter Berücksichtigung der Vortherapien sowie Ausprägung und Dauer des Ansprec
 -	Prednison
 -	Best-Supportive-Care
 unter Berücksichtigung der Vortherapien sowie Ausprägung und Dauer des Ansprechens."|"ist nicht belegt"|NA|"L01AA10"
-"921"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/882/"|"Xenpozyme"|"1659"|"Olipudase alfa"|"2023-03-16"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A16AB25"
-"921"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/882/"|"Xenpozyme"|"1735"|"Olipudase alfa"|"2023-03-16"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A16AB25"
 "922"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/881/"|"Perjeta"|"1660"|"Pertuzumab"|"2023-03-16"|"ein Therapieschema, Trastuzumab, ein Taxan (Paclitaxel oder Docetaxel) und ggf. ein Anthrazyklin (Doxorubicin oder Epirubicin) enthaltend"|"gering"|"Hinweis"|"L01FD02"
 "923"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/880/"|"Phesgo"|"1661"|"Pertuzumab/Trastuzumab"|"2023-03-16"|"ein Therapieschema, Trastuzumab, ein Taxan (Paclitaxel oder Docetaxel) und ggf. ein Anthrazyklin (Doxorubicin oder Epirubicin) enthaltend"|"gering"|"Hinweis"|"L01FY01"
-"924"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/879/"|"Retsevmo"|"1662"|"Selpercatinib"|"2023-03-16"|"- Vandetanib
-oder
-- Cabozantinib
-"|"ist nicht belegt"|NA|"L01EX22"
-"925"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/878/"|"Tecartus"|"1663"|"Brexucabtagen-Autoleucel"|"2023-03-16"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XL06"
+"925"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/878/"|"Tecartus"|"1663"|"Brexucabtagen autoleucel"|"2023-03-16"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XL06"
 "926"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/895/"|"Vabysmo"|"1664"|"Faricimab"|"2023-04-06"|"Ranibizumab oder Aflibercept"|"ist nicht belegt"|NA|"S01LA09"
 "927"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/894/"|"Zokinvy"|"1665"|"Lonafarnib"|"2023-04-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A16AX20"
 "928"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/893/"|"Orgovyx"|"1666"|"Relugolix"|"2023-04-06"|"- Radikale Prostatektomie, gegebenenfalls in Kombination mit einer Lymphadenektomie
@@ -2584,13 +2568,6 @@ oder
 oder
 ‒	Best-Supportive-Care (nur für Patienten mit reduziertem Allgemeinzustand (ECOG Performance Status ≥ 2))"|"ist nicht belegt"|NA|"L01XK01"
 "954"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/916/"|"Livmarli"|"1734"|"Maralixibat"|"2023-07-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A05AX04"
-"955"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/921/"|"Enhertu"|"1744"|"Trastuzumab deruxtecan"|"2023-07-20"|"- Docetaxel vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie
-oder
-- Irinotecan vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie
-oder
-- Paclitaxel vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie
-oder
-- Ramucirumab in Kombination mit Paclitaxel"|"ist nicht belegt"|NA|"L01FD04"
 "955"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/921/"|"Enhertu"|"1745"|"Trastuzumab deruxtecan"|"2023-07-20"|"Trifluridin/Tipiracil"|"ist nicht belegt"|NA|"L01FD04"
 "956"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/920/"|"Spevigo"|"1746"|"Spesolimab"|"2023-07-20"|"Therapie nach ärztlicher Maßgabe unter Berücksichtigung von systemischen Glukokortikoiden und Best-Supportive-Care"|"ist nicht belegt"|NA|"L04AC22"
 "957"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/922/"|"Enhertu"|"1747"|"Trastuzumab deruxtecan"|"2023-07-20"|"- Capecitabin
@@ -2822,16 +2799,16 @@ oder
 "998"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/958/"|"Evusheld"|"1812"|"Tixagevimab/Cilgavimab"|"2023-11-02"|"Beobachtendes Abwarten"|"ist nicht belegt"|NA|"J06BD03"
 "999"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/956/"|"Reblozyl"|"1813"|"Luspatercept"|"2023-11-02"|"Eine bedarfsgerechte Transfusionstherapie mit Erythrozytenkonzentraten in Kombination mit einer Chelattherapie gemäß der Zulassung, vorzugsweise als Monotherapie"|"ist nicht belegt"|NA|"B03XA06"
 "1000"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/957/"|"Reblozyl"|"1814"|"Luspatercept"|"2023-11-02"|"eine bedarfsgerechte Transfusionstherapie mit Erythrozytenkonzentraten in Kombination mit einer Chelattherapie gemäß der Zulassung"|"ist nicht belegt"|NA|"B03XA06"
-"1001"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/960/"|"Breyanzi"|"1817"|"Lisocabtagen maraleucel "|"2023-11-16"|"Induktionstherapie mit 
+"1001"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/960/"|"Breyanzi"|"1817"|"Lisocabtagen maraleucel"|"2023-11-16"|"Induktionstherapie mit 
 •	R-GDP (Rituximab, Gemcitabin, Cisplatin, Dexamethason) oder 
 •	R-ICE (Rituximab, Ifosfamid, Carboplatin, Etoposid) oder 
 •	R-DHAP (Rituximab, Dexamethason, Cytarabin, Cisplatin)
 gefolgt von einer Hochdosistherapie mit autologer oder allogener Stammzelltransplantation bei Ansprechen auf die Induktionstherapie"|"beträchtlich"|"Anhaltspunkt"|"L01XL08"
-"1001"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/960/"|"Breyanzi"|"1876"|"Lisocabtagen maraleucel "|"2023-11-16"|"Therapie nach ärztlicher Maßgabe unter Berücksichtigung von
+"1001"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/960/"|"Breyanzi"|"1876"|"Lisocabtagen maraleucel"|"2023-11-16"|"Therapie nach ärztlicher Maßgabe unter Berücksichtigung von
 •	Polatuzumab in Kombination mit Bendamustin und Rituximab
 und
 •	Tafasitamab in Kombination mit Lenalidomid"|"ist nicht belegt"|NA|"L01XL08"
-"1001"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/960/"|"Breyanzi"|"1877"|"Lisocabtagen maraleucel "|"2023-11-16"|"•	Pembrolizumab Monotherapie 
+"1001"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/960/"|"Breyanzi"|"1877"|"Lisocabtagen maraleucel"|"2023-11-16"|"•	Pembrolizumab Monotherapie 
 oder 
 •	Nivolumab in Kombination mit Brentuximab Vedotin"|"ist nicht belegt"|NA|"L01XL08"
 "1002"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/963/"|"Entresto"|"1818"|"Sacubitril/Valsartan"|"2023-12-07"|"Captopril oder Enalapril"|"ist nicht belegt"|NA|"C09DX04"
@@ -2851,12 +2828,9 @@ oder
 "1009"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/966/"|"Opdivo"|"1825"|"Nivolumab"|"2023-12-21"|"Pembrolizumab (Monotherapie)"|"ist nicht belegt"|NA|"L01FF01"
 "1010"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/965/"|"Bimzelx"|"1826"|"Bimekizumab"|"2023-12-21"|"ein TNF-α-Inhibitor (Adalimumab oder Certolizumab pegol oder Etanercept oder Golimumab) oder ein IL-17-Inhibitor (Ixekizumab oder Secukinumab)"|"ist nicht belegt"|NA|"L04AC21"
 "1010"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/965/"|"Bimzelx"|"1889"|"Bimekizumab"|"2023-12-21"|"der Wechsel auf ein anderes biologisches krankheitsmodifizierendes Antirheumatikum: TNF-α-Inhibitor (Adalimumab oder Certolizumab pegol oder Etanercept oder Golimumab) oder IL-17-Inhibitor (Ixekizumab oder Secukinumab)"|"ist nicht belegt"|NA|"L04AC21"
-"1011"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/964/"|"Koselugo"|"1827"|"Selumetinib"|"2023-12-21"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01EE04"
 "1013"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/974/"|"Orkambi"|"1848"|"Lumacaftor/Ivacaftor"|"2024-01-18"|"Best Supportive Care"|"nicht quantifizierbar"|"Anhaltspunkt"|"R07AX30"
 "1014"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/975/"|"Omvoh"|"1849"|"Mirikizumab"|"2024-01-18"|"Ein TNF-α-Antagonist (Adalimumab oder Infliximab oder Golimumab) oder Vedolizumab oder Ustekinumab oder Ozanimod"|"ist nicht belegt"|NA|"L04AC24"
 "1014"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/975/"|"Omvoh"|"1892"|"Mirikizumab"|"2024-01-18"|"Vedolizumab oder Tofacitinib oder Ustekinumab oder Filgotinib oder Ozanimod oder einen TNF-α-Antagonisten (Adalimumab oder Infliximab oder Golimumab)"|"ist nicht belegt"|NA|"L04AC24"
-"1015"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/973/"|"Tibsovo"|"1850"|"Ivosidenib"|"2024-01-18"|NA|"erheblich"|"Hinweis"|"L01XM02"
-"1016"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/972/"|"Tibsovo"|"1851"|"Ivosidenib"|"2024-01-18"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XM02"
 "1017"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/981/"|"Jardiance"|"1852"|"Empagliflozin"|"2024-02-01"|"Eine optimierte Standardtherapie zur Behandlung der chronischen Nierenerkrankung unter Berücksichtigung der Grunderkrankung und häufiger Komorbiditäten (wie Diabetes mellitus, Hypertonie, Dyslipoproteinämie, Anämie, Herzinsuffizienz)."|"ist nicht belegt"|NA|"A10BK03"
 "1018"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/980/"|"Alprolix"|"1853"|"Eftrenonacog alfa"|"2024-02-01"|"rekombinante oder aus humanem Plasma gewonnene Blutgerinnungsfaktor-IX-Präparate"|"ist nicht belegt"|NA|"B02BD34"
 "1019"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/979/"|"Camzyos"|"1854"|"Mavacamten"|"2024-02-01"|"Therapie nach ärztlicher Maßgabe unter Berücksichtigung von nicht-vasodilatierenden Betablockern, Verapamil und Diltiazem"|"beträchtlich"|"Anhaltspunkt"|"C01EB24"
@@ -3082,7 +3056,6 @@ unter Berücksichtigung:
 -	Metformin + Dapagliflozin
 -	eine Eskalation der Insulintherapie: konventionelle Therapie [CT] bzw. intensivierte Insulintherapie [ICT], jeweils in Kombination mit Metformin und Liraglutid oder Dulaglutid oder Dapagliflozin"|"ist nicht belegt"|NA|"A10BK03"
 "1076"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1045/"|"Yorvipath"|"1927"|"Palopegteriparatid"|"2024-06-20"|"Parathyroidhormon"|"ist nicht belegt"|NA|NA
-"1077"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1042/"|"Ayvakyt"|"1928"|"Avapritinib"|"2024-06-20"|NA|"gering"|"Hinweis"|"L01EX18"
 "1078"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1041/"|"Polivy"|"1929"|"Polatuzumab Vedotin"|"2024-06-20"|"Tafasitamab in Kombination mit Lenalidomid"|"ist nicht belegt"|NA|"L01FX14"
 "1078"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1041/"|"Polivy"|"1990"|"Polatuzumab Vedotin"|"2024-06-20"|"•	Tisagenlecleucel 
 oder
@@ -3210,8 +3183,8 @@ oder
 oder
 –	Venetoclax in Kombination mit Decitabin"|"ist nicht belegt"|NA|NA
 "1098"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1064/"|"Zilbrysq"|"1954"|"Zilucoplan"|"2024-08-15"|"- Eculizumab (für refraktäre Patientinnen und Patienten) oder Efgartigimod alfa oder Ravulizumab"|"ist nicht belegt"|NA|"L04AJ06"
-"1099"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1063/"|"Rystiggo"|"1955"|"Rozanolixizumab"|"2024-08-15"|NA|"beträchtlich"|"Anhaltspunkt"|NA
-"1099"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1063/"|"Rystiggo"|"2020"|"Rozanolixizumab"|"2024-08-15"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|NA
+"1099"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1063/"|"Rystiggo"|"1955"|"Rozanolixizumab"|"2024-08-15"|NA|"beträchtlich"|"Anhaltspunkt"|"L04AL02"
+"1099"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1063/"|"Rystiggo"|"2020"|"Rozanolixizumab"|"2024-08-15"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L04AL02"
 "1101"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/998/"|"Beyfortus"|"1957"|"Nirsevimab"|"2024-08-15"|"Palivizumab"|"ist nicht belegt"|NA|"J06BD08"
 "1101"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/998/"|"Beyfortus"|"2021"|"Nirsevimab"|"2024-08-15"|"Beobachtendes Abwarten"|"ist nicht belegt"|NA|"J06BD08"
 "1102"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1060/"|"Quviviq"|"1958"|"Daridorexant"|"2024-08-15"|"Best Supportive Care"|"ist nicht belegt"|NA|"N05CJ03"
@@ -3352,8 +3325,6 @@ oder
 "1157"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1130/"|"Truqap"|"2107"|"Capivasertib"|"2025-04-03"|"-Tamoxifen  oder-Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)"|"ist nicht belegt"|NA|NA
 "1157"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1130/"|"Truqap"|"2108"|"Capivasertib"|"2025-04-03"|"Individualisierte Therapie unter Berücksichtigung eines Wechsels der endokrinen Therapie auf -Tamoxifen-Letrozol-Exemestan -Anastrozol-Fulvestrant -Everolimus in Kombination mit Exemestan (nur für Patientinnen ohne symptomatische viszerale Metastasierung, nachdem es zu einer Progression nach einem nicht-steroidalen Aromatasehemmer gekommen ist)-Ribociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)-Abemaciclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)-Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)-Ribociclib in Kombination mit Fulvestrant-Abemaciclib in Kombination mit Fulvestrant-Palbociclib in Kombination mit Fulvestrant"|"beträchtlich"|"Hinweis"|NA
 "1157"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1130/"|"Truqap"|"2109"|"Capivasertib"|"2025-04-03"|"Individualisierte Therapie unter Berücksichtigung eines Wechsels der endokrinen Therapie auf  -Tamoxifen-Aromatasehemmer in Kombination mit einem GnRH-Analogon-Fulvestrant-Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)"|"ist nicht belegt"|NA|NA
-"1158"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1095/"|"Fabhalta"|"2064"|"Iptacopan"|"2024-12-19"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|NA
-"1158"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1095/"|"Fabhalta"|"2074"|"Iptacopan"|"2024-12-19"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|NA
 "1159"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1096/"|"Tagrisso"|"2065"|"Osimertinib"|"2024-12-19"|"Patientenindividuelle Therapie unter Auswahl von beobachtendes Abwarten (nur für Patientinnen und Patienten im Stadium IB) und postoperative (adjuvanter) systemischer Chemotherapie unter Auswahl von Cisplatin in Kombination mit Vinorelbin und Cisplatin in Kombination mit Pemetrexed unter Berücksichtigung des Tumorstadiums und des Allgemeinzustands."|"ist nicht belegt"|NA|"L01EB04"
 "1159"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1096/"|"Tagrisso"|"2073"|"Osimertinib"|"2024-12-19"|"Best Supportive Care"|"erheblich"|"Anhaltspunkt"|"L01EB04"
 "1160"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1097/"|"Yescarta"|"2066"|"Axicabtagen-Ciloleucel"|"2024-12-19"|"Induktionstherapie mit 
@@ -3383,6 +3354,7 @@ gefolgt von einer Hochdosistherapie mit autologer oder allogener Stammzelltransp
 "1170"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1104/"|"Dupixent"|"2089"|"Dupilumab"|"2025-02-06"|"LABA und LAMA und ggf. ICS und Roflumilast, sofern die für die Anwendung von Roflumilast notwendigen Kriterien erfüllt sind"|"ist nicht belegt"|NA|"D11AH05"
 "1172"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1136/"|"Tecentriq"|"2090"|"Atezolizumab"|"2025-03-20"|"Beobachtendes Abwarten"|"beträchtlich"|"Anhaltspunkt"|"L01FF05"
 "1173"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1106/"|"Livmarli"|"2091"|"Maralixibat"|"2025-02-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A05AX04"
+"1175"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1296/"|"Paxlovid"|"2352"|"Nirmatrelvir/Ritonavir"|"2026-06-04"|"Remdesivir"|"ist nicht belegt"|NA|"J05AE30"
 "1176"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1144/"|"Iqirvo"|"2093"|"Elafibranor"|"2025-04-03"|NA|"gering"|"Anhaltspunkt"|NA
 "1177"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1143/"|"Anzupgo"|"2094"|"Delgocitinib"|"2025-04-03"|"Individualisierte Therapie aus topischer und systemischer Therapie"|"ist nicht belegt"|NA|"D11AH11"
 "1177"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1143/"|"Anzupgo"|"2151"|"Delgocitinib"|"2025-04-03"|"Individualisierte Therapie aus topischer und systemischer Therapie"|"ist nicht belegt"|NA|"D11AH11"
@@ -3401,11 +3373,10 @@ gefolgt von einer Hochdosistherapie mit autologer oder allogener Stammzelltransp
 "1186"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/598/"|"Zavicefta"|"2148"|"Ceftazidim/Avibactam"|"2025-05-15"|NA|"gilt als belegt"|NA|"J01DD52"
 "1186"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/598/"|"Zavicefta"|"2149"|"Ceftazidim/Avibactam"|"2025-05-15"|NA|"gilt als belegt"|NA|"J01DD52"
 "1186"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/598/"|"Zavicefta"|"2150"|"Ceftazidim/Avibactam"|"2025-05-15"|NA|"gilt als belegt"|NA|"J01DD52"
-"1187"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1155/"|"Elahere"|"2131"|"Mirvetuximab Soravtansin"|"2025-06-05"|NA|"beträchtlich"|"Hinweis"|"L01FX26"
 "1188"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1157/"|"Kisqali"|"2132"|"Ribociclib"|"2025-06-05"|"Tamoxifen (ggf. zusätzlich mit einer Ausschaltung der Ovarialfunktion) oder Abemaciclib in Kombination mit einer endokrinen Therapie (nur für Patientinnen mit nodal-positivem Brustkrebs) oder Olaparib als Monotherapie oder in Kombination mit einer endokrinen Therapie (nur für Patientinnen mit Keimbahn-BRCA1/2-Mutationen) oder ein Aromataseinhibitor (Anastrozol oder Letrozol oder Exemestan) in Kombination mit einer Ausschaltung der Ovarialfunktion (Exemestan nur in Kombination mit Triptorelin)"|"ist nicht belegt"|NA|"L01EF02"
 "1188"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1157/"|"Kisqali"|"2155"|"Ribociclib"|"2025-06-05"|"− ein Aromataseinhibitor (Anastrozol oder Letrozol) allein, ggf. Tamoxifen falls Aromataseinhibitoren nicht geeignet sind oder − ein Aromataseinhibitor (Anastrozol oder Exemestan) in Sequenz nach Tamoxifen oder − Olaparib als Monotherapie oder in Kombination mit einer endokrinen Therapie (nur für Patientinnen mit Keimbahn-BRCA1/2-Mutationen)"|"ist nicht belegt"|NA|"L01EF02"
 "1188"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1157/"|"Kisqali"|"2156"|"Ribociclib"|"2025-06-05"|"− Tamoxifen oder − Abemaciclib in Kombination mit einer endokrinen Therapie (nur für Patienten mit nodal-positivem Brustkrebs) oder − Olaparib als Monotherapie oder in Kombination mit einer endokrinen Therapie (nur für Patienten mit Keimbahn-BRCA1/2-Mutationen)"|"ist nicht belegt"|NA|"L01EF02"
-"1189"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1145/"|"Vyloy"|"2133"|"Zolbetuximab"|"2025-04-17"|NA|"gering"|"Hinweis"|NA
+"1189"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1145/"|"Vyloy"|"2133"|"Zolbetuximab"|"2025-04-17"|NA|"gering"|"Hinweis"|"L01FX31"
 "1190"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1146/"|"Tepkinly"|"2134"|"Epcoritamab"|"2025-04-17"|"Individualisierte Therapie unter Auswahl von − Tisagenlecleucel, − Axicabtagen-Ciloleucel, − Lisocabtagen maraleucel, − einer Induktionstherapie mit • R-GDP (Rituximab, Gemcitabin, Dexamethason, Cisplatin bzw. Carboplatin) oder • R-DHAP (Rituximab, Dexamethason, Cisplatin, Cytarabin) oder • R-ICE (Rituximab, Ifosfamid, Carboplatin, Etoposid) gefolgt von einer Hochdosistherapie mit autologer Stammzelltransplantation bei Ansprechen auf die Induktionstherapie und − einer Induktionstherapie mit • R-GDP (Rituximab, Gemcitabin, Dexamethason, Cisplatin bzw. Carboplatin) oder • R-DHAP (Rituximab, Dexamethason, Cisplatin, Cytarabin) oder • R-ICE (Rituximab, Ifosfamid, Carboplatin, Etoposid) gefolgt von einer Hochdosistherapie mit allogener Stammzelltransplantation bei Ansprechen auf die Induktionstherapie"|"ist nicht belegt"|NA|NA
 "1190"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1146/"|"Tepkinly"|"2136"|"Epcoritamab"|"2025-04-17"|"Individualisierte Therapie unter Auswahl von − Polatuzumab Vedotin + Bendamustin + Rituximab, − Tafasitamab + Lenalidomid und − Bestrahlung"|"ist nicht belegt"|NA|NA
 "1191"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1148/"|"Artesunate Amivas"|"2135"|"Artesunat"|"2025-04-17"|NA|"nicht quantifizierbar, weil die erforderlichen Nachweise nicht vollständig sind"|NA|NA
@@ -3421,6 +3392,7 @@ gefolgt von einer Hochdosistherapie mit autologer oder allogener Stammzelltransp
 "1198"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1066/"|"Vaborem"|"2144"|"Meropenem/Vaborbactam"|"2025-04-17"|NA|"gilt als belegt"|NA|"J01DH52"
 "1198"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1066/"|"Vaborem"|"2145"|"Meropenem/Vaborbactam"|"2025-04-17"|NA|"gilt als belegt"|NA|"J01DH52"
 "1198"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1066/"|"Vaborem"|"2146"|"Meropenem/Vaborbactam"|"2025-04-17"|NA|"gilt als belegt"|NA|"J01DH52"
+"1174"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1293/"|"Libtayo"|"2170"|"Cemiplimab"|"2026-06-04"|"Beobachtendes Abwarten"|"nicht quantifizierbar"|"Hinweis"|"L01FF06"
 "1199"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1156/"|"Yselty"|"2152"|"Linzagolix"|"2025-06-05"|"Individualisierte Therapie unter Auswahl von Dienogest, GnRH-Analoga (Goserelin oder Buserelin oder Leuprorelin oder Triptorelin oder Nafarelin), Relugolix/Estradiol/Norethisteronacetat und operativen Maßnahmen"|"ist nicht belegt"|NA|"H01CC04"
 "1200"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1165/"|"Tagrisso"|"2153"|"Osimertinib"|"2025-07-03"|"Durvalumab"|"ist nicht belegt"|NA|"L01EB04"
 "1200"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1165/"|"Tagrisso"|"2188"|"Osimertinib"|"2025-07-03"|"Best Supportive Care"|"ist nicht belegt"|NA|"L01EB04"
@@ -3463,10 +3435,10 @@ gefolgt von einer Hochdosistherapie mit autologer oder allogener Stammzelltransp
 "1228"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1182/"|"Kavigale"|"2214"|"Sipavibart"|"2025-08-07"|"Beobachtendes Abwarten"|"ist nicht belegt"|NA|"J06BD09"
 "1229"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1180/"|"Nemluvio"|"2203"|"Nemolizumab"|"2025-08-07"|"Dupilumab (ggf. in Kombination mit TCS und/oder TCI)"|"ist nicht belegt"|NA|"D11AH12"
 "1230"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1181/"|"Nemluvio"|"2204"|"Nemolizumab"|"2025-08-07"|"Dupilumab"|"ist nicht belegt"|NA|"D11AH12"
-"1231"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1126/"|"Jaypirca"|"2205"|"Pirtobrutinib "|"2025-08-07"|"Individualisierte Therapie unter Auswahl von – Bendamustin + Rituximab, – Lenalidomid ± Rituximab, – R-CHOP (Rituximab, Cyclophosphamid, Doxorubicin, Vincristin, Prednison), – VRCAP (Bortezomib, Rituximab, Cyclophosphamid, Doxorubicin, Prednison), – R-BAC (Rituximab + Bendamustin + Cytarabin), – R-FCM (Fludarabin + Cyclophosphamid + Mitoxantron + Rituximab), – Ibrutinib, – Temsirolimus, – Brexucabtagen autoleucel (nur für Patientinnen und Patienten mit mindestens zwei Vortherapien), – Venetoclax, – Hochdosistherapie mit allogener Stammzelltransplantation und – Hochdosistherapie mit autologer Stammzelltransplantation"|"ist nicht belegt"|NA|"L01EL05"
+"1231"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1126/"|"Jaypirca"|"2205"|"Pirtobrutinib"|"2025-08-07"|"Individualisierte Therapie unter Auswahl von – Bendamustin + Rituximab, – Lenalidomid ± Rituximab, – R-CHOP (Rituximab, Cyclophosphamid, Doxorubicin, Vincristin, Prednison), – VRCAP (Bortezomib, Rituximab, Cyclophosphamid, Doxorubicin, Prednison), – R-BAC (Rituximab + Bendamustin + Cytarabin), – R-FCM (Fludarabin + Cyclophosphamid + Mitoxantron + Rituximab), – Ibrutinib, – Temsirolimus, – Brexucabtagen autoleucel (nur für Patientinnen und Patienten mit mindestens zwei Vortherapien), – Venetoclax, – Hochdosistherapie mit allogener Stammzelltransplantation und – Hochdosistherapie mit autologer Stammzelltransplantation"|"ist nicht belegt"|NA|"L01EL05"
 "1232"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1174/"|"Sarclisa"|"2206"|"Isatuximab"|"2025-08-07"|"- Daratumumab in Kombination mit Lenalidomid und Dexamethason oder –	Daratumumab in Kombination mit Bortezomib, Melphalan und Prednison oder –	Bortezomib in Kombination mit Melphalan und Prednison oder –	Bortezomib in Kombination mit Lenalidomid und Dexamethason oder – Thalidomid in Kombination mit Melphalan und Prednison oder –	Bortezomib in Kombination mit Cyclophosphamid und Dexamethason [nur für Patientinnen und Patienten mit einer peripheren Polyneuropathie oder einem erhöhten Risiko für die Entwicklung einer peripheren Polyneuropathie; vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie]"|"gering"|"Anhaltspunkt"|"L01FC02"
 "1233"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1175/"|"Jemperli"|"2207"|"Dostarlimab"|"2025-08-07"|"Durvalumab in Kombination mit Carboplatin und Paclitaxel, gefolgt von Durvalumab in Kombination mit Olaparib"|"ist nicht belegt"|NA|"L01FF07"
-"1234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1200/"|"Breyanzi"|"2208"|"Lisocabtagen maraleucel "|"2025-10-02"|"Individualisierte Therapie unter Auswahl von − Bendamustin + Obinutuzumab gefolgt von einer Obinutuzumab-Erhaltungstherapie entsprechend der Zulassung, − Lenalidomid + Rituximab, − Rituximab Monotherapie, − Mosunetuzumab, − Tisagenlecleucel und − Zanubrutinib in Kombination mit Obinutuzumab"|"ist nicht belegt"|NA|"L01XL08"
+"1234"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1200/"|"Breyanzi"|"2208"|"Lisocabtagen maraleucel"|"2025-10-02"|"Individualisierte Therapie unter Auswahl von − Bendamustin + Obinutuzumab gefolgt von einer Obinutuzumab-Erhaltungstherapie entsprechend der Zulassung, − Lenalidomid + Rituximab, − Rituximab Monotherapie, − Mosunetuzumab, − Tisagenlecleucel und − Zanubrutinib in Kombination mit Obinutuzumab"|"ist nicht belegt"|NA|"L01XL08"
 "1235"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1193/"|"Nulibry"|"2209"|"Fosdenopterin"|"2025-09-04"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"A16AX19"
 "1236"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1192/"|"Lyvdelzi (previously Seladelpar Gilead)"|"2210"|"Seladelpar "|"2025-09-04"|NA|"gering"|"Hinweis"|"A05AX07"
 "1237"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1205/"|"Augtyro"|"2211"|"Repotrectinib"|"2025-10-16"|"Crizotinib"|"ist nicht belegt"|NA|"L01EX28"
@@ -3498,9 +3470,9 @@ gefolgt von einer Hochdosistherapie mit autologer oder allogener Stammzelltransp
 "1254"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1223/"|"Retsevmo"|"2232"|"Selpercatinib"|"2025-11-20"|"− Vandetanib oder − Cabozantinib"|"erheblich"|"Hinweis"|"L01EX22"
 "1255"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1218/"|"Prevymis"|"2233"|"Letermovir"|"2025-11-06"|"Beobachtendes Abwarten"|"nicht quantifizierbar"|"Anhaltspunkt"|"J05AX18"
 "1256"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1219/"|"Prevymis"|"2234"|"Letermovir"|"2025-11-06"|"Ganciclovir oder Valganciclovir"|"ist nicht belegt"|NA|"J05AX18"
-"1257"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1199/"|"Jaypirca"|"2235"|"Pirtobrutinib "|"2025-10-02"|"Venetoclax in Kombination mit Rituximab"|"ist nicht belegt"|NA|"L01EL05"
-"1257"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1199/"|"Jaypirca"|"2237"|"Pirtobrutinib "|"2025-10-02"|"Individualisierte Therapie unter Auswahl von Idelalisib in Kombination mit Rituximab, Venetoclax in Kombination mit Rituximab und Bendamustin in Kombination mit Rituximab"|"gering"|"Anhaltspunkt"|"L01EL05"
-"1257"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1199/"|"Jaypirca"|"2252"|"Pirtobrutinib "|"2025-10-02"|"Individualisierte Therapie unter Auswahl von Idelalisib in Kombination mit Rituximab, Venetoclax in Kombination mit Rituximab und Bendamustin in Kombination mit Rituximab"|"ist nicht belegt"|NA|"L01EL05"
+"1257"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1199/"|"Jaypirca"|"2235"|"Pirtobrutinib"|"2025-10-02"|"Venetoclax in Kombination mit Rituximab"|"ist nicht belegt"|NA|"L01EL05"
+"1257"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1199/"|"Jaypirca"|"2237"|"Pirtobrutinib"|"2025-10-02"|"Individualisierte Therapie unter Auswahl von Idelalisib in Kombination mit Rituximab, Venetoclax in Kombination mit Rituximab und Bendamustin in Kombination mit Rituximab"|"gering"|"Anhaltspunkt"|"L01EL05"
+"1257"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1199/"|"Jaypirca"|"2252"|"Pirtobrutinib"|"2025-10-02"|"Individualisierte Therapie unter Auswahl von Idelalisib in Kombination mit Rituximab, Venetoclax in Kombination mit Rituximab und Bendamustin in Kombination mit Rituximab"|"ist nicht belegt"|NA|"L01EL05"
 "1258"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1203/"|"Keytruda"|"2236"|"Pembrolizumab"|"2025-10-16"|"– Nivolumab in Kombination mit Ipilimumab"|"ist nicht belegt"|NA|"L01FF02"
 "1259"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1170/"|"Opdivo"|"2238"|"Nivolumab"|"2025-12-18"|"Pembrolizumab"|"ist nicht belegt"|NA|"L01FF01"
 "1246"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1206/"|"Hetronifly"|"2239"|"Serplulimab"|"2025-10-16"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01FF12"
@@ -3648,7 +3620,7 @@ oder
 - Abemaciclib in Kombination mit Fulvestrant 
 oder
 - Palbociclib in Kombination mit Fulvestrant "|"ist nicht belegt"|NA|"L01EM06"
-"1288"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1250/"|"Vyjuvek"|"2292"|"Beremagen geperpavec"|"2025-02-19"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"D03AX16"
+"1288"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1250/"|"Vyjuvek"|"2292"|"Beremagen geperpavec"|"2026-02-19"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"D03AX16"
 "1289"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1242/"|"Veklury"|"2293"|"Remdesivir"|"2026-01-22"|"Best Supportive Care"|"ist nicht belegt"|NA|"J05AB16"
 "1290"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1241/"|"Amvuttra"|"2294"|"Vutrisiran"|"2026-01-22"|"Tafamidis"|"ist nicht belegt"|NA|"N07XX18"
 "1291"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1207/"|"Imfinzi"|"2295"|"Durvalumab"|"2026-01-22"|"- Behandlung mit Nivolumab in Kombination mit einer platinbasierten Therapie gefolgt von beobachtendem Abwarten (nur für Patientinnen und Patienten mit Tumorzell-PD-L1-Expression ≥ 1 %)
@@ -3722,6 +3694,15 @@ oder
 "1305"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1259/"|"Tavneos"|"2315"|"Avacopan"|"2026-03-05"|"– Cyclophosphamid (Induktionsphase) gefolgt von Rituximab (Erhaltungsphase), jeweils in Kombination mit Glukokortikoiden (nur für Patientinnen und Patienten mit GPA) 
 oder 
 – Rituximab (Induktions- und Erhaltungsphase) in Kombination mit Glukokortikoiden"|"ist nicht belegt"|NA|"L04AJ05"
+"1306"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1274/"|"Romvimza"|"2316"|"Vimseltinib"|"2026-04-16"|NA|"beträchtlich"|"Hinweis"|"L01EX29"
+"1307"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1282/"|"Voranigo"|"2317"|"Vorasidenib"|"2026-05-07"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01XM04"
+"1308"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1277/"|"Omjjara"|"2318"|"Momelotinib"|"2026-04-16"|"− Ruxolitinib
+oder
+− Fedratinib"|"ist nicht belegt"|NA|"L01EJ04"
+"1308"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1277/"|"Omjjara"|"2331"|"Momelotinib"|"2026-04-16"|"Fedratinib"|"ist nicht belegt"|NA|"L01EJ04"
+"1309"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1278/"|"Kisunla"|"2319"|"Donanemab"|"2026-04-16"|"Best Supportive Care"|"ist nicht belegt"|NA|"N06DX05"
+"1309"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1278/"|"Kisunla"|"2320"|"Donanemab"|"2026-04-16"|"Donepezil oder Galantamin oder Rivastigmin"|"ist nicht belegt"|NA|"N06DX05"
+"1166"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1281/"|"Tezspire"|"2321"|"Tezepelumab"|"2026-05-07"|"Dupilumab oder Mepolizumab oder Omalizumab, jeweils in Kombination mit intranasalen Kortikosteroiden (Budesonid oder Mometasonfuroat) "|"nicht quantifizierbar"|"Anhaltspunkt"|"R03DX11"
 "1311"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1233/"|"Tevimbra"|"2326"|"Tislelizumab"|"2026-03-19"|"- Atezolizumab in Kombination mit Carboplatin und Etoposid
 oder
 - Durvalumab in Kombination mit Carboplatin und Etoposid
@@ -3733,5 +3714,359 @@ oder
 oder
 - Neoadjuvante Behandlung mit Pembrolizumab in Kombination mit einer platinbasierten Therapie gefolgt von adjuvanter Behandlung mit Pembrolizumab
 "|"ist nicht belegt"|NA|"L01FF09"
+"1314"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1288/"|"Keytruda"|"2327"|"Pembrolizumab"|"2026-05-21"|"Ein Therapieschema bestehend aus einer Operation (Tumorresektion), gefolgt von einer individualisierten Therapie unter Auswahl von adjuvanter Radiochemotherapie mit Cisplatin und adjuvanter Radiotherapie"|"gering"|"Anhaltspunkt"|"L01FF02"
+"1314"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1288/"|"Keytruda"|"2343"|"Pembrolizumab"|"2026-05-21"|"Ein Therapieschema bestehend aus einer Operation (Tumorresektion), gefolgt von einer individualisierten Therapie unter Auswahl von adjuvanter Radiochemotherapie mit Mitomycin + 5-FU oder Carboplatin + 5-FU oder Docetaxel und adjuvanter Radiotherapie"|"ist nicht belegt"|NA|"L01FF02"
 "1315"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1272/"|"Ekterly"|"2329"|"Sebetralstat"|"2026-04-02"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"B06AC08"
 "1316"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1271/"|"Ogsiveo"|"2328"|"Nirogacestat"|"2026-04-02"|NA|"gering"|"Anhaltspunkt"|"L01XX81"
+"1317"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1295/"|"Breyanzi"|"2332"|"Lisocabtagen maraleucel"|"2026-06-04"|"Individualisierte Therapie unter Auswahl von 
+- Bendamustin + Rituximab, 
+- Lenalidomid ± Rituximab, 
+- R-CHOP (Rituximab, Cyclophosphamid, Doxorubicin, Vincristin, Prednison), 
+- VRCAP (Bortezomib, Rituximab, Cyclophosphamid, Doxorubicin, Prednison), 
+- R-BAC (Rituximab + Bendamustin + Cytarabin), 
+- R-FCM (Fludarabin + Cyclophosphamid + Mitoxantron + Rituximab), 
+- Ibrutinib, 
+- Brexucabtagen autoleucel, 
+- Venetoclax, 
+- Hochdosistherapie mit allogener Stammzelltransplantation"|"ist nicht belegt"|NA|"L01XL08"
+"1318"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1275/"|"Ayvakyt"|"2333"|"Avapritinib"|"2026-05-07"|"Best Supportive Care"|"gering"|"Anhaltspunkt"|"L01EX18"
+"1319"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1273/"|"Ayvakyt"|"2334"|"Avapritinib"|"2026-04-16"|"Individualisierte Therapie unter Auswahl von
+- Midostaurin,
+- Cladribin (nur für mit Midostaurin vorbehandelte Personen) und
+- Imatinib (nur für mit Midostaurin vorbehandelte Personen ohne KIT D816V Mutation oder mit unbekanntem KIT-Mutationsstatus sowie für mit Midostaurin vorbehandelte Personen mit vorhandener Eosinophilie mit FIP1L1-PDGFRA Fusionsgen)
+"|"ist nicht belegt"|NA|"L01EX18"
+"1320"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1276/"|"Ayvakyt"|"2335"|"Avapritinib"|"2026-04-16"|"Best Supportive Care"|"ist nicht belegt"|NA|"L01EX18"
+"1321"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1280/"|"Attrogy"|"2336"|"Diflunisal"|"2026-05-07"|"Vutrisiran"|"ist nicht belegt"|NA|"N02BA11"
+"1322"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1284/"|"Koselugo"|"2338"|"Selumetinib"|"2026-05-07"|"Best Supportive Care"|"nicht quantifizierbar"|"Anhaltspunkt"|"L01EE04"
+"1323"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1284/"|"Koselugo"|"2337"|"Selumetinib"|"2026-05-07"|"Best Supportive Care"|"gering"|"Hinweis"|"L01EE04"
+"1324"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1300/"|"Imaavy"|"2339"|"Nipocalimab"|"2026-06-18"|"Eculizumab (kommt nur für refraktäre Patientinnen und Patienten in Frage) oder Efgartigimod alfa oder Ravulizumab oder Rozanolixizumab oder Zilucoplan"|"ist nicht belegt"|NA|"L04AL03"
+"1324"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1300/"|"Imaavy"|"2362"|"Nipocalimab"|"2026-06-18"|"Rozanolixizumab"|"ist nicht belegt"|NA|"L04AL03"
+"1324"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1300/"|"Imaavy"|"2363"|"Nipocalimab"|"2026-06-18"|"Eculizumab"|"ist nicht belegt"|NA|"L04AL03"
+"1324"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1300/"|"Imaavy"|"2364"|"Nipocalimab"|"2026-06-18"|"Best Supportive Care"|"ist nicht belegt"|NA|"L04AL03"
+"1325"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1286/"|"Tryngolza"|"2340"|"Olezarsen"|"2026-05-21"|NA|"gering"|"Hinweis"|"C10AX21"
+"1326"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1287/"|"Scemblix"|"2341"|"Asciminib"|"2026-05-21"|"- Imatinib
+oder
+- Nilotinib
+oder
+- Dasatinib
+oder 
+- Bosutinib"|"beträchtlich"|"Anhaltspunkt"|"L01EA06"
+"1326"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1287/"|"Scemblix"|"2342"|"Asciminib"|"2026-05-21"|"Eine individualisierte Therapie unter Auswahl von 
+- Nilotinib, 
+- Dasatinib, 
+- Bosutinib und 
+- Ponatinib
+"|"ist nicht belegt"|NA|"L01EA06"
+"1327"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1319/"|"Zynyz"|"2344"|"Retifanlimab"|"2026-10-01"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01FF10"
+"1328"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1334/"|"Zynyz"|"2345"|"Retifanlimab"|"2026-10-01"|NA|"gering"|"Anhaltspunkt"|"L01FF10"
+"1329"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1302/"|"Minjuvi"|"2346"|"Tafasitamab"|"2026-07-02"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01FX12"
+"1329"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1302/"|"Minjuvi"|"2371"|"Tafasitamab"|"2026-07-02"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01FX12"
+"1330"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1328/"|"Blenrep"|"2348"|"Belantamab-Mafodotin"|"2026-10-01"|"Eine individualisierte Therapie unter Auswahl von
+- Carfilzomib in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen mit mindestens zwei Vortherapien, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Daratumumab in Kombination mit Bortezomib und Dexamethason,
+- Daratumumab in Kombination mit Lenalidomid und Dexamethason,
+- Daratumumab in Kombination mit Carfilzomib und Dexamethason,
+- Daratumumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die gegenüber Lenalidomid refraktär sind oder für Personen mit mindestens zwei Vortherapien infrage),
+- Isatuximab in Kombination mit Carfilzomib und Dexamethason,
+- Isatuximab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen mit mindestens zwei Vortherapien, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Pomalidomid in Kombination mit Bortezomib und Dexamethason (kommt nur für Personen, die auf einen Anti-CD38-Antikörper und Lenalidomid refraktär sind, infrage),
+- Ixazomib in Kombination mit Lenalidomid und Dexamethason (kommt nur für Personen, die auf Bortezomib, Carfilzomib und einen Anti-CD38-Antikörper refraktär sind, infrage) und
+- Carfilzomib in Kombination mit Dexamethason"|"ist nicht belegt"|NA|"L01FX15"
+"1330"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1328/"|"Blenrep"|"2401"|"Belantamab-Mafodotin"|"2026-10-01"|"Eine individualisierte Therapie unter Auswahl von
+- Carfilzomib in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen mit mindestens zwei Vortherapien, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Daratumumab in Kombination mit Bortezomib und Dexamethason,
+- Daratumumab in Kombination mit Lenalidomid und Dexamethason,
+- Daratumumab in Kombination mit Carfilzomib und Dexamethason,
+- Daratumumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die gegenüber Lenalidomid refraktär sind oder für Personen mit mindestens zwei Vortherapien infrage),
+- Isatuximab in Kombination mit Carfilzomib und Dexamethason,
+- Isatuximab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen mit mindestens zwei Vortherapien, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Pomalidomid in Kombination mit Bortezomib und Dexamethason (kommt nur für Personen, die auf einen Anti-CD38-Antikörper und Lenalidomid refraktär sind, infrage),
+- Ixazomib in Kombination mit Lenalidomid und Dexamethason (kommt nur für Personen, die auf Bortezomib, Carfilzomib und einen Anti-CD38-Antikörper refraktär sind, infrage) und
+- Carfilzomib in Kombination mit Dexamethason"|"ist nicht belegt"|NA|"L01FX15"
+"1330"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1328/"|"Blenrep"|"2422"|"Belantamab-Mafodotin"|"2026-10-01"|"Eine individualisierte Therapie unter Auswahl von
+- Carfilzomib in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Daratumumab in Kombination mit Bortezomib und Dexamethason,
+- Daratumumab in Kombination mit Lenalidomid und Dexamethason,
+- Daratumumab in Kombination mit Carfilzomib und Dexamethason,
+- Daratumumab in Kombination mit Pomalidomid und Dexamethason,
+- Isatuximab in Kombination mit Carfilzomib und Dexamethason,
+- Isatuximab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Pomalidomid in Kombination mit Bortezomib und Dexamethason (kommt nur für Personen, die auf einen Anti-CD38-Antikörper und Lenalidomid refraktär sind, infrage),
+- Ixazomib in Kombination mit Lenalidomid und Dexamethason (kommt nur für Personen, die auf Bortezomib, Carfilzomib und einen Anti-CD38-Antikörper refraktär sind, infrage),
+- Carfilzomib in Kombination mit Dexamethason,
+- Panobinostat in Kombination mit Bortezomib und Dexamethason,
+- Pomalidomid in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind und unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Lenalidomid in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Bortezomib in Kombination mit pegyliertem liposomalen Doxorubicin (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Bortezomib in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Daratumumab Monotherapie (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage),
+- Cyclophosphamid als Monotherapie oder in Kombination mit Dexamethason (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage) und
+- Melphalan als Monotherapie oder in Kombination mit Prednisolon oder Prednison (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage)"|"nicht quantifizierbar"|"Anhaltspunkt"|"L01FX15"
+"1330"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1328/"|"Blenrep"|"2423"|"Belantamab-Mafodotin"|"2026-10-01"|"Eine individualisierte Therapie unter Auswahl von
+- Carfilzomib in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Daratumumab in Kombination mit Bortezomib und Dexamethason,
+- Daratumumab in Kombination mit Lenalidomid und Dexamethason,
+- Daratumumab in Kombination mit Carfilzomib und Dexamethason,
+- Daratumumab in Kombination mit Pomalidomid und Dexamethason,
+- Isatuximab in Kombination mit Carfilzomib und Dexamethason,
+- Isatuximab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Pomalidomid in Kombination mit Bortezomib und Dexamethason (kommt nur für Personen, die auf einen Anti-CD38-Antikörper und Lenalidomid refraktär sind, infrage),
+- Ixazomib in Kombination mit Lenalidomid und Dexamethason (kommt nur für Personen, die auf Bortezomib, Carfilzomib und einen Anti-CD38-Antikörper refraktär sind, infrage),
+- Carfilzomib in Kombination mit Dexamethason,
+- Panobinostat in Kombination mit Bortezomib und Dexamethason,
+- Pomalidomid in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind und unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Lenalidomid in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Bortezomib in Kombination mit pegyliertem liposomalen Doxorubicin (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Bortezomib in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Daratumumab Monotherapie (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage),
+- Cyclophosphamid als Monotherapie oder in Kombination mit Dexamethason (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage) und
+- Melphalan als Monotherapie oder in Kombination mit Prednisolon oder Prednison (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage)"|"ist nicht belegt"|NA|"L01FX15"
+"1331"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1305/"|"Elahere"|"2349"|"Mirvetuximab Soravtansin"|"2026-07-16"|"− Paclitaxel (mit oder ohne Bevacizumab für Bevacizumab-naive Patientinnen)
+oder
+− pegyliertes liposomales Doxorubicin (mit oder ohne Bevacizumab für Bevacizumab-naive Patientinnen)
+oder
+− Topotecan (mit oder ohne Bevacizumab für Bevacizumab-naive Patientinnen)"|"beträchtlich"|"Hinweis"|"L01FX26"
+"1332"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1312/"|"Ziihera"|"2350"|"Zanidatamab"|"2026-08-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L01FD07"
+"1333"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1311/"|"Koselugo"|"2351"|"Selumetinib"|"2026-08-06"|"Best Supportive Care"|"nicht quantifizierbar"|"Anhaltspunkt"|"L01EE04"
+"1334"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1294/"|"Opdivo"|"2353"|"Nivolumab"|"2026-06-04"|NA|"beträchtlich"|"Anhaltspunkt"|"L01FF01"
+"1335"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1292/"|"Fabhalta"|"2354"|"Iptacopan"|"2026-06-04"|"Eculizumab oder Ravulizumab oder Pegcetacoplan
+"|"ist nicht belegt"|NA|"L04AJ08"
+"1335"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1292/"|"Fabhalta"|"2355"|"Iptacopan"|"2026-06-04"|"• Pegcetacoplan 
+oder
+• Eculizumab + Danicopan
+oder
+• Ravulizumab + Danicopan"|"ist nicht belegt"|NA|"L04AJ08"
+"1336"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1289/"|"Fabhalta"|"2356"|"Iptacopan"|"2026-06-04"|"Mycophenolatmofetil in Kombination mit Kortikosteroiden"|"ist nicht belegt"|NA|"L04AJ08"
+"1337"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1299/"|"Byfavo"|"2357"|"Remimazolam"|"2026-06-18"|"Individualisierte Therapie unter Auswahl von
+- Propofol
+- Midazolam
+- Dexmedetomidin
+"|"ist nicht belegt"|NA|"N05CD14"
+"1338"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1298/"|"Byfavo"|"2358"|"Remimazolam"|"2026-06-18"|"Individualisierte Therapie unter Auswahl von 
+- Propofol, Etomidat und Thiopental (zur Einleitung der Anästhesie)
+- Propofol, Isofluran, Desfluran und Sevofluran (zur Aufrechterhaltung der Anästhesie)"|"ist nicht belegt"|NA|"N05CD14"
+"1339"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1301/"|"Retsevmo"|"2359"|"Selpercatinib"|"2026-06-18"|"- Pembrolizumab als Monotherapie
+oder
+- Atezolizumab als Monotherapie 
+oder
+- Cemiplimab als Monotherapie
+oder
+- Nivolumab in Kombination mit Ipilimumab und 2 Zyklen platinbasierter Chemotherapie (kommt nur für Patientinnen und Patienten mit ECOG PS 0-1 infrage) 
+oder
+- Pembrolizumab in Kombination mit Pemetrexed und platinhaltiger Chemotherapie (kommt nur für Patientinnen und Patienten mit ECOG PS 0-1 infrage) 
+oder
+- Atezolizumab in Kombination mit Bevacizumab, Paclitaxel und Carboplatin (kommt nur für Patientinnen und Patienten mit ECOG PS 0-1 infrage) 
+oder
+- Atezolizumab in Kombination mit nab-Paclitaxel und Carboplatin (kommt nur für Patientinnen und Patienten mit ECOG PS 0-1 infrage) 
+oder
+- Cemiplimab in Kombination mit platinbasierter Chemotherapie (kommt nur für Patientinnen und Patienten mit ECOG PS 0-1 infrage) 
+oder
+- Durvalumab in Kombination mit Tremelimumab und platinbasierter Chemotherapie (kommt nur für Patientinnen und Patienten mit ECOG PS 0-1 infrage)"|"ist nicht belegt"|NA|"L01EX22"
+"1339"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1301/"|"Retsevmo"|"2360"|"Selpercatinib"|"2026-06-18"|"Individualisierte Therapie unter Auswahl von
+- Pembrolizumab in Kombination mit Pemetrexed und platinhaltiger Chemotherapie,
+- Atezolizumab als Monotherapie (kommt nur für Patientinnen und Patienten mit einer PD-L1-Expression ≥ 10 % bei tumorinfiltrierenden Immunzellen infrage),
+- Atezolizumab in Kombination mit Bevacizumab, Paclitaxel und Carboplatin,
+- Atezolizumab in Kombination mit nab-Paclitaxel und Carboplatin,
+- Nivolumab in Kombination mit Ipilimumab und 2 Zyklen platinbasierter Chemotherapie,
+- Cemiplimab in Kombination mit platinbasierter Chemotherapie,
+- Durvalumab in Kombination mit Tremelimumab und platinbasierter Chemotherapie,
+- Carboplatin in Kombination mit einem Drittgenerationszytostatikum (Vinorelbin oder Gemcitabin oder Docetaxel oder Paclitaxel oder Pemetrexed) vgl. Anlage VI zum Abschnitt K der Arzneimittel-Richtlinie und
+- Carboplatin in Kombination mit nab-Paclitaxel"|"ist nicht belegt"|NA|"L01EX22"
+"1340"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1297/"|"Tremfya"|"2361"|"Guselkumab"|"2026-06-18"|"Adalimumab oder Etanercept oder Ixekizumab oder Secukinumab oder Ustekinumab "|"ist nicht belegt"|NA|"L04AC16"
+"1341"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1320/"|"Verzenios"|"2365"|"Abemaciclib"|"2026-08-20"|"- Tamoxifen (ggf. zusätzlich mit einer Ausschaltung der Ovarialfunktion)
+oder
+- Olaparib als Monotherapie oder in Kombination mit einer endokrinen Therapie (kommt nur für Patientinnen mit einer Keimbahn-BRCA1/2-Mutationen infrage)
+oder
+- ein Aromataseinhibitor (Anastrozol oder Letrozol oder Exemestan) in Kombination mit einer Ausschaltung der Ovarialfunktion (Exemestan nur in Kombination mit Triptorelin)
+oder
+- Ribociclib in Kombination mit einem Aromataseinhibitor"|"gering"|"Anhaltspunkt"|"L01EF03"
+"1341"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1320/"|"Verzenios"|"2386"|"Abemaciclib"|"2026-08-20"|"- ein Aromataseinhibitor (Anastrozol oder Letrozol) allein, ggf. Tamoxifen falls Aromataseinhibitoren nicht geeignet sind
+oder
+- ein Aromataseinhibitor (Anastrozol oder Exemestan) in Sequenz nach Tamoxifen
+oder
+- Olaparib als Monotherapie oder in Kombination mit einer endokrinen Therapie (kommt nur für Patientinnen mit Keimbahn-BRCA1/2-Mutationen infrage)
+oder
+- Ribociclib in Kombination mit einem Aromataseinhibitor"|"ist nicht belegt"|NA|"L01EF03"
+"1342"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1321/"|"Tibsovo"|"2366"|"Ivosidenib"|"2026-08-20"|"- Venetoclax in Kombination mit Azacitidin
+oder
+- Venetoclax in Kombination mit Decitabin"|"ist nicht belegt"|NA|"L01XM02"
+"1343"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1322/"|"Tibsovo"|"2367"|"Ivosidenib"|"2026-08-20"|"Individualisierte Therapie unter Auswahl von
+–	Folinsäure in Kombination mit 5-Fluorouracil und Oxaliplatin (FOLFOX; kommt nur für Patientinnen und Patienten ohne FGFR2-Fusion, FGFR2-Rearrangement, MSI-H und dMMR infrage), 
+–	Pemigatinib (kommt nur für Patientinnen und Patienten mit einer FGFR2-Fusion oder einem FGFR2-Rearrangement infrage), 
+–	Futibatinib (kommt nur für Patientinnen und Patienten mit einer FGFR2-Fusion oder einem FGFR2-Rearrangement infrage)
+–	Pembrolizumab (kommt nur für Patientinnen und Patienten mit MSI-H oder einer dMMR infrage) und
+–	Best-Supportive-Care
+"|"ist nicht belegt"|NA|"L01XM02"
+"1344"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1304/"|"Loqtorzi"|"2368"|"Toripalimab"|"2026-07-02"|"Tislelizumab in Kombination mit Cisplatin und Gemcitabin"|"ist nicht belegt"|NA|"L01FF13"
+"1345"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1303/"|"Loqtorzi"|"2369"|"Toripalimab"|"2026-07-02"|"-	Nivolumab in Kombination mit fluoropyrimidin- und platinbasierter Kombinationschemotherapie (für Patientinnen und Patienten mit einer Tumorzell-PD-L1-Expression ≥ 1%)
+oder
+-	Nivolumab in Kombination mit Ipilimumab (für Patientinnen und Patienten mit einer Tumorzell-PD-L1-Expression ≥ 1%)
+oder
+-	Pembrolizumab in Kombination mit einer Platin- und Fluoropyrimidin-basierten Chemotherapie (für Patientinnen und Patienten mit einem Combined Positive Score (CPS) ≥ 10)
+"|"ist nicht belegt"|NA|"L01FF13"
+"1345"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1303/"|"Loqtorzi"|"2370"|"Toripalimab"|"2026-07-02"|"Cisplatin in Kombination mit 5-Fluorouracil"|"ist nicht belegt"|NA|"L01FF13"
+"1346"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1306/"|"Xerava"|"2372"|"Eravacyclin"|"2026-07-16"|NA|"gilt als belegt"|NA|"J01AA13"
+"1347"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1308/"|"Aspaveli"|"2373"|"Pegcetacoplan"|"2026-08-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L04AJ03"
+"1348"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1309/"|"Aspaveli"|"2374"|"Pegcetacoplan"|"2026-08-06"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L04AJ03"
+"1349"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1310/"|"Teizeild"|"2375"|"Teplizumab"|"2026-08-06"|"Beobachtendes Abwarten "|"nicht quantifizierbar"|"Anhaltspunkt"|"A10XX01"
+"1350"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1313/"|"Winrevair"|"2376"|"Sotatercept"|"2026-08-06"|"Individualisierte Therapie unter Auswahl folgender Dreifachtherapien:
+- parenterales PCA (Epoprostenol, Treprostinil) + ERA (Ambrisentan, Bosentan, Macitentan) + PDE5-Inhibitor (Sildenafil, Tadalafil)
+- parenterales PCA (Epoprostenol, Treprostinil) + ERA (Ambrisentan, Bosentan, Macitentan) + sGC-Stimulator (Riociguat)
+"|"nicht quantifizierbar"|"Anhaltspunkt"|"C02KX06"
+"1351"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1307/"|"Recarbrio"|"2377"|"Imipenem/Cilastatin/Relebactam"|"2026-08-06"|NA|"gilt als belegt"|NA|"J01DH56"
+"1351"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1307/"|"Recarbrio"|"2378"|"Imipenem/Cilastatin/Relebactam"|"2026-08-06"|NA|"gilt als belegt"|NA|"J01DH56"
+"1351"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1307/"|"Recarbrio"|"2379"|"Imipenem/Cilastatin/Relebactam"|"2026-08-06"|NA|"gilt als belegt"|NA|"J01DH56"
+"1352"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1316/"|"Elucirem"|"2380"|"Gadopiclenol"|"2026-08-20"|"Gadotersäure oder Gadobutrol oder Gadoteridol"|"ist nicht belegt"|NA|"V08CA12"
+"1353"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1315/"|"Dawnzera"|"2381"|"Donidalorsen"|"2026-08-20"|"Eine Routine-Prophylaxe mit C1-Esterase-Inhibitor oder Lanadelumab oder Berotralstat "|"gering"|"Anhaltspunkt"|"B06AC09"
+"1354"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1317/"|"Tepezza"|"2382"|"Teprotumumab"|"2026-08-20"|"- Individualisierte Therapie unter Auswahl von
+•	Methylprednisolon 
+•	Methylprednisolon in Kombination mit Mycophenolat Mofetil
+"|"ist nicht belegt"|NA|"L04AG13"
+"1354"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1317/"|"Tepezza"|"2383"|"Teprotumumab"|"2026-08-20"|"- Individualisierte Therapie unter Auswahl von
+•	Methylprednisolon 
+•	Glukokortikoiden in Kombination mit orbitaler Strahlentherapie, Cyclosporin oder Azathioprin
+•	Rituximab (Monotherapie)
+"|"ist nicht belegt"|NA|"L04AG13"
+"1354"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1317/"|"Tepezza"|"2384"|"Teprotumumab"|"2026-08-20"|"Beobachtendes Abwarten"|"ist nicht belegt"|NA|"L04AG13"
+"1355"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1318/"|"Mounjaro"|"2385"|"Tirzepatid"|"2026-08-20"|"
+Eine individualisierte Therapie unter Auswahl von:
+o	Metformin + Basalinsulin [Humaninsulin oder Insulinanaloga (Insulin degludec oder Insulin detemir oder Insulin glargin)]
+o	Metformin + Liraglutid oder Dulaglutid
+o	Metformin + Dapagliflozin oder Empagliflozin
+o	Basalinsulin [Humaninsulin oder Insulinanaloga (Insulin degludec oder Insulin detemir oder Insulin glargin)] + Metformin + Liraglutid oder Dulaglutid
+o	Basalinsulin [Humaninsulin oder Insulinanaloga (Insulin degludec oder Insulin detemir oder Insulin glargin)] + Metformin + Dapagliflozin oder Empagliflozin
+o	Eskalation der Insulintherapie [Humaninsulin oder Insulinanaloga (Insulin detemir, Insulin glargin, Insulin degludec, Insulin aspart, Insulin glulisin, Insulin lispro)]: konventionelle Therapie (CT) bzw. intensivierte Insulintherapie (ICT), jeweils in Kombination mit Metformin und Liraglutid oder Dulaglutid oder Dapagliflozin oder Empagliflozin
+"|"ist nicht belegt"|NA|"A10BX16"
+"1357"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1314/"|"Colxi"|"2387"|"Colchicin"|"2026-08-20"|NA|"gering"|"Anhaltspunkt"|"M04AC01"
+"1356"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1338/"|"Rezurock"|"2388"|"Belumosudil"|"2026-10-15"|NA|"nicht quantifizierbar, weil die wissenschaftliche Datengrundlage dies nicht zulässt"|"Anhaltspunkt"|"L04AA48"
+"1358"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1326/"|"Inluriyo"|"2389"|"Imlunestrant"|"2026-09-03"|"-	Tamoxifen (kommt nur für prämenopausale Patientinnen, die in der vorausgegangenen (neo-) adjuvanten endokrinen Therapie kein Tamoxifen erhalten haben; nur für postmenopausale Patientinnen, wenn Aromatasehemmer nicht geeignet sind, infrage)
+oder
+-	Letrozol  
+oder
+-	Exemestan (kommt nur für Patientinnen mit Progress nach einer Antiöstrogen-Behandlung, infrage)
+oder
+-	Anastrozol 
+oder
+-	Fulvestrant 
+oder 
+-	Everolimus in Kombination mit Exemestan (kommt nur für Patientinnen ohne symptomatische viszerale Metastasierung, nachdem es zu einer Progression nach einem nicht-steroidalen Aromatasehemmer gekommen ist, infrage)
+oder
+-	Ribociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol) 
+oder
+-	Abemaciclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)  
+oder
+-	Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)  
+oder
+-	Ribociclib in Kombination mit Fulvestrant 
+oder
+-	Abemaciclib in Kombination mit Fulvestrant
+oder
+-	Palbociclib in Kombination mit Fulvestrant"|"ist nicht belegt"|NA|NA
+"1358"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1326/"|"Inluriyo"|"2390"|"Imlunestrant"|"2026-09-03"|"-	Tamoxifen 
+oder
+-	Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)
+"|"ist nicht belegt"|NA|NA
+"1358"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1326/"|"Inluriyo"|"2391"|"Imlunestrant"|"2026-09-03"|"Individualisierte Therapie unter Berücksichtigung eines Wechsels der endokrinen Therapie auf 
+-	Tamoxifen
+-	Letrozol
+-	Exemestan
+-	Anastrozol 
+-	Fulvestrant 
+-	Everolimus in Kombination mit Exemestan (kommt nur für Patientinnen ohne symptomatische viszerale Metastasierung, nachdem es zu einer Progression nach einem nicht-steroidalen Aromatasehemmer gekommen ist, infrage)
+-	Ribociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol) 
+-	Abemaciclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol) 
+-	Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol) 
+-	Ribociclib in Kombination mit Fulvestrant 
+-	Abemaciclib in Kombination mit Fulvestrant 
+-	Palbociclib in Kombination mit Fulvestrant
+"|"nicht quantifizierbar"|"Anhaltspunkt"|NA
+"1358"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1326/"|"Inluriyo"|"2392"|"Imlunestrant"|"2026-09-03"|"Individualisierte Therapie unter Berücksichtigung eines Wechsels der endokrinen Therapie auf  
+-	Tamoxifen
+-	Aromatasehemmer in Kombination mit einem GnRH-Analogon
+-	Fulvestrant
+-	Palbociclib in Kombination mit einem nicht-steroidalen Aromatasehemmer (Anastrozol, Letrozol)
+"|"ist nicht belegt"|NA|NA
+"1359"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1339/"|"Kerendia"|"2393"|"Finerenon"|"2026-10-15"|"Eine optimierte Standardtherapie zur Behandlung der symptomatischen, chronischen Herzinsuffizienz mit erhaltener Ejektionsfraktion bzw. geringgradig eingeschränkter Ejektionsfraktion sowie der zugrundeliegenden Erkrankungen, wie z.B. Hypertonie, Herzrhythmusstörungen, Koronare Herzkrankheit, Diabetes mellitus, chronische Nierenerkrankung, Dyslipoproteinämien und der Begleitsymptome"|"ist nicht belegt"|NA|"C03DA05"
+"1360"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1327/"|"Akeega"|"2394"|"Niraparib/Abirateronacetat"|"2026-09-03"|"-	die konventionelle Androgendeprivation in Kombination mit Apalutamid oder
+-	die konventionelle Androgendeprivation in Kombination mit Enzalutamid oder
+-	die konventionelle Androgendeprivation in Kombination mit Abirateronacetat und Prednison oder Prednisolon (nur für Patienten mit neu diagnostiziertem Hochrisiko- Prostatakarzinom) oder
+-	die konventionelle Androgendeprivation in Kombination mit Darolutamid und Docetaxel"|"ist nicht belegt"|NA|"L01XK52"
+"1360"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1327/"|"Akeega"|"2398"|"Niraparib/Abirateronacetat"|"2026-09-03"|"- die konventionelle Androgendeprivation in Kombination mit Apalutamid oder
+- die konventionelle Androgendeprivation in Kombination mit Enzalutamid oder
+- die konventionelle Androgendeprivation in Kombination mit Darolutamid und Docetaxel"|"ist nicht belegt"|NA|"L01XK52"
+"1361"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1291/"|"Uplizna"|"2395"|"Inebilizumab"|"2026-09-03"|"Eine individualisierte Therapie unter Auswahl von
+- Glukokortikoiden 
+- Best Supportive Care
+"|"nicht quantifizierbar"|"Anhaltspunkt"|"L04AG10"
+"1362"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1325/"|"Uplizna"|"2396"|"Inebilizumab"|"2026-09-03"|"Zweckmäßige Vergleichstherapie für Inebilizimab als Zusatztherapie:
+- Eculizumab (kommt nur für refraktäre Patientinnen und Patienten infrage) oder
+- Efgartigimod alfa oder
+- Ravulizumab oder
+- Rozanolixizumab oder
+- Zilucoplan
+"|"ist nicht belegt"|NA|"L04AG10"
+"1362"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1325/"|"Uplizna"|"2397"|"Inebilizumab"|"2026-09-03"|"Zweckmäßige Vergleichstherapie für Inebilizimab als Zusatztherapie:
+- Rozanolixizumab"|"ist nicht belegt"|NA|"L04AG10"
+"1363"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1330/"|"Blenrep"|"2399"|"Belantamab-Mafodotin"|"2026-10-01"|"Eine individualisierte Therapie unter Auswahl von
+- Carfilzomib in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Pomalidomid und Dexamethason
+(kommt nur für Personen mit mindestens zwei Vortherapien, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Daratumumab in Kombination mit Bortezomib und Dexamethason,
+- Daratumumab in Kombination mit Lenalidomid und Dexamethason,
+- Daratumumab in Kombination mit Carfilzomib und Dexamethason,
+- Daratumumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die gegenüber Lenalidomid refraktär sind oder für Personen mit mindestens zwei Vortherapien infrage),
+- Isatuximab in Kombination mit Carfilzomib und Dexamethason,
+- Isatuximab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen mit mindestens zwei Vortherapien, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Pomalidomid in Kombination mit Bortezomib und Dexamethason (kommt nur für Personen, die auf einen Anti-CD38-Antikörper und Lenalidomid refraktär sind, infrage),
+- Ixazomib in Kombination mit Lenalidomid und Dexamethason (kommt nur für Personen, die auf Bortezomib, Carfilzomib und einen Anti-CD38-Antikörper refraktär sind, infrage) und
+- Carfilzomib in Kombination mit Dexamethason"|"ist nicht belegt"|NA|"L01FX15"
+"1363"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1330/"|"Blenrep"|"2400"|"Belantamab-Mafodotin"|"2026-10-01"|"Eine individualisierte Therapie unter Auswahl von
+- Carfilzomib in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Lenalidomid und Dexamethason,
+- Elotuzumab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Daratumumab in Kombination mit Bortezomib und Dexamethason,
+- Daratumumab in Kombination mit Lenalidomid und Dexamethason,
+- Daratumumab in Kombination mit Carfilzomib und Dexamethason,
+- Daratumumab in Kombination mit Pomalidomid und Dexamethason,
+- Isatuximab in Kombination mit Carfilzomib und Dexamethason,
+- Isatuximab in Kombination mit Pomalidomid und Dexamethason (kommt nur für Personen, die unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Pomalidomid in Kombination mit Bortezomib und Dexamethason (kommt nur für Personen, die auf einen Anti-CD38-Antikörper und Lenalidomid refraktär sind, infrage),
+- Ixazomib in Kombination mit Lenalidomid und Dexamethason (kommt nur für Personen, die auf Bortezomib, Carfilzomib und einen Anti-CD38-Antikörper refraktär sind, infrage),
+- Carfilzomib in Kombination mit Dexamethason,
+- Panobinostat in Kombination mit Bortezomib und Dexamethason,
+- Pomalidomid in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind und unter der letzten Therapie eine Krankheitsprogression gezeigt haben, infrage),
+- Lenalidomid in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Bortezomib in Kombination mit pegyliertem liposomalen Doxorubicin (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Bortezomib in Kombination mit Dexamethason (kommt nur für mindestens doppelt-refraktäre Personen, die für eine Triplett-Therapie nicht geeignet sind, infrage),
+- Daratumumab Monotherapie (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage),
+- Cyclophosphamid als Monotherapie oder in Kombination mit Dexamethason (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage) und
+- Melphalan als Monotherapie oder in Kombination mit Prednisolon oder Prednison (kommt nur für mindestens dreifach refraktäre Personen, die für eine Triplett- oder Dublett-Therapie nicht geeignet sind, infrage)"|"ist nicht belegt"|NA|"L01FX15"
+"1365"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1329/"|"Lynkuet"|"2403"|"Elinzanetant"|"2026-10-01"|"- Individualisierte Therapie unter Auswahl von
+o	Estrogenen
+o	Estrogen/Gestagen-Kombinationen
+"|"ist nicht belegt"|NA|"G02CX07"
+"1365"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1329/"|"Lynkuet"|"2404"|"Elinzanetant"|"2026-10-01"|"Beobachtendes Abwarten
+"|"ist nicht belegt"|NA|"G02CX07"
+"1366"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1331/"|"Lynkuet"|"2405"|"Elinzanetant"|"2026-10-01"|"Beobachtendes Abwarten "|"ist nicht belegt"|NA|"G02CX07"
+"1367"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1332/"|"Exdensur"|"2406"|"Depemokimab"|"2026-10-01"|"- Individualisierte Therapie unter Auswahl von
+o	hochdosiertem ICS und LABA und LAMA
+o	hochdosiertem ICS und LABA und ggf. LAMA und Omalizumab oder Dupilumab 
+o	hochdosiertem ICS und LABA und ggf. LAMA und Mepolizumab, sofern die notwendigen Kriterien für die Anwendung von Omalizumab und Dupilumab nicht erfüllt sind
+"|"ist nicht belegt"|NA|"R03DX12"
+"1367"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1332/"|"Exdensur"|"2407"|"Depemokimab"|"2026-10-01"|"- Individualisierte Therapie unter Auswahl von
+o	hochdosiertem ICS und LABA und LAMA 
+o	hochdosiertem ICS und LABA und ggf. LAMA und Omalizumab
+o	hochdosiertem ICS und LABA und ggf. LAMA und Mepolizumab oder Reslizumab oder Benralizumab oder Dupilumab 
+"|"ist nicht belegt"|NA|"R03DX12"
+"1368"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1333/"|"Exdensur"|"2408"|"Depemokimab"|"2026-10-01"|"Dupilumab oder Mepolizumab oder Omalizumab, jeweils in Kombination mit intranasalen Kortikosteroiden (Budesonid oder Mometasonfuroat)  "|"ist nicht belegt"|NA|"R03DX12"
+"1374"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1340/"|"Xenpozyme"|"2414"|"Olipudase alfa"|"2026-10-15"|"Best-Supportive-Care"|"nicht quantifizierbar"|"Anhaltspunkt"|"A16AB25"
+"1374"|"https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1340/"|"Xenpozyme"|"2424"|"Olipudase alfa"|"2026-10-15"|"Best-Supportive-Care"|"nicht quantifizierbar"|"Anhaltspunkt"|"A16AB25"

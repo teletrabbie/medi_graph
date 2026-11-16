@@ -4,7 +4,7 @@ rm(list = ls())
 
 bronze_file <- "./src/1 bronze/staging area/hochteure_medis.csv"
 silver_file <- "./src/2 silver/staging area/hochteure_medis.csv"
-file.copy(bronze_file, silver_file)
+file.copy(bronze_file, silver_file, overwrite = TRUE)
 
 
 # Delete bronze file
@@ -15,4 +15,4 @@ file.remove(bronze_file)
 
 bronze_file <- "./src/1 bronze/staging area/geloeschte_substanzen.csv"
 silver_file <- "./src/2 silver/staging area/geloeschte_substanzen.csv"
-file.copy(bronze_file, silver_file)
+file.copy(bronze_file, silver_file, overwrite = TRUE)

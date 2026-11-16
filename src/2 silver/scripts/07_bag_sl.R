@@ -11,22 +11,42 @@ library(janitor)
 # Import data to environment
 bronze_file <- "./src/1 bronze/staging area/Publications.xlsx"
 Publications <- read_excel(bronze_file, 
-                           sheet = "Publications")
-colnames(Publications) <- sub(" per.*", "", colnames(Publications))
+                           sheet = "Datenstamm")
 Publications <- clean_names(Publications)
 
 
 # Prepare data
-Publications$zulassungsnummer <- floor(as.numeric(Publications$swissmedic_nr)/1000)
+Publications$zulassungsnummer <- floor(as.numeric(Publications$swissmedic_code_packung)/1000)
 Publications$zulassungsnummer <- as.character(Publications$zulassungsnummer)
+Publications <- Publications[!is.na(Publications$zulassungsnummer),]
 
-Publications$letzte_preis_anderung <- as.Date(
-  ifelse(!is.na(Publications$letzte_preis_anderung),
-         Publications$letzte_preis_anderung,
-         Publications$einf_datum),
-  "%d.%m.%Y")
-Publications$einf_datum <- as.Date(Publications$einf_datum, "%d.%m.%Y")
+Publications$erstaufnahmedatum <- as.Date(Publications$erstaufnahmedatum, "%d.%m.%Y", tz="UCT")
+Publications$letzte_fap_preisanderung <- as.Date(Publications$letzte_fap_preisanderung, "%d.%m.%Y", tz="UCT")
+Publications$letzte_anderung_der_aufnahme <- as.Date(Publications$letzte_anderung_der_aufnahme, "%d.%m.%Y", tz="UCT")
 
+Publications$letzte_preis_anderung <- as.Date(ifelse(!is.na(Publications$letzte_fap_preisanderung),
+         Publications$letzte_fap_preisanderung,
+         Publications$letzte_anderung_der_aufnahme))
+
+
+Publications$bezeichnung <- paste(
+  Publications$handelsname, 
+  Publications$gal_form_dosierung, 
+  Publications$packung, 
+  sep = ", ")
+
+length(Publications$bezeichnung) == length(unique(Publications$bezeichnung))
+
+Publications <- Publications %>% 
+  dplyr::select(bezeichnung,
+         atc = atc_code,
+         zulassungsnummer,
+         gtin,
+         letzte_preis_anderung,
+         exf_preis = fabrikabgabepreis_exkl_mw_st,
+         pub_preis = publikumspreis_inkl_mw_st,
+         therap_gruppe = it_code,
+         preismodell)
 
 # Export as csv
 silver_folder <- "./src/2 silver/staging area/"

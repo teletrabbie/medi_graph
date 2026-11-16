@@ -9,6 +9,7 @@ scripts <- c(
   "03_zusatzentgelte.R",
   "04_ema_produkte.R",
   "05_refdata.R",
+  #"06_atc_ddd.R",
   "07_bag_sl.R",
   "08_atc_alterations.R",
   "09_antraege.R",
