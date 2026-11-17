@@ -1,5 +1,5 @@
-# Run all R scripts of bronze layer
-# Download source files to bronze staging area
+# Run all R scripts of silver layer
+# Prepares csv input files for Neo4j
 
 rm(list = ls())
 
